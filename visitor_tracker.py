@@ -23,10 +23,11 @@ def log_visit(ip, ua, path):
         "time": datetime.datetime.now().strftime('%Y-%m-%d %H:%M:%S'),
         "ip": ip, "ua": ua, "path": path
     })
-    # الاحتفاظ بآخر 500 زيارة فقط
     if len(visits) > 500: visits = visits[-500:]
     save_visits(visits)
 
 def get_stats():
     visits = load_visits()
-    return len(visits), len(set(v['ip'] for v in visits)), visits
+    # استخدام .get لتجنب الأخطاء إذا كان هناك سجل قديم ناقص
+    unique_ips = set(v.get('ip', 'Unknown') for v in visits)
+    return len(visits), len(unique_ips), visits

@@ -1,0 +1,99 @@
+import os
+
+# 1. تحديث visitor_tracker.py ليكون أكثر أماناً
+tracker_code = '''import json, os, datetime
+
+BOT_KEYWORDS = ['bot', 'crawl', 'spider', 'slurp', 'baidu', 'yandex', 'bing', 'googlebot', 'ahrefs', 'semrush', 'python-requests', 'curl', 'wget', 'scrapy', 'httpclient', 'java', 'headlesschrome', 'phantomjs', 'selenium', 'puppeteer']
+
+def is_human(user_agent):
+    if not user_agent: return False
+    ua_lower = user_agent.lower()
+    return not any(k in ua_lower for k in BOT_KEYWORDS)
+
+def load_visits():
+    if not os.path.exists('visitors.json'): return []
+    try:
+        with open('visitors.json', 'r', encoding='utf-8') as f: return json.load(f)
+    except: return []
+
+def save_visits(visits):
+    with open('visitors.json', 'w', encoding='utf-8') as f:
+        json.dump(visits, f, ensure_ascii=False, indent=2)
+
+def log_visit(ip, ua, path):
+    visits = load_visits()
+    visits.append({
+        "time": datetime.datetime.now().strftime('%Y-%m-%d %H:%M:%S'),
+        "ip": ip, "ua": ua, "path": path
+    })
+    if len(visits) > 500: visits = visits[-500:]
+    save_visits(visits)
+
+def get_stats():
+    visits = load_visits()
+    # استخدام .get لتجنب الأخطاء إذا كان هناك سجل قديم ناقص
+    unique_ips = set(v.get('ip', 'Unknown') for v in visits)
+    return len(visits), len(unique_ips), visits
+'''
+with open('visitor_tracker.py', 'w', encoding='utf-8') as f:
+    f.write(tracker_code)
+
+# 2. تحديث قالب admin_visitors.html ليكون أكثر أماناً
+html_code = '''{% extends "base.html" %}
+{% block title %}الزيارات | لوحة التحكم{% endblock %}
+{% block content %}
+<div class="pt-32 pb-20 px-6 max-w-5xl mx-auto">
+    <div class="flex items-center justify-between mb-8 flex-wrap gap-4">
+        <div>
+            <h1 class="text-3xl font-black text-white">👣 الزوار الحقيقيون</h1>
+            <p class="text-gray-400 mt-1">تتبع التلاميذ الذين دخلوا الموقع</p>
+        </div>
+        <a href="/admin" class="px-4 py-2 rounded-xl bg-white/5 text-gray-300 hover:bg-white/10 transition font-bold">
+            <i class="fa-solid fa-arrow-right ml-1"></i> عودة للوحة
+        </a>
+    </div>
+
+    <div class="grid grid-cols-2 gap-4 mb-8">
+        <div class="glass p-6 rounded-2xl border-t-4 border-t-brand-green text-center">
+            <div class="text-4xl font-black text-brand-green mb-2">{{ total or 0 }}</div>
+            <div class="text-sm text-gray-400 font-bold">إجمالي الزيارات</div>
+        </div>
+        <div class="glass p-6 rounded-2xl border-t-4 border-t-brand-blue text-center">
+            <div class="text-4xl font-black text-brand-blue mb-2">{{ unique or 0 }}</div>
+            <div class="text-sm text-gray-400 font-bold">زوار فريدون (IP)</div>
+        </div>
+    </div>
+
+    <div class="glass rounded-3xl overflow-hidden border border-white/10">
+        <div class="p-4 bg-white/5 border-b border-white/10 font-bold text-white">آخر الزيارات</div>
+        <div class="divide-y divide-white/5">
+            {% for v in visits %}
+            <div class="p-4 hover:bg-white/5 transition flex flex-col md:flex-row md:items-center gap-3">
+                <div class="flex items-center gap-3 md:w-1/3">
+                    <div class="w-10 h-10 rounded-full bg-brand-green/20 text-brand-green flex items-center justify-center text-sm shrink-0">
+                        <i class="fa-solid fa-user"></i>
+                    </div>
+                    <div class="overflow-hidden">
+                        <p class="text-sm font-bold text-white truncate">{{ v.get('ip', 'غير معروف') }}</p>
+                        <p class="text-xs text-gray-500">{{ v.get('time', '') }}</p>
+                    </div>
+                </div>
+                <div class="md:w-1/3 text-sm text-gray-300">
+                    <span class="bg-white/10 px-2 py-1 rounded text-xs">{{ v.get('path', '/') }}</span>
+                </div>
+                <div class="md:w-1/3 text-xs text-gray-500 truncate" title="{{ v.get('ua', '') }}">
+                    {{ v.get('ua', '')[:50] }}...
+                </div>
+            </div>
+            {% endfor %}
+            {% if not visits %}
+            <div class="p-8 text-center text-gray-500">لا توجد زيارات مسجلة بعد.</div>
+            {% endif %}
+        </div>
+    </div>
+</div>
+{% endblock %}'''
+with open('templates/admin_visitors.html', 'w', encoding='utf-8') as f:
+    f.write(html_code)
+
+print("✅ تم إصلاح الكود بنجاح! (تم تأمين صفحة الزوار)")
