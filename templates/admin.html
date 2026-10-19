@@ -12,7 +12,10 @@
             <i class="fa-solid fa-comments ml-1"></i> المحادثات
             {% if unread_chats_admin > 0 %}<span class="absolute -top-2 -right-2 w-6 h-6 bg-red-500 rounded-full text-xs flex items-center justify-center text-white font-bold">{{ unread_chats_admin }}</span>{% endif %}
         </a>
-        <a href="/admin/logout" class="px-4 py-2 rounded-xl bg-red-500/20 text-red-400 font-bold hover:bg-red-500/30 transition">تسجيل الخروج</a>
+        <a href="/admin/visitors" class="px-4 py-2 rounded-xl bg-brand-green/20 text-brand-green font-bold hover:bg-brand-green/30 transition mr-2">
+        <i class="fa-solid fa-users ml-1"></i> الزوار
+    </a>
+    <a href="/admin/logout" class="px-4 py-2 rounded-xl bg-red-500/20 text-red-400 font-bold hover:bg-red-500/30 transition">تسجيل الخروج</a>
     </div>
 
     {% with messages = get_flashed_messages(with_categories=true) %}

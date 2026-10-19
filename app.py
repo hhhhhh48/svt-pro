@@ -58,6 +58,15 @@ def get_youtube_id(url):
 
 app.jinja_env.filters['youtube_id'] = get_youtube_id
 
+@app.before_request
+def track_visitors():
+    if request.path.startswith('/static/') or request.path.startswith('/admin'):
+        return
+    ua = request.headers.get('User-Agent', '')
+    if is_human(ua):
+        log_visit(request.remote_addr, ua, request.path)
+
+
 # ==================== المسارات الرئيسية ====================
 @app.route('/')
 def index():
@@ -399,6 +408,14 @@ def admin_send_message(user_id):
             'read_by_admin': True, 'read_by_user': False})
         save_chats(chats)
     return redirect(url_for('admin_chat_view', user_id=user_id))
+
+
+@app.route('/admin/visitors')
+def admin_visitors():
+    if not session.get('admin'): return redirect(url_for('login'))
+    total, unique, visits = get_stats()
+    visits.reverse() # الأحدث أولاً
+    return render_template('admin_visitors.html', total=total, unique=unique, visits=visits)
 
 if __name__ == '__main__':
     app.run(host='0.0.0.0', port=3000, debug=True)
