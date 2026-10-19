@@ -62,9 +62,12 @@ app.jinja_env.filters['youtube_id'] = get_youtube_id
 def track_visitors():
     if request.path.startswith('/static/') or request.path.startswith('/admin'):
         return
-    ua = request.headers.get('User-Agent', '')
-    if is_human(ua):
-        log_visit(request.remote_addr, ua, request.path)
+    try:
+        ua = request.headers.get('User-Agent', '')
+        if is_human(ua):
+            log_visit(request.remote_addr, ua, request.path)
+    except Exception:
+        pass
 
 
 # ==================== المسارات الرئيسية ====================
