@@ -1,0 +1,3929 @@
+{
+  "streams": [
+    {
+      "slug": "sciences",
+      "name": "علوم تجريبية",
+      "icon": "🧬",
+      "description": "أرشيف بكالوريا شعبة العلوم التجريبية",
+      "gradient": "from-emerald-400 to-teal-500",
+      "subjects": [
+        {
+          "slug": "svt",
+          "name": "علوم الطبيعة والحياة",
+          "icon": "🧬",
+          "exams": [
+            {
+              "year": "2025",
+              "url": "https://www.snvdz.com/",
+              "source": "SNVDZ",
+              "is_archive": false
+            },
+            {
+              "year": "2024",
+              "url": "https://eddirasa.com/ens-sec/3as/bac-solutions/subject/sciences/",
+              "source": "Eddirasa",
+              "is_archive": false
+            },
+            {
+              "year": "2023",
+              "url": "https://eddirasa.com/ens-sec/3as/bac-solutions/subject/sciences/",
+              "source": "Eddirasa",
+              "is_archive": false
+            },
+            {
+              "year": "2022",
+              "url": "https://eddirasa.com/ens-sec/3as/bac-solutions/subject/sciences/",
+              "source": "Eddirasa",
+              "is_archive": false
+            },
+            {
+              "year": "2021",
+              "url": "https://eddirasa.com/ens-sec/3as/bac-solutions/subject/sciences/",
+              "source": "Eddirasa",
+              "is_archive": false
+            },
+            {
+              "year": "2020",
+              "url": "https://eddirasa.com/ens-sec/3as/bac-solutions/subject/sciences/",
+              "source": "Eddirasa",
+              "is_archive": false
+            },
+            {
+              "year": "2019",
+              "url": "https://eddirasa.com/ens-sec/3as/bac-solutions/subject/sciences/",
+              "source": "Eddirasa",
+              "is_archive": false
+            },
+            {
+              "year": "2018",
+              "url": "https://eddirasa.com/ens-sec/3as/bac-solutions/subject/sciences/",
+              "source": "Eddirasa",
+              "is_archive": false
+            },
+            {
+              "year": "2017",
+              "url": "https://eddirasa.com/ens-sec/3as/bac-solutions/subject/sciences/",
+              "source": "Eddirasa",
+              "is_archive": false
+            },
+            {
+              "year": "2016",
+              "url": "https://eddirasa.com/ens-sec/3as/bac-solutions/subject/sciences/",
+              "source": "Eddirasa",
+              "is_archive": false
+            },
+            {
+              "year": "2015",
+              "url": "https://eddirasa.com/ens-sec/3as/bac-solutions/subject/sciences/",
+              "source": "Eddirasa",
+              "is_archive": false
+            },
+            {
+              "year": "أرشيف كامل",
+              "url": "https://eddirasa.com/ens-sec/3as/bac-solutions/subject/sciences/",
+              "source": "Eddirasa",
+              "is_archive": true
+            }
+          ]
+        },
+        {
+          "slug": "math",
+          "name": "الرياضيات",
+          "icon": "📐",
+          "exams": [
+            {
+              "year": "2025",
+              "url": "https://www.snvdz.com/",
+              "source": "SNVDZ",
+              "is_archive": false
+            },
+            {
+              "year": "2024",
+              "url": "https://eddirasa.com/ens-sec/3as/bac-solutions/subject/mathematiques/",
+              "source": "Eddirasa",
+              "is_archive": false
+            },
+            {
+              "year": "2023",
+              "url": "https://eddirasa.com/ens-sec/3as/bac-solutions/subject/mathematiques/",
+              "source": "Eddirasa",
+              "is_archive": false
+            },
+            {
+              "year": "2022",
+              "url": "https://eddirasa.com/ens-sec/3as/bac-solutions/subject/mathematiques/",
+              "source": "Eddirasa",
+              "is_archive": false
+            },
+            {
+              "year": "2021",
+              "url": "https://eddirasa.com/ens-sec/3as/bac-solutions/subject/mathematiques/",
+              "source": "Eddirasa",
+              "is_archive": false
+            },
+            {
+              "year": "2020",
+              "url": "https://eddirasa.com/ens-sec/3as/bac-solutions/subject/mathematiques/",
+              "source": "Eddirasa",
+              "is_archive": false
+            },
+            {
+              "year": "2019",
+              "url": "https://eddirasa.com/ens-sec/3as/bac-solutions/subject/mathematiques/",
+              "source": "Eddirasa",
+              "is_archive": false
+            },
+            {
+              "year": "2018",
+              "url": "https://eddirasa.com/ens-sec/3as/bac-solutions/subject/mathematiques/",
+              "source": "Eddirasa",
+              "is_archive": false
+            },
+            {
+              "year": "2017",
+              "url": "https://eddirasa.com/ens-sec/3as/bac-solutions/subject/mathematiques/",
+              "source": "Eddirasa",
+              "is_archive": false
+            },
+            {
+              "year": "2016",
+              "url": "https://eddirasa.com/ens-sec/3as/bac-solutions/subject/mathematiques/",
+              "source": "Eddirasa",
+              "is_archive": false
+            },
+            {
+              "year": "2015",
+              "url": "https://eddirasa.com/ens-sec/3as/bac-solutions/subject/mathematiques/",
+              "source": "Eddirasa",
+              "is_archive": false
+            },
+            {
+              "year": "أرشيف كامل",
+              "url": "https://eddirasa.com/ens-sec/3as/bac-solutions/subject/mathematiques/",
+              "source": "Eddirasa",
+              "is_archive": true
+            }
+          ]
+        },
+        {
+          "slug": "physics",
+          "name": "العلوم الفيزيائية",
+          "icon": "⚛️",
+          "exams": [
+            {
+              "year": "2025",
+              "url": "https://www.snvdz.com/",
+              "source": "SNVDZ",
+              "is_archive": false
+            },
+            {
+              "year": "2024",
+              "url": "https://eddirasa.com/ens-sec/3as/bac-solutions/subject/physique/",
+              "source": "Eddirasa",
+              "is_archive": false
+            },
+            {
+              "year": "2023",
+              "url": "https://eddirasa.com/ens-sec/3as/bac-solutions/subject/physique/",
+              "source": "Eddirasa",
+              "is_archive": false
+            },
+            {
+              "year": "2022",
+              "url": "https://eddirasa.com/ens-sec/3as/bac-solutions/subject/physique/",
+              "source": "Eddirasa",
+              "is_archive": false
+            },
+            {
+              "year": "2021",
+              "url": "https://eddirasa.com/ens-sec/3as/bac-solutions/subject/physique/",
+              "source": "Eddirasa",
+              "is_archive": false
+            },
+            {
+              "year": "2020",
+              "url": "https://eddirasa.com/ens-sec/3as/bac-solutions/subject/physique/",
+              "source": "Eddirasa",
+              "is_archive": false
+            },
+            {
+              "year": "2019",
+              "url": "https://eddirasa.com/ens-sec/3as/bac-solutions/subject/physique/",
+              "source": "Eddirasa",
+              "is_archive": false
+            },
+            {
+              "year": "2018",
+              "url": "https://eddirasa.com/ens-sec/3as/bac-solutions/subject/physique/",
+              "source": "Eddirasa",
+              "is_archive": false
+            },
+            {
+              "year": "2017",
+              "url": "https://eddirasa.com/ens-sec/3as/bac-solutions/subject/physique/",
+              "source": "Eddirasa",
+              "is_archive": false
+            },
+            {
+              "year": "2016",
+              "url": "https://eddirasa.com/ens-sec/3as/bac-solutions/subject/physique/",
+              "source": "Eddirasa",
+              "is_archive": false
+            },
+            {
+              "year": "2015",
+              "url": "https://eddirasa.com/ens-sec/3as/bac-solutions/subject/physique/",
+              "source": "Eddirasa",
+              "is_archive": false
+            },
+            {
+              "year": "أرشيف كامل",
+              "url": "https://eddirasa.com/ens-sec/3as/bac-solutions/subject/physique/",
+              "source": "Eddirasa",
+              "is_archive": true
+            }
+          ]
+        },
+        {
+          "slug": "philosophy",
+          "name": "الفلسفة",
+          "icon": "🧠",
+          "exams": [
+            {
+              "year": "2025",
+              "url": "https://www.snvdz.com/",
+              "source": "SNVDZ",
+              "is_archive": false
+            },
+            {
+              "year": "2024",
+              "url": "https://eddirasa.com/ens-sec/3as/bac-solutions/subject/philosophie/",
+              "source": "Eddirasa",
+              "is_archive": false
+            },
+            {
+              "year": "2023",
+              "url": "https://eddirasa.com/ens-sec/3as/bac-solutions/subject/philosophie/",
+              "source": "Eddirasa",
+              "is_archive": false
+            },
+            {
+              "year": "2022",
+              "url": "https://eddirasa.com/ens-sec/3as/bac-solutions/subject/philosophie/",
+              "source": "Eddirasa",
+              "is_archive": false
+            },
+            {
+              "year": "2021",
+              "url": "https://eddirasa.com/ens-sec/3as/bac-solutions/subject/philosophie/",
+              "source": "Eddirasa",
+              "is_archive": false
+            },
+            {
+              "year": "2020",
+              "url": "https://eddirasa.com/ens-sec/3as/bac-solutions/subject/philosophie/",
+              "source": "Eddirasa",
+              "is_archive": false
+            },
+            {
+              "year": "2019",
+              "url": "https://eddirasa.com/ens-sec/3as/bac-solutions/subject/philosophie/",
+              "source": "Eddirasa",
+              "is_archive": false
+            },
+            {
+              "year": "2018",
+              "url": "https://eddirasa.com/ens-sec/3as/bac-solutions/subject/philosophie/",
+              "source": "Eddirasa",
+              "is_archive": false
+            },
+            {
+              "year": "2017",
+              "url": "https://eddirasa.com/ens-sec/3as/bac-solutions/subject/philosophie/",
+              "source": "Eddirasa",
+              "is_archive": false
+            },
+            {
+              "year": "2016",
+              "url": "https://eddirasa.com/ens-sec/3as/bac-solutions/subject/philosophie/",
+              "source": "Eddirasa",
+              "is_archive": false
+            },
+            {
+              "year": "2015",
+              "url": "https://eddirasa.com/ens-sec/3as/bac-solutions/subject/philosophie/",
+              "source": "Eddirasa",
+              "is_archive": false
+            },
+            {
+              "year": "أرشيف كامل",
+              "url": "https://eddirasa.com/ens-sec/3as/bac-solutions/subject/philosophie/",
+              "source": "Eddirasa",
+              "is_archive": true
+            }
+          ]
+        },
+        {
+          "slug": "arabic",
+          "name": "اللغة العربية",
+          "icon": "📖",
+          "exams": [
+            {
+              "year": "2025",
+              "url": "https://www.snvdz.com/",
+              "source": "SNVDZ",
+              "is_archive": false
+            },
+            {
+              "year": "2024",
+              "url": "https://eddirasa.com/ens-sec/3as/bac-solutions/subject/arabe/",
+              "source": "Eddirasa",
+              "is_archive": false
+            },
+            {
+              "year": "2023",
+              "url": "https://eddirasa.com/ens-sec/3as/bac-solutions/subject/arabe/",
+              "source": "Eddirasa",
+              "is_archive": false
+            },
+            {
+              "year": "2022",
+              "url": "https://eddirasa.com/ens-sec/3as/bac-solutions/subject/arabe/",
+              "source": "Eddirasa",
+              "is_archive": false
+            },
+            {
+              "year": "2021",
+              "url": "https://eddirasa.com/ens-sec/3as/bac-solutions/subject/arabe/",
+              "source": "Eddirasa",
+              "is_archive": false
+            },
+            {
+              "year": "2020",
+              "url": "https://eddirasa.com/ens-sec/3as/bac-solutions/subject/arabe/",
+              "source": "Eddirasa",
+              "is_archive": false
+            },
+            {
+              "year": "2019",
+              "url": "https://eddirasa.com/ens-sec/3as/bac-solutions/subject/arabe/",
+              "source": "Eddirasa",
+              "is_archive": false
+            },
+            {
+              "year": "2018",
+              "url": "https://eddirasa.com/ens-sec/3as/bac-solutions/subject/arabe/",
+              "source": "Eddirasa",
+              "is_archive": false
+            },
+            {
+              "year": "2017",
+              "url": "https://eddirasa.com/ens-sec/3as/bac-solutions/subject/arabe/",
+              "source": "Eddirasa",
+              "is_archive": false
+            },
+            {
+              "year": "2016",
+              "url": "https://eddirasa.com/ens-sec/3as/bac-solutions/subject/arabe/",
+              "source": "Eddirasa",
+              "is_archive": false
+            },
+            {
+              "year": "2015",
+              "url": "https://eddirasa.com/ens-sec/3as/bac-solutions/subject/arabe/",
+              "source": "Eddirasa",
+              "is_archive": false
+            },
+            {
+              "year": "أرشيف كامل",
+              "url": "https://eddirasa.com/ens-sec/3as/bac-solutions/subject/arabe/",
+              "source": "Eddirasa",
+              "is_archive": true
+            }
+          ]
+        },
+        {
+          "slug": "french",
+          "name": "الفرنسية",
+          "icon": "🇫🇷",
+          "exams": [
+            {
+              "year": "2025",
+              "url": "https://www.snvdz.com/",
+              "source": "SNVDZ",
+              "is_archive": false
+            },
+            {
+              "year": "2024",
+              "url": "https://eddirasa.com/ens-sec/3as/bac-solutions/subject/francais/",
+              "source": "Eddirasa",
+              "is_archive": false
+            },
+            {
+              "year": "2023",
+              "url": "https://eddirasa.com/ens-sec/3as/bac-solutions/subject/francais/",
+              "source": "Eddirasa",
+              "is_archive": false
+            },
+            {
+              "year": "2022",
+              "url": "https://eddirasa.com/ens-sec/3as/bac-solutions/subject/francais/",
+              "source": "Eddirasa",
+              "is_archive": false
+            },
+            {
+              "year": "2021",
+              "url": "https://eddirasa.com/ens-sec/3as/bac-solutions/subject/francais/",
+              "source": "Eddirasa",
+              "is_archive": false
+            },
+            {
+              "year": "2020",
+              "url": "https://eddirasa.com/ens-sec/3as/bac-solutions/subject/francais/",
+              "source": "Eddirasa",
+              "is_archive": false
+            },
+            {
+              "year": "2019",
+              "url": "https://eddirasa.com/ens-sec/3as/bac-solutions/subject/francais/",
+              "source": "Eddirasa",
+              "is_archive": false
+            },
+            {
+              "year": "2018",
+              "url": "https://eddirasa.com/ens-sec/3as/bac-solutions/subject/francais/",
+              "source": "Eddirasa",
+              "is_archive": false
+            },
+            {
+              "year": "2017",
+              "url": "https://eddirasa.com/ens-sec/3as/bac-solutions/subject/francais/",
+              "source": "Eddirasa",
+              "is_archive": false
+            },
+            {
+              "year": "2016",
+              "url": "https://eddirasa.com/ens-sec/3as/bac-solutions/subject/francais/",
+              "source": "Eddirasa",
+              "is_archive": false
+            },
+            {
+              "year": "2015",
+              "url": "https://eddirasa.com/ens-sec/3as/bac-solutions/subject/francais/",
+              "source": "Eddirasa",
+              "is_archive": false
+            },
+            {
+              "year": "أرشيف كامل",
+              "url": "https://eddirasa.com/ens-sec/3as/bac-solutions/subject/francais/",
+              "source": "Eddirasa",
+              "is_archive": true
+            }
+          ]
+        },
+        {
+          "slug": "english",
+          "name": "الإنجليزية",
+          "icon": "🇬🇧",
+          "exams": [
+            {
+              "year": "2025",
+              "url": "https://www.snvdz.com/",
+              "source": "SNVDZ",
+              "is_archive": false
+            },
+            {
+              "year": "2024",
+              "url": "https://eddirasa.com/ens-sec/3as/bac-solutions/subject/anglais/",
+              "source": "Eddirasa",
+              "is_archive": false
+            },
+            {
+              "year": "2023",
+              "url": "https://eddirasa.com/ens-sec/3as/bac-solutions/subject/anglais/",
+              "source": "Eddirasa",
+              "is_archive": false
+            },
+            {
+              "year": "2022",
+              "url": "https://eddirasa.com/ens-sec/3as/bac-solutions/subject/anglais/",
+              "source": "Eddirasa",
+              "is_archive": false
+            },
+            {
+              "year": "2021",
+              "url": "https://eddirasa.com/ens-sec/3as/bac-solutions/subject/anglais/",
+              "source": "Eddirasa",
+              "is_archive": false
+            },
+            {
+              "year": "2020",
+              "url": "https://eddirasa.com/ens-sec/3as/bac-solutions/subject/anglais/",
+              "source": "Eddirasa",
+              "is_archive": false
+            },
+            {
+              "year": "2019",
+              "url": "https://eddirasa.com/ens-sec/3as/bac-solutions/subject/anglais/",
+              "source": "Eddirasa",
+              "is_archive": false
+            },
+            {
+              "year": "2018",
+              "url": "https://eddirasa.com/ens-sec/3as/bac-solutions/subject/anglais/",
+              "source": "Eddirasa",
+              "is_archive": false
+            },
+            {
+              "year": "2017",
+              "url": "https://eddirasa.com/ens-sec/3as/bac-solutions/subject/anglais/",
+              "source": "Eddirasa",
+              "is_archive": false
+            },
+            {
+              "year": "2016",
+              "url": "https://eddirasa.com/ens-sec/3as/bac-solutions/subject/anglais/",
+              "source": "Eddirasa",
+              "is_archive": false
+            },
+            {
+              "year": "2015",
+              "url": "https://eddirasa.com/ens-sec/3as/bac-solutions/subject/anglais/",
+              "source": "Eddirasa",
+              "is_archive": false
+            },
+            {
+              "year": "أرشيف كامل",
+              "url": "https://eddirasa.com/ens-sec/3as/bac-solutions/subject/anglais/",
+              "source": "Eddirasa",
+              "is_archive": true
+            }
+          ]
+        },
+        {
+          "slug": "history",
+          "name": "التاريخ والجغرافيا",
+          "icon": "🌍",
+          "exams": [
+            {
+              "year": "2025",
+              "url": "https://www.snvdz.com/",
+              "source": "SNVDZ",
+              "is_archive": false
+            },
+            {
+              "year": "2024",
+              "url": "https://eddirasa.com/ens-sec/3as/bac-solutions/subject/histoire-geographie/",
+              "source": "Eddirasa",
+              "is_archive": false
+            },
+            {
+              "year": "2023",
+              "url": "https://eddirasa.com/ens-sec/3as/bac-solutions/subject/histoire-geographie/",
+              "source": "Eddirasa",
+              "is_archive": false
+            },
+            {
+              "year": "2022",
+              "url": "https://eddirasa.com/ens-sec/3as/bac-solutions/subject/histoire-geographie/",
+              "source": "Eddirasa",
+              "is_archive": false
+            },
+            {
+              "year": "2021",
+              "url": "https://eddirasa.com/ens-sec/3as/bac-solutions/subject/histoire-geographie/",
+              "source": "Eddirasa",
+              "is_archive": false
+            },
+            {
+              "year": "2020",
+              "url": "https://eddirasa.com/ens-sec/3as/bac-solutions/subject/histoire-geographie/",
+              "source": "Eddirasa",
+              "is_archive": false
+            },
+            {
+              "year": "2019",
+              "url": "https://eddirasa.com/ens-sec/3as/bac-solutions/subject/histoire-geographie/",
+              "source": "Eddirasa",
+              "is_archive": false
+            },
+            {
+              "year": "2018",
+              "url": "https://eddirasa.com/ens-sec/3as/bac-solutions/subject/histoire-geographie/",
+              "source": "Eddirasa",
+              "is_archive": false
+            },
+            {
+              "year": "2017",
+              "url": "https://eddirasa.com/ens-sec/3as/bac-solutions/subject/histoire-geographie/",
+              "source": "Eddirasa",
+              "is_archive": false
+            },
+            {
+              "year": "2016",
+              "url": "https://eddirasa.com/ens-sec/3as/bac-solutions/subject/histoire-geographie/",
+              "source": "Eddirasa",
+              "is_archive": false
+            },
+            {
+              "year": "2015",
+              "url": "https://eddirasa.com/ens-sec/3as/bac-solutions/subject/histoire-geographie/",
+              "source": "Eddirasa",
+              "is_archive": false
+            },
+            {
+              "year": "أرشيف كامل",
+              "url": "https://eddirasa.com/ens-sec/3as/bac-solutions/subject/histoire-geographie/",
+              "source": "Eddirasa",
+              "is_archive": true
+            }
+          ]
+        },
+        {
+          "slug": "islamic",
+          "name": "العلوم الإسلامية",
+          "icon": "🕌",
+          "exams": [
+            {
+              "year": "2025",
+              "url": "https://www.snvdz.com/",
+              "source": "SNVDZ",
+              "is_archive": false
+            },
+            {
+              "year": "2024",
+              "url": "https://eddirasa.com/ens-sec/3as/bac-solutions/subject/sciences-islamiques/",
+              "source": "Eddirasa",
+              "is_archive": false
+            },
+            {
+              "year": "2023",
+              "url": "https://eddirasa.com/ens-sec/3as/bac-solutions/subject/sciences-islamiques/",
+              "source": "Eddirasa",
+              "is_archive": false
+            },
+            {
+              "year": "2022",
+              "url": "https://eddirasa.com/ens-sec/3as/bac-solutions/subject/sciences-islamiques/",
+              "source": "Eddirasa",
+              "is_archive": false
+            },
+            {
+              "year": "2021",
+              "url": "https://eddirasa.com/ens-sec/3as/bac-solutions/subject/sciences-islamiques/",
+              "source": "Eddirasa",
+              "is_archive": false
+            },
+            {
+              "year": "2020",
+              "url": "https://eddirasa.com/ens-sec/3as/bac-solutions/subject/sciences-islamiques/",
+              "source": "Eddirasa",
+              "is_archive": false
+            },
+            {
+              "year": "2019",
+              "url": "https://eddirasa.com/ens-sec/3as/bac-solutions/subject/sciences-islamiques/",
+              "source": "Eddirasa",
+              "is_archive": false
+            },
+            {
+              "year": "2018",
+              "url": "https://eddirasa.com/ens-sec/3as/bac-solutions/subject/sciences-islamiques/",
+              "source": "Eddirasa",
+              "is_archive": false
+            },
+            {
+              "year": "2017",
+              "url": "https://eddirasa.com/ens-sec/3as/bac-solutions/subject/sciences-islamiques/",
+              "source": "Eddirasa",
+              "is_archive": false
+            },
+            {
+              "year": "2016",
+              "url": "https://eddirasa.com/ens-sec/3as/bac-solutions/subject/sciences-islamiques/",
+              "source": "Eddirasa",
+              "is_archive": false
+            },
+            {
+              "year": "2015",
+              "url": "https://eddirasa.com/ens-sec/3as/bac-solutions/subject/sciences-islamiques/",
+              "source": "Eddirasa",
+              "is_archive": false
+            },
+            {
+              "year": "أرشيف كامل",
+              "url": "https://eddirasa.com/ens-sec/3as/bac-solutions/subject/sciences-islamiques/",
+              "source": "Eddirasa",
+              "is_archive": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "math-stream",
+      "name": "رياضيات",
+      "icon": "📐",
+      "description": "أرشيف بكالوريا شعبة الرياضيات",
+      "gradient": "from-cyan-400 to-blue-500",
+      "subjects": [
+        {
+          "slug": "math",
+          "name": "الرياضيات",
+          "icon": "📐",
+          "exams": [
+            {
+              "year": "2025",
+              "url": "https://www.snvdz.com/",
+              "source": "SNVDZ",
+              "is_archive": false
+            },
+            {
+              "year": "2024",
+              "url": "https://eddirasa.com/ens-sec/3as/bac-solutions/subject/mathematiques/",
+              "source": "Eddirasa",
+              "is_archive": false
+            },
+            {
+              "year": "2023",
+              "url": "https://eddirasa.com/ens-sec/3as/bac-solutions/subject/mathematiques/",
+              "source": "Eddirasa",
+              "is_archive": false
+            },
+            {
+              "year": "2022",
+              "url": "https://eddirasa.com/ens-sec/3as/bac-solutions/subject/mathematiques/",
+              "source": "Eddirasa",
+              "is_archive": false
+            },
+            {
+              "year": "2021",
+              "url": "https://eddirasa.com/ens-sec/3as/bac-solutions/subject/mathematiques/",
+              "source": "Eddirasa",
+              "is_archive": false
+            },
+            {
+              "year": "2020",
+              "url": "https://eddirasa.com/ens-sec/3as/bac-solutions/subject/mathematiques/",
+              "source": "Eddirasa",
+              "is_archive": false
+            },
+            {
+              "year": "2019",
+              "url": "https://eddirasa.com/ens-sec/3as/bac-solutions/subject/mathematiques/",
+              "source": "Eddirasa",
+              "is_archive": false
+            },
+            {
+              "year": "2018",
+              "url": "https://eddirasa.com/ens-sec/3as/bac-solutions/subject/mathematiques/",
+              "source": "Eddirasa",
+              "is_archive": false
+            },
+            {
+              "year": "2017",
+              "url": "https://eddirasa.com/ens-sec/3as/bac-solutions/subject/mathematiques/",
+              "source": "Eddirasa",
+              "is_archive": false
+            },
+            {
+              "year": "2016",
+              "url": "https://eddirasa.com/ens-sec/3as/bac-solutions/subject/mathematiques/",
+              "source": "Eddirasa",
+              "is_archive": false
+            },
+            {
+              "year": "2015",
+              "url": "https://eddirasa.com/ens-sec/3as/bac-solutions/subject/mathematiques/",
+              "source": "Eddirasa",
+              "is_archive": false
+            },
+            {
+              "year": "أرشيف كامل",
+              "url": "https://eddirasa.com/ens-sec/3as/bac-solutions/subject/mathematiques/",
+              "source": "Eddirasa",
+              "is_archive": true
+            }
+          ]
+        },
+        {
+          "slug": "physics",
+          "name": "العلوم الفيزيائية",
+          "icon": "⚛️",
+          "exams": [
+            {
+              "year": "2025",
+              "url": "https://www.snvdz.com/",
+              "source": "SNVDZ",
+              "is_archive": false
+            },
+            {
+              "year": "2024",
+              "url": "https://eddirasa.com/ens-sec/3as/bac-solutions/subject/physique/",
+              "source": "Eddirasa",
+              "is_archive": false
+            },
+            {
+              "year": "2023",
+              "url": "https://eddirasa.com/ens-sec/3as/bac-solutions/subject/physique/",
+              "source": "Eddirasa",
+              "is_archive": false
+            },
+            {
+              "year": "2022",
+              "url": "https://eddirasa.com/ens-sec/3as/bac-solutions/subject/physique/",
+              "source": "Eddirasa",
+              "is_archive": false
+            },
+            {
+              "year": "2021",
+              "url": "https://eddirasa.com/ens-sec/3as/bac-solutions/subject/physique/",
+              "source": "Eddirasa",
+              "is_archive": false
+            },
+            {
+              "year": "2020",
+              "url": "https://eddirasa.com/ens-sec/3as/bac-solutions/subject/physique/",
+              "source": "Eddirasa",
+              "is_archive": false
+            },
+            {
+              "year": "2019",
+              "url": "https://eddirasa.com/ens-sec/3as/bac-solutions/subject/physique/",
+              "source": "Eddirasa",
+              "is_archive": false
+            },
+            {
+              "year": "2018",
+              "url": "https://eddirasa.com/ens-sec/3as/bac-solutions/subject/physique/",
+              "source": "Eddirasa",
+              "is_archive": false
+            },
+            {
+              "year": "2017",
+              "url": "https://eddirasa.com/ens-sec/3as/bac-solutions/subject/physique/",
+              "source": "Eddirasa",
+              "is_archive": false
+            },
+            {
+              "year": "2016",
+              "url": "https://eddirasa.com/ens-sec/3as/bac-solutions/subject/physique/",
+              "source": "Eddirasa",
+              "is_archive": false
+            },
+            {
+              "year": "2015",
+              "url": "https://eddirasa.com/ens-sec/3as/bac-solutions/subject/physique/",
+              "source": "Eddirasa",
+              "is_archive": false
+            },
+            {
+              "year": "أرشيف كامل",
+              "url": "https://eddirasa.com/ens-sec/3as/bac-solutions/subject/physique/",
+              "source": "Eddirasa",
+              "is_archive": true
+            }
+          ]
+        },
+        {
+          "slug": "philosophy",
+          "name": "الفلسفة",
+          "icon": "🧠",
+          "exams": [
+            {
+              "year": "2025",
+              "url": "https://www.snvdz.com/",
+              "source": "SNVDZ",
+              "is_archive": false
+            },
+            {
+              "year": "2024",
+              "url": "https://eddirasa.com/ens-sec/3as/bac-solutions/subject/philosophie/",
+              "source": "Eddirasa",
+              "is_archive": false
+            },
+            {
+              "year": "2023",
+              "url": "https://eddirasa.com/ens-sec/3as/bac-solutions/subject/philosophie/",
+              "source": "Eddirasa",
+              "is_archive": false
+            },
+            {
+              "year": "2022",
+              "url": "https://eddirasa.com/ens-sec/3as/bac-solutions/subject/philosophie/",
+              "source": "Eddirasa",
+              "is_archive": false
+            },
+            {
+              "year": "2021",
+              "url": "https://eddirasa.com/ens-sec/3as/bac-solutions/subject/philosophie/",
+              "source": "Eddirasa",
+              "is_archive": false
+            },
+            {
+              "year": "2020",
+              "url": "https://eddirasa.com/ens-sec/3as/bac-solutions/subject/philosophie/",
+              "source": "Eddirasa",
+              "is_archive": false
+            },
+            {
+              "year": "2019",
+              "url": "https://eddirasa.com/ens-sec/3as/bac-solutions/subject/philosophie/",
+              "source": "Eddirasa",
+              "is_archive": false
+            },
+            {
+              "year": "2018",
+              "url": "https://eddirasa.com/ens-sec/3as/bac-solutions/subject/philosophie/",
+              "source": "Eddirasa",
+              "is_archive": false
+            },
+            {
+              "year": "2017",
+              "url": "https://eddirasa.com/ens-sec/3as/bac-solutions/subject/philosophie/",
+              "source": "Eddirasa",
+              "is_archive": false
+            },
+            {
+              "year": "2016",
+              "url": "https://eddirasa.com/ens-sec/3as/bac-solutions/subject/philosophie/",
+              "source": "Eddirasa",
+              "is_archive": false
+            },
+            {
+              "year": "2015",
+              "url": "https://eddirasa.com/ens-sec/3as/bac-solutions/subject/philosophie/",
+              "source": "Eddirasa",
+              "is_archive": false
+            },
+            {
+              "year": "أرشيف كامل",
+              "url": "https://eddirasa.com/ens-sec/3as/bac-solutions/subject/philosophie/",
+              "source": "Eddirasa",
+              "is_archive": true
+            }
+          ]
+        },
+        {
+          "slug": "arabic",
+          "name": "اللغة العربية",
+          "icon": "📖",
+          "exams": [
+            {
+              "year": "2025",
+              "url": "https://www.snvdz.com/",
+              "source": "SNVDZ",
+              "is_archive": false
+            },
+            {
+              "year": "2024",
+              "url": "https://eddirasa.com/ens-sec/3as/bac-solutions/subject/arabe/",
+              "source": "Eddirasa",
+              "is_archive": false
+            },
+            {
+              "year": "2023",
+              "url": "https://eddirasa.com/ens-sec/3as/bac-solutions/subject/arabe/",
+              "source": "Eddirasa",
+              "is_archive": false
+            },
+            {
+              "year": "2022",
+              "url": "https://eddirasa.com/ens-sec/3as/bac-solutions/subject/arabe/",
+              "source": "Eddirasa",
+              "is_archive": false
+            },
+            {
+              "year": "2021",
+              "url": "https://eddirasa.com/ens-sec/3as/bac-solutions/subject/arabe/",
+              "source": "Eddirasa",
+              "is_archive": false
+            },
+            {
+              "year": "2020",
+              "url": "https://eddirasa.com/ens-sec/3as/bac-solutions/subject/arabe/",
+              "source": "Eddirasa",
+              "is_archive": false
+            },
+            {
+              "year": "2019",
+              "url": "https://eddirasa.com/ens-sec/3as/bac-solutions/subject/arabe/",
+              "source": "Eddirasa",
+              "is_archive": false
+            },
+            {
+              "year": "2018",
+              "url": "https://eddirasa.com/ens-sec/3as/bac-solutions/subject/arabe/",
+              "source": "Eddirasa",
+              "is_archive": false
+            },
+            {
+              "year": "2017",
+              "url": "https://eddirasa.com/ens-sec/3as/bac-solutions/subject/arabe/",
+              "source": "Eddirasa",
+              "is_archive": false
+            },
+            {
+              "year": "2016",
+              "url": "https://eddirasa.com/ens-sec/3as/bac-solutions/subject/arabe/",
+              "source": "Eddirasa",
+              "is_archive": false
+            },
+            {
+              "year": "2015",
+              "url": "https://eddirasa.com/ens-sec/3as/bac-solutions/subject/arabe/",
+              "source": "Eddirasa",
+              "is_archive": false
+            },
+            {
+              "year": "أرشيف كامل",
+              "url": "https://eddirasa.com/ens-sec/3as/bac-solutions/subject/arabe/",
+              "source": "Eddirasa",
+              "is_archive": true
+            }
+          ]
+        },
+        {
+          "slug": "french",
+          "name": "الفرنسية",
+          "icon": "🇫🇷",
+          "exams": [
+            {
+              "year": "2025",
+              "url": "https://www.snvdz.com/",
+              "source": "SNVDZ",
+              "is_archive": false
+            },
+            {
+              "year": "2024",
+              "url": "https://eddirasa.com/ens-sec/3as/bac-solutions/subject/francais/",
+              "source": "Eddirasa",
+              "is_archive": false
+            },
+            {
+              "year": "2023",
+              "url": "https://eddirasa.com/ens-sec/3as/bac-solutions/subject/francais/",
+              "source": "Eddirasa",
+              "is_archive": false
+            },
+            {
+              "year": "2022",
+              "url": "https://eddirasa.com/ens-sec/3as/bac-solutions/subject/francais/",
+              "source": "Eddirasa",
+              "is_archive": false
+            },
+            {
+              "year": "2021",
+              "url": "https://eddirasa.com/ens-sec/3as/bac-solutions/subject/francais/",
+              "source": "Eddirasa",
+              "is_archive": false
+            },
+            {
+              "year": "2020",
+              "url": "https://eddirasa.com/ens-sec/3as/bac-solutions/subject/francais/",
+              "source": "Eddirasa",
+              "is_archive": false
+            },
+            {
+              "year": "2019",
+              "url": "https://eddirasa.com/ens-sec/3as/bac-solutions/subject/francais/",
+              "source": "Eddirasa",
+              "is_archive": false
+            },
+            {
+              "year": "2018",
+              "url": "https://eddirasa.com/ens-sec/3as/bac-solutions/subject/francais/",
+              "source": "Eddirasa",
+              "is_archive": false
+            },
+            {
+              "year": "2017",
+              "url": "https://eddirasa.com/ens-sec/3as/bac-solutions/subject/francais/",
+              "source": "Eddirasa",
+              "is_archive": false
+            },
+            {
+              "year": "2016",
+              "url": "https://eddirasa.com/ens-sec/3as/bac-solutions/subject/francais/",
+              "source": "Eddirasa",
+              "is_archive": false
+            },
+            {
+              "year": "2015",
+              "url": "https://eddirasa.com/ens-sec/3as/bac-solutions/subject/francais/",
+              "source": "Eddirasa",
+              "is_archive": false
+            },
+            {
+              "year": "أرشيف كامل",
+              "url": "https://eddirasa.com/ens-sec/3as/bac-solutions/subject/francais/",
+              "source": "Eddirasa",
+              "is_archive": true
+            }
+          ]
+        },
+        {
+          "slug": "english",
+          "name": "الإنجليزية",
+          "icon": "🇬🇧",
+          "exams": [
+            {
+              "year": "2025",
+              "url": "https://www.snvdz.com/",
+              "source": "SNVDZ",
+              "is_archive": false
+            },
+            {
+              "year": "2024",
+              "url": "https://eddirasa.com/ens-sec/3as/bac-solutions/subject/anglais/",
+              "source": "Eddirasa",
+              "is_archive": false
+            },
+            {
+              "year": "2023",
+              "url": "https://eddirasa.com/ens-sec/3as/bac-solutions/subject/anglais/",
+              "source": "Eddirasa",
+              "is_archive": false
+            },
+            {
+              "year": "2022",
+              "url": "https://eddirasa.com/ens-sec/3as/bac-solutions/subject/anglais/",
+              "source": "Eddirasa",
+              "is_archive": false
+            },
+            {
+              "year": "2021",
+              "url": "https://eddirasa.com/ens-sec/3as/bac-solutions/subject/anglais/",
+              "source": "Eddirasa",
+              "is_archive": false
+            },
+            {
+              "year": "2020",
+              "url": "https://eddirasa.com/ens-sec/3as/bac-solutions/subject/anglais/",
+              "source": "Eddirasa",
+              "is_archive": false
+            },
+            {
+              "year": "2019",
+              "url": "https://eddirasa.com/ens-sec/3as/bac-solutions/subject/anglais/",
+              "source": "Eddirasa",
+              "is_archive": false
+            },
+            {
+              "year": "2018",
+              "url": "https://eddirasa.com/ens-sec/3as/bac-solutions/subject/anglais/",
+              "source": "Eddirasa",
+              "is_archive": false
+            },
+            {
+              "year": "2017",
+              "url": "https://eddirasa.com/ens-sec/3as/bac-solutions/subject/anglais/",
+              "source": "Eddirasa",
+              "is_archive": false
+            },
+            {
+              "year": "2016",
+              "url": "https://eddirasa.com/ens-sec/3as/bac-solutions/subject/anglais/",
+              "source": "Eddirasa",
+              "is_archive": false
+            },
+            {
+              "year": "2015",
+              "url": "https://eddirasa.com/ens-sec/3as/bac-solutions/subject/anglais/",
+              "source": "Eddirasa",
+              "is_archive": false
+            },
+            {
+              "year": "أرشيف كامل",
+              "url": "https://eddirasa.com/ens-sec/3as/bac-solutions/subject/anglais/",
+              "source": "Eddirasa",
+              "is_archive": true
+            }
+          ]
+        },
+        {
+          "slug": "history",
+          "name": "التاريخ والجغرافيا",
+          "icon": "🌍",
+          "exams": [
+            {
+              "year": "2025",
+              "url": "https://www.snvdz.com/",
+              "source": "SNVDZ",
+              "is_archive": false
+            },
+            {
+              "year": "2024",
+              "url": "https://eddirasa.com/ens-sec/3as/bac-solutions/subject/histoire-geographie/",
+              "source": "Eddirasa",
+              "is_archive": false
+            },
+            {
+              "year": "2023",
+              "url": "https://eddirasa.com/ens-sec/3as/bac-solutions/subject/histoire-geographie/",
+              "source": "Eddirasa",
+              "is_archive": false
+            },
+            {
+              "year": "2022",
+              "url": "https://eddirasa.com/ens-sec/3as/bac-solutions/subject/histoire-geographie/",
+              "source": "Eddirasa",
+              "is_archive": false
+            },
+            {
+              "year": "2021",
+              "url": "https://eddirasa.com/ens-sec/3as/bac-solutions/subject/histoire-geographie/",
+              "source": "Eddirasa",
+              "is_archive": false
+            },
+            {
+              "year": "2020",
+              "url": "https://eddirasa.com/ens-sec/3as/bac-solutions/subject/histoire-geographie/",
+              "source": "Eddirasa",
+              "is_archive": false
+            },
+            {
+              "year": "2019",
+              "url": "https://eddirasa.com/ens-sec/3as/bac-solutions/subject/histoire-geographie/",
+              "source": "Eddirasa",
+              "is_archive": false
+            },
+            {
+              "year": "2018",
+              "url": "https://eddirasa.com/ens-sec/3as/bac-solutions/subject/histoire-geographie/",
+              "source": "Eddirasa",
+              "is_archive": false
+            },
+            {
+              "year": "2017",
+              "url": "https://eddirasa.com/ens-sec/3as/bac-solutions/subject/histoire-geographie/",
+              "source": "Eddirasa",
+              "is_archive": false
+            },
+            {
+              "year": "2016",
+              "url": "https://eddirasa.com/ens-sec/3as/bac-solutions/subject/histoire-geographie/",
+              "source": "Eddirasa",
+              "is_archive": false
+            },
+            {
+              "year": "2015",
+              "url": "https://eddirasa.com/ens-sec/3as/bac-solutions/subject/histoire-geographie/",
+              "source": "Eddirasa",
+              "is_archive": false
+            },
+            {
+              "year": "أرشيف كامل",
+              "url": "https://eddirasa.com/ens-sec/3as/bac-solutions/subject/histoire-geographie/",
+              "source": "Eddirasa",
+              "is_archive": true
+            }
+          ]
+        },
+        {
+          "slug": "islamic",
+          "name": "العلوم الإسلامية",
+          "icon": "🕌",
+          "exams": [
+            {
+              "year": "2025",
+              "url": "https://www.snvdz.com/",
+              "source": "SNVDZ",
+              "is_archive": false
+            },
+            {
+              "year": "2024",
+              "url": "https://eddirasa.com/ens-sec/3as/bac-solutions/subject/sciences-islamiques/",
+              "source": "Eddirasa",
+              "is_archive": false
+            },
+            {
+              "year": "2023",
+              "url": "https://eddirasa.com/ens-sec/3as/bac-solutions/subject/sciences-islamiques/",
+              "source": "Eddirasa",
+              "is_archive": false
+            },
+            {
+              "year": "2022",
+              "url": "https://eddirasa.com/ens-sec/3as/bac-solutions/subject/sciences-islamiques/",
+              "source": "Eddirasa",
+              "is_archive": false
+            },
+            {
+              "year": "2021",
+              "url": "https://eddirasa.com/ens-sec/3as/bac-solutions/subject/sciences-islamiques/",
+              "source": "Eddirasa",
+              "is_archive": false
+            },
+            {
+              "year": "2020",
+              "url": "https://eddirasa.com/ens-sec/3as/bac-solutions/subject/sciences-islamiques/",
+              "source": "Eddirasa",
+              "is_archive": false
+            },
+            {
+              "year": "2019",
+              "url": "https://eddirasa.com/ens-sec/3as/bac-solutions/subject/sciences-islamiques/",
+              "source": "Eddirasa",
+              "is_archive": false
+            },
+            {
+              "year": "2018",
+              "url": "https://eddirasa.com/ens-sec/3as/bac-solutions/subject/sciences-islamiques/",
+              "source": "Eddirasa",
+              "is_archive": false
+            },
+            {
+              "year": "2017",
+              "url": "https://eddirasa.com/ens-sec/3as/bac-solutions/subject/sciences-islamiques/",
+              "source": "Eddirasa",
+              "is_archive": false
+            },
+            {
+              "year": "2016",
+              "url": "https://eddirasa.com/ens-sec/3as/bac-solutions/subject/sciences-islamiques/",
+              "source": "Eddirasa",
+              "is_archive": false
+            },
+            {
+              "year": "2015",
+              "url": "https://eddirasa.com/ens-sec/3as/bac-solutions/subject/sciences-islamiques/",
+              "source": "Eddirasa",
+              "is_archive": false
+            },
+            {
+              "year": "أرشيف كامل",
+              "url": "https://eddirasa.com/ens-sec/3as/bac-solutions/subject/sciences-islamiques/",
+              "source": "Eddirasa",
+              "is_archive": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "technique",
+      "name": "تقني رياضي",
+      "icon": "⚙️",
+      "description": "أرشيف بكالوريا شعبة تقني رياضي",
+      "gradient": "from-orange-400 to-red-500",
+      "subjects": [
+        {
+          "slug": "math",
+          "name": "الرياضيات",
+          "icon": "📐",
+          "exams": [
+            {
+              "year": "2025",
+              "url": "https://www.snvdz.com/",
+              "source": "SNVDZ",
+              "is_archive": false
+            },
+            {
+              "year": "2024",
+              "url": "https://eddirasa.com/ens-sec/3as/bac-solutions/subject/mathematiques/",
+              "source": "Eddirasa",
+              "is_archive": false
+            },
+            {
+              "year": "2023",
+              "url": "https://eddirasa.com/ens-sec/3as/bac-solutions/subject/mathematiques/",
+              "source": "Eddirasa",
+              "is_archive": false
+            },
+            {
+              "year": "2022",
+              "url": "https://eddirasa.com/ens-sec/3as/bac-solutions/subject/mathematiques/",
+              "source": "Eddirasa",
+              "is_archive": false
+            },
+            {
+              "year": "2021",
+              "url": "https://eddirasa.com/ens-sec/3as/bac-solutions/subject/mathematiques/",
+              "source": "Eddirasa",
+              "is_archive": false
+            },
+            {
+              "year": "2020",
+              "url": "https://eddirasa.com/ens-sec/3as/bac-solutions/subject/mathematiques/",
+              "source": "Eddirasa",
+              "is_archive": false
+            },
+            {
+              "year": "2019",
+              "url": "https://eddirasa.com/ens-sec/3as/bac-solutions/subject/mathematiques/",
+              "source": "Eddirasa",
+              "is_archive": false
+            },
+            {
+              "year": "2018",
+              "url": "https://eddirasa.com/ens-sec/3as/bac-solutions/subject/mathematiques/",
+              "source": "Eddirasa",
+              "is_archive": false
+            },
+            {
+              "year": "2017",
+              "url": "https://eddirasa.com/ens-sec/3as/bac-solutions/subject/mathematiques/",
+              "source": "Eddirasa",
+              "is_archive": false
+            },
+            {
+              "year": "2016",
+              "url": "https://eddirasa.com/ens-sec/3as/bac-solutions/subject/mathematiques/",
+              "source": "Eddirasa",
+              "is_archive": false
+            },
+            {
+              "year": "2015",
+              "url": "https://eddirasa.com/ens-sec/3as/bac-solutions/subject/mathematiques/",
+              "source": "Eddirasa",
+              "is_archive": false
+            },
+            {
+              "year": "أرشيف كامل",
+              "url": "https://eddirasa.com/ens-sec/3as/bac-solutions/subject/mathematiques/",
+              "source": "Eddirasa",
+              "is_archive": true
+            }
+          ]
+        },
+        {
+          "slug": "physics",
+          "name": "العلوم الفيزيائية",
+          "icon": "⚛️",
+          "exams": [
+            {
+              "year": "2025",
+              "url": "https://www.snvdz.com/",
+              "source": "SNVDZ",
+              "is_archive": false
+            },
+            {
+              "year": "2024",
+              "url": "https://eddirasa.com/ens-sec/3as/bac-solutions/subject/physique/",
+              "source": "Eddirasa",
+              "is_archive": false
+            },
+            {
+              "year": "2023",
+              "url": "https://eddirasa.com/ens-sec/3as/bac-solutions/subject/physique/",
+              "source": "Eddirasa",
+              "is_archive": false
+            },
+            {
+              "year": "2022",
+              "url": "https://eddirasa.com/ens-sec/3as/bac-solutions/subject/physique/",
+              "source": "Eddirasa",
+              "is_archive": false
+            },
+            {
+              "year": "2021",
+              "url": "https://eddirasa.com/ens-sec/3as/bac-solutions/subject/physique/",
+              "source": "Eddirasa",
+              "is_archive": false
+            },
+            {
+              "year": "2020",
+              "url": "https://eddirasa.com/ens-sec/3as/bac-solutions/subject/physique/",
+              "source": "Eddirasa",
+              "is_archive": false
+            },
+            {
+              "year": "2019",
+              "url": "https://eddirasa.com/ens-sec/3as/bac-solutions/subject/physique/",
+              "source": "Eddirasa",
+              "is_archive": false
+            },
+            {
+              "year": "2018",
+              "url": "https://eddirasa.com/ens-sec/3as/bac-solutions/subject/physique/",
+              "source": "Eddirasa",
+              "is_archive": false
+            },
+            {
+              "year": "2017",
+              "url": "https://eddirasa.com/ens-sec/3as/bac-solutions/subject/physique/",
+              "source": "Eddirasa",
+              "is_archive": false
+            },
+            {
+              "year": "2016",
+              "url": "https://eddirasa.com/ens-sec/3as/bac-solutions/subject/physique/",
+              "source": "Eddirasa",
+              "is_archive": false
+            },
+            {
+              "year": "2015",
+              "url": "https://eddirasa.com/ens-sec/3as/bac-solutions/subject/physique/",
+              "source": "Eddirasa",
+              "is_archive": false
+            },
+            {
+              "year": "أرشيف كامل",
+              "url": "https://eddirasa.com/ens-sec/3as/bac-solutions/subject/physique/",
+              "source": "Eddirasa",
+              "is_archive": true
+            }
+          ]
+        },
+        {
+          "slug": "technology",
+          "name": "التكنولوجيا",
+          "icon": "⚙️",
+          "exams": [
+            {
+              "year": "2025",
+              "url": "https://www.snvdz.com/",
+              "source": "SNVDZ",
+              "is_archive": false
+            },
+            {
+              "year": "2024",
+              "url": "https://eddirasa.com/ens-sec/3as/bac-solutions/subject/technologie/",
+              "source": "Eddirasa",
+              "is_archive": false
+            },
+            {
+              "year": "2023",
+              "url": "https://eddirasa.com/ens-sec/3as/bac-solutions/subject/technologie/",
+              "source": "Eddirasa",
+              "is_archive": false
+            },
+            {
+              "year": "2022",
+              "url": "https://eddirasa.com/ens-sec/3as/bac-solutions/subject/technologie/",
+              "source": "Eddirasa",
+              "is_archive": false
+            },
+            {
+              "year": "2021",
+              "url": "https://eddirasa.com/ens-sec/3as/bac-solutions/subject/technologie/",
+              "source": "Eddirasa",
+              "is_archive": false
+            },
+            {
+              "year": "2020",
+              "url": "https://eddirasa.com/ens-sec/3as/bac-solutions/subject/technologie/",
+              "source": "Eddirasa",
+              "is_archive": false
+            },
+            {
+              "year": "2019",
+              "url": "https://eddirasa.com/ens-sec/3as/bac-solutions/subject/technologie/",
+              "source": "Eddirasa",
+              "is_archive": false
+            },
+            {
+              "year": "2018",
+              "url": "https://eddirasa.com/ens-sec/3as/bac-solutions/subject/technologie/",
+              "source": "Eddirasa",
+              "is_archive": false
+            },
+            {
+              "year": "2017",
+              "url": "https://eddirasa.com/ens-sec/3as/bac-solutions/subject/technologie/",
+              "source": "Eddirasa",
+              "is_archive": false
+            },
+            {
+              "year": "2016",
+              "url": "https://eddirasa.com/ens-sec/3as/bac-solutions/subject/technologie/",
+              "source": "Eddirasa",
+              "is_archive": false
+            },
+            {
+              "year": "2015",
+              "url": "https://eddirasa.com/ens-sec/3as/bac-solutions/subject/technologie/",
+              "source": "Eddirasa",
+              "is_archive": false
+            },
+            {
+              "year": "أرشيف كامل",
+              "url": "https://eddirasa.com/ens-sec/3as/bac-solutions/subject/technologie/",
+              "source": "Eddirasa",
+              "is_archive": true
+            }
+          ]
+        },
+        {
+          "slug": "philosophy",
+          "name": "الفلسفة",
+          "icon": "🧠",
+          "exams": [
+            {
+              "year": "2025",
+              "url": "https://www.snvdz.com/",
+              "source": "SNVDZ",
+              "is_archive": false
+            },
+            {
+              "year": "2024",
+              "url": "https://eddirasa.com/ens-sec/3as/bac-solutions/subject/philosophie/",
+              "source": "Eddirasa",
+              "is_archive": false
+            },
+            {
+              "year": "2023",
+              "url": "https://eddirasa.com/ens-sec/3as/bac-solutions/subject/philosophie/",
+              "source": "Eddirasa",
+              "is_archive": false
+            },
+            {
+              "year": "2022",
+              "url": "https://eddirasa.com/ens-sec/3as/bac-solutions/subject/philosophie/",
+              "source": "Eddirasa",
+              "is_archive": false
+            },
+            {
+              "year": "2021",
+              "url": "https://eddirasa.com/ens-sec/3as/bac-solutions/subject/philosophie/",
+              "source": "Eddirasa",
+              "is_archive": false
+            },
+            {
+              "year": "2020",
+              "url": "https://eddirasa.com/ens-sec/3as/bac-solutions/subject/philosophie/",
+              "source": "Eddirasa",
+              "is_archive": false
+            },
+            {
+              "year": "2019",
+              "url": "https://eddirasa.com/ens-sec/3as/bac-solutions/subject/philosophie/",
+              "source": "Eddirasa",
+              "is_archive": false
+            },
+            {
+              "year": "2018",
+              "url": "https://eddirasa.com/ens-sec/3as/bac-solutions/subject/philosophie/",
+              "source": "Eddirasa",
+              "is_archive": false
+            },
+            {
+              "year": "2017",
+              "url": "https://eddirasa.com/ens-sec/3as/bac-solutions/subject/philosophie/",
+              "source": "Eddirasa",
+              "is_archive": false
+            },
+            {
+              "year": "2016",
+              "url": "https://eddirasa.com/ens-sec/3as/bac-solutions/subject/philosophie/",
+              "source": "Eddirasa",
+              "is_archive": false
+            },
+            {
+              "year": "2015",
+              "url": "https://eddirasa.com/ens-sec/3as/bac-solutions/subject/philosophie/",
+              "source": "Eddirasa",
+              "is_archive": false
+            },
+            {
+              "year": "أرشيف كامل",
+              "url": "https://eddirasa.com/ens-sec/3as/bac-solutions/subject/philosophie/",
+              "source": "Eddirasa",
+              "is_archive": true
+            }
+          ]
+        },
+        {
+          "slug": "arabic",
+          "name": "اللغة العربية",
+          "icon": "📖",
+          "exams": [
+            {
+              "year": "2025",
+              "url": "https://www.snvdz.com/",
+              "source": "SNVDZ",
+              "is_archive": false
+            },
+            {
+              "year": "2024",
+              "url": "https://eddirasa.com/ens-sec/3as/bac-solutions/subject/arabe/",
+              "source": "Eddirasa",
+              "is_archive": false
+            },
+            {
+              "year": "2023",
+              "url": "https://eddirasa.com/ens-sec/3as/bac-solutions/subject/arabe/",
+              "source": "Eddirasa",
+              "is_archive": false
+            },
+            {
+              "year": "2022",
+              "url": "https://eddirasa.com/ens-sec/3as/bac-solutions/subject/arabe/",
+              "source": "Eddirasa",
+              "is_archive": false
+            },
+            {
+              "year": "2021",
+              "url": "https://eddirasa.com/ens-sec/3as/bac-solutions/subject/arabe/",
+              "source": "Eddirasa",
+              "is_archive": false
+            },
+            {
+              "year": "2020",
+              "url": "https://eddirasa.com/ens-sec/3as/bac-solutions/subject/arabe/",
+              "source": "Eddirasa",
+              "is_archive": false
+            },
+            {
+              "year": "2019",
+              "url": "https://eddirasa.com/ens-sec/3as/bac-solutions/subject/arabe/",
+              "source": "Eddirasa",
+              "is_archive": false
+            },
+            {
+              "year": "2018",
+              "url": "https://eddirasa.com/ens-sec/3as/bac-solutions/subject/arabe/",
+              "source": "Eddirasa",
+              "is_archive": false
+            },
+            {
+              "year": "2017",
+              "url": "https://eddirasa.com/ens-sec/3as/bac-solutions/subject/arabe/",
+              "source": "Eddirasa",
+              "is_archive": false
+            },
+            {
+              "year": "2016",
+              "url": "https://eddirasa.com/ens-sec/3as/bac-solutions/subject/arabe/",
+              "source": "Eddirasa",
+              "is_archive": false
+            },
+            {
+              "year": "2015",
+              "url": "https://eddirasa.com/ens-sec/3as/bac-solutions/subject/arabe/",
+              "source": "Eddirasa",
+              "is_archive": false
+            },
+            {
+              "year": "أرشيف كامل",
+              "url": "https://eddirasa.com/ens-sec/3as/bac-solutions/subject/arabe/",
+              "source": "Eddirasa",
+              "is_archive": true
+            }
+          ]
+        },
+        {
+          "slug": "french",
+          "name": "الفرنسية",
+          "icon": "🇫🇷",
+          "exams": [
+            {
+              "year": "2025",
+              "url": "https://www.snvdz.com/",
+              "source": "SNVDZ",
+              "is_archive": false
+            },
+            {
+              "year": "2024",
+              "url": "https://eddirasa.com/ens-sec/3as/bac-solutions/subject/francais/",
+              "source": "Eddirasa",
+              "is_archive": false
+            },
+            {
+              "year": "2023",
+              "url": "https://eddirasa.com/ens-sec/3as/bac-solutions/subject/francais/",
+              "source": "Eddirasa",
+              "is_archive": false
+            },
+            {
+              "year": "2022",
+              "url": "https://eddirasa.com/ens-sec/3as/bac-solutions/subject/francais/",
+              "source": "Eddirasa",
+              "is_archive": false
+            },
+            {
+              "year": "2021",
+              "url": "https://eddirasa.com/ens-sec/3as/bac-solutions/subject/francais/",
+              "source": "Eddirasa",
+              "is_archive": false
+            },
+            {
+              "year": "2020",
+              "url": "https://eddirasa.com/ens-sec/3as/bac-solutions/subject/francais/",
+              "source": "Eddirasa",
+              "is_archive": false
+            },
+            {
+              "year": "2019",
+              "url": "https://eddirasa.com/ens-sec/3as/bac-solutions/subject/francais/",
+              "source": "Eddirasa",
+              "is_archive": false
+            },
+            {
+              "year": "2018",
+              "url": "https://eddirasa.com/ens-sec/3as/bac-solutions/subject/francais/",
+              "source": "Eddirasa",
+              "is_archive": false
+            },
+            {
+              "year": "2017",
+              "url": "https://eddirasa.com/ens-sec/3as/bac-solutions/subject/francais/",
+              "source": "Eddirasa",
+              "is_archive": false
+            },
+            {
+              "year": "2016",
+              "url": "https://eddirasa.com/ens-sec/3as/bac-solutions/subject/francais/",
+              "source": "Eddirasa",
+              "is_archive": false
+            },
+            {
+              "year": "2015",
+              "url": "https://eddirasa.com/ens-sec/3as/bac-solutions/subject/francais/",
+              "source": "Eddirasa",
+              "is_archive": false
+            },
+            {
+              "year": "أرشيف كامل",
+              "url": "https://eddirasa.com/ens-sec/3as/bac-solutions/subject/francais/",
+              "source": "Eddirasa",
+              "is_archive": true
+            }
+          ]
+        },
+        {
+          "slug": "english",
+          "name": "الإنجليزية",
+          "icon": "🇬🇧",
+          "exams": [
+            {
+              "year": "2025",
+              "url": "https://www.snvdz.com/",
+              "source": "SNVDZ",
+              "is_archive": false
+            },
+            {
+              "year": "2024",
+              "url": "https://eddirasa.com/ens-sec/3as/bac-solutions/subject/anglais/",
+              "source": "Eddirasa",
+              "is_archive": false
+            },
+            {
+              "year": "2023",
+              "url": "https://eddirasa.com/ens-sec/3as/bac-solutions/subject/anglais/",
+              "source": "Eddirasa",
+              "is_archive": false
+            },
+            {
+              "year": "2022",
+              "url": "https://eddirasa.com/ens-sec/3as/bac-solutions/subject/anglais/",
+              "source": "Eddirasa",
+              "is_archive": false
+            },
+            {
+              "year": "2021",
+              "url": "https://eddirasa.com/ens-sec/3as/bac-solutions/subject/anglais/",
+              "source": "Eddirasa",
+              "is_archive": false
+            },
+            {
+              "year": "2020",
+              "url": "https://eddirasa.com/ens-sec/3as/bac-solutions/subject/anglais/",
+              "source": "Eddirasa",
+              "is_archive": false
+            },
+            {
+              "year": "2019",
+              "url": "https://eddirasa.com/ens-sec/3as/bac-solutions/subject/anglais/",
+              "source": "Eddirasa",
+              "is_archive": false
+            },
+            {
+              "year": "2018",
+              "url": "https://eddirasa.com/ens-sec/3as/bac-solutions/subject/anglais/",
+              "source": "Eddirasa",
+              "is_archive": false
+            },
+            {
+              "year": "2017",
+              "url": "https://eddirasa.com/ens-sec/3as/bac-solutions/subject/anglais/",
+              "source": "Eddirasa",
+              "is_archive": false
+            },
+            {
+              "year": "2016",
+              "url": "https://eddirasa.com/ens-sec/3as/bac-solutions/subject/anglais/",
+              "source": "Eddirasa",
+              "is_archive": false
+            },
+            {
+              "year": "2015",
+              "url": "https://eddirasa.com/ens-sec/3as/bac-solutions/subject/anglais/",
+              "source": "Eddirasa",
+              "is_archive": false
+            },
+            {
+              "year": "أرشيف كامل",
+              "url": "https://eddirasa.com/ens-sec/3as/bac-solutions/subject/anglais/",
+              "source": "Eddirasa",
+              "is_archive": true
+            }
+          ]
+        },
+        {
+          "slug": "history",
+          "name": "التاريخ والجغرافيا",
+          "icon": "🌍",
+          "exams": [
+            {
+              "year": "2025",
+              "url": "https://www.snvdz.com/",
+              "source": "SNVDZ",
+              "is_archive": false
+            },
+            {
+              "year": "2024",
+              "url": "https://eddirasa.com/ens-sec/3as/bac-solutions/subject/histoire-geographie/",
+              "source": "Eddirasa",
+              "is_archive": false
+            },
+            {
+              "year": "2023",
+              "url": "https://eddirasa.com/ens-sec/3as/bac-solutions/subject/histoire-geographie/",
+              "source": "Eddirasa",
+              "is_archive": false
+            },
+            {
+              "year": "2022",
+              "url": "https://eddirasa.com/ens-sec/3as/bac-solutions/subject/histoire-geographie/",
+              "source": "Eddirasa",
+              "is_archive": false
+            },
+            {
+              "year": "2021",
+              "url": "https://eddirasa.com/ens-sec/3as/bac-solutions/subject/histoire-geographie/",
+              "source": "Eddirasa",
+              "is_archive": false
+            },
+            {
+              "year": "2020",
+              "url": "https://eddirasa.com/ens-sec/3as/bac-solutions/subject/histoire-geographie/",
+              "source": "Eddirasa",
+              "is_archive": false
+            },
+            {
+              "year": "2019",
+              "url": "https://eddirasa.com/ens-sec/3as/bac-solutions/subject/histoire-geographie/",
+              "source": "Eddirasa",
+              "is_archive": false
+            },
+            {
+              "year": "2018",
+              "url": "https://eddirasa.com/ens-sec/3as/bac-solutions/subject/histoire-geographie/",
+              "source": "Eddirasa",
+              "is_archive": false
+            },
+            {
+              "year": "2017",
+              "url": "https://eddirasa.com/ens-sec/3as/bac-solutions/subject/histoire-geographie/",
+              "source": "Eddirasa",
+              "is_archive": false
+            },
+            {
+              "year": "2016",
+              "url": "https://eddirasa.com/ens-sec/3as/bac-solutions/subject/histoire-geographie/",
+              "source": "Eddirasa",
+              "is_archive": false
+            },
+            {
+              "year": "2015",
+              "url": "https://eddirasa.com/ens-sec/3as/bac-solutions/subject/histoire-geographie/",
+              "source": "Eddirasa",
+              "is_archive": false
+            },
+            {
+              "year": "أرشيف كامل",
+              "url": "https://eddirasa.com/ens-sec/3as/bac-solutions/subject/histoire-geographie/",
+              "source": "Eddirasa",
+              "is_archive": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "gestion",
+      "name": "تسيير واقتصاد",
+      "icon": "📊",
+      "description": "أرشيف بكالوريا شعبة التسيير والاقتصاد",
+      "gradient": "from-yellow-400 to-amber-500",
+      "subjects": [
+        {
+          "slug": "accounting",
+          "name": "التسيير المحاسبي",
+          "icon": "📊",
+          "exams": [
+            {
+              "year": "2025",
+              "url": "https://www.snvdz.com/",
+              "source": "SNVDZ",
+              "is_archive": false
+            },
+            {
+              "year": "2024",
+              "url": "https://eddirasa.com/ens-sec/3as/bac-solutions/subject/gestion-comptable/",
+              "source": "Eddirasa",
+              "is_archive": false
+            },
+            {
+              "year": "2023",
+              "url": "https://eddirasa.com/ens-sec/3as/bac-solutions/subject/gestion-comptable/",
+              "source": "Eddirasa",
+              "is_archive": false
+            },
+            {
+              "year": "2022",
+              "url": "https://eddirasa.com/ens-sec/3as/bac-solutions/subject/gestion-comptable/",
+              "source": "Eddirasa",
+              "is_archive": false
+            },
+            {
+              "year": "2021",
+              "url": "https://eddirasa.com/ens-sec/3as/bac-solutions/subject/gestion-comptable/",
+              "source": "Eddirasa",
+              "is_archive": false
+            },
+            {
+              "year": "2020",
+              "url": "https://eddirasa.com/ens-sec/3as/bac-solutions/subject/gestion-comptable/",
+              "source": "Eddirasa",
+              "is_archive": false
+            },
+            {
+              "year": "2019",
+              "url": "https://eddirasa.com/ens-sec/3as/bac-solutions/subject/gestion-comptable/",
+              "source": "Eddirasa",
+              "is_archive": false
+            },
+            {
+              "year": "2018",
+              "url": "https://eddirasa.com/ens-sec/3as/bac-solutions/subject/gestion-comptable/",
+              "source": "Eddirasa",
+              "is_archive": false
+            },
+            {
+              "year": "2017",
+              "url": "https://eddirasa.com/ens-sec/3as/bac-solutions/subject/gestion-comptable/",
+              "source": "Eddirasa",
+              "is_archive": false
+            },
+            {
+              "year": "2016",
+              "url": "https://eddirasa.com/ens-sec/3as/bac-solutions/subject/gestion-comptable/",
+              "source": "Eddirasa",
+              "is_archive": false
+            },
+            {
+              "year": "2015",
+              "url": "https://eddirasa.com/ens-sec/3as/bac-solutions/subject/gestion-comptable/",
+              "source": "Eddirasa",
+              "is_archive": false
+            },
+            {
+              "year": "أرشيف كامل",
+              "url": "https://eddirasa.com/ens-sec/3as/bac-solutions/subject/gestion-comptable/",
+              "source": "Eddirasa",
+              "is_archive": true
+            }
+          ]
+        },
+        {
+          "slug": "economy",
+          "name": "الاقتصاد والمناجمنت",
+          "icon": "💼",
+          "exams": [
+            {
+              "year": "2025",
+              "url": "https://www.snvdz.com/",
+              "source": "SNVDZ",
+              "is_archive": false
+            },
+            {
+              "year": "2024",
+              "url": "https://eddirasa.com/ens-sec/3as/bac-solutions/subject/economie/",
+              "source": "Eddirasa",
+              "is_archive": false
+            },
+            {
+              "year": "2023",
+              "url": "https://eddirasa.com/ens-sec/3as/bac-solutions/subject/economie/",
+              "source": "Eddirasa",
+              "is_archive": false
+            },
+            {
+              "year": "2022",
+              "url": "https://eddirasa.com/ens-sec/3as/bac-solutions/subject/economie/",
+              "source": "Eddirasa",
+              "is_archive": false
+            },
+            {
+              "year": "2021",
+              "url": "https://eddirasa.com/ens-sec/3as/bac-solutions/subject/economie/",
+              "source": "Eddirasa",
+              "is_archive": false
+            },
+            {
+              "year": "2020",
+              "url": "https://eddirasa.com/ens-sec/3as/bac-solutions/subject/economie/",
+              "source": "Eddirasa",
+              "is_archive": false
+            },
+            {
+              "year": "2019",
+              "url": "https://eddirasa.com/ens-sec/3as/bac-solutions/subject/economie/",
+              "source": "Eddirasa",
+              "is_archive": false
+            },
+            {
+              "year": "2018",
+              "url": "https://eddirasa.com/ens-sec/3as/bac-solutions/subject/economie/",
+              "source": "Eddirasa",
+              "is_archive": false
+            },
+            {
+              "year": "2017",
+              "url": "https://eddirasa.com/ens-sec/3as/bac-solutions/subject/economie/",
+              "source": "Eddirasa",
+              "is_archive": false
+            },
+            {
+              "year": "2016",
+              "url": "https://eddirasa.com/ens-sec/3as/bac-solutions/subject/economie/",
+              "source": "Eddirasa",
+              "is_archive": false
+            },
+            {
+              "year": "2015",
+              "url": "https://eddirasa.com/ens-sec/3as/bac-solutions/subject/economie/",
+              "source": "Eddirasa",
+              "is_archive": false
+            },
+            {
+              "year": "أرشيف كامل",
+              "url": "https://eddirasa.com/ens-sec/3as/bac-solutions/subject/economie/",
+              "source": "Eddirasa",
+              "is_archive": true
+            }
+          ]
+        },
+        {
+          "slug": "math",
+          "name": "الرياضيات",
+          "icon": "📐",
+          "exams": [
+            {
+              "year": "2025",
+              "url": "https://www.snvdz.com/",
+              "source": "SNVDZ",
+              "is_archive": false
+            },
+            {
+              "year": "2024",
+              "url": "https://eddirasa.com/ens-sec/3as/bac-solutions/subject/mathematiques/",
+              "source": "Eddirasa",
+              "is_archive": false
+            },
+            {
+              "year": "2023",
+              "url": "https://eddirasa.com/ens-sec/3as/bac-solutions/subject/mathematiques/",
+              "source": "Eddirasa",
+              "is_archive": false
+            },
+            {
+              "year": "2022",
+              "url": "https://eddirasa.com/ens-sec/3as/bac-solutions/subject/mathematiques/",
+              "source": "Eddirasa",
+              "is_archive": false
+            },
+            {
+              "year": "2021",
+              "url": "https://eddirasa.com/ens-sec/3as/bac-solutions/subject/mathematiques/",
+              "source": "Eddirasa",
+              "is_archive": false
+            },
+            {
+              "year": "2020",
+              "url": "https://eddirasa.com/ens-sec/3as/bac-solutions/subject/mathematiques/",
+              "source": "Eddirasa",
+              "is_archive": false
+            },
+            {
+              "year": "2019",
+              "url": "https://eddirasa.com/ens-sec/3as/bac-solutions/subject/mathematiques/",
+              "source": "Eddirasa",
+              "is_archive": false
+            },
+            {
+              "year": "2018",
+              "url": "https://eddirasa.com/ens-sec/3as/bac-solutions/subject/mathematiques/",
+              "source": "Eddirasa",
+              "is_archive": false
+            },
+            {
+              "year": "2017",
+              "url": "https://eddirasa.com/ens-sec/3as/bac-solutions/subject/mathematiques/",
+              "source": "Eddirasa",
+              "is_archive": false
+            },
+            {
+              "year": "2016",
+              "url": "https://eddirasa.com/ens-sec/3as/bac-solutions/subject/mathematiques/",
+              "source": "Eddirasa",
+              "is_archive": false
+            },
+            {
+              "year": "2015",
+              "url": "https://eddirasa.com/ens-sec/3as/bac-solutions/subject/mathematiques/",
+              "source": "Eddirasa",
+              "is_archive": false
+            },
+            {
+              "year": "أرشيف كامل",
+              "url": "https://eddirasa.com/ens-sec/3as/bac-solutions/subject/mathematiques/",
+              "source": "Eddirasa",
+              "is_archive": true
+            }
+          ]
+        },
+        {
+          "slug": "law",
+          "name": "القانون",
+          "icon": "⚖️",
+          "exams": [
+            {
+              "year": "2025",
+              "url": "https://www.snvdz.com/",
+              "source": "SNVDZ",
+              "is_archive": false
+            },
+            {
+              "year": "2024",
+              "url": "https://eddirasa.com/ens-sec/3as/bac-solutions/subject/droit/",
+              "source": "Eddirasa",
+              "is_archive": false
+            },
+            {
+              "year": "2023",
+              "url": "https://eddirasa.com/ens-sec/3as/bac-solutions/subject/droit/",
+              "source": "Eddirasa",
+              "is_archive": false
+            },
+            {
+              "year": "2022",
+              "url": "https://eddirasa.com/ens-sec/3as/bac-solutions/subject/droit/",
+              "source": "Eddirasa",
+              "is_archive": false
+            },
+            {
+              "year": "2021",
+              "url": "https://eddirasa.com/ens-sec/3as/bac-solutions/subject/droit/",
+              "source": "Eddirasa",
+              "is_archive": false
+            },
+            {
+              "year": "2020",
+              "url": "https://eddirasa.com/ens-sec/3as/bac-solutions/subject/droit/",
+              "source": "Eddirasa",
+              "is_archive": false
+            },
+            {
+              "year": "2019",
+              "url": "https://eddirasa.com/ens-sec/3as/bac-solutions/subject/droit/",
+              "source": "Eddirasa",
+              "is_archive": false
+            },
+            {
+              "year": "2018",
+              "url": "https://eddirasa.com/ens-sec/3as/bac-solutions/subject/droit/",
+              "source": "Eddirasa",
+              "is_archive": false
+            },
+            {
+              "year": "2017",
+              "url": "https://eddirasa.com/ens-sec/3as/bac-solutions/subject/droit/",
+              "source": "Eddirasa",
+              "is_archive": false
+            },
+            {
+              "year": "2016",
+              "url": "https://eddirasa.com/ens-sec/3as/bac-solutions/subject/droit/",
+              "source": "Eddirasa",
+              "is_archive": false
+            },
+            {
+              "year": "2015",
+              "url": "https://eddirasa.com/ens-sec/3as/bac-solutions/subject/droit/",
+              "source": "Eddirasa",
+              "is_archive": false
+            },
+            {
+              "year": "أرشيف كامل",
+              "url": "https://eddirasa.com/ens-sec/3as/bac-solutions/subject/droit/",
+              "source": "Eddirasa",
+              "is_archive": true
+            }
+          ]
+        },
+        {
+          "slug": "philosophy",
+          "name": "الفلسفة",
+          "icon": "🧠",
+          "exams": [
+            {
+              "year": "2025",
+              "url": "https://www.snvdz.com/",
+              "source": "SNVDZ",
+              "is_archive": false
+            },
+            {
+              "year": "2024",
+              "url": "https://eddirasa.com/ens-sec/3as/bac-solutions/subject/philosophie/",
+              "source": "Eddirasa",
+              "is_archive": false
+            },
+            {
+              "year": "2023",
+              "url": "https://eddirasa.com/ens-sec/3as/bac-solutions/subject/philosophie/",
+              "source": "Eddirasa",
+              "is_archive": false
+            },
+            {
+              "year": "2022",
+              "url": "https://eddirasa.com/ens-sec/3as/bac-solutions/subject/philosophie/",
+              "source": "Eddirasa",
+              "is_archive": false
+            },
+            {
+              "year": "2021",
+              "url": "https://eddirasa.com/ens-sec/3as/bac-solutions/subject/philosophie/",
+              "source": "Eddirasa",
+              "is_archive": false
+            },
+            {
+              "year": "2020",
+              "url": "https://eddirasa.com/ens-sec/3as/bac-solutions/subject/philosophie/",
+              "source": "Eddirasa",
+              "is_archive": false
+            },
+            {
+              "year": "2019",
+              "url": "https://eddirasa.com/ens-sec/3as/bac-solutions/subject/philosophie/",
+              "source": "Eddirasa",
+              "is_archive": false
+            },
+            {
+              "year": "2018",
+              "url": "https://eddirasa.com/ens-sec/3as/bac-solutions/subject/philosophie/",
+              "source": "Eddirasa",
+              "is_archive": false
+            },
+            {
+              "year": "2017",
+              "url": "https://eddirasa.com/ens-sec/3as/bac-solutions/subject/philosophie/",
+              "source": "Eddirasa",
+              "is_archive": false
+            },
+            {
+              "year": "2016",
+              "url": "https://eddirasa.com/ens-sec/3as/bac-solutions/subject/philosophie/",
+              "source": "Eddirasa",
+              "is_archive": false
+            },
+            {
+              "year": "2015",
+              "url": "https://eddirasa.com/ens-sec/3as/bac-solutions/subject/philosophie/",
+              "source": "Eddirasa",
+              "is_archive": false
+            },
+            {
+              "year": "أرشيف كامل",
+              "url": "https://eddirasa.com/ens-sec/3as/bac-solutions/subject/philosophie/",
+              "source": "Eddirasa",
+              "is_archive": true
+            }
+          ]
+        },
+        {
+          "slug": "arabic",
+          "name": "اللغة العربية",
+          "icon": "📖",
+          "exams": [
+            {
+              "year": "2025",
+              "url": "https://www.snvdz.com/",
+              "source": "SNVDZ",
+              "is_archive": false
+            },
+            {
+              "year": "2024",
+              "url": "https://eddirasa.com/ens-sec/3as/bac-solutions/subject/arabe/",
+              "source": "Eddirasa",
+              "is_archive": false
+            },
+            {
+              "year": "2023",
+              "url": "https://eddirasa.com/ens-sec/3as/bac-solutions/subject/arabe/",
+              "source": "Eddirasa",
+              "is_archive": false
+            },
+            {
+              "year": "2022",
+              "url": "https://eddirasa.com/ens-sec/3as/bac-solutions/subject/arabe/",
+              "source": "Eddirasa",
+              "is_archive": false
+            },
+            {
+              "year": "2021",
+              "url": "https://eddirasa.com/ens-sec/3as/bac-solutions/subject/arabe/",
+              "source": "Eddirasa",
+              "is_archive": false
+            },
+            {
+              "year": "2020",
+              "url": "https://eddirasa.com/ens-sec/3as/bac-solutions/subject/arabe/",
+              "source": "Eddirasa",
+              "is_archive": false
+            },
+            {
+              "year": "2019",
+              "url": "https://eddirasa.com/ens-sec/3as/bac-solutions/subject/arabe/",
+              "source": "Eddirasa",
+              "is_archive": false
+            },
+            {
+              "year": "2018",
+              "url": "https://eddirasa.com/ens-sec/3as/bac-solutions/subject/arabe/",
+              "source": "Eddirasa",
+              "is_archive": false
+            },
+            {
+              "year": "2017",
+              "url": "https://eddirasa.com/ens-sec/3as/bac-solutions/subject/arabe/",
+              "source": "Eddirasa",
+              "is_archive": false
+            },
+            {
+              "year": "2016",
+              "url": "https://eddirasa.com/ens-sec/3as/bac-solutions/subject/arabe/",
+              "source": "Eddirasa",
+              "is_archive": false
+            },
+            {
+              "year": "2015",
+              "url": "https://eddirasa.com/ens-sec/3as/bac-solutions/subject/arabe/",
+              "source": "Eddirasa",
+              "is_archive": false
+            },
+            {
+              "year": "أرشيف كامل",
+              "url": "https://eddirasa.com/ens-sec/3as/bac-solutions/subject/arabe/",
+              "source": "Eddirasa",
+              "is_archive": true
+            }
+          ]
+        },
+        {
+          "slug": "french",
+          "name": "الفرنسية",
+          "icon": "🇫🇷",
+          "exams": [
+            {
+              "year": "2025",
+              "url": "https://www.snvdz.com/",
+              "source": "SNVDZ",
+              "is_archive": false
+            },
+            {
+              "year": "2024",
+              "url": "https://eddirasa.com/ens-sec/3as/bac-solutions/subject/francais/",
+              "source": "Eddirasa",
+              "is_archive": false
+            },
+            {
+              "year": "2023",
+              "url": "https://eddirasa.com/ens-sec/3as/bac-solutions/subject/francais/",
+              "source": "Eddirasa",
+              "is_archive": false
+            },
+            {
+              "year": "2022",
+              "url": "https://eddirasa.com/ens-sec/3as/bac-solutions/subject/francais/",
+              "source": "Eddirasa",
+              "is_archive": false
+            },
+            {
+              "year": "2021",
+              "url": "https://eddirasa.com/ens-sec/3as/bac-solutions/subject/francais/",
+              "source": "Eddirasa",
+              "is_archive": false
+            },
+            {
+              "year": "2020",
+              "url": "https://eddirasa.com/ens-sec/3as/bac-solutions/subject/francais/",
+              "source": "Eddirasa",
+              "is_archive": false
+            },
+            {
+              "year": "2019",
+              "url": "https://eddirasa.com/ens-sec/3as/bac-solutions/subject/francais/",
+              "source": "Eddirasa",
+              "is_archive": false
+            },
+            {
+              "year": "2018",
+              "url": "https://eddirasa.com/ens-sec/3as/bac-solutions/subject/francais/",
+              "source": "Eddirasa",
+              "is_archive": false
+            },
+            {
+              "year": "2017",
+              "url": "https://eddirasa.com/ens-sec/3as/bac-solutions/subject/francais/",
+              "source": "Eddirasa",
+              "is_archive": false
+            },
+            {
+              "year": "2016",
+              "url": "https://eddirasa.com/ens-sec/3as/bac-solutions/subject/francais/",
+              "source": "Eddirasa",
+              "is_archive": false
+            },
+            {
+              "year": "2015",
+              "url": "https://eddirasa.com/ens-sec/3as/bac-solutions/subject/francais/",
+              "source": "Eddirasa",
+              "is_archive": false
+            },
+            {
+              "year": "أرشيف كامل",
+              "url": "https://eddirasa.com/ens-sec/3as/bac-solutions/subject/francais/",
+              "source": "Eddirasa",
+              "is_archive": true
+            }
+          ]
+        },
+        {
+          "slug": "english",
+          "name": "الإنجليزية",
+          "icon": "🇬🇧",
+          "exams": [
+            {
+              "year": "2025",
+              "url": "https://www.snvdz.com/",
+              "source": "SNVDZ",
+              "is_archive": false
+            },
+            {
+              "year": "2024",
+              "url": "https://eddirasa.com/ens-sec/3as/bac-solutions/subject/anglais/",
+              "source": "Eddirasa",
+              "is_archive": false
+            },
+            {
+              "year": "2023",
+              "url": "https://eddirasa.com/ens-sec/3as/bac-solutions/subject/anglais/",
+              "source": "Eddirasa",
+              "is_archive": false
+            },
+            {
+              "year": "2022",
+              "url": "https://eddirasa.com/ens-sec/3as/bac-solutions/subject/anglais/",
+              "source": "Eddirasa",
+              "is_archive": false
+            },
+            {
+              "year": "2021",
+              "url": "https://eddirasa.com/ens-sec/3as/bac-solutions/subject/anglais/",
+              "source": "Eddirasa",
+              "is_archive": false
+            },
+            {
+              "year": "2020",
+              "url": "https://eddirasa.com/ens-sec/3as/bac-solutions/subject/anglais/",
+              "source": "Eddirasa",
+              "is_archive": false
+            },
+            {
+              "year": "2019",
+              "url": "https://eddirasa.com/ens-sec/3as/bac-solutions/subject/anglais/",
+              "source": "Eddirasa",
+              "is_archive": false
+            },
+            {
+              "year": "2018",
+              "url": "https://eddirasa.com/ens-sec/3as/bac-solutions/subject/anglais/",
+              "source": "Eddirasa",
+              "is_archive": false
+            },
+            {
+              "year": "2017",
+              "url": "https://eddirasa.com/ens-sec/3as/bac-solutions/subject/anglais/",
+              "source": "Eddirasa",
+              "is_archive": false
+            },
+            {
+              "year": "2016",
+              "url": "https://eddirasa.com/ens-sec/3as/bac-solutions/subject/anglais/",
+              "source": "Eddirasa",
+              "is_archive": false
+            },
+            {
+              "year": "2015",
+              "url": "https://eddirasa.com/ens-sec/3as/bac-solutions/subject/anglais/",
+              "source": "Eddirasa",
+              "is_archive": false
+            },
+            {
+              "year": "أرشيف كامل",
+              "url": "https://eddirasa.com/ens-sec/3as/bac-solutions/subject/anglais/",
+              "source": "Eddirasa",
+              "is_archive": true
+            }
+          ]
+        },
+        {
+          "slug": "history",
+          "name": "التاريخ والجغرافيا",
+          "icon": "🌍",
+          "exams": [
+            {
+              "year": "2025",
+              "url": "https://www.snvdz.com/",
+              "source": "SNVDZ",
+              "is_archive": false
+            },
+            {
+              "year": "2024",
+              "url": "https://eddirasa.com/ens-sec/3as/bac-solutions/subject/histoire-geographie/",
+              "source": "Eddirasa",
+              "is_archive": false
+            },
+            {
+              "year": "2023",
+              "url": "https://eddirasa.com/ens-sec/3as/bac-solutions/subject/histoire-geographie/",
+              "source": "Eddirasa",
+              "is_archive": false
+            },
+            {
+              "year": "2022",
+              "url": "https://eddirasa.com/ens-sec/3as/bac-solutions/subject/histoire-geographie/",
+              "source": "Eddirasa",
+              "is_archive": false
+            },
+            {
+              "year": "2021",
+              "url": "https://eddirasa.com/ens-sec/3as/bac-solutions/subject/histoire-geographie/",
+              "source": "Eddirasa",
+              "is_archive": false
+            },
+            {
+              "year": "2020",
+              "url": "https://eddirasa.com/ens-sec/3as/bac-solutions/subject/histoire-geographie/",
+              "source": "Eddirasa",
+              "is_archive": false
+            },
+            {
+              "year": "2019",
+              "url": "https://eddirasa.com/ens-sec/3as/bac-solutions/subject/histoire-geographie/",
+              "source": "Eddirasa",
+              "is_archive": false
+            },
+            {
+              "year": "2018",
+              "url": "https://eddirasa.com/ens-sec/3as/bac-solutions/subject/histoire-geographie/",
+              "source": "Eddirasa",
+              "is_archive": false
+            },
+            {
+              "year": "2017",
+              "url": "https://eddirasa.com/ens-sec/3as/bac-solutions/subject/histoire-geographie/",
+              "source": "Eddirasa",
+              "is_archive": false
+            },
+            {
+              "year": "2016",
+              "url": "https://eddirasa.com/ens-sec/3as/bac-solutions/subject/histoire-geographie/",
+              "source": "Eddirasa",
+              "is_archive": false
+            },
+            {
+              "year": "2015",
+              "url": "https://eddirasa.com/ens-sec/3as/bac-solutions/subject/histoire-geographie/",
+              "source": "Eddirasa",
+              "is_archive": false
+            },
+            {
+              "year": "أرشيف كامل",
+              "url": "https://eddirasa.com/ens-sec/3as/bac-solutions/subject/histoire-geographie/",
+              "source": "Eddirasa",
+              "is_archive": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "letters",
+      "name": "آداب وفلسفة",
+      "icon": "📚",
+      "description": "أرشيف بكالوريا شعبة الآداب والفلسفة",
+      "gradient": "from-purple-400 to-pink-500",
+      "subjects": [
+        {
+          "slug": "philosophy",
+          "name": "الفلسفة",
+          "icon": "🧠",
+          "exams": [
+            {
+              "year": "2025",
+              "url": "https://www.snvdz.com/",
+              "source": "SNVDZ",
+              "is_archive": false
+            },
+            {
+              "year": "2024",
+              "url": "https://eddirasa.com/ens-sec/3as/bac-solutions/subject/philosophie/",
+              "source": "Eddirasa",
+              "is_archive": false
+            },
+            {
+              "year": "2023",
+              "url": "https://eddirasa.com/ens-sec/3as/bac-solutions/subject/philosophie/",
+              "source": "Eddirasa",
+              "is_archive": false
+            },
+            {
+              "year": "2022",
+              "url": "https://eddirasa.com/ens-sec/3as/bac-solutions/subject/philosophie/",
+              "source": "Eddirasa",
+              "is_archive": false
+            },
+            {
+              "year": "2021",
+              "url": "https://eddirasa.com/ens-sec/3as/bac-solutions/subject/philosophie/",
+              "source": "Eddirasa",
+              "is_archive": false
+            },
+            {
+              "year": "2020",
+              "url": "https://eddirasa.com/ens-sec/3as/bac-solutions/subject/philosophie/",
+              "source": "Eddirasa",
+              "is_archive": false
+            },
+            {
+              "year": "2019",
+              "url": "https://eddirasa.com/ens-sec/3as/bac-solutions/subject/philosophie/",
+              "source": "Eddirasa",
+              "is_archive": false
+            },
+            {
+              "year": "2018",
+              "url": "https://eddirasa.com/ens-sec/3as/bac-solutions/subject/philosophie/",
+              "source": "Eddirasa",
+              "is_archive": false
+            },
+            {
+              "year": "2017",
+              "url": "https://eddirasa.com/ens-sec/3as/bac-solutions/subject/philosophie/",
+              "source": "Eddirasa",
+              "is_archive": false
+            },
+            {
+              "year": "2016",
+              "url": "https://eddirasa.com/ens-sec/3as/bac-solutions/subject/philosophie/",
+              "source": "Eddirasa",
+              "is_archive": false
+            },
+            {
+              "year": "2015",
+              "url": "https://eddirasa.com/ens-sec/3as/bac-solutions/subject/philosophie/",
+              "source": "Eddirasa",
+              "is_archive": false
+            },
+            {
+              "year": "أرشيف كامل",
+              "url": "https://eddirasa.com/ens-sec/3as/bac-solutions/subject/philosophie/",
+              "source": "Eddirasa",
+              "is_archive": true
+            }
+          ]
+        },
+        {
+          "slug": "arabic",
+          "name": "اللغة العربية",
+          "icon": "📖",
+          "exams": [
+            {
+              "year": "2025",
+              "url": "https://www.snvdz.com/",
+              "source": "SNVDZ",
+              "is_archive": false
+            },
+            {
+              "year": "2024",
+              "url": "https://eddirasa.com/ens-sec/3as/bac-solutions/subject/arabe/",
+              "source": "Eddirasa",
+              "is_archive": false
+            },
+            {
+              "year": "2023",
+              "url": "https://eddirasa.com/ens-sec/3as/bac-solutions/subject/arabe/",
+              "source": "Eddirasa",
+              "is_archive": false
+            },
+            {
+              "year": "2022",
+              "url": "https://eddirasa.com/ens-sec/3as/bac-solutions/subject/arabe/",
+              "source": "Eddirasa",
+              "is_archive": false
+            },
+            {
+              "year": "2021",
+              "url": "https://eddirasa.com/ens-sec/3as/bac-solutions/subject/arabe/",
+              "source": "Eddirasa",
+              "is_archive": false
+            },
+            {
+              "year": "2020",
+              "url": "https://eddirasa.com/ens-sec/3as/bac-solutions/subject/arabe/",
+              "source": "Eddirasa",
+              "is_archive": false
+            },
+            {
+              "year": "2019",
+              "url": "https://eddirasa.com/ens-sec/3as/bac-solutions/subject/arabe/",
+              "source": "Eddirasa",
+              "is_archive": false
+            },
+            {
+              "year": "2018",
+              "url": "https://eddirasa.com/ens-sec/3as/bac-solutions/subject/arabe/",
+              "source": "Eddirasa",
+              "is_archive": false
+            },
+            {
+              "year": "2017",
+              "url": "https://eddirasa.com/ens-sec/3as/bac-solutions/subject/arabe/",
+              "source": "Eddirasa",
+              "is_archive": false
+            },
+            {
+              "year": "2016",
+              "url": "https://eddirasa.com/ens-sec/3as/bac-solutions/subject/arabe/",
+              "source": "Eddirasa",
+              "is_archive": false
+            },
+            {
+              "year": "2015",
+              "url": "https://eddirasa.com/ens-sec/3as/bac-solutions/subject/arabe/",
+              "source": "Eddirasa",
+              "is_archive": false
+            },
+            {
+              "year": "أرشيف كامل",
+              "url": "https://eddirasa.com/ens-sec/3as/bac-solutions/subject/arabe/",
+              "source": "Eddirasa",
+              "is_archive": true
+            }
+          ]
+        },
+        {
+          "slug": "history",
+          "name": "التاريخ والجغرافيا",
+          "icon": "🌍",
+          "exams": [
+            {
+              "year": "2025",
+              "url": "https://www.snvdz.com/",
+              "source": "SNVDZ",
+              "is_archive": false
+            },
+            {
+              "year": "2024",
+              "url": "https://eddirasa.com/ens-sec/3as/bac-solutions/subject/histoire-geographie/",
+              "source": "Eddirasa",
+              "is_archive": false
+            },
+            {
+              "year": "2023",
+              "url": "https://eddirasa.com/ens-sec/3as/bac-solutions/subject/histoire-geographie/",
+              "source": "Eddirasa",
+              "is_archive": false
+            },
+            {
+              "year": "2022",
+              "url": "https://eddirasa.com/ens-sec/3as/bac-solutions/subject/histoire-geographie/",
+              "source": "Eddirasa",
+              "is_archive": false
+            },
+            {
+              "year": "2021",
+              "url": "https://eddirasa.com/ens-sec/3as/bac-solutions/subject/histoire-geographie/",
+              "source": "Eddirasa",
+              "is_archive": false
+            },
+            {
+              "year": "2020",
+              "url": "https://eddirasa.com/ens-sec/3as/bac-solutions/subject/histoire-geographie/",
+              "source": "Eddirasa",
+              "is_archive": false
+            },
+            {
+              "year": "2019",
+              "url": "https://eddirasa.com/ens-sec/3as/bac-solutions/subject/histoire-geographie/",
+              "source": "Eddirasa",
+              "is_archive": false
+            },
+            {
+              "year": "2018",
+              "url": "https://eddirasa.com/ens-sec/3as/bac-solutions/subject/histoire-geographie/",
+              "source": "Eddirasa",
+              "is_archive": false
+            },
+            {
+              "year": "2017",
+              "url": "https://eddirasa.com/ens-sec/3as/bac-solutions/subject/histoire-geographie/",
+              "source": "Eddirasa",
+              "is_archive": false
+            },
+            {
+              "year": "2016",
+              "url": "https://eddirasa.com/ens-sec/3as/bac-solutions/subject/histoire-geographie/",
+              "source": "Eddirasa",
+              "is_archive": false
+            },
+            {
+              "year": "2015",
+              "url": "https://eddirasa.com/ens-sec/3as/bac-solutions/subject/histoire-geographie/",
+              "source": "Eddirasa",
+              "is_archive": false
+            },
+            {
+              "year": "أرشيف كامل",
+              "url": "https://eddirasa.com/ens-sec/3as/bac-solutions/subject/histoire-geographie/",
+              "source": "Eddirasa",
+              "is_archive": true
+            }
+          ]
+        },
+        {
+          "slug": "islamic",
+          "name": "العلوم الإسلامية",
+          "icon": "🕌",
+          "exams": [
+            {
+              "year": "2025",
+              "url": "https://www.snvdz.com/",
+              "source": "SNVDZ",
+              "is_archive": false
+            },
+            {
+              "year": "2024",
+              "url": "https://eddirasa.com/ens-sec/3as/bac-solutions/subject/sciences-islamiques/",
+              "source": "Eddirasa",
+              "is_archive": false
+            },
+            {
+              "year": "2023",
+              "url": "https://eddirasa.com/ens-sec/3as/bac-solutions/subject/sciences-islamiques/",
+              "source": "Eddirasa",
+              "is_archive": false
+            },
+            {
+              "year": "2022",
+              "url": "https://eddirasa.com/ens-sec/3as/bac-solutions/subject/sciences-islamiques/",
+              "source": "Eddirasa",
+              "is_archive": false
+            },
+            {
+              "year": "2021",
+              "url": "https://eddirasa.com/ens-sec/3as/bac-solutions/subject/sciences-islamiques/",
+              "source": "Eddirasa",
+              "is_archive": false
+            },
+            {
+              "year": "2020",
+              "url": "https://eddirasa.com/ens-sec/3as/bac-solutions/subject/sciences-islamiques/",
+              "source": "Eddirasa",
+              "is_archive": false
+            },
+            {
+              "year": "2019",
+              "url": "https://eddirasa.com/ens-sec/3as/bac-solutions/subject/sciences-islamiques/",
+              "source": "Eddirasa",
+              "is_archive": false
+            },
+            {
+              "year": "2018",
+              "url": "https://eddirasa.com/ens-sec/3as/bac-solutions/subject/sciences-islamiques/",
+              "source": "Eddirasa",
+              "is_archive": false
+            },
+            {
+              "year": "2017",
+              "url": "https://eddirasa.com/ens-sec/3as/bac-solutions/subject/sciences-islamiques/",
+              "source": "Eddirasa",
+              "is_archive": false
+            },
+            {
+              "year": "2016",
+              "url": "https://eddirasa.com/ens-sec/3as/bac-solutions/subject/sciences-islamiques/",
+              "source": "Eddirasa",
+              "is_archive": false
+            },
+            {
+              "year": "2015",
+              "url": "https://eddirasa.com/ens-sec/3as/bac-solutions/subject/sciences-islamiques/",
+              "source": "Eddirasa",
+              "is_archive": false
+            },
+            {
+              "year": "أرشيف كامل",
+              "url": "https://eddirasa.com/ens-sec/3as/bac-solutions/subject/sciences-islamiques/",
+              "source": "Eddirasa",
+              "is_archive": true
+            }
+          ]
+        },
+        {
+          "slug": "french",
+          "name": "الفرنسية",
+          "icon": "🇫🇷",
+          "exams": [
+            {
+              "year": "2025",
+              "url": "https://www.snvdz.com/",
+              "source": "SNVDZ",
+              "is_archive": false
+            },
+            {
+              "year": "2024",
+              "url": "https://eddirasa.com/ens-sec/3as/bac-solutions/subject/francais/",
+              "source": "Eddirasa",
+              "is_archive": false
+            },
+            {
+              "year": "2023",
+              "url": "https://eddirasa.com/ens-sec/3as/bac-solutions/subject/francais/",
+              "source": "Eddirasa",
+              "is_archive": false
+            },
+            {
+              "year": "2022",
+              "url": "https://eddirasa.com/ens-sec/3as/bac-solutions/subject/francais/",
+              "source": "Eddirasa",
+              "is_archive": false
+            },
+            {
+              "year": "2021",
+              "url": "https://eddirasa.com/ens-sec/3as/bac-solutions/subject/francais/",
+              "source": "Eddirasa",
+              "is_archive": false
+            },
+            {
+              "year": "2020",
+              "url": "https://eddirasa.com/ens-sec/3as/bac-solutions/subject/francais/",
+              "source": "Eddirasa",
+              "is_archive": false
+            },
+            {
+              "year": "2019",
+              "url": "https://eddirasa.com/ens-sec/3as/bac-solutions/subject/francais/",
+              "source": "Eddirasa",
+              "is_archive": false
+            },
+            {
+              "year": "2018",
+              "url": "https://eddirasa.com/ens-sec/3as/bac-solutions/subject/francais/",
+              "source": "Eddirasa",
+              "is_archive": false
+            },
+            {
+              "year": "2017",
+              "url": "https://eddirasa.com/ens-sec/3as/bac-solutions/subject/francais/",
+              "source": "Eddirasa",
+              "is_archive": false
+            },
+            {
+              "year": "2016",
+              "url": "https://eddirasa.com/ens-sec/3as/bac-solutions/subject/francais/",
+              "source": "Eddirasa",
+              "is_archive": false
+            },
+            {
+              "year": "2015",
+              "url": "https://eddirasa.com/ens-sec/3as/bac-solutions/subject/francais/",
+              "source": "Eddirasa",
+              "is_archive": false
+            },
+            {
+              "year": "أرشيف كامل",
+              "url": "https://eddirasa.com/ens-sec/3as/bac-solutions/subject/francais/",
+              "source": "Eddirasa",
+              "is_archive": true
+            }
+          ]
+        },
+        {
+          "slug": "english",
+          "name": "الإنجليزية",
+          "icon": "🇬🇧",
+          "exams": [
+            {
+              "year": "2025",
+              "url": "https://www.snvdz.com/",
+              "source": "SNVDZ",
+              "is_archive": false
+            },
+            {
+              "year": "2024",
+              "url": "https://eddirasa.com/ens-sec/3as/bac-solutions/subject/anglais/",
+              "source": "Eddirasa",
+              "is_archive": false
+            },
+            {
+              "year": "2023",
+              "url": "https://eddirasa.com/ens-sec/3as/bac-solutions/subject/anglais/",
+              "source": "Eddirasa",
+              "is_archive": false
+            },
+            {
+              "year": "2022",
+              "url": "https://eddirasa.com/ens-sec/3as/bac-solutions/subject/anglais/",
+              "source": "Eddirasa",
+              "is_archive": false
+            },
+            {
+              "year": "2021",
+              "url": "https://eddirasa.com/ens-sec/3as/bac-solutions/subject/anglais/",
+              "source": "Eddirasa",
+              "is_archive": false
+            },
+            {
+              "year": "2020",
+              "url": "https://eddirasa.com/ens-sec/3as/bac-solutions/subject/anglais/",
+              "source": "Eddirasa",
+              "is_archive": false
+            },
+            {
+              "year": "2019",
+              "url": "https://eddirasa.com/ens-sec/3as/bac-solutions/subject/anglais/",
+              "source": "Eddirasa",
+              "is_archive": false
+            },
+            {
+              "year": "2018",
+              "url": "https://eddirasa.com/ens-sec/3as/bac-solutions/subject/anglais/",
+              "source": "Eddirasa",
+              "is_archive": false
+            },
+            {
+              "year": "2017",
+              "url": "https://eddirasa.com/ens-sec/3as/bac-solutions/subject/anglais/",
+              "source": "Eddirasa",
+              "is_archive": false
+            },
+            {
+              "year": "2016",
+              "url": "https://eddirasa.com/ens-sec/3as/bac-solutions/subject/anglais/",
+              "source": "Eddirasa",
+              "is_archive": false
+            },
+            {
+              "year": "2015",
+              "url": "https://eddirasa.com/ens-sec/3as/bac-solutions/subject/anglais/",
+              "source": "Eddirasa",
+              "is_archive": false
+            },
+            {
+              "year": "أرشيف كامل",
+              "url": "https://eddirasa.com/ens-sec/3as/bac-solutions/subject/anglais/",
+              "source": "Eddirasa",
+              "is_archive": true
+            }
+          ]
+        },
+        {
+          "slug": "math",
+          "name": "الرياضيات",
+          "icon": "📐",
+          "exams": [
+            {
+              "year": "2025",
+              "url": "https://www.snvdz.com/",
+              "source": "SNVDZ",
+              "is_archive": false
+            },
+            {
+              "year": "2024",
+              "url": "https://eddirasa.com/ens-sec/3as/bac-solutions/subject/mathematiques/",
+              "source": "Eddirasa",
+              "is_archive": false
+            },
+            {
+              "year": "2023",
+              "url": "https://eddirasa.com/ens-sec/3as/bac-solutions/subject/mathematiques/",
+              "source": "Eddirasa",
+              "is_archive": false
+            },
+            {
+              "year": "2022",
+              "url": "https://eddirasa.com/ens-sec/3as/bac-solutions/subject/mathematiques/",
+              "source": "Eddirasa",
+              "is_archive": false
+            },
+            {
+              "year": "2021",
+              "url": "https://eddirasa.com/ens-sec/3as/bac-solutions/subject/mathematiques/",
+              "source": "Eddirasa",
+              "is_archive": false
+            },
+            {
+              "year": "2020",
+              "url": "https://eddirasa.com/ens-sec/3as/bac-solutions/subject/mathematiques/",
+              "source": "Eddirasa",
+              "is_archive": false
+            },
+            {
+              "year": "2019",
+              "url": "https://eddirasa.com/ens-sec/3as/bac-solutions/subject/mathematiques/",
+              "source": "Eddirasa",
+              "is_archive": false
+            },
+            {
+              "year": "2018",
+              "url": "https://eddirasa.com/ens-sec/3as/bac-solutions/subject/mathematiques/",
+              "source": "Eddirasa",
+              "is_archive": false
+            },
+            {
+              "year": "2017",
+              "url": "https://eddirasa.com/ens-sec/3as/bac-solutions/subject/mathematiques/",
+              "source": "Eddirasa",
+              "is_archive": false
+            },
+            {
+              "year": "2016",
+              "url": "https://eddirasa.com/ens-sec/3as/bac-solutions/subject/mathematiques/",
+              "source": "Eddirasa",
+              "is_archive": false
+            },
+            {
+              "year": "2015",
+              "url": "https://eddirasa.com/ens-sec/3as/bac-solutions/subject/mathematiques/",
+              "source": "Eddirasa",
+              "is_archive": false
+            },
+            {
+              "year": "أرشيف كامل",
+              "url": "https://eddirasa.com/ens-sec/3as/bac-solutions/subject/mathematiques/",
+              "source": "Eddirasa",
+              "is_archive": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "languages",
+      "name": "لغات أجنبية",
+      "icon": "🌐",
+      "description": "أرشيف بكالوريا شعبة اللغات الأجنبية",
+      "gradient": "from-teal-400 to-cyan-500",
+      "subjects": [
+        {
+          "slug": "french",
+          "name": "الفرنسية",
+          "icon": "🇫🇷",
+          "exams": [
+            {
+              "year": "2025",
+              "url": "https://www.snvdz.com/",
+              "source": "SNVDZ",
+              "is_archive": false
+            },
+            {
+              "year": "2024",
+              "url": "https://eddirasa.com/ens-sec/3as/bac-solutions/subject/francais/",
+              "source": "Eddirasa",
+              "is_archive": false
+            },
+            {
+              "year": "2023",
+              "url": "https://eddirasa.com/ens-sec/3as/bac-solutions/subject/francais/",
+              "source": "Eddirasa",
+              "is_archive": false
+            },
+            {
+              "year": "2022",
+              "url": "https://eddirasa.com/ens-sec/3as/bac-solutions/subject/francais/",
+              "source": "Eddirasa",
+              "is_archive": false
+            },
+            {
+              "year": "2021",
+              "url": "https://eddirasa.com/ens-sec/3as/bac-solutions/subject/francais/",
+              "source": "Eddirasa",
+              "is_archive": false
+            },
+            {
+              "year": "2020",
+              "url": "https://eddirasa.com/ens-sec/3as/bac-solutions/subject/francais/",
+              "source": "Eddirasa",
+              "is_archive": false
+            },
+            {
+              "year": "2019",
+              "url": "https://eddirasa.com/ens-sec/3as/bac-solutions/subject/francais/",
+              "source": "Eddirasa",
+              "is_archive": false
+            },
+            {
+              "year": "2018",
+              "url": "https://eddirasa.com/ens-sec/3as/bac-solutions/subject/francais/",
+              "source": "Eddirasa",
+              "is_archive": false
+            },
+            {
+              "year": "2017",
+              "url": "https://eddirasa.com/ens-sec/3as/bac-solutions/subject/francais/",
+              "source": "Eddirasa",
+              "is_archive": false
+            },
+            {
+              "year": "2016",
+              "url": "https://eddirasa.com/ens-sec/3as/bac-solutions/subject/francais/",
+              "source": "Eddirasa",
+              "is_archive": false
+            },
+            {
+              "year": "2015",
+              "url": "https://eddirasa.com/ens-sec/3as/bac-solutions/subject/francais/",
+              "source": "Eddirasa",
+              "is_archive": false
+            },
+            {
+              "year": "أرشيف كامل",
+              "url": "https://eddirasa.com/ens-sec/3as/bac-solutions/subject/francais/",
+              "source": "Eddirasa",
+              "is_archive": true
+            }
+          ]
+        },
+        {
+          "slug": "english",
+          "name": "الإنجليزية",
+          "icon": "🇬🇧",
+          "exams": [
+            {
+              "year": "2025",
+              "url": "https://www.snvdz.com/",
+              "source": "SNVDZ",
+              "is_archive": false
+            },
+            {
+              "year": "2024",
+              "url": "https://eddirasa.com/ens-sec/3as/bac-solutions/subject/anglais/",
+              "source": "Eddirasa",
+              "is_archive": false
+            },
+            {
+              "year": "2023",
+              "url": "https://eddirasa.com/ens-sec/3as/bac-solutions/subject/anglais/",
+              "source": "Eddirasa",
+              "is_archive": false
+            },
+            {
+              "year": "2022",
+              "url": "https://eddirasa.com/ens-sec/3as/bac-solutions/subject/anglais/",
+              "source": "Eddirasa",
+              "is_archive": false
+            },
+            {
+              "year": "2021",
+              "url": "https://eddirasa.com/ens-sec/3as/bac-solutions/subject/anglais/",
+              "source": "Eddirasa",
+              "is_archive": false
+            },
+            {
+              "year": "2020",
+              "url": "https://eddirasa.com/ens-sec/3as/bac-solutions/subject/anglais/",
+              "source": "Eddirasa",
+              "is_archive": false
+            },
+            {
+              "year": "2019",
+              "url": "https://eddirasa.com/ens-sec/3as/bac-solutions/subject/anglais/",
+              "source": "Eddirasa",
+              "is_archive": false
+            },
+            {
+              "year": "2018",
+              "url": "https://eddirasa.com/ens-sec/3as/bac-solutions/subject/anglais/",
+              "source": "Eddirasa",
+              "is_archive": false
+            },
+            {
+              "year": "2017",
+              "url": "https://eddirasa.com/ens-sec/3as/bac-solutions/subject/anglais/",
+              "source": "Eddirasa",
+              "is_archive": false
+            },
+            {
+              "year": "2016",
+              "url": "https://eddirasa.com/ens-sec/3as/bac-solutions/subject/anglais/",
+              "source": "Eddirasa",
+              "is_archive": false
+            },
+            {
+              "year": "2015",
+              "url": "https://eddirasa.com/ens-sec/3as/bac-solutions/subject/anglais/",
+              "source": "Eddirasa",
+              "is_archive": false
+            },
+            {
+              "year": "أرشيف كامل",
+              "url": "https://eddirasa.com/ens-sec/3as/bac-solutions/subject/anglais/",
+              "source": "Eddirasa",
+              "is_archive": true
+            }
+          ]
+        },
+        {
+          "slug": "german",
+          "name": "الألمانية",
+          "icon": "🇩🇪",
+          "exams": [
+            {
+              "year": "2025",
+              "url": "https://www.snvdz.com/",
+              "source": "SNVDZ",
+              "is_archive": false
+            },
+            {
+              "year": "2024",
+              "url": "https://eddirasa.com/ens-sec/3as/bac-solutions/subject/allemand/",
+              "source": "Eddirasa",
+              "is_archive": false
+            },
+            {
+              "year": "2023",
+              "url": "https://eddirasa.com/ens-sec/3as/bac-solutions/subject/allemand/",
+              "source": "Eddirasa",
+              "is_archive": false
+            },
+            {
+              "year": "2022",
+              "url": "https://eddirasa.com/ens-sec/3as/bac-solutions/subject/allemand/",
+              "source": "Eddirasa",
+              "is_archive": false
+            },
+            {
+              "year": "2021",
+              "url": "https://eddirasa.com/ens-sec/3as/bac-solutions/subject/allemand/",
+              "source": "Eddirasa",
+              "is_archive": false
+            },
+            {
+              "year": "2020",
+              "url": "https://eddirasa.com/ens-sec/3as/bac-solutions/subject/allemand/",
+              "source": "Eddirasa",
+              "is_archive": false
+            },
+            {
+              "year": "2019",
+              "url": "https://eddirasa.com/ens-sec/3as/bac-solutions/subject/allemand/",
+              "source": "Eddirasa",
+              "is_archive": false
+            },
+            {
+              "year": "2018",
+              "url": "https://eddirasa.com/ens-sec/3as/bac-solutions/subject/allemand/",
+              "source": "Eddirasa",
+              "is_archive": false
+            },
+            {
+              "year": "2017",
+              "url": "https://eddirasa.com/ens-sec/3as/bac-solutions/subject/allemand/",
+              "source": "Eddirasa",
+              "is_archive": false
+            },
+            {
+              "year": "2016",
+              "url": "https://eddirasa.com/ens-sec/3as/bac-solutions/subject/allemand/",
+              "source": "Eddirasa",
+              "is_archive": false
+            },
+            {
+              "year": "2015",
+              "url": "https://eddirasa.com/ens-sec/3as/bac-solutions/subject/allemand/",
+              "source": "Eddirasa",
+              "is_archive": false
+            },
+            {
+              "year": "أرشيف كامل",
+              "url": "https://eddirasa.com/ens-sec/3as/bac-solutions/subject/allemand/",
+              "source": "Eddirasa",
+              "is_archive": true
+            }
+          ]
+        },
+        {
+          "slug": "spanish",
+          "name": "الإسبانية",
+          "icon": "🇪🇸",
+          "exams": [
+            {
+              "year": "2025",
+              "url": "https://www.snvdz.com/",
+              "source": "SNVDZ",
+              "is_archive": false
+            },
+            {
+              "year": "2024",
+              "url": "https://eddirasa.com/ens-sec/3as/bac-solutions/subject/espagnol/",
+              "source": "Eddirasa",
+              "is_archive": false
+            },
+            {
+              "year": "2023",
+              "url": "https://eddirasa.com/ens-sec/3as/bac-solutions/subject/espagnol/",
+              "source": "Eddirasa",
+              "is_archive": false
+            },
+            {
+              "year": "2022",
+              "url": "https://eddirasa.com/ens-sec/3as/bac-solutions/subject/espagnol/",
+              "source": "Eddirasa",
+              "is_archive": false
+            },
+            {
+              "year": "2021",
+              "url": "https://eddirasa.com/ens-sec/3as/bac-solutions/subject/espagnol/",
+              "source": "Eddirasa",
+              "is_archive": false
+            },
+            {
+              "year": "2020",
+              "url": "https://eddirasa.com/ens-sec/3as/bac-solutions/subject/espagnol/",
+              "source": "Eddirasa",
+              "is_archive": false
+            },
+            {
+              "year": "2019",
+              "url": "https://eddirasa.com/ens-sec/3as/bac-solutions/subject/espagnol/",
+              "source": "Eddirasa",
+              "is_archive": false
+            },
+            {
+              "year": "2018",
+              "url": "https://eddirasa.com/ens-sec/3as/bac-solutions/subject/espagnol/",
+              "source": "Eddirasa",
+              "is_archive": false
+            },
+            {
+              "year": "2017",
+              "url": "https://eddirasa.com/ens-sec/3as/bac-solutions/subject/espagnol/",
+              "source": "Eddirasa",
+              "is_archive": false
+            },
+            {
+              "year": "2016",
+              "url": "https://eddirasa.com/ens-sec/3as/bac-solutions/subject/espagnol/",
+              "source": "Eddirasa",
+              "is_archive": false
+            },
+            {
+              "year": "2015",
+              "url": "https://eddirasa.com/ens-sec/3as/bac-solutions/subject/espagnol/",
+              "source": "Eddirasa",
+              "is_archive": false
+            },
+            {
+              "year": "أرشيف كامل",
+              "url": "https://eddirasa.com/ens-sec/3as/bac-solutions/subject/espagnol/",
+              "source": "Eddirasa",
+              "is_archive": true
+            }
+          ]
+        },
+        {
+          "slug": "arabic",
+          "name": "اللغة العربية",
+          "icon": "📖",
+          "exams": [
+            {
+              "year": "2025",
+              "url": "https://www.snvdz.com/",
+              "source": "SNVDZ",
+              "is_archive": false
+            },
+            {
+              "year": "2024",
+              "url": "https://eddirasa.com/ens-sec/3as/bac-solutions/subject/arabe/",
+              "source": "Eddirasa",
+              "is_archive": false
+            },
+            {
+              "year": "2023",
+              "url": "https://eddirasa.com/ens-sec/3as/bac-solutions/subject/arabe/",
+              "source": "Eddirasa",
+              "is_archive": false
+            },
+            {
+              "year": "2022",
+              "url": "https://eddirasa.com/ens-sec/3as/bac-solutions/subject/arabe/",
+              "source": "Eddirasa",
+              "is_archive": false
+            },
+            {
+              "year": "2021",
+              "url": "https://eddirasa.com/ens-sec/3as/bac-solutions/subject/arabe/",
+              "source": "Eddirasa",
+              "is_archive": false
+            },
+            {
+              "year": "2020",
+              "url": "https://eddirasa.com/ens-sec/3as/bac-solutions/subject/arabe/",
+              "source": "Eddirasa",
+              "is_archive": false
+            },
+            {
+              "year": "2019",
+              "url": "https://eddirasa.com/ens-sec/3as/bac-solutions/subject/arabe/",
+              "source": "Eddirasa",
+              "is_archive": false
+            },
+            {
+              "year": "2018",
+              "url": "https://eddirasa.com/ens-sec/3as/bac-solutions/subject/arabe/",
+              "source": "Eddirasa",
+              "is_archive": false
+            },
+            {
+              "year": "2017",
+              "url": "https://eddirasa.com/ens-sec/3as/bac-solutions/subject/arabe/",
+              "source": "Eddirasa",
+              "is_archive": false
+            },
+            {
+              "year": "2016",
+              "url": "https://eddirasa.com/ens-sec/3as/bac-solutions/subject/arabe/",
+              "source": "Eddirasa",
+              "is_archive": false
+            },
+            {
+              "year": "2015",
+              "url": "https://eddirasa.com/ens-sec/3as/bac-solutions/subject/arabe/",
+              "source": "Eddirasa",
+              "is_archive": false
+            },
+            {
+              "year": "أرشيف كامل",
+              "url": "https://eddirasa.com/ens-sec/3as/bac-solutions/subject/arabe/",
+              "source": "Eddirasa",
+              "is_archive": true
+            }
+          ]
+        },
+        {
+          "slug": "philosophy",
+          "name": "الفلسفة",
+          "icon": "🧠",
+          "exams": [
+            {
+              "year": "2025",
+              "url": "https://www.snvdz.com/",
+              "source": "SNVDZ",
+              "is_archive": false
+            },
+            {
+              "year": "2024",
+              "url": "https://eddirasa.com/ens-sec/3as/bac-solutions/subject/philosophie/",
+              "source": "Eddirasa",
+              "is_archive": false
+            },
+            {
+              "year": "2023",
+              "url": "https://eddirasa.com/ens-sec/3as/bac-solutions/subject/philosophie/",
+              "source": "Eddirasa",
+              "is_archive": false
+            },
+            {
+              "year": "2022",
+              "url": "https://eddirasa.com/ens-sec/3as/bac-solutions/subject/philosophie/",
+              "source": "Eddirasa",
+              "is_archive": false
+            },
+            {
+              "year": "2021",
+              "url": "https://eddirasa.com/ens-sec/3as/bac-solutions/subject/philosophie/",
+              "source": "Eddirasa",
+              "is_archive": false
+            },
+            {
+              "year": "2020",
+              "url": "https://eddirasa.com/ens-sec/3as/bac-solutions/subject/philosophie/",
+              "source": "Eddirasa",
+              "is_archive": false
+            },
+            {
+              "year": "2019",
+              "url": "https://eddirasa.com/ens-sec/3as/bac-solutions/subject/philosophie/",
+              "source": "Eddirasa",
+              "is_archive": false
+            },
+            {
+              "year": "2018",
+              "url": "https://eddirasa.com/ens-sec/3as/bac-solutions/subject/philosophie/",
+              "source": "Eddirasa",
+              "is_archive": false
+            },
+            {
+              "year": "2017",
+              "url": "https://eddirasa.com/ens-sec/3as/bac-solutions/subject/philosophie/",
+              "source": "Eddirasa",
+              "is_archive": false
+            },
+            {
+              "year": "2016",
+              "url": "https://eddirasa.com/ens-sec/3as/bac-solutions/subject/philosophie/",
+              "source": "Eddirasa",
+              "is_archive": false
+            },
+            {
+              "year": "2015",
+              "url": "https://eddirasa.com/ens-sec/3as/bac-solutions/subject/philosophie/",
+              "source": "Eddirasa",
+              "is_archive": false
+            },
+            {
+              "year": "أرشيف كامل",
+              "url": "https://eddirasa.com/ens-sec/3as/bac-solutions/subject/philosophie/",
+              "source": "Eddirasa",
+              "is_archive": true
+            }
+          ]
+        },
+        {
+          "slug": "history",
+          "name": "التاريخ والجغرافيا",
+          "icon": "🌍",
+          "exams": [
+            {
+              "year": "2025",
+              "url": "https://www.snvdz.com/",
+              "source": "SNVDZ",
+              "is_archive": false
+            },
+            {
+              "year": "2024",
+              "url": "https://eddirasa.com/ens-sec/3as/bac-solutions/subject/histoire-geographie/",
+              "source": "Eddirasa",
+              "is_archive": false
+            },
+            {
+              "year": "2023",
+              "url": "https://eddirasa.com/ens-sec/3as/bac-solutions/subject/histoire-geographie/",
+              "source": "Eddirasa",
+              "is_archive": false
+            },
+            {
+              "year": "2022",
+              "url": "https://eddirasa.com/ens-sec/3as/bac-solutions/subject/histoire-geographie/",
+              "source": "Eddirasa",
+              "is_archive": false
+            },
+            {
+              "year": "2021",
+              "url": "https://eddirasa.com/ens-sec/3as/bac-solutions/subject/histoire-geographie/",
+              "source": "Eddirasa",
+              "is_archive": false
+            },
+            {
+              "year": "2020",
+              "url": "https://eddirasa.com/ens-sec/3as/bac-solutions/subject/histoire-geographie/",
+              "source": "Eddirasa",
+              "is_archive": false
+            },
+            {
+              "year": "2019",
+              "url": "https://eddirasa.com/ens-sec/3as/bac-solutions/subject/histoire-geographie/",
+              "source": "Eddirasa",
+              "is_archive": false
+            },
+            {
+              "year": "2018",
+              "url": "https://eddirasa.com/ens-sec/3as/bac-solutions/subject/histoire-geographie/",
+              "source": "Eddirasa",
+              "is_archive": false
+            },
+            {
+              "year": "2017",
+              "url": "https://eddirasa.com/ens-sec/3as/bac-solutions/subject/histoire-geographie/",
+              "source": "Eddirasa",
+              "is_archive": false
+            },
+            {
+              "year": "2016",
+              "url": "https://eddirasa.com/ens-sec/3as/bac-solutions/subject/histoire-geographie/",
+              "source": "Eddirasa",
+              "is_archive": false
+            },
+            {
+              "year": "2015",
+              "url": "https://eddirasa.com/ens-sec/3as/bac-solutions/subject/histoire-geographie/",
+              "source": "Eddirasa",
+              "is_archive": false
+            },
+            {
+              "year": "أرشيف كامل",
+              "url": "https://eddirasa.com/ens-sec/3as/bac-solutions/subject/histoire-geographie/",
+              "source": "Eddirasa",
+              "is_archive": true
+            }
+          ]
+        },
+        {
+          "slug": "islamic",
+          "name": "العلوم الإسلامية",
+          "icon": "🕌",
+          "exams": [
+            {
+              "year": "2025",
+              "url": "https://www.snvdz.com/",
+              "source": "SNVDZ",
+              "is_archive": false
+            },
+            {
+              "year": "2024",
+              "url": "https://eddirasa.com/ens-sec/3as/bac-solutions/subject/sciences-islamiques/",
+              "source": "Eddirasa",
+              "is_archive": false
+            },
+            {
+              "year": "2023",
+              "url": "https://eddirasa.com/ens-sec/3as/bac-solutions/subject/sciences-islamiques/",
+              "source": "Eddirasa",
+              "is_archive": false
+            },
+            {
+              "year": "2022",
+              "url": "https://eddirasa.com/ens-sec/3as/bac-solutions/subject/sciences-islamiques/",
+              "source": "Eddirasa",
+              "is_archive": false
+            },
+            {
+              "year": "2021",
+              "url": "https://eddirasa.com/ens-sec/3as/bac-solutions/subject/sciences-islamiques/",
+              "source": "Eddirasa",
+              "is_archive": false
+            },
+            {
+              "year": "2020",
+              "url": "https://eddirasa.com/ens-sec/3as/bac-solutions/subject/sciences-islamiques/",
+              "source": "Eddirasa",
+              "is_archive": false
+            },
+            {
+              "year": "2019",
+              "url": "https://eddirasa.com/ens-sec/3as/bac-solutions/subject/sciences-islamiques/",
+              "source": "Eddirasa",
+              "is_archive": false
+            },
+            {
+              "year": "2018",
+              "url": "https://eddirasa.com/ens-sec/3as/bac-solutions/subject/sciences-islamiques/",
+              "source": "Eddirasa",
+              "is_archive": false
+            },
+            {
+              "year": "2017",
+              "url": "https://eddirasa.com/ens-sec/3as/bac-solutions/subject/sciences-islamiques/",
+              "source": "Eddirasa",
+              "is_archive": false
+            },
+            {
+              "year": "2016",
+              "url": "https://eddirasa.com/ens-sec/3as/bac-solutions/subject/sciences-islamiques/",
+              "source": "Eddirasa",
+              "is_archive": false
+            },
+            {
+              "year": "2015",
+              "url": "https://eddirasa.com/ens-sec/3as/bac-solutions/subject/sciences-islamiques/",
+              "source": "Eddirasa",
+              "is_archive": false
+            },
+            {
+              "year": "أرشيف كامل",
+              "url": "https://eddirasa.com/ens-sec/3as/bac-solutions/subject/sciences-islamiques/",
+              "source": "Eddirasa",
+              "is_archive": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -6,16 +6,21 @@ import re, json, os
 app = Flask(__name__)
 app.secret_key = 'super_secret_key_bac_2026'
 
+
+def get_base_path(filename):
+    import os
+    return os.path.join(os.path.dirname(os.path.abspath(__file__)), filename)
+
 def load_data():
-    with open('data.json', 'r', encoding='utf-8') as f:
+    with open(get_base_path('data.json'), 'r', encoding='utf-8') as f:
         return json.load(f)
 
 def save_data(data):
-    with open('data.json', 'w', encoding='utf-8') as f:
+    with open(get_base_path('data.json'), 'w', encoding='utf-8') as f:
         json.dump(data, f, ensure_ascii=False, indent=2)
 
 def load_exams():
-    with open('exams.json', 'r', encoding='utf-8') as f:
+    with open(get_base_path('exams.json'), 'r', encoding='utf-8') as f:
         return json.load(f)
 
 
@@ -24,26 +29,26 @@ def load_users():
     if not os.path.exists('users.json'):
         return []
     try:
-        with open('users.json', 'r', encoding='utf-8') as f:
+        with open(get_base_path('users.json'), 'r', encoding='utf-8') as f:
             return json.load(f)
     except:
         return []
 
 def save_users(users):
-    with open('users.json', 'w', encoding='utf-8') as f:
+    with open(get_base_path('users.json'), 'w', encoding='utf-8') as f:
         json.dump(users, f, ensure_ascii=False, indent=2)
 
 def load_chats():
     if not os.path.exists('chat_messages.json'):
         return []
     try:
-        with open('chat_messages.json', 'r', encoding='utf-8') as f:
+        with open(get_base_path('chat_messages.json'), 'r', encoding='utf-8') as f:
             return json.load(f)
     except:
         return []
 
 def save_chats(chats):
-    with open('chat_messages.json', 'w', encoding='utf-8') as f:
+    with open(get_base_path('chat_messages.json'), 'w', encoding='utf-8') as f:
         json.dump(chats, f, ensure_ascii=False, indent=2)
 
 
@@ -203,13 +208,13 @@ def load_messages():
     if not os.path.exists('messages.json'):
         return []
     try:
-        with open('messages.json', 'r', encoding='utf-8') as f:
+        with open(get_base_path('messages.json'), 'r', encoding='utf-8') as f:
             return json.load(f)
     except:
         return []
 
 def save_messages(messages):
-    with open('messages.json', 'w', encoding='utf-8') as f:
+    with open(get_base_path('messages.json'), 'w', encoding='utf-8') as f:
         json.dump(messages, f, ensure_ascii=False, indent=2)
 
 @app.context_processor
