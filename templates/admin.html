@@ -1,0 +1,104 @@
+{% extends "base.html" %}
+{% block title %}لوحة التحكم | SVT PRO{% endblock %}
+{% block content %}
+<div class="pt-32 pb-20 px-6 max-w-5xl mx-auto">
+    <div class="flex items-center justify-between mb-8">
+        <h1 class="text-3xl font-black text-white">لوحة التحكم</h1>
+        <a href="/admin/messages" class="px-4 py-2 rounded-xl bg-brand-blue/20 text-brand-blue font-bold hover:bg-brand-blue/30 transition mr-2 relative">
+            <i class="fa-solid fa-envelope ml-1"></i> الرسائل
+            {% if unread_messages > 0 %}<span class="absolute -top-2 -right-2 w-6 h-6 bg-red-500 rounded-full text-xs flex items-center justify-center text-white font-bold">{{ unread_messages }}</span>{% endif %}
+        </a>
+        <a href="/admin/chats" class="px-4 py-2 rounded-xl bg-brand-green/20 text-brand-green font-bold hover:bg-brand-green/30 transition mr-2 relative">
+            <i class="fa-solid fa-comments ml-1"></i> المحادثات
+            {% if unread_chats_admin > 0 %}<span class="absolute -top-2 -right-2 w-6 h-6 bg-red-500 rounded-full text-xs flex items-center justify-center text-white font-bold">{{ unread_chats_admin }}</span>{% endif %}
+        </a>
+        <a href="/admin/logout" class="px-4 py-2 rounded-xl bg-red-500/20 text-red-400 font-bold hover:bg-red-500/30 transition">تسجيل الخروج</a>
+    </div>
+
+    {% with messages = get_flashed_messages(with_categories=true) %}
+        {% if messages %}
+            {% for category, message in messages %}
+                <div class="mb-6 p-4 rounded-xl font-bold text-center {% if category == 'error' %}bg-red-500/20 text-red-400{% else %}bg-green-500/20 text-green-400{% endif %}">
+                    {{ message }}
+                </div>
+            {% endfor %}
+        {% endif %}
+    {% endwith %}
+
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+        <!-- إضافة فيديو -->
+        <div class="glass p-6 rounded-2xl border-t-4 border-t-brand-green">
+            <h2 class="text-xl font-bold text-white mb-4"><i class="fa-solid fa-video text-brand-green ml-2"></i> إضافة فيديو لوحدة</h2>
+            <form method="POST" action="/admin/add_video" class="space-y-4">
+                <div>
+                    <label class="block text-sm text-gray-300 mb-1">الشعبة</label>
+                    <select name="stream" id="stream_select" required class="w-full px-4 py-2 rounded-xl bg-black/40 border border-white/10 text-white">
+                        {% for stream in streams %}
+                        <option value="{{ stream.slug }}">{{ stream.name }}</option>
+                        {% endfor %}
+                    </select>
+                </div>
+                <div>
+                    <label class="block text-sm text-gray-300 mb-1">المادة والوحدة</label>
+                    <select name="subject" required class="w-full px-4 py-2 rounded-xl bg-black/40 border border-white/10 text-white mb-2">
+                        {% for stream in streams %}
+                            {% for subject in stream.subjects %}
+                            <option value="{{ subject.slug }}">{{ stream.name }} - {{ subject.name }}</option>
+                            {% endfor %}
+                        {% endfor %}
+                    </select>
+                    <select name="unit" required class="w-full px-4 py-2 rounded-xl bg-black/40 border border-white/10 text-white">
+                        {% for stream in streams %}
+                            {% for subject in stream.subjects %}
+                                {% for unit in subject.units %}
+                                <option value="{{ unit.slug }}">{{ subject.name }} - {{ unit.title }}</option>
+                                {% endfor %}
+                            {% endfor %}
+                        {% endfor %}
+                    </select>
+                </div>
+                <div>
+                    <label class="block text-sm text-gray-300 mb-1">عنوان الفيديو</label>
+                    <input type="text" name="title" required class="w-full px-4 py-2 rounded-xl bg-black/40 border border-white/10 text-white">
+                </div>
+                <div>
+                    <label class="block text-sm text-gray-300 mb-1">رابط الفيديو (YouTube)</label>
+                    <input type="url" name="url" required class="w-full px-4 py-2 rounded-xl bg-black/40 border border-white/10 text-white">
+                </div>
+                <button type="submit" class="w-full btn-neon py-3 rounded-xl font-bold">إضافة الفيديو</button>
+            </form>
+        </div>
+
+        <!-- إضافة وحدة -->
+        <div class="glass p-6 rounded-2xl border-t-4 border-t-brand-blue">
+            <h2 class="text-xl font-bold text-white mb-4"><i class="fa-solid fa-layer-group text-brand-blue ml-2"></i> إضافة وحدة دراسية</h2>
+            <form method="POST" action="/admin/add_unit" class="space-y-4">
+                <div>
+                    <label class="block text-sm text-gray-300 mb-1">المادة</label>
+                    <select name="subject" required class="w-full px-4 py-2 rounded-xl bg-black/40 border border-white/10 text-white">
+                        {% for stream in streams %}
+                            {% for subject in stream.subjects %}
+                            <option value="{{ subject.slug }}">{{ stream.name }} - {{ subject.name }}</option>
+                            {% endfor %}
+                        {% endfor %}
+                    </select>
+                </div>
+                <input type="hidden" name="stream" value="sciences"> <!-- يتم تعديلها برمجياً لاحقاً أو تركها -->
+                <div>
+                    <label class="block text-sm text-gray-300 mb-1">عنوان الوحدة</label>
+                    <input type="text" name="title" required class="w-full px-4 py-2 rounded-xl bg-black/40 border border-white/10 text-white">
+                </div>
+                <div>
+                    <label class="block text-sm text-gray-300 mb-1">الأيقونة (إيموجي)</label>
+                    <input type="text" name="icon" value="📘" required class="w-full px-4 py-2 rounded-xl bg-black/40 border border-white/10 text-white">
+                </div>
+                <div>
+                    <label class="block text-sm text-gray-300 mb-1">ملخص الوحدة</label>
+                    <textarea name="summary" required rows="2" class="w-full px-4 py-2 rounded-xl bg-black/40 border border-white/10 text-white"></textarea>
+                </div>
+                <button type="submit" class="w-full bg-gradient-to-r from-brand-blue to-purple-500 text-white py-3 rounded-xl font-bold hover:shadow-lg transition">إضافة الوحدة</button>
+            </form>
+        </div>
+    </div>
+</div>
+{% endblock %}

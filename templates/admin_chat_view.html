@@ -1,0 +1,20 @@
+{% extends "base.html" %}{% block title %}محادثة مع {{ user.name }}{% endblock %}{% block content %}
+<div class="pt-20 pb-6 px-3 md:px-6 max-w-3xl mx-auto">
+<div class="glass rounded-3xl overflow-hidden border border-white/10 flex flex-col" style="height:calc(100vh - 120px);">
+<div class="p-4 bg-gradient-to-r from-purple-500/20 to-pink-500/20 border-b border-white/10 flex items-center gap-3">
+<a href="/admin/chats" class="w-10 h-10 rounded-xl bg-white/10 flex items-center justify-center text-white hover:bg-white/20 transition"><i class="fa-solid fa-arrow-right"></i></a>
+<div class="w-12 h-12 rounded-full bg-gradient-to-br from-purple-500 to-pink-500 flex items-center justify-center text-white font-black text-xl">{{ user.name[0]|upper }}</div>
+<div class="flex-1"><h2 class="font-bold text-white">{{ user.name }}</h2><p class="text-xs text-gray-400">@{{ user.username }}</p></div></div>
+<div id="chatBox" class="flex-1 overflow-y-auto p-4 space-y-3">
+{% if not chats %}<div class="text-center py-12"><p class="text-gray-400">لا توجد رسائل بعد</p></div>{% endif %}
+{% for c in chats %}{% if c.sender == 'user' %}
+<div class="flex justify-start"><div class="max-w-[75%] bg-white/10 text-white rounded-2xl rounded-tl-sm px-4 py-2 border border-white/10"><p class="text-sm whitespace-pre-wrap">{{ c.message }}</p><p class="text-[10px] text-gray-500 mt-1">{{ c.created_at }}</p></div></div>
+{% else %}
+<div class="flex justify-end"><div class="max-w-[75%] bg-gradient-to-br from-purple-500 to-pink-500 text-white rounded-2xl rounded-tr-sm px-4 py-2"><p class="text-sm whitespace-pre-wrap">{{ c.message }}</p><p class="text-[10px] opacity-70 mt-1 text-left">{{ c.created_at }}</p></div></div>
+{% endif %}{% endfor %}</div>
+<form method="POST" action="/admin/chat/{{ user.id }}/send" class="p-3 border-t border-white/10 bg-black/40 flex gap-2">
+<input type="text" name="message" required autocomplete="off" placeholder="اكتب ردك..." class="flex-1 px-4 py-3 rounded-xl bg-white/5 border border-white/10 text-white focus:border-purple-400 outline-none">
+<button type="submit" class="w-12 h-12 rounded-xl bg-gradient-to-br from-purple-500 to-pink-500 flex items-center justify-center text-white hover:scale-105 transition"><i class="fa-solid fa-paper-plane"></i></button>
+</form></div></div>
+<script>const cb=document.getElementById('chatBox');cb.scrollTop=cb.scrollHeight;let t=false;const i=document.querySelector('input[name="message"]');if(i){i.addEventListener('input',()=>t=true);i.addEventListener('blur',()=>t=false);}setInterval(()=>{if(!t)location.reload();},8000);</script>
+{% endblock %}

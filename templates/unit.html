@@ -1,0 +1,78 @@
+{% extends "base.html" %}
+{% block title %}{{ unit.title }} | {{ subject.name }}{% endblock %}
+{% block content %}
+<div class="pt-32 pb-24 px-6 max-w-7xl mx-auto">
+    <div class="flex items-center gap-2 text-sm text-gray-400 mb-8">
+        <a href="/stream/{{ stream.slug }}" class="hover:text-brand-green">{{ stream.name }}</a>
+        <i class="fa-solid fa-chevron-left text-[10px]"></i>
+        <a href="/stream/{{ stream.slug }}/{{ subject.slug }}" class="hover:text-brand-green">{{ subject.name }}</a>
+        <i class="fa-solid fa-chevron-left text-[10px]"></i>
+        <span class="text-brand-green">{{ unit.title }}</span>
+    </div>
+    <div class="flex flex-col md:flex-row items-center gap-8 mb-12">
+        <div class="w-24 h-24 rounded-3xl bg-gradient-to-br from-brand-green to-brand-blue flex items-center justify-center text-5xl">{{ unit.icon }}</div>
+        <div class="flex-1 text-center md:text-right">
+            <h1 class="text-4xl font-black text-white mb-2">{{ unit.title }}</h1>
+            <p class="text-gray-400">{{ unit.summary }}</p>
+        </div>
+        <a href="#quiz" class="btn-neon px-6 py-3 rounded-xl flex items-center gap-2"><i class="fa-solid fa-gamepad"></i> اختبر</a>
+    </div>
+    <h2 class="text-2xl font-bold text-white mb-6"><i class="fa-solid fa-video text-brand-green ml-2"></i> الفيديوهات ({{ unit.videos|length }})</h2>
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mb-16">
+        {% for v in unit.videos %}
+            {% set vid = v.url|youtube_id %}
+            <div class="glass rounded-2xl overflow-hidden group">
+                {% if vid %}
+                <div class="aspect-video relative"><iframe src="https://www.youtube.com/embed/{{ vid }}?rel=0" class="w-full h-full absolute inset-0" loading="lazy" allowfullscreen></iframe></div>
+                {% else %}
+                <a href="{{ v.url }}" target="_blank" class="aspect-video flex items-center justify-center bg-gradient-to-br from-brand-green/20 to-brand-blue/20 text-center p-4"><span class="text-white font-bold">{{ v.title }}</span></a>
+                {% endif %}
+                <div class="p-4"><h3 class="text-sm font-bold text-white line-clamp-1">{{ v.title }}</h3><p class="text-xs text-gray-500 mt-1">{{ v.source }} · {{ v.duration }}</p></div>
+            </div>
+        {% endfor %}
+    </div>
+    <div id="quiz" class="glass rounded-3xl p-8 border-t-4 border-t-brand-blue">
+        <h2 class="text-2xl font-bold text-white mb-6"><i class="fa-solid fa-brain text-brand-blue ml-2"></i> اختبار سريع</h2>
+        <form id="quizForm" class="space-y-6">
+            {% for item in unit.quiz %}
+            {% set q_index = loop.index %}
+            <div class="bg-white/5 p-6 rounded-2xl quiz-item">
+                <h3 class="text-lg font-bold text-white mb-4">{{ q_index }}. {{ item.q }}</h3>
+                <div class="space-y-2">
+                    {% for option in item.options %}
+                    <label class="flex items-center gap-3 p-3 rounded-xl border border-white/10 hover:border-brand-blue/50 cursor-pointer">
+                        <input type="radio" name="q{{ q_index }}" value="{{ loop.index0 }}" class="w-5 h-5 accent-brand-blue" required>
+                        <span class="text-gray-300">{{ option }}</span>
+                    </label>
+                    {% endfor %}
+                </div>
+                <div class="mt-3 hidden result-msg font-bold text-sm"></div>
+            </div>
+            {% endfor %}
+            <button type="submit" class="w-full btn-neon py-4 rounded-xl text-lg">إنهاء الاختبار</button>
+        </form>
+        <div id="finalScore" class="mt-8 text-center hidden"><div class="text-5xl font-black text-glow mb-2">0/0</div><p class="text-gray-400">النتيجة</p></div>
+    </div>
+</div>
+<script>
+    const answers = {{ unit.quiz | map(attribute='a') | list | tojson }};
+    document.getElementById('quizForm').addEventListener('submit', function(e) {
+        e.preventDefault();
+        let score = 0;
+        const formData = new FormData(this);
+        const quizItems = document.querySelectorAll('.quiz-item');
+        answers.forEach((correct, i) => {
+            const selected = formData.get('q' + (i+1));
+            const parentDiv = quizItems[i];
+            const msgDiv = parentDiv.querySelector('.result-msg');
+            msgDiv.classList.remove('hidden');
+            if (selected == correct) { score++; msgDiv.innerHTML = '✅ صحيح'; msgDiv.className = 'mt-3 result-msg font-bold text-sm text-brand-green'; }
+            else { msgDiv.innerHTML = '❌ خطأ'; msgDiv.className = 'mt-3 result-msg font-bold text-sm text-red-500'; }
+        });
+        document.getElementById('quizForm').style.display = 'none';
+        const final = document.getElementById('finalScore');
+        final.classList.remove('hidden');
+        final.querySelector('div').textContent = `${score} / ${answers.length}`;
+    });
+</script>
+{% endblock %}

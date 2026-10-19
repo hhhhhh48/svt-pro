@@ -1,0 +1,9 @@
+[
+  {
+    "id": 1,
+    "username": "Mohamed ouachemi 7",
+    "name": "Mohammed Ouachemi",
+    "password_hash": "scrypt:32768:8:1$8xyuuhNVlmTrxJ7D$48c0fb8a52f588c41ba61bfbc75d43f7cba86f4a10a6eac8a8c3e5a1d32b5bde8cd3c8a659053c4c4ee0c66b99a23d11ac590f6884ff5ca9dc08fe77b300bb6e",
+    "created_at": "2026-10-19 10:58"
+  }
+]

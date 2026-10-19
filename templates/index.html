@@ -1,0 +1,42 @@
+{% extends "base.html" %}
+{% block content %}
+<section class="pt-40 pb-20 px-6 text-center">
+    <h1 class="text-5xl md:text-8xl font-black mb-6 leading-[1.1]">
+        <span class="text-white">بوابتك الشاملة لـ </span>
+        <span class="text-glow">البكالوريا</span>
+    </h1>
+    <p class="text-xl text-gray-400 max-w-3xl mx-auto mb-10">6 شعب · 40+ مادة · 200+ وحدة · 1000+ فيديو</p>
+</section>
+<section class="py-10 px-6 max-w-7xl mx-auto">
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+        {% for tip in tips %}
+        <div class="glass rounded-2xl p-6 glass-hover">
+            <div class="w-10 h-10 rounded-xl bg-brand-green/10 flex items-center justify-center text-brand-green text-lg mb-4"><i class="fa-solid {{ tip.icon }}"></i></div>
+            <h3 class="text-md font-bold text-white mb-1">{{ tip.title }}</h3>
+            <p class="text-xs text-gray-400">{{ tip.desc }}</p>
+        </div>
+        {% endfor %}
+    </div>
+</section>
+<section id="streams" class="py-20 px-6">
+    <div class="max-w-7xl mx-auto">
+        <h2 class="text-4xl font-black text-center text-white mb-16">اختر <span class="text-glow">شعبتك</span></h2>
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+            {% for stream in streams %}
+            <a href="/stream/{{ stream.slug }}" class="glass glass-hover rounded-3xl p-8 transition-all relative overflow-hidden group">
+                <div class="absolute top-0 right-0 w-32 h-32 bg-gradient-to-br {{ stream.gradient }} opacity-10 rounded-bl-full group-hover:scale-150 transition-transform"></div>
+                <div class="flex items-center gap-4 mb-6">
+                    <div class="w-16 h-16 rounded-2xl bg-gradient-to-br {{ stream.gradient }} flex items-center justify-center text-3xl">{{ stream.icon }}</div>
+                    <h3 class="text-2xl font-bold text-white group-hover:text-brand-green transition">{{ stream.name }}</h3>
+                </div>
+                <p class="text-sm text-gray-400 mb-6">{{ stream.description }}</p>
+                <div class="flex justify-between items-center text-xs font-bold text-gray-500 pt-4 border-t border-white/5">
+                    <span><i class="fa-solid fa-book text-brand-green ml-1"></i> {{ stream.subjects|length }} مواد</span>
+                    <span class="text-brand-green">استكشف <i class="fa-solid fa-arrow-left ml-1"></i></span>
+                </div>
+            </a>
+            {% endfor %}
+        </div>
+    </div>
+</section>
+{% endblock %}

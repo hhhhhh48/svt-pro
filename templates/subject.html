@@ -1,0 +1,32 @@
+{% extends "base.html" %}
+{% block title %}{{ subject.name }} | {{ stream.name }}{% endblock %}
+{% block content %}
+<div class="pt-32 pb-20 px-6 max-w-7xl mx-auto">
+    <div class="flex items-center gap-2 text-sm text-gray-400 mb-6">
+        <a href="/stream/{{ stream.slug }}" class="hover:text-brand-green">{{ stream.name }}</a>
+        <i class="fa-solid fa-chevron-left text-[10px]"></i>
+        <span class="text-brand-green">{{ subject.name }}</span>
+    </div>
+    <div class="flex items-center gap-6 mb-12">
+        <div class="w-20 h-20 rounded-3xl bg-white/5 flex items-center justify-center text-4xl">{{ subject.icon }}</div>
+        <div><h1 class="text-4xl font-black text-white">{{ subject.name }}</h1><p class="text-gray-400 mt-2">{{ subject.description }}</p></div>
+    </div>
+    <h2 class="text-2xl font-bold text-white mb-8">الوحدات ({{ subject.units|length }})</h2>
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+        {% for unit in subject.units %}
+        <a href="/stream/{{ stream.slug }}/{{ subject.slug }}/{{ unit.slug }}" class="glass glass-hover rounded-2xl p-6 relative overflow-hidden group">
+            <div class="flex items-start justify-between mb-4">
+                <div class="w-14 h-14 rounded-2xl bg-gradient-to-br from-brand-green/20 to-brand-blue/20 flex items-center justify-center text-3xl">{{ unit.icon }}</div>
+                <span class="text-xs font-bold bg-white/5 px-3 py-1 rounded-full">الوحدة {{ unit.id }}</span>
+            </div>
+            <h3 class="text-xl font-bold text-white mb-2 group-hover:text-brand-green">{{ unit.title }}</h3>
+            <p class="text-sm text-gray-400 line-clamp-2">{{ unit.summary }}</p>
+            <div class="mt-6 flex items-center justify-between text-xs font-bold text-gray-500 pt-4 border-t border-white/5">
+                <span><i class="fa-solid fa-video text-brand-green ml-1"></i> {{ unit.videos|length }} فيديو</span>
+                <span><i class="fa-solid fa-gamepad text-brand-blue ml-1"></i> اختبار</span>
+            </div>
+        </a>
+        {% endfor %}
+    </div>
+</div>
+{% endblock %}

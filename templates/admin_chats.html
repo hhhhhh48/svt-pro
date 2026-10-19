@@ -1,0 +1,14 @@
+{% extends "base.html" %}{% block title %}المحادثات{% endblock %}{% block content %}
+<div class="pt-32 pb-20 px-6 max-w-4xl mx-auto">
+<div class="flex items-center justify-between mb-8 flex-wrap gap-4">
+<div><h1 class="text-3xl font-black text-white">💬 المحادثات</h1><p class="text-gray-400 mt-1">{{ conversations|length }} محادثة · <span class="text-red-400 font-bold">{{ unread_chats_admin }} جديدة</span></p></div>
+<a href="/admin" class="px-4 py-2 rounded-xl bg-white/5 text-gray-300 hover:bg-white/10 transition font-bold"><i class="fa-solid fa-arrow-right ml-1"></i> لوحة التحكم</a></div>
+{% if not conversations %}<div class="glass rounded-3xl p-12 text-center"><i class="fa-solid fa-comments text-6xl text-gray-700 mb-4"></i><p class="text-gray-400 text-lg">لا توجد محادثات</p></div>
+{% else %}<div class="space-y-3">
+{% for conv in conversations %}
+<a href="/admin/chat/{{ conv.user.id }}" class="glass glass-hover rounded-2xl p-5 flex items-center gap-4 group">
+<div class="w-14 h-14 rounded-full bg-gradient-to-br from-brand-green to-brand-blue flex items-center justify-center text-black font-black text-xl shrink-0">{{ conv.user.name[0]|upper }}</div>
+<div class="flex-1 min-w-0"><div class="flex items-center justify-between gap-2 mb-1"><h3 class="font-bold text-white group-hover:text-brand-green truncate">{{ conv.user.name }}</h3><span class="text-xs text-gray-500 shrink-0">{{ conv.last_time }}</span></div>
+<p class="text-sm text-gray-400 truncate">{% if conv.last_sender == 'admin' %}<span class="text-brand-green">أنت:</span> {% endif %}{{ conv.last_message }}</p></div>
+{% if conv.unread > 0 %}<div class="w-7 h-7 rounded-full bg-red-500 flex items-center justify-center text-white text-xs font-bold shrink-0">{{ conv.unread }}</div>{% endif %}
+</a>{% endfor %}</div>{% endif %}</div>{% endblock %}

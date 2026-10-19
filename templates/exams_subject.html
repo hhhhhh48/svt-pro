@@ -1,0 +1,54 @@
+{% extends "base.html" %}
+{% block title %}{{ subject.name }} - الأرشيف{% endblock %}
+{% block content %}
+<div class="pt-32 pb-20 px-6 max-w-4xl mx-auto">
+    <div class="flex items-center gap-2 text-sm text-gray-400 mb-6 flex-wrap">
+        <a href="/exams" class="hover:text-brand-green">الأرشيف</a>
+        <i class="fa-solid fa-chevron-left text-[10px]"></i>
+        <a href="/exams/{{ stream.slug }}" class="hover:text-brand-green">{{ stream.name }}</a>
+        <i class="fa-solid fa-chevron-left text-[10px]"></i>
+        <span class="text-brand-green">{{ subject.name }}</span>
+    </div>
+    <div class="flex items-center gap-6 mb-10">
+        <div class="w-20 h-20 rounded-3xl bg-white/5 flex items-center justify-center text-5xl">{{ subject.icon }}</div>
+        <div>
+            <h1 class="text-3xl font-black text-white">{{ subject.name }}</h1>
+            <p class="text-gray-400 mt-1">{{ subject.exams|length }} مواضيع متاحة للتحميل</p>
+        </div>
+    </div>
+    <div class="space-y-3">
+        {% for exam in subject.exams %}
+        <a href="{{ exam.url }}" target="_blank" rel="noopener noreferrer"
+           class="glass glass-hover rounded-2xl p-5 flex items-center justify-between group {% if exam.is_archive %}border border-purple-500/30{% endif %}">
+            <div class="flex items-center gap-4">
+                <div class="w-14 h-14 rounded-xl {% if exam.is_archive %}bg-purple-500/20 text-purple-400{% else %}bg-brand-green/10 text-brand-green{% endif %} flex items-center justify-center text-xl font-black">
+                    {% if exam.is_archive %}<i class="fa-solid fa-folder-open"></i>{% else %}{{ exam.year }}{% endif %}
+                </div>
+                <div>
+                    <h3 class="text-lg font-bold text-white group-hover:text-brand-green">
+                        {% if exam.is_archive %}{{ exam.year }}{% else %}بكالوريا {{ exam.year }}{% endif %}
+                    </h3>
+                    <p class="text-sm text-gray-400">
+                        <i class="fa-solid fa-circle-check text-brand-green text-xs ml-1"></i> موضوع + تصحيح
+                        <span class="mx-2">·</span>
+                        <i class="fa-solid fa-database text-gray-500 text-xs ml-1"></i> {{ exam.source }}
+                    </p>
+                </div>
+            </div>
+            <div class="flex items-center gap-3">
+                <span class="hidden md:inline text-xs font-bold bg-white/5 px-3 py-1 rounded-full text-gray-400">PDF</span>
+                <div class="w-10 h-10 rounded-xl bg-white/5 flex items-center justify-center text-brand-green group-hover:bg-brand-green group-hover:text-black transition">
+                    <i class="fa-solid fa-download"></i>
+                </div>
+            </div>
+        </a>
+        {% endfor %}
+    </div>
+    <div class="mt-10 glass rounded-2xl p-6 border-r-4 border-r-brand-blue text-sm text-gray-300">
+        <p class="flex items-start gap-3">
+            <i class="fa-solid fa-circle-info text-brand-blue mt-1"></i>
+            <span>كل المواضيع مأخوذة من مصادر رسمية (<strong>Eddirasa</strong>، <strong>SNVDZ</strong>). الروابط تفتح مباشرة صفحة الموضوع والتصحيح.</span>
+        </p>
+    </div>
+</div>
+{% endblock %}

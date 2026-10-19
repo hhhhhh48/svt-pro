@@ -1,0 +1,33 @@
+{% extends "base.html" %}
+{% block title %}{{ stream.name }} - الأرشيف{% endblock %}
+{% block content %}
+<div class="pt-32 pb-20 px-6 max-w-7xl mx-auto">
+    <div class="flex items-center gap-2 text-sm text-gray-400 mb-6">
+        <a href="/exams" class="hover:text-brand-green">الأرشيف</a>
+        <i class="fa-solid fa-chevron-left text-[10px]"></i>
+        <span class="text-brand-green">{{ stream.name }}</span>
+    </div>
+    <div class="flex items-center gap-6 mb-12">
+        <div class="w-24 h-24 rounded-3xl bg-gradient-to-br {{ stream.gradient }} flex items-center justify-center text-5xl">{{ stream.icon }}</div>
+        <div>
+            <h1 class="text-4xl font-black text-white">{{ stream.name }}</h1>
+            <p class="text-gray-400 mt-2">{{ stream.description }}</p>
+        </div>
+    </div>
+    <h2 class="text-2xl font-bold text-white mb-8">المواد ({{ stream.subjects|length }})</h2>
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+        {% for subject in stream.subjects %}
+        <a href="/exams/{{ stream.slug }}/{{ subject.slug }}" class="glass glass-hover rounded-2xl p-6 group">
+            <div class="flex items-center gap-4 mb-4">
+                <div class="w-14 h-14 rounded-xl bg-white/5 flex items-center justify-center text-3xl">{{ subject.icon }}</div>
+                <h3 class="text-xl font-bold text-white group-hover:text-brand-green">{{ subject.name }}</h3>
+            </div>
+            <div class="flex items-center justify-between text-xs font-bold text-gray-500 pt-4 border-t border-white/5">
+                <span><i class="fa-solid fa-file-pdf text-purple-400 ml-1"></i> {{ subject.exams|length }} موضوع</span>
+                <span class="text-brand-green">استكشف <i class="fa-solid fa-arrow-left ml-1"></i></span>
+            </div>
+        </a>
+        {% endfor %}
+    </div>
+</div>
+{% endblock %}
