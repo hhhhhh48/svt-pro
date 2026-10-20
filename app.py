@@ -555,25 +555,3 @@ def bac_exam(stream_slug, subject_slug):
     return render_template('bac_exam.html', stream=stream, subject=subject)
 
 
-@app.route('/exam-center')
-def exam_center():
-    try:
-        with open('exams_data.json', 'r', encoding='utf-8') as f:
-            data = json.load(f)
-        return render_template('exam_center.html', exams=data['exams'])
-    except Exception as e:
-        return f"خطأ: {str(e)}", 500
-
-@app.route('/exam-center/<exam_slug>')
-def exam_view(exam_slug):
-    try:
-        with open('exams_data.json', 'r', encoding='utf-8') as f:
-            data = json.load(f)
-        exam = next((e for e in data['exams'] if e['slug'] == exam_slug), None)
-        if not exam: abort(404)
-        return render_template('exam_view.html', exam=exam)
-    except Exception as e:
-        return f"خطأ: {str(e)}", 500
-
-if __name__ == '__main__':
-    app.run(host='0.0.0.0', port=int(os.environ.get('PORT', 3000)), debug=False)
