@@ -523,3 +523,15 @@ def admin_visitors():
 
 if __name__ == '__main__':
     app.run(host='0.0.0.0', port=3000, debug=True)
+
+@app.route('/bac-exam/<stream_slug>/<subject_slug>')
+def bac_exam(stream_slug, subject_slug):
+    data = load_data()
+    stream = next((s for s in data['streams'] if s['slug'] == stream_slug), None)
+    if not stream: abort(404)
+    subject = next((sub for sub in stream['subjects'] if sub['slug'] == subject_slug), None)
+    if not subject or 'bac_exam' not in subject: abort(404)
+    return render_template('bac_exam.html', stream=stream, subject=subject)
+
+if __name__ == '__main__':
+    app.run(host='0.0.0.0', port=int(os.environ.get('PORT', 3000)), debug=False)

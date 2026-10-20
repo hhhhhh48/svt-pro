@@ -1,0 +1,131 @@
+{% extends "base.html" %}
+{% block title %}امتحان بكالوريا تجريبي - {{ subject.name }}{% endblock %}
+{% block content %}
+<div class="pt-24 pb-20 px-4 max-w-4xl mx-auto">
+    <!-- رأس الصفحة -->
+    <div class="glass rounded-3xl p-6 md:p-8 mb-8 border-t-4 border-t-brand-green flex flex-col md:flex-row items-center justify-between gap-4">
+        <div class="text-center md:text-right">
+            <h1 class="text-2xl md:text-3xl font-black text-white mb-2">امتحان بكالوريا تجريبي</h1>
+            <p class="text-brand-green font-bold text-lg">{{ subject.name }}</p>
+            <p class="text-gray-400 text-sm mt-1">20 سؤالاً - مستوى صعب</p>
+        </div>
+        <div class="flex items-center gap-3 bg-black/40 px-6 py-4 rounded-2xl border border-white/10">
+            <i class="fa-solid fa-stopwatch text-3xl text-yellow-400"></i>
+            <div>
+                <div id="timer" class="text-3xl font-black text-white font-mono">02:00:00</div>
+                <div class="text-xs text-gray-400 text-center">الوقت المتبقي</div>
+            </div>
+        </div>
+    </div>
+
+    <!-- النموذج -->
+    <form id="examForm" class="space-y-6">
+        {% for q in subject.bac_exam %}
+        {% set q_index = loop.index %}
+        <div class="glass rounded-2xl p-6 md:p-8 relative overflow-hidden exam-question">
+            <div class="absolute top-0 right-0 w-12 h-12 bg-brand-green/10 rounded-bl-3xl flex items-center justify-center font-bold text-brand-green">{{ q_index }}</div>
+            <h3 class="text-lg md:text-xl font-bold text-white mb-6 pr-8">{{ q.q }}</h3>
+            <div class="space-y-3">
+                {% for option in q.options %}
+                <label class="flex items-center gap-3 p-3 md:p-4 rounded-xl border border-white/10 hover:border-brand-green/50 hover:bg-white/5 cursor-pointer transition">
+                    <input type="radio" name="q{{ q_index }}" value="{{ loop.index0 }}" class="w-5 h-5 accent-brand-green shrink-0" required>
+                    <span class="text-gray-300 text-sm md:text-base">{{ option }}</span>
+                </label>
+                {% endfor %}
+            </div>
+        </div>
+        {% endfor %}
+        
+        <button type="submit" class="w-full btn-neon py-5 rounded-2xl text-xl font-black flex items-center justify-center gap-3 shadow-[0_0_30px_rgba(0,255,136,0.3)]">
+            <i class="fa-solid fa-paper-plane"></i> تسليم ورقة الامتحان
+        </button>
+    </form>
+
+    <!-- النتيجة (مخفية في البداية) -->
+    <div id="resultScreen" class="hidden fixed inset-0 z-50 bg-black/90 backdrop-blur-md flex items-center justify-center p-6">
+        <div class="glass rounded-3xl p-8 md:p-12 max-w-md w-full text-center border-2 border-brand-green shadow-[0_0_50px_rgba(0,255,136,0.3)] animate-bounce-in">
+            <div class="text-6xl mb-4" id="resultEmoji">🎉</div>
+            <h2 class="text-3xl font-black text-white mb-2">النتيجة النهائية</h2>
+            <div class="text-7xl font-black text-transparent bg-clip-text bg-gradient-to-r from-brand-green to-brand-blue my-6" id="finalScore">0/20</div>
+            <p class="text-gray-400 mb-8" id="resultMessage">جاري حساب النتيجة...</p>
+            <a href="/stream/{{ stream.slug }}/{{ subject.slug }}" class="block w-full btn-neon py-4 rounded-xl text-lg">العودة للمادة</a>
+        </div>
+    </div>
+</div>
+
+<script>
+    // 1. منطق المؤقت (ساعتان)
+    let time = 120 * 60; // 120 دقيقة بالثواني
+    const timerEl = document.getElementById('timer');
+    const interval = setInterval(() => {
+        if (time <= 0) {
+            clearInterval(interval);
+            document.getElementById('examForm').dispatchEvent(new Event('submit'));
+            return;
+        }
+        time--;
+        const h = String(Math.floor(time / 3600)).padStart(2, '0');
+        const m = String(Math.floor((time % 3600) / 60)).padStart(2, '0');
+        const s = String(time % 60).padStart(2, '0');
+        timerEl.textContent = `${h}:${m}:${s}`;
+        
+        // تحذير في آخر 5 دقائق
+        if (time < 300) timerEl.classList.add('text-red-500', 'animate-pulse');
+    }, 1000);
+
+    // 2. منطق التصحيح
+    const answers = {{ subject.bac_exam | map(attribute='a') | list | tojson }};
+    
+    document.getElementById('examForm').addEventListener('submit', function(e) {
+        e.preventDefault();
+        clearInterval(interval);
+        
+        let score = 0;
+        const formData = new FormData(this);
+        
+        answers.forEach((correct, i) => {
+            const selected = formData.get('q' + (i+1));
+            if (selected == correct) score++;
+        });
+
+        const final = (score / answers.length) * 20;
+        const finalRounded = final.toFixed(1);
+        
+        document.getElementById('finalScore').textContent = `${finalRounded}/20`;
+        
+        const emoji = document.getElementById('resultEmoji');
+        const msg = document.getElementById('resultMessage');
+        
+        if (final >= 16) {
+            emoji.textContent = '🏆';
+            msg.textContent = 'ممتاز! أنت جاهز للبكالوريا بامتياز.';
+            document.getElementById('finalScore').className = 'text-7xl font-black text-transparent bg-clip-text bg-gradient-to-r from-yellow-400 to-yellow-600 my-6';
+        } else if (final >= 12) {
+            emoji.textContent = '👍';
+            msg.textContent = 'جيد جداً! تحتاج لمراجعة بعض النقاط.';
+            document.getElementById('finalScore').className = 'text-7xl font-black text-transparent bg-clip-text bg-gradient-to-r from-brand-green to-brand-blue my-6';
+        } else if (final >= 10) {
+            emoji.textContent = '😐';
+            msg.textContent = 'مقبول. يجب بذل مجهود أكبر.';
+            document.getElementById('finalScore').className = 'text-7xl font-black text-transparent bg-clip-text bg-gradient-to-r from-orange-400 to-red-500 my-6';
+        } else {
+            emoji.textContent = '😢';
+            msg.textContent = 'ضعيف. راجع الدروس جيداً وحاول مرة أخرى.';
+            document.getElementById('finalScore').className = 'text-7xl font-black text-transparent bg-clip-text bg-gradient-to-r from-red-500 to-red-700 my-6';
+        }
+
+        document.getElementById('resultScreen').classList.remove('hidden');
+    });
+</script>
+
+<style>
+    @keyframes bounce-in {
+        0% { transform: scale(0.5); opacity: 0; }
+        80% { transform: scale(1.05); opacity: 1; }
+        100% { transform: scale(1); opacity: 1; }
+    }
+    .animate-bounce-in {
+        animation: bounce-in 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275) forwards;
+    }
+</style>
+{% endblock %}
