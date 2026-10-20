@@ -478,7 +478,7 @@ def track_visitors_advanced():
         ua = request.headers.get('User-Agent', '').lower()
 
         # 🚫 الفلتر 1: حظر البوتات المعروفة
-        bot_keywords = ['bot', 'crawl', 'spider', 'slurp', 'baidu', 'yandex', 'bing', 'googlebot', 'ahrefs', 'semrush', 'python-requests', 'curl', 'wget', 'scrapy', 'httpclient', 'java', 'headlesschrome', 'phantomjs', 'selenium', 'puppeteer']
+        bot_keywords = ['bot', 'crawl', 'spider', 'slurp', 'baidu', 'yandex', 'bing', 'googlebot', 'ahrefs', 'semrush', 'python-requests', 'curl', 'wget', 'scrapy', 'httpclient', 'java', 'headlesschrome', 'phantomjs', 'selenium', 'puppeteer', 'googleother', 'adsbot', 'mediapartners', 'lighthouse', 'pingdom', 'uptimerobot']
         if any(keyword in ua for keyword in bot_keywords):
             return
 
