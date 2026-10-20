@@ -1,0 +1,25 @@
+{% extends "base.html" %}
+{% block title %}مركز الاختبارات | BAC 2026{% endblock %}
+{% block content %}
+<div class="pt-32 pb-20 px-6 max-w-6xl mx-auto">
+    <div class="text-center mb-16">
+        <h1 class="text-5xl md:text-7xl font-black mb-4 text-white">مركز <span class="text-glow">الاختبارات</span></h1>
+        <p class="text-xl text-gray-400">امتحانات تجريبية شاملة بنمط البكالوريا الجزائرية</p>
+    </div>
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+        {% for exam in exams %}
+        <a href="/exam-center/{{ exam.slug }}" class="glass glass-hover rounded-3xl p-8 relative overflow-hidden group">
+            <div class="absolute top-0 right-0 w-24 h-24 bg-gradient-to-br {{ exam.color }} opacity-10 rounded-bl-full group-hover:scale-150 transition-transform"></div>
+            <div class="w-16 h-16 rounded-2xl bg-gradient-to-br {{ exam.color }} flex items-center justify-center text-3xl mb-6">{{ exam.icon }}</div>
+            <h3 class="text-2xl font-bold text-white mb-2">{{ exam.subject }}</h3>
+            <p class="text-sm text-brand-green font-bold mb-4">{{ exam.stream }}</p>
+            <p class="text-sm text-gray-400 mb-6">{{ exam.description }}</p>
+            <div class="flex justify-between items-center text-xs text-gray-500 pt-4 border-t border-white/5">
+                <span><i class="fa-regular fa-clock ml-1"></i> {{ exam.duration }}</span>
+                <span><i class="fa-solid fa-file-lines ml-1"></i> {{ exam.exercises|length }} تمارين</span>
+            </div>
+        </a>
+        {% endfor %}
+    </div>
+</div>
+{% endblock %}
