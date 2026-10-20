@@ -1,9 +1,11 @@
 import datetime
 from werkzeug.security import generate_password_hash, check_password_hash
+from werkzeug.middleware.proxy_fix import ProxyFix
 from flask import Flask, render_template, abort, request, redirect, url_for, session, flash
 import re, json, os
 
 app = Flask(__name__)
+app.wsgi_app = ProxyFix(app.wsgi_app, x_for=1, x_proto=1, x_host=1, x_port=1)
 app.secret_key = 'super_secret_key_bac_2026'
 
 
@@ -411,6 +413,7 @@ def admin_send_message(user_id):
 
 
 # ==================== إعدادات SEO لجوجل ====================
+from werkzeug.middleware.proxy_fix import ProxyFix
 from flask import send_from_directory
 
 @app.route('/robots.txt')
@@ -491,7 +494,7 @@ def track_visitors_advanced():
         visits = load_visits()
         visits.append({
             "id": str(uuid.uuid4())[:8],
-            "ip": request.remote_addr or "Unknown",
+            "ip": request.headers.get('X-Forwarded-For', request.remote_addr).split(',')[0].strip(),
             "ua": request.headers.get('User-Agent', 'Unknown'),
             "path": request.path,
             "time": _dt.datetime.now().strftime('%Y-%m-%d %H:%M:%S')
