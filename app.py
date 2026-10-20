@@ -416,8 +416,13 @@ def admin_send_message(user_id):
 @app.route('/admin/visitors')
 def admin_visitors():
     if not session.get('admin'): return redirect(url_for('login'))
-    total, unique, visits = get_stats()
-    visits.reverse() # الأحدث أولاً
+    try:
+        from visitor_tracker import get_stats
+        total, unique, visits = get_stats()
+        # التأكد من أن الزيارات قائمة وأنها مقلوبة لعرض الأحدث أولاً
+        visits = list(reversed(visits)) if visits else []
+    except Exception as e:
+        total, unique, visits = 0, 0, []
     return render_template('admin_visitors.html', total=total, unique=unique, visits=visits)
 
 if __name__ == '__main__':
