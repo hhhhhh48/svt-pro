@@ -1,0 +1,102 @@
+{% extends "base.html" %}
+{% block content %}
+<div class="max-w-3xl mx-auto p-4" dir="rtl">
+  <div class="text-center mb-6">
+    <h1 class="text-3xl font-bold mb-1">🏆 لوحة الصدارة</h1>
+    <p class="text-sm text-gray-500">الأسبوع {{ week_key }} · {{ total_attempts }} محاولة</p>
+  </div>
+
+  <!-- تبويبات المواد -->
+  <div class="flex flex-wrap gap-2 justify-center mb-6">
+    {% for s in subjects %}
+      <a href="/leaderboard?subject={{ s.id }}"
+         class="px-4 py-2 rounded-full text-sm font-bold transition
+                {% if s.id == current_filter %}
+                  bg-emerald-600 text-white shadow
+                {% else %}
+                  bg-gray-100 text-gray-700 hover:bg-gray-200
+                {% endif %}">
+        {{ s.icon }} {{ s.name }}
+        <span class="text-xs opacity-70">({{ s.count }})</span>
+      </a>
+    {% endfor %}
+  </div>
+
+  {% if top %}
+    <!-- منصة التتويج -->
+    {% if top|length >= 3 %}
+      <div class="flex items-end justify-center gap-2 mb-6 mt-4">
+        <!-- الثاني -->
+        <div class="text-center">
+          <div class="bg-gradient-to-b from-gray-300 to-gray-400 rounded-t-lg p-3 pt-6" style="min-width: 90px;">
+            <div class="text-2xl mb-1">🥈</div>
+            <div class="font-bold text-xs truncate"><a href="/profile?name={{ top[1].name | urlencode }}" class="hover:underline">{{ top[1].name }}</a></div>
+            <div class="text-lg font-bold">{{ top[1].points }}</div>
+          </div>
+        </div>
+        <!-- الأول -->
+        <div class="text-center">
+          <div class="bg-gradient-to-b from-yellow-300 to-yellow-500 rounded-t-lg p-3 pt-8" style="min-width: 110px;">
+            <div class="text-3xl mb-1">🥇</div>
+            <div class="font-bold text-sm truncate"><a href="/profile?name={{ top[0].name | urlencode }}" class="hover:underline">{{ top[0].name }}</a></div>
+            <div class="text-xl font-bold">{{ top[0].points }}</div>
+          </div>
+        </div>
+        <!-- الثالث -->
+        <div class="text-center">
+          <div class="bg-gradient-to-b from-amber-600 to-amber-800 text-white rounded-t-lg p-3 pt-4" style="min-width: 90px;">
+            <div class="text-2xl mb-1">🥉</div>
+            <div class="font-bold text-xs truncate"><a href="/profile?name={{ top[2].name | urlencode }}" class="hover:underline">{{ top[2].name }}</a></div>
+            <div class="text-lg font-bold">{{ top[2].points }}</div>
+          </div>
+        </div>
+      </div>
+    {% endif %}
+
+    <!-- قائمة الباقي -->
+    <div class="space-y-2 mt-6">
+      {% for u in top %}
+        <div class="flex items-center justify-between bg-white border-2 rounded-xl p-3
+                    {% if loop.index <= 3 %}border-emerald-200{% else %}border-gray-200{% endif %}">
+          <div class="flex items-center gap-3">
+            <span class="text-lg font-bold w-8 text-center
+                         {% if loop.index == 1 %}text-yellow-500
+                         {% elif loop.index == 2 %}text-gray-500
+                         {% elif loop.index == 3 %}text-amber-700
+                         {% else %}text-gray-400{% endif %}">
+              #{{ loop.index }}
+            </span>
+            <a href="/profile?name={{ u.name | urlencode }}" class="font-bold hover:text-emerald-600 hover:underline">{{ u.name }}</a>
+          </div>
+          <div class="text-right text-sm">
+            <div class="font-bold text-emerald-600">{{ u.points }} نقطة</div>
+            <div class="text-gray-500 text-xs">
+              {{ u.quizzes }} كويز · دقة {{ u.accuracy }}%
+            </div>
+          </div>
+        </div>
+      {% endfor %}
+    </div>
+  {% else %}
+    <div class="text-center py-16">
+      <p class="text-5xl mb-4">📭</p>
+      <p class="text-gray-500 mb-4">
+        {% if current_filter == 'all' %}
+          لا توجد محاولات هذا الأسبوع بعد.
+        {% else %}
+          لا توجد محاولات في هذه المادة هذا الأسبوع.
+        {% endif %}
+      </p>
+      <a href="/quiz" class="inline-block bg-emerald-600 text-white px-6 py-3 rounded-xl font-bold hover:bg-emerald-700">
+        كن الأول 🚀
+      </a>
+    </div>
+  {% endif %}
+
+  <!-- معلومات إضافية -->
+  <div class="mt-8 p-4 bg-blue-50 border border-blue-200 rounded-xl text-xs text-blue-800">
+    <p class="font-bold mb-1">ℹ️ كيف تُحسب النقاط؟</p>
+    <p>كل إجابة صحيحة = 10 نقاط. الترتيب يُحسب بـ: النقاط ← الدقة ← عدد الكويزات.</p>
+  </div>
+</div>
+{% endblock %}

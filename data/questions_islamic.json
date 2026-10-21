@@ -1,0 +1,1202 @@
+[
+  {
+    "id": "isl_001",
+    "unitId": "isl_quran",
+    "subjectId": "islamic",
+    "type": "qcm",
+    "difficulty": 5,
+    "status": "published",
+    "source": "bac_hard",
+    "question": "عدد سور القرآن الكريم:",
+    "options": [
+      {
+        "id": "a",
+        "text": "112"
+      },
+      {
+        "id": "b",
+        "text": "114"
+      },
+      {
+        "id": "c",
+        "text": "120"
+      },
+      {
+        "id": "d",
+        "text": "100"
+      }
+    ],
+    "correctOptionId": "b",
+    "explanation": "114 سورة."
+  },
+  {
+    "id": "isl_002",
+    "unitId": "isl_quran",
+    "subjectId": "islamic",
+    "type": "qcm",
+    "difficulty": 5,
+    "status": "published",
+    "source": "bac_hard",
+    "question": "أول ما نزل من القرآن:",
+    "options": [
+      {
+        "id": "a",
+        "text": "الفاتحة"
+      },
+      {
+        "id": "b",
+        "text": "العلق (اقرأ)"
+      },
+      {
+        "id": "c",
+        "text": "البقرة"
+      },
+      {
+        "id": "d",
+        "text": "الناس"
+      }
+    ],
+    "correctOptionId": "b",
+    "explanation": "صدر سورة العلق."
+  },
+  {
+    "id": "isl_003",
+    "unitId": "isl_quran",
+    "subjectId": "islamic",
+    "type": "qcm",
+    "difficulty": 5,
+    "status": "published",
+    "source": "bac_hard",
+    "question": "أطول سورة في القرآن:",
+    "options": [
+      {
+        "id": "a",
+        "text": "آل عمران"
+      },
+      {
+        "id": "b",
+        "text": "البقرة"
+      },
+      {
+        "id": "c",
+        "text": "النساء"
+      },
+      {
+        "id": "d",
+        "text": "المائدة"
+      }
+    ],
+    "correctOptionId": "b",
+    "explanation": "البقرة، 286 آية."
+  },
+  {
+    "id": "isl_004",
+    "unitId": "isl_quran",
+    "subjectId": "islamic",
+    "type": "qcm",
+    "difficulty": 5,
+    "status": "published",
+    "source": "bac_hard",
+    "question": "أقصر سورة في القرآن:",
+    "options": [
+      {
+        "id": "a",
+        "text": "الكوثر"
+      },
+      {
+        "id": "b",
+        "text": "الإخلاص"
+      },
+      {
+        "id": "c",
+        "text": "العصر"
+      },
+      {
+        "id": "d",
+        "text": "الناس"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "الكوثر، 3 آيات."
+  },
+  {
+    "id": "isl_005",
+    "unitId": "isl_quran",
+    "subjectId": "islamic",
+    "type": "qcm",
+    "difficulty": 5,
+    "status": "published",
+    "source": "bac_hard",
+    "question": "عدد آيات سورة الفاتحة:",
+    "options": [
+      {
+        "id": "a",
+        "text": "5"
+      },
+      {
+        "id": "b",
+        "text": "6"
+      },
+      {
+        "id": "c",
+        "text": "7"
+      },
+      {
+        "id": "d",
+        "text": "8"
+      }
+    ],
+    "correctOptionId": "c",
+    "explanation": "7 آيات، 'السبع المثاني'."
+  },
+  {
+    "id": "isl_006",
+    "unitId": "isl_quran",
+    "subjectId": "islamic",
+    "type": "qcm",
+    "difficulty": 5,
+    "status": "published",
+    "source": "bac_hard",
+    "question": "القرآن المكي هو ما نزل:",
+    "options": [
+      {
+        "id": "a",
+        "text": "بعد الهجرة"
+      },
+      {
+        "id": "b",
+        "text": "قبل الهجرة"
+      },
+      {
+        "id": "c",
+        "text": "في المدينة"
+      },
+      {
+        "id": "d",
+        "text": "في الطائف"
+      }
+    ],
+    "correctOptionId": "b",
+    "explanation": "المكي قبل، المدني بعد."
+  },
+  {
+    "id": "isl_007",
+    "unitId": "isl_hadith",
+    "subjectId": "islamic",
+    "type": "qcm",
+    "difficulty": 5,
+    "status": "published",
+    "source": "bac_hard",
+    "question": "السنة النبوية تشمل:",
+    "options": [
+      {
+        "id": "a",
+        "text": "الأقوال فقط"
+      },
+      {
+        "id": "b",
+        "text": "الأقوال والأفعال والإقرار"
+      },
+      {
+        "id": "c",
+        "text": "أخبار الصحابة"
+      },
+      {
+        "id": "d",
+        "text": "الأحاديث الضعيفة"
+      }
+    ],
+    "correctOptionId": "b",
+    "explanation": "قول، فعل، إقرار."
+  },
+  {
+    "id": "isl_008",
+    "unitId": "isl_hadith",
+    "subjectId": "islamic",
+    "type": "qcm",
+    "difficulty": 5,
+    "status": "published",
+    "source": "bac_hard",
+    "question": "الحديث القدسي:",
+    "options": [
+      {
+        "id": "a",
+        "text": "لفظ ومعنى من النبي"
+      },
+      {
+        "id": "b",
+        "text": "لفظ من النبي ومعنى من الله"
+      },
+      {
+        "id": "c",
+        "text": "لفظ من الصحابة"
+      },
+      {
+        "id": "d",
+        "text": "لفظ من الله فقط"
+      }
+    ],
+    "correctOptionId": "b",
+    "explanation": "اللفظ نبوي، المعنى إلهي."
+  },
+  {
+    "id": "isl_009",
+    "unitId": "isl_hadith",
+    "subjectId": "islamic",
+    "type": "qcm",
+    "difficulty": 5,
+    "status": "published",
+    "source": "bac_hard",
+    "question": "الحديث المتواتر:",
+    "options": [
+      {
+        "id": "a",
+        "text": "رواة قليلون"
+      },
+      {
+        "id": "b",
+        "text": "رواة كثيرون في كل طبقة"
+      },
+      {
+        "id": "c",
+        "text": "مرسل"
+      },
+      {
+        "id": "d",
+        "text": "ضعيف"
+      }
+    ],
+    "correctOptionId": "b",
+    "explanation": "يفيد العلم القطعي."
+  },
+  {
+    "id": "isl_010",
+    "unitId": "isl_hadith",
+    "subjectId": "islamic",
+    "type": "qcm",
+    "difficulty": 5,
+    "status": "published",
+    "source": "bac_hard",
+    "question": "أصح كتاب بعد القرآن:",
+    "options": [
+      {
+        "id": "a",
+        "text": "سنن أبي داود"
+      },
+      {
+        "id": "b",
+        "text": "صحيح البخاري"
+      },
+      {
+        "id": "c",
+        "text": "مسند أحمد"
+      },
+      {
+        "id": "d",
+        "text": "الموطأ"
+      }
+    ],
+    "correctOptionId": "b",
+    "explanation": "بإجماع العلماء."
+  },
+  {
+    "id": "isl_011",
+    "unitId": "isl_hadith",
+    "subjectId": "islamic",
+    "type": "qcm",
+    "difficulty": 5,
+    "status": "published",
+    "source": "bac_hard",
+    "question": "صحيح مسلم:",
+    "options": [
+      {
+        "id": "a",
+        "text": "أول كتاب حديث"
+      },
+      {
+        "id": "b",
+        "text": "ثاني الصحيحين"
+      },
+      {
+        "id": "c",
+        "text": "لا قيمة له"
+      },
+      {
+        "id": "d",
+        "text": "أحاديث ضعيفة"
+      }
+    ],
+    "correctOptionId": "b",
+    "explanation": "ثاني أصح كتاب."
+  },
+  {
+    "id": "isl_012",
+    "unitId": "isl_aqida",
+    "subjectId": "islamic",
+    "type": "qcm",
+    "difficulty": 5,
+    "status": "published",
+    "source": "bac_hard",
+    "question": "عدد أركان الإيمان:",
+    "options": [
+      {
+        "id": "a",
+        "text": "5"
+      },
+      {
+        "id": "b",
+        "text": "6"
+      },
+      {
+        "id": "c",
+        "text": "7"
+      },
+      {
+        "id": "d",
+        "text": "4"
+      }
+    ],
+    "correctOptionId": "b",
+    "explanation": "الله، ملائكته، كتبه، رسله، اليوم الآخر، القدر."
+  },
+  {
+    "id": "isl_013",
+    "unitId": "isl_aqida",
+    "subjectId": "islamic",
+    "type": "qcm",
+    "difficulty": 5,
+    "status": "published",
+    "source": "bac_hard",
+    "question": "أنواع التوحيد:",
+    "options": [
+      {
+        "id": "a",
+        "text": "1"
+      },
+      {
+        "id": "b",
+        "text": "2"
+      },
+      {
+        "id": "c",
+        "text": "3 (ربوبية، ألوهية، أسماء وصفات)"
+      },
+      {
+        "id": "d",
+        "text": "4"
+      }
+    ],
+    "correctOptionId": "c",
+    "explanation": "ثلاثة أنواع."
+  },
+  {
+    "id": "isl_014",
+    "unitId": "isl_aqida",
+    "subjectId": "islamic",
+    "type": "qcm",
+    "difficulty": 5,
+    "status": "published",
+    "source": "bac_hard",
+    "question": "التوحيد هو:",
+    "options": [
+      {
+        "id": "a",
+        "text": "الإيمان بالملائكة"
+      },
+      {
+        "id": "b",
+        "text": "إفراد الله بالعبادة والربوبية"
+      },
+      {
+        "id": "c",
+        "text": "قراءة القرآن"
+      },
+      {
+        "id": "d",
+        "text": "الحج"
+      }
+    ],
+    "correctOptionId": "b",
+    "explanation": "إفراده بما يختص به."
+  },
+  {
+    "id": "isl_015",
+    "unitId": "isl_aqida",
+    "subjectId": "islamic",
+    "type": "qcm",
+    "difficulty": 5,
+    "status": "published",
+    "source": "bac_hard",
+    "question": "الشرك هو:",
+    "options": [
+      {
+        "id": "a",
+        "text": "عكس التوحيد"
+      },
+      {
+        "id": "b",
+        "text": "الإيمان"
+      },
+      {
+        "id": "c",
+        "text": "التقوى"
+      },
+      {
+        "id": "d",
+        "text": "العبادة"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "أعظم الذنوب."
+  },
+  {
+    "id": "isl_016",
+    "unitId": "isl_aqida",
+    "subjectId": "islamic",
+    "type": "qcm",
+    "difficulty": 5,
+    "status": "published",
+    "source": "bac_hard",
+    "question": "الإيمان باليوم الآخر يشمل:",
+    "options": [
+      {
+        "id": "a",
+        "text": "القيامة والحساب والجنة والنار"
+      },
+      {
+        "id": "b",
+        "text": "فقط الموت"
+      },
+      {
+        "id": "c",
+        "text": "فقط البرزخ"
+      },
+      {
+        "id": "d",
+        "text": "فقط البعث"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "البرزخ، البعث، الحساب..."
+  },
+  {
+    "id": "isl_017",
+    "unitId": "isl_fiqh",
+    "subjectId": "islamic",
+    "type": "qcm",
+    "difficulty": 5,
+    "status": "published",
+    "source": "bac_hard",
+    "question": "عدد أركان الإسلام:",
+    "options": [
+      {
+        "id": "a",
+        "text": "5"
+      },
+      {
+        "id": "b",
+        "text": "6"
+      },
+      {
+        "id": "c",
+        "text": "4"
+      },
+      {
+        "id": "d",
+        "text": "7"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "الشهادتان، الصلاة، الزكاة، الصوم، الحج."
+  },
+  {
+    "id": "isl_018",
+    "unitId": "isl_fiqh",
+    "subjectId": "islamic",
+    "type": "qcm",
+    "difficulty": 5,
+    "status": "published",
+    "source": "bac_hard",
+    "question": "الركن الأول من أركان الإسلام:",
+    "options": [
+      {
+        "id": "a",
+        "text": "الصلاة"
+      },
+      {
+        "id": "b",
+        "text": "الشهادتان"
+      },
+      {
+        "id": "c",
+        "text": "الزكاة"
+      },
+      {
+        "id": "d",
+        "text": "الصوم"
+      }
+    ],
+    "correctOptionId": "b",
+    "explanation": "لا إله إلا الله محمد رسول الله."
+  },
+  {
+    "id": "isl_019",
+    "unitId": "isl_fiqh",
+    "subjectId": "islamic",
+    "type": "qcm",
+    "difficulty": 5,
+    "status": "published",
+    "source": "bac_hard",
+    "question": "عدد الصلوات المفروضة يوميًا:",
+    "options": [
+      {
+        "id": "a",
+        "text": "3"
+      },
+      {
+        "id": "b",
+        "text": "5"
+      },
+      {
+        "id": "c",
+        "text": "6"
+      },
+      {
+        "id": "d",
+        "text": "4"
+      }
+    ],
+    "correctOptionId": "b",
+    "explanation": "الفجر، الظهر، العصر، المغرب، العشاء."
+  },
+  {
+    "id": "isl_020",
+    "unitId": "isl_fiqh",
+    "subjectId": "islamic",
+    "type": "qcm",
+    "difficulty": 5,
+    "status": "published",
+    "source": "bac_hard",
+    "question": "مقدار الزكاة في المال:",
+    "options": [
+      {
+        "id": "a",
+        "text": "1%"
+      },
+      {
+        "id": "b",
+        "text": "2.5%"
+      },
+      {
+        "id": "c",
+        "text": "5%"
+      },
+      {
+        "id": "d",
+        "text": "10%"
+      }
+    ],
+    "correctOptionId": "b",
+    "explanation": "2.5% بعد الحول والنصاب."
+  },
+  {
+    "id": "isl_021",
+    "unitId": "isl_fiqh",
+    "subjectId": "islamic",
+    "type": "qcm",
+    "difficulty": 5,
+    "status": "published",
+    "source": "bac_hard",
+    "question": "شروط الصلاة:",
+    "options": [
+      {
+        "id": "a",
+        "text": "الإسلام والعقل والبلوغ والطهارة"
+      },
+      {
+        "id": "b",
+        "text": "الصحة فقط"
+      },
+      {
+        "id": "c",
+        "text": "الغنى"
+      },
+      {
+        "id": "d",
+        "text": "السفر"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "مع ستر العورة واستقبال القبلة."
+  },
+  {
+    "id": "isl_022",
+    "unitId": "isl_fiqh",
+    "subjectId": "islamic",
+    "type": "qcm",
+    "difficulty": 5,
+    "status": "published",
+    "source": "bac_hard",
+    "question": "مبطلات الصيام:",
+    "options": [
+      {
+        "id": "a",
+        "text": "الأكل والشرب والجماع عمدًا"
+      },
+      {
+        "id": "b",
+        "text": "النسيان"
+      },
+      {
+        "id": "c",
+        "text": "الغسل"
+      },
+      {
+        "id": "d",
+        "text": "النوم"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "تفطر عمدًا."
+  },
+  {
+    "id": "isl_023",
+    "unitId": "isl_fiqh",
+    "subjectId": "islamic",
+    "type": "qcm",
+    "difficulty": 5,
+    "status": "published",
+    "source": "bac_hard",
+    "question": "الحج واجب على:",
+    "options": [
+      {
+        "id": "a",
+        "text": "كل مسلم"
+      },
+      {
+        "id": "b",
+        "text": "المستطيع"
+      },
+      {
+        "id": "c",
+        "text": "الفقير"
+      },
+      {
+        "id": "d",
+        "text": "المريض"
+      }
+    ],
+    "correctOptionId": "b",
+    "explanation": "على المستطيع مرة في العمر."
+  },
+  {
+    "id": "isl_024",
+    "unitId": "isl_fiqh",
+    "subjectId": "islamic",
+    "type": "qcm",
+    "difficulty": 5,
+    "status": "published",
+    "source": "bac_hard",
+    "question": "أركان الحج:",
+    "options": [
+      {
+        "id": "a",
+        "text": "الإحرام، الطواف، السعي، عرفة"
+      },
+      {
+        "id": "b",
+        "text": "التلبية فقط"
+      },
+      {
+        "id": "c",
+        "text": "الطواف فقط"
+      },
+      {
+        "id": "d",
+        "text": "عرفة فقط"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "أربعة أركان."
+  },
+  {
+    "id": "isl_025",
+    "unitId": "isl_sira",
+    "subjectId": "islamic",
+    "type": "qcm",
+    "difficulty": 5,
+    "status": "published",
+    "source": "bac_hard",
+    "question": "الهجرة النبوية كانت سنة:",
+    "options": [
+      {
+        "id": "a",
+        "text": "610م"
+      },
+      {
+        "id": "b",
+        "text": "622م"
+      },
+      {
+        "id": "c",
+        "text": "630م"
+      },
+      {
+        "id": "d",
+        "text": "632م"
+      }
+    ],
+    "correctOptionId": "b",
+    "explanation": "622م = 1هـ."
+  },
+  {
+    "id": "isl_026",
+    "unitId": "isl_sira",
+    "subjectId": "islamic",
+    "type": "qcm",
+    "difficulty": 5,
+    "status": "published",
+    "source": "bac_hard",
+    "question": "غزوة بدر الكبرى:",
+    "options": [
+      {
+        "id": "a",
+        "text": "1هـ"
+      },
+      {
+        "id": "b",
+        "text": "2هـ"
+      },
+      {
+        "id": "c",
+        "text": "3هـ"
+      },
+      {
+        "id": "d",
+        "text": "5هـ"
+      }
+    ],
+    "correctOptionId": "b",
+    "explanation": "624م، أول معركة فاصلة."
+  },
+  {
+    "id": "isl_027",
+    "unitId": "isl_sira",
+    "subjectId": "islamic",
+    "type": "qcm",
+    "difficulty": 5,
+    "status": "published",
+    "source": "bac_hard",
+    "question": "غزوة أحد:",
+    "options": [
+      {
+        "id": "a",
+        "text": "1هـ"
+      },
+      {
+        "id": "b",
+        "text": "2هـ"
+      },
+      {
+        "id": "c",
+        "text": "3هـ"
+      },
+      {
+        "id": "d",
+        "text": "8هـ"
+      }
+    ],
+    "correctOptionId": "c",
+    "explanation": "3هـ / 625م."
+  },
+  {
+    "id": "isl_028",
+    "unitId": "isl_sira",
+    "subjectId": "islamic",
+    "type": "qcm",
+    "difficulty": 5,
+    "status": "published",
+    "source": "bac_hard",
+    "question": "غزوة الخندق (الأحزاب):",
+    "options": [
+      {
+        "id": "a",
+        "text": "2هـ"
+      },
+      {
+        "id": "b",
+        "text": "3هـ"
+      },
+      {
+        "id": "c",
+        "text": "5هـ"
+      },
+      {
+        "id": "d",
+        "text": "8هـ"
+      }
+    ],
+    "correctOptionId": "c",
+    "explanation": "5هـ / 627م."
+  },
+  {
+    "id": "isl_029",
+    "unitId": "isl_sira",
+    "subjectId": "islamic",
+    "type": "qcm",
+    "difficulty": 5,
+    "status": "published",
+    "source": "bac_hard",
+    "question": "صلح الحديبية:",
+    "options": [
+      {
+        "id": "a",
+        "text": "4هـ"
+      },
+      {
+        "id": "b",
+        "text": "6هـ"
+      },
+      {
+        "id": "c",
+        "text": "8هـ"
+      },
+      {
+        "id": "d",
+        "text": "10هـ"
+      }
+    ],
+    "correctOptionId": "b",
+    "explanation": "6هـ / 628م."
+  },
+  {
+    "id": "isl_030",
+    "unitId": "isl_sira",
+    "subjectId": "islamic",
+    "type": "qcm",
+    "difficulty": 5,
+    "status": "published",
+    "source": "bac_hard",
+    "question": "فتح مكة:",
+    "options": [
+      {
+        "id": "a",
+        "text": "5هـ"
+      },
+      {
+        "id": "b",
+        "text": "6هـ"
+      },
+      {
+        "id": "c",
+        "text": "8هـ"
+      },
+      {
+        "id": "d",
+        "text": "11هـ"
+      }
+    ],
+    "correctOptionId": "c",
+    "explanation": "8هـ / 630م."
+  },
+  {
+    "id": "isl_031",
+    "unitId": "isl_sira",
+    "subjectId": "islamic",
+    "type": "qcm",
+    "difficulty": 5,
+    "status": "published",
+    "source": "bac_hard",
+    "question": "وفاة النبي ﷺ:",
+    "options": [
+      {
+        "id": "a",
+        "text": "8هـ"
+      },
+      {
+        "id": "b",
+        "text": "10هـ"
+      },
+      {
+        "id": "c",
+        "text": "11هـ"
+      },
+      {
+        "id": "d",
+        "text": "13هـ"
+      }
+    ],
+    "correctOptionId": "c",
+    "explanation": "11هـ / 632م."
+  },
+  {
+    "id": "isl_032",
+    "unitId": "isl_akhlaq",
+    "subjectId": "islamic",
+    "type": "qcm",
+    "difficulty": 5,
+    "status": "published",
+    "source": "bac_hard",
+    "question": "بر الوالدين حكمه:",
+    "options": [
+      {
+        "id": "a",
+        "text": "مباح"
+      },
+      {
+        "id": "b",
+        "text": "واجب"
+      },
+      {
+        "id": "c",
+        "text": "مكروه"
+      },
+      {
+        "id": "d",
+        "text": "مستحب فقط"
+      }
+    ],
+    "correctOptionId": "b",
+    "explanation": "من أعظم القربات."
+  },
+  {
+    "id": "isl_033",
+    "unitId": "isl_akhlaq",
+    "subjectId": "islamic",
+    "type": "qcm",
+    "difficulty": 5,
+    "status": "published",
+    "source": "bac_hard",
+    "question": "صلة الرحم:",
+    "options": [
+      {
+        "id": "a",
+        "text": "مباحة"
+      },
+      {
+        "id": "b",
+        "text": "واجبة، وقطعها من الكبائر"
+      },
+      {
+        "id": "c",
+        "text": "مكروهة"
+      },
+      {
+        "id": "d",
+        "text": "خاصة بالأغنياء"
+      }
+    ],
+    "correctOptionId": "b",
+    "explanation": "قطعها كبيرة."
+  },
+  {
+    "id": "isl_034",
+    "unitId": "isl_akhlaq",
+    "subjectId": "islamic",
+    "type": "qcm",
+    "difficulty": 5,
+    "status": "published",
+    "source": "bac_hard",
+    "question": "الصدق والأمانة:",
+    "options": [
+      {
+        "id": "a",
+        "text": "مستحبتان فقط"
+      },
+      {
+        "id": "b",
+        "text": "من أعظم الأخلاق وأساس التعامل"
+      },
+      {
+        "id": "c",
+        "text": "خاصتان بالتجار"
+      },
+      {
+        "id": "d",
+        "text": "لا أهمية"
+      }
+    ],
+    "correctOptionId": "b",
+    "explanation": "أساس كل تعامل."
+  },
+  {
+    "id": "isl_035",
+    "unitId": "isl_akhlaq",
+    "subjectId": "islamic",
+    "type": "qcm",
+    "difficulty": 5,
+    "status": "published",
+    "source": "bac_hard",
+    "question": "الغيبة حكمها:",
+    "options": [
+      {
+        "id": "a",
+        "text": "مباحة"
+      },
+      {
+        "id": "b",
+        "text": "محرمة، من كبائر الذنوب"
+      },
+      {
+        "id": "c",
+        "text": "مكروهة فقط"
+      },
+      {
+        "id": "d",
+        "text": "مستحبة"
+      }
+    ],
+    "correctOptionId": "b",
+    "explanation": "محرمة شرعًا."
+  },
+  {
+    "id": "isl_036",
+    "unitId": "isl_maqasid",
+    "subjectId": "islamic",
+    "type": "qcm",
+    "difficulty": 5,
+    "status": "published",
+    "source": "bac_hard",
+    "question": "الضروريات الخمس:",
+    "options": [
+      {
+        "id": "a",
+        "text": "الدين، النفس، العقل، النسل، المال"
+      },
+      {
+        "id": "b",
+        "text": "الصلاة والزكاة والصوم والحج والشهادة"
+      },
+      {
+        "id": "c",
+        "text": "الإيمان والإسلام والإحسان"
+      },
+      {
+        "id": "d",
+        "text": "العلم والعمل والأخلاق"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "مقاصد الشريعة الخمس."
+  },
+  {
+    "id": "isl_037",
+    "unitId": "isl_maqasid",
+    "subjectId": "islamic",
+    "type": "qcm",
+    "difficulty": 5,
+    "status": "published",
+    "source": "bac_hard",
+    "question": "الربا في الإسلام:",
+    "options": [
+      {
+        "id": "a",
+        "text": "مباح"
+      },
+      {
+        "id": "b",
+        "text": "محرم قطعًا"
+      },
+      {
+        "id": "c",
+        "text": "مكروه"
+      },
+      {
+        "id": "d",
+        "text": "مستحب"
+      }
+    ],
+    "correctOptionId": "b",
+    "explanation": "من كبائر الذنوب."
+  },
+  {
+    "id": "isl_038",
+    "unitId": "isl_maqasid",
+    "subjectId": "islamic",
+    "type": "qcm",
+    "difficulty": 5,
+    "status": "published",
+    "source": "bac_hard",
+    "question": "الاجتهاد في الفقه:",
+    "options": [
+      {
+        "id": "a",
+        "text": "بدعة"
+      },
+      {
+        "id": "b",
+        "text": "بذل الجهد لاستنباط الحكم من الأدلة"
+      },
+      {
+        "id": "c",
+        "text": "ترك الأحكام"
+      },
+      {
+        "id": "d",
+        "text": "اتباع الهوى"
+      }
+    ],
+    "correctOptionId": "b",
+    "explanation": "استنباط الأحكام."
+  },
+  {
+    "id": "isl_039",
+    "unitId": "isl_maqasid",
+    "subjectId": "islamic",
+    "type": "qcm",
+    "difficulty": 5,
+    "status": "published",
+    "source": "bac_hard",
+    "question": "مصادر التشريع الأساسية:",
+    "options": [
+      {
+        "id": "a",
+        "text": "القرآن والسنة والإجماع والقياس"
+      },
+      {
+        "id": "b",
+        "text": "العقل فقط"
+      },
+      {
+        "id": "c",
+        "text": "العرف فقط"
+      },
+      {
+        "id": "d",
+        "text": "العادة"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "الأربعة."
+  },
+  {
+    "id": "isl_040",
+    "unitId": "isl_maqasid",
+    "subjectId": "islamic",
+    "type": "qcm",
+    "difficulty": 5,
+    "status": "published",
+    "source": "bac_hard",
+    "question": "الطلاق في الإسلام:",
+    "options": [
+      {
+        "id": "a",
+        "text": "مباح مطلقًا بلا ضوابط"
+      },
+      {
+        "id": "b",
+        "text": "مباح لكن أبغض الحلال إلى الله"
+      },
+      {
+        "id": "c",
+        "text": "محرم"
+      },
+      {
+        "id": "d",
+        "text": "واجب"
+      }
+    ],
+    "correctOptionId": "b",
+    "explanation": "مباح عند الحاجة."
+  }
+]

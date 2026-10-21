@@ -1,0 +1,1202 @@
+[
+  {
+    "id": "phy_001",
+    "unitId": "phy_kinetics",
+    "subjectId": "physics",
+    "type": "qcm",
+    "difficulty": 5,
+    "status": "published",
+    "source": "bac_hard",
+    "question": "نصف العمر t½ في تفاعل كيميائي هو:",
+    "options": [
+      {
+        "id": "a",
+        "text": "الزمن اللازم لاستهلاك نصف كمية المتفاعل"
+      },
+      {
+        "id": "b",
+        "text": "الزمن اللازم لانتهاء التفاعل كليًا"
+      },
+      {
+        "id": "c",
+        "text": "الزمن اللازم لتضاعف سرعة التفاعل"
+      },
+      {
+        "id": "d",
+        "text": "الزمن اللازم للوصول إلى التوازن"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "نصف العمر هو الزمن الذي يُستهلك فيه نصف كمية المتفاعل الابتدائية (أو يتحول نصفه إلى نواتج)."
+  },
+  {
+    "id": "phy_002",
+    "unitId": "phy_kinetics",
+    "subjectId": "physics",
+    "type": "qcm",
+    "difficulty": 5,
+    "status": "published",
+    "source": "bac_hard",
+    "question": "عند رفع درجة الحرارة من 20°C إلى 40°C، سرعة التفاعل عادةً:",
+    "options": [
+      {
+        "id": "a",
+        "text": "تزداد 2 إلى 4 أضعاف"
+      },
+      {
+        "id": "b",
+        "text": "تنقص إلى النصف"
+      },
+      {
+        "id": "c",
+        "text": "لا تتغير"
+      },
+      {
+        "id": "d",
+        "text": "تتضاعف 100 مرة"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "قاعدة فانت هوف التقريبية: كل ارتفاع بـ10°C يضاعف السرعة 2–4 مرات، لأن عدد التصادمات الفعالة يزداد."
+  },
+  {
+    "id": "phy_003",
+    "unitId": "phy_kinetics",
+    "subjectId": "physics",
+    "type": "qcm",
+    "difficulty": 5,
+    "status": "published",
+    "source": "bac_hard",
+    "question": "أي طريقة متابعة مناسبة لتفاعل يُنتج غازًا؟",
+    "options": [
+      {
+        "id": "a",
+        "text": "قياس الضغط داخل وعاء مغلق"
+      },
+      {
+        "id": "b",
+        "text": "قياس اللون فقط"
+      },
+      {
+        "id": "c",
+        "text": "قياس الكتلة فقط في وعاء مفتوح"
+      },
+      {
+        "id": "d",
+        "text": "قياس الناقلية الكهربائية"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "إنتاج غاز يرفع الضغط في وعاء مغلق. نقيس الضغط بدلالة الزمن لاستنتاج تقدم التفاعل."
+  },
+  {
+    "id": "phy_004",
+    "unitId": "phy_kinetics",
+    "subjectId": "physics",
+    "type": "qcm",
+    "difficulty": 5,
+    "status": "published",
+    "source": "bac_hard",
+    "question": "الحفاز (catalyseur) في تفاعل كيميائي:",
+    "options": [
+      {
+        "id": "a",
+        "text": "يزيد السرعة دون أن يُستهلك ولا يغيّر الحالة النهائية"
+      },
+      {
+        "id": "b",
+        "text": "يُستهلك كليًا في التفاعل"
+      },
+      {
+        "id": "c",
+        "text": "يغيّر النواتج النهائية"
+      },
+      {
+        "id": "d",
+        "text": "يمنع التفاعل"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "الحفاز يخفض طاقة التنشيط فيُسرّع التفاعل، ويُستَرجع في النهاية دون تغيير التوازن."
+  },
+  {
+    "id": "phy_005",
+    "unitId": "phy_kinetics",
+    "subjectId": "physics",
+    "type": "qcm",
+    "difficulty": 5,
+    "status": "published",
+    "source": "bac_hard",
+    "question": "وحدة سرعة التفاعل في نظام مغلق حجمه ثابت:",
+    "options": [
+      {
+        "id": "a",
+        "text": "mol·L⁻¹·s⁻¹"
+      },
+      {
+        "id": "b",
+        "text": "mol·L⁻¹"
+      },
+      {
+        "id": "c",
+        "text": "mol·s⁻¹"
+      },
+      {
+        "id": "d",
+        "text": "s⁻¹"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "سرعة التفاعل = -d[متفاعل]/dt أو +d[ناتج]/dt، وحدتها mol·L⁻¹·s⁻¹ (تركيز/زمن)."
+  },
+  {
+    "id": "phy_006",
+    "unitId": "phy_nuclear",
+    "subjectId": "physics",
+    "type": "qcm",
+    "difficulty": 5,
+    "status": "published",
+    "source": "bac_hard",
+    "question": "نواة ²²⁶₈₈Ra تُصدر جسيم α. العدد الذري Z للنواة الناتجة:",
+    "options": [
+      {
+        "id": "a",
+        "text": "86"
+      },
+      {
+        "id": "b",
+        "text": "87"
+      },
+      {
+        "id": "c",
+        "text": "88"
+      },
+      {
+        "id": "d",
+        "text": "90"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "جسيم α = نواة هيليوم ⁴₂He. الإصدار α ينقص A بـ4 و Z بـ2. إذن Z = 88−2 = 86."
+  },
+  {
+    "id": "phy_007",
+    "unitId": "phy_nuclear",
+    "subjectId": "physics",
+    "type": "qcm",
+    "difficulty": 5,
+    "status": "published",
+    "source": "bac_hard",
+    "question": "في قانون التفكك N(t)=N₀e^(−λt)، ما هو λ؟",
+    "options": [
+      {
+        "id": "a",
+        "text": "ثابت التفكك الإشعاعي"
+      },
+      {
+        "id": "b",
+        "text": "الزمن"
+      },
+      {
+        "id": "c",
+        "text": "النشاط الإشعاعي"
+      },
+      {
+        "id": "d",
+        "text": "الكتلة المتبقية"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "λ ثابت التفكك الإشعاعي، وحدته s⁻¹، ويرتبط بنصف العمر: t½ = ln2/λ."
+  },
+  {
+    "id": "phy_008",
+    "unitId": "phy_nuclear",
+    "subjectId": "physics",
+    "type": "qcm",
+    "difficulty": 5,
+    "status": "published",
+    "source": "bac_hard",
+    "question": "بعد مرور 3 أنصاف عمر، النسبة المتبقية من النوى:",
+    "options": [
+      {
+        "id": "a",
+        "text": "1/8"
+      },
+      {
+        "id": "b",
+        "text": "1/2"
+      },
+      {
+        "id": "c",
+        "text": "1/4"
+      },
+      {
+        "id": "d",
+        "text": "1/16"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "كل نصف عمر ينقص النصف: بعد 3 أنصاف → (1/2)³ = 1/8."
+  },
+  {
+    "id": "phy_009",
+    "unitId": "phy_nuclear",
+    "subjectId": "physics",
+    "type": "qcm",
+    "difficulty": 5,
+    "status": "published",
+    "source": "bac_hard",
+    "question": "عيب الكتلة Δm في النواة يعبّر عن:",
+    "options": [
+      {
+        "id": "a",
+        "text": "طاقة الربط مقسومة على c²"
+      },
+      {
+        "id": "b",
+        "text": "الكتلة الحقيقية للنواة"
+      },
+      {
+        "id": "c",
+        "text": "مجموع كتل النيوكليونات"
+      },
+      {
+        "id": "d",
+        "text": "الفرق بين كتلة البروتون والنيوترون"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "Δm = (Z·mₚ + N·mₙ) − m(نواة). طاقة الربط E = Δm·c². عيب الكتلة هو 'الكتلة المفقودة' التي تحولت لطاقة ربط."
+  },
+  {
+    "id": "phy_010",
+    "unitId": "phy_nuclear",
+    "subjectId": "physics",
+    "type": "qcm",
+    "difficulty": 5,
+    "status": "published",
+    "source": "bac_hard",
+    "question": "الاندماج النووي يحدث عادة في:",
+    "options": [
+      {
+        "id": "a",
+        "text": "درجات حرارة عالية جدًا وضغط كبير"
+      },
+      {
+        "id": "b",
+        "text": "درجة حرارة عادية"
+      },
+      {
+        "id": "c",
+        "text": "ضغط منخفض جدًا"
+      },
+      {
+        "id": "d",
+        "text": "غياب الجاذبية"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "الاندماج (مثل الشمس) يحتاج حرارة ملايين الدرجات للتغلب على التنافر الكهربائي بين النوى الموجبة."
+  },
+  {
+    "id": "phy_011",
+    "unitId": "phy_nuclear",
+    "subjectId": "physics",
+    "type": "qcm",
+    "difficulty": 5,
+    "status": "published",
+    "source": "bac_hard",
+    "question": "في الانشطار النووي، ما الذي يُحفظ؟",
+    "options": [
+      {
+        "id": "a",
+        "text": "مجموع الأعداد الكتلية ومجموع الشحنات"
+      },
+      {
+        "id": "b",
+        "text": "الكتلة السكونية فقط"
+      },
+      {
+        "id": "c",
+        "text": "عدد النيوترونات فقط"
+      },
+      {
+        "id": "d",
+        "text": "الطاقة الحركية فقط"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "قوانين سودي: في كل تحول نووي، مجموع أعداد الكتلة A ومجموع الأعداد الذرية Z محفوظان."
+  },
+  {
+    "id": "phy_012",
+    "unitId": "phy_nuclear",
+    "subjectId": "physics",
+    "type": "qcm",
+    "difficulty": 5,
+    "status": "published",
+    "source": "bac_hard",
+    "question": "وحدة النشاط الإشعاعي في النظام الدولي:",
+    "options": [
+      {
+        "id": "a",
+        "text": "بيكريل (Bq)"
+      },
+      {
+        "id": "b",
+        "text": "جول (J)"
+      },
+      {
+        "id": "c",
+        "text": "فولت (V)"
+      },
+      {
+        "id": "d",
+        "text": "أمبير (A)"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "1 Bq = تفكك واحد في الثانية. النشاط A = λN."
+  },
+  {
+    "id": "phy_013",
+    "unitId": "phy_equilibrium",
+    "subjectId": "physics",
+    "type": "qcm",
+    "difficulty": 5,
+    "status": "published",
+    "source": "bac_hard",
+    "question": "pH لمحلول HCl تركيزه 10⁻³ mol/L:",
+    "options": [
+      {
+        "id": "a",
+        "text": "3"
+      },
+      {
+        "id": "b",
+        "text": "−3"
+      },
+      {
+        "id": "c",
+        "text": "11"
+      },
+      {
+        "id": "d",
+        "text": "0.3"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "HCl حمض قوي يتفكك كليًا، [H₃O⁺] = 10⁻³، إذن pH = −log(10⁻³) = 3."
+  },
+  {
+    "id": "phy_014",
+    "unitId": "phy_equilibrium",
+    "subjectId": "physics",
+    "type": "qcm",
+    "difficulty": 5,
+    "status": "published",
+    "source": "bac_hard",
+    "question": "Ka لحمض ضعيف AH:",
+    "options": [
+      {
+        "id": "a",
+        "text": "ثابت تفكك الحمض في الماء"
+      },
+      {
+        "id": "b",
+        "text": "ثابت تفكك الماء"
+      },
+      {
+        "id": "c",
+        "text": "ثابت التوازن العام"
+      },
+      {
+        "id": "d",
+        "text": "نشاط الحمض"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "AH + H₂O ⇌ A⁻ + H₃O⁺ ؛ Ka = [A⁻][H₃O⁺]/[AH]. كلما كبر Ka كان الحمض أقوى."
+  },
+  {
+    "id": "phy_015",
+    "unitId": "phy_equilibrium",
+    "subjectId": "physics",
+    "type": "qcm",
+    "difficulty": 5,
+    "status": "published",
+    "source": "bac_hard",
+    "question": "عند نقطة نصف المعايرة لحمض ضعيف بقاعدة قوية:",
+    "options": [
+      {
+        "id": "a",
+        "text": "pH = pKa"
+      },
+      {
+        "id": "b",
+        "text": "pH = 7"
+      },
+      {
+        "id": "c",
+        "text": "pH = 14"
+      },
+      {
+        "id": "d",
+        "text": "pH = pKa/2"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "عند نصف المعايرة [AH] = [A⁻]، ومن معادلة هندرسون-هاسلبالخ pH = pKa + log([A⁻]/[AH]) = pKa."
+  },
+  {
+    "id": "phy_016",
+    "unitId": "phy_equilibrium",
+    "subjectId": "physics",
+    "type": "qcm",
+    "difficulty": 5,
+    "status": "published",
+    "source": "bac_hard",
+    "question": "المحلول المنظم (tampon) هو محلول:",
+    "options": [
+      {
+        "id": "a",
+        "text": "يقاوم تغير pH عند إضافة حمض أو قاعدة بكمية صغيرة"
+      },
+      {
+        "id": "b",
+        "text": "يُبقي pH دائمًا عند 7"
+      },
+      {
+        "id": "c",
+        "text": "يُبقي pH دائمًا عند 14"
+      },
+      {
+        "id": "d",
+        "text": "لا يتغير حجمه"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "المحلول المنظم يحتوي زوجًا حمض/قاعدة مرافق (مثل CH₃COOH/CH₃COO⁻) ويقاوم التغيرات الصغيرة في pH."
+  },
+  {
+    "id": "phy_017",
+    "unitId": "phy_equilibrium",
+    "subjectId": "physics",
+    "type": "qcm",
+    "difficulty": 5,
+    "status": "published",
+    "source": "bac_hard",
+    "question": "في تعريف برونستد، الحمض هو:",
+    "options": [
+      {
+        "id": "a",
+        "text": "مُانح بروتون (H⁺)"
+      },
+      {
+        "id": "b",
+        "text": "مُستقبل بروتون"
+      },
+      {
+        "id": "c",
+        "text": "مُانح إلكترون"
+      },
+      {
+        "id": "d",
+        "text": "مُستقبل إلكترون"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "حسب برونستد-لاوري: الحمض مادة قادرة على تحرير بروتون، والقاعدة قادرة على استقباله."
+  },
+  {
+    "id": "phy_018",
+    "unitId": "phy_equilibrium",
+    "subjectId": "physics",
+    "type": "qcm",
+    "difficulty": 5,
+    "status": "published",
+    "source": "bac_hard",
+    "question": "حمض قوي جدًا في الماء:",
+    "options": [
+      {
+        "id": "a",
+        "text": "يتفكك كليًا (تأين تام)"
+      },
+      {
+        "id": "b",
+        "text": "يتفكك جزئيًا"
+      },
+      {
+        "id": "c",
+        "text": "لا يتفكك"
+      },
+      {
+        "id": "d",
+        "text": "يتفاعل مع الماء ببطء"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "الحمض القوي (HCl، HNO₃، H₂SO₄) يتفكك كليًا في الماء. الحمض الضعيف (CH₃COOH) يتفكك جزئيًا."
+  },
+  {
+    "id": "phy_019",
+    "unitId": "phy_equilibrium",
+    "subjectId": "physics",
+    "type": "qcm",
+    "difficulty": 5,
+    "status": "published",
+    "source": "bac_hard",
+    "question": "عند معايرة HCl بـNaOH، يُنصح باستخدام مؤشر:",
+    "options": [
+      {
+        "id": "a",
+        "text": "الفينولفثالين (يتغير عند pH 8-10)"
+      },
+      {
+        "id": "b",
+        "text": "الميثيل البرتقالي (pH 3-4)"
+      },
+      {
+        "id": "c",
+        "text": "عباد الشمس فقط"
+      },
+      {
+        "id": "d",
+        "text": "لا مؤشر"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "في معايرة حمض قوي بقاعدة قوية، نقطة التكافؤ pH = 7. الفينولفثالين يتغير عند 8.2–10، وهو مناسب."
+  },
+  {
+    "id": "phy_020",
+    "unitId": "phy_equilibrium",
+    "subjectId": "physics",
+    "type": "qcm",
+    "difficulty": 5,
+    "status": "published",
+    "source": "bac_hard",
+    "question": "Kw للماء عند 25°C:",
+    "options": [
+      {
+        "id": "a",
+        "text": "10⁻¹⁴"
+      },
+      {
+        "id": "b",
+        "text": "10⁻⁷"
+      },
+      {
+        "id": "c",
+        "text": "1"
+      },
+      {
+        "id": "d",
+        "text": "10⁻¹"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "Kw = [H₃O⁺][OH⁻] = 10⁻¹⁴ عند 25°C. في الماء النقي [H⁺] = [OH⁻] = 10⁻⁷، إذن pH = 7."
+  },
+  {
+    "id": "phy_021",
+    "unitId": "phy_mechanics",
+    "subjectId": "physics",
+    "type": "qcm",
+    "difficulty": 5,
+    "status": "published",
+    "source": "bac_hard",
+    "question": "معادلة الحركة x(t) = 2t² + 3t. التسارع:",
+    "options": [
+      {
+        "id": "a",
+        "text": "4 m/s²"
+      },
+      {
+        "id": "b",
+        "text": "2 m/s²"
+      },
+      {
+        "id": "c",
+        "text": "3 m/s²"
+      },
+      {
+        "id": "d",
+        "text": "6t m/s²"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "x(t) = ½at² + v₀t + x₀ ← ½a = 2 ⟹ a = 4 m/s². (أو بالاشتقاق مرتين)."
+  },
+  {
+    "id": "phy_022",
+    "unitId": "phy_mechanics",
+    "subjectId": "physics",
+    "type": "qcm",
+    "difficulty": 5,
+    "status": "published",
+    "source": "bac_hard",
+    "question": "قانون نيوتن الثاني:",
+    "options": [
+      {
+        "id": "a",
+        "text": "ΣF = ma"
+      },
+      {
+        "id": "b",
+        "text": "F = m/a"
+      },
+      {
+        "id": "c",
+        "text": "F = a/m"
+      },
+      {
+        "id": "d",
+        "text": "F = ma²"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "العلاقة الأساسية للديناميك: محصلة القوى = الكتلة × التسارع."
+  },
+  {
+    "id": "phy_023",
+    "unitId": "phy_mechanics",
+    "subjectId": "physics",
+    "type": "qcm",
+    "difficulty": 5,
+    "status": "published",
+    "source": "bac_hard",
+    "question": "الطاقة الحركية لجسم كتلته 2kg وسرعته 5 m/s:",
+    "options": [
+      {
+        "id": "a",
+        "text": "25 J"
+      },
+      {
+        "id": "b",
+        "text": "10 J"
+      },
+      {
+        "id": "c",
+        "text": "5 J"
+      },
+      {
+        "id": "d",
+        "text": "50 J"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "Eк = ½mv² = ½ × 2 × 25 = 25 J."
+  },
+  {
+    "id": "phy_024",
+    "unitId": "phy_mechanics",
+    "subjectId": "physics",
+    "type": "qcm",
+    "difficulty": 5,
+    "status": "published",
+    "source": "bac_hard",
+    "question": "شغل قوة 10N على مسافة 5m في اتجاهها:",
+    "options": [
+      {
+        "id": "a",
+        "text": "50 J"
+      },
+      {
+        "id": "b",
+        "text": "2 J"
+      },
+      {
+        "id": "c",
+        "text": "5 J"
+      },
+      {
+        "id": "d",
+        "text": "10 J"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "W = F·d·cos(0) = 10 × 5 × 1 = 50 J."
+  },
+  {
+    "id": "phy_025",
+    "unitId": "phy_mechanics",
+    "subjectId": "physics",
+    "type": "qcm",
+    "difficulty": 5,
+    "status": "published",
+    "source": "bac_hard",
+    "question": "طاقة الوضع الثقالية لجسم على ارتفاع h:",
+    "options": [
+      {
+        "id": "a",
+        "text": "mgh"
+      },
+      {
+        "id": "b",
+        "text": "mv²/2"
+      },
+      {
+        "id": "c",
+        "text": "mgh²"
+      },
+      {
+        "id": "d",
+        "text": "mh"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "Eрр = mgh حيث g ≈ 9.81 m/s² على سطح الأرض."
+  },
+  {
+    "id": "phy_026",
+    "unitId": "phy_mechanics",
+    "subjectId": "physics",
+    "type": "qcm",
+    "difficulty": 5,
+    "status": "published",
+    "source": "bac_hard",
+    "question": "نابض k = 100 N/m استطال x = 0.1m. الطاقة المخزنة:",
+    "options": [
+      {
+        "id": "a",
+        "text": "0.5 J"
+      },
+      {
+        "id": "b",
+        "text": "10 J"
+      },
+      {
+        "id": "c",
+        "text": "1 J"
+      },
+      {
+        "id": "d",
+        "text": "5 J"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "Eре = ½kx² = ½ × 100 × 0.01 = 0.5 J."
+  },
+  {
+    "id": "phy_027",
+    "unitId": "phy_mechanics",
+    "subjectId": "physics",
+    "type": "qcm",
+    "difficulty": 5,
+    "status": "published",
+    "source": "bac_hard",
+    "question": "دور النواس البسيط (طول l، جاذبية g):",
+    "options": [
+      {
+        "id": "a",
+        "text": "T = 2π√(l/g)"
+      },
+      {
+        "id": "b",
+        "text": "T = 2π√(g/l)"
+      },
+      {
+        "id": "c",
+        "text": "T = √(l/g)"
+      },
+      {
+        "id": "d",
+        "text": "T = 2πg/l"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "دور النواس البسيط لا يعتمد على الكتلة، بل على الطول والجاذبية فقط (للاهتزازات الصغيرة)."
+  },
+  {
+    "id": "phy_028",
+    "unitId": "phy_mechanics",
+    "subjectId": "physics",
+    "type": "qcm",
+    "difficulty": 5,
+    "status": "published",
+    "source": "bac_hard",
+    "question": "سرعة السقوط الحر من ارتفاع h (بدون سرعة ابتدائية):",
+    "options": [
+      {
+        "id": "a",
+        "text": "v = √(2gh)"
+      },
+      {
+        "id": "b",
+        "text": "v = gh"
+      },
+      {
+        "id": "c",
+        "text": "v = √(gh)"
+      },
+      {
+        "id": "d",
+        "text": "v = 2gh"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "من حفظ الطاقة: mgh = ½mv² ⟹ v = √(2gh)."
+  },
+  {
+    "id": "phy_029",
+    "unitId": "phy_mechanics",
+    "subjectId": "physics",
+    "type": "qcm",
+    "difficulty": 5,
+    "status": "published",
+    "source": "bac_hard",
+    "question": "في تصادم مرن بين جسمين:",
+    "options": [
+      {
+        "id": "a",
+        "text": "الطاقة الحركية وكمية الحركة محفوظتان"
+      },
+      {
+        "id": "b",
+        "text": "الطاقة فقط محفوظة"
+      },
+      {
+        "id": "c",
+        "text": "كمية الحركة فقط محفوظة"
+      },
+      {
+        "id": "d",
+        "text": "لا شيء محفوظ"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "التصادم المرن: مجموع الطاقة الحركية محفوظ + كمية الحركة محفوظة. التصادم غير المرن: الطاقة لا تُحفظ."
+  },
+  {
+    "id": "phy_030",
+    "unitId": "phy_mechanics",
+    "subjectId": "physics",
+    "type": "qcm",
+    "difficulty": 5,
+    "status": "published",
+    "source": "bac_hard",
+    "question": "في حركة دائرية منتظمة، التسارع:",
+    "options": [
+      {
+        "id": "a",
+        "text": "مركزي، اتجاهه نحو المركز"
+      },
+      {
+        "id": "b",
+        "text": "خطي في اتجاه السرعة"
+      },
+      {
+        "id": "c",
+        "text": "معدوم"
+      },
+      {
+        "id": "d",
+        "text": "نحو الخارج"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "السرعة ثابتة في المقدار، لكن الاتجاه يتغير، فيوجد تسارع مركزي a = v²/r نحو المركز."
+  },
+  {
+    "id": "phy_031",
+    "unitId": "phy_circuits",
+    "subjectId": "physics",
+    "type": "qcm",
+    "difficulty": 5,
+    "status": "published",
+    "source": "bac_hard",
+    "question": "ثابت الزمن في دارة RC على التسلسل:",
+    "options": [
+      {
+        "id": "a",
+        "text": "τ = RC"
+      },
+      {
+        "id": "b",
+        "text": "τ = R/C"
+      },
+      {
+        "id": "c",
+        "text": "τ = C/R"
+      },
+      {
+        "id": "d",
+        "text": "τ = R + C"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "τ = RC. بعده الزمني s. بعد t = τ، يصل المكثف إلى ~63% من شحنته النهائية."
+  },
+  {
+    "id": "phy_032",
+    "unitId": "phy_circuits",
+    "subjectId": "physics",
+    "type": "qcm",
+    "difficulty": 5,
+    "status": "published",
+    "source": "bac_hard",
+    "question": "أثناء شحن مكثف عبر مقاومة، شدة التيار:",
+    "options": [
+      {
+        "id": "a",
+        "text": "تنقص تدريجيًا نحو الصفر"
+      },
+      {
+        "id": "b",
+        "text": "تزداد تدريجيًا"
+      },
+      {
+        "id": "c",
+        "text": "تبقى ثابتة"
+      },
+      {
+        "id": "d",
+        "text": "تصبح صفرًا فورًا"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "i(t) = (E/R)e^(−t/RC). التيار أقصى في البداية ثم يتناقص أسّيًا نحو الصفر عند امتلاء المكثف."
+  },
+  {
+    "id": "phy_033",
+    "unitId": "phy_circuits",
+    "subjectId": "physics",
+    "type": "qcm",
+    "difficulty": 5,
+    "status": "published",
+    "source": "bac_hard",
+    "question": "ثابت الزمن في دارة RL:",
+    "options": [
+      {
+        "id": "a",
+        "text": "τ = L/R"
+      },
+      {
+        "id": "b",
+        "text": "τ = R/L"
+      },
+      {
+        "id": "c",
+        "text": "τ = L·R"
+      },
+      {
+        "id": "d",
+        "text": "τ = L + R"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "τ = L/R. الوشيعة تعارض تغير التيار، فبعد τ يصل التيار إلى ~63% من قيمته النهائية."
+  },
+  {
+    "id": "phy_034",
+    "unitId": "phy_circuits",
+    "subjectId": "physics",
+    "type": "qcm",
+    "difficulty": 5,
+    "status": "published",
+    "source": "bac_hard",
+    "question": "في دارة RLC على التسلسل، الرنين يحدث عندما:",
+    "options": [
+      {
+        "id": "a",
+        "text": "XL = XC"
+      },
+      {
+        "id": "b",
+        "text": "XL = 0"
+      },
+      {
+        "id": "c",
+        "text": "XC = 0"
+      },
+      {
+        "id": "d",
+        "text": "R = L"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "الرنين: XL = XC ⟹ المعاوقة Z = R فقط، والتيار أقصى. التردد f₀ = 1/(2π√(LC))."
+  },
+  {
+    "id": "phy_035",
+    "unitId": "phy_circuits",
+    "subjectId": "physics",
+    "type": "qcm",
+    "difficulty": 5,
+    "status": "published",
+    "source": "bac_hard",
+    "question": "بعد اكتمال شحن مكثف في دارة تيار مستمر:",
+    "options": [
+      {
+        "id": "a",
+        "text": "يمنع مرور التيار (يشكل قاطعًا)"
+      },
+      {
+        "id": "b",
+        "text": "يمرر التيار كاملًا"
+      },
+      {
+        "id": "c",
+        "text": "يمرر نصف التيار"
+      },
+      {
+        "id": "d",
+        "text": "يفرغ نفسه تلقائيًا"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "عندما يتشبع المكثف، التيار يتوقف. في التيار المستمر بعد زمن طويل، المكثف يتصرف كدائرة مفتوحة."
+  },
+  {
+    "id": "phy_036",
+    "unitId": "phy_circuits",
+    "subjectId": "physics",
+    "type": "qcm",
+    "difficulty": 5,
+    "status": "published",
+    "source": "bac_hard",
+    "question": "بعد استقرار التيار في دارة مع وشيعة:",
+    "options": [
+      {
+        "id": "a",
+        "text": "تسمح بمرور التيار الكامل (تصبح سلكًا)"
+      },
+      {
+        "id": "b",
+        "text": "تمنعه"
+      },
+      {
+        "id": "c",
+        "text": "تمنع نصفه"
+      },
+      {
+        "id": "d",
+        "text": "لا تأثير"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "في التيار المستمر بعد الاستقرار، الوشيعة تتصرف كسلك عادي (مقاومتها صغيرة جدًا)."
+  },
+  {
+    "id": "phy_037",
+    "unitId": "phy_circuits",
+    "subjectId": "physics",
+    "type": "qcm",
+    "difficulty": 5,
+    "status": "published",
+    "source": "bac_hard",
+    "question": "وحدة السعة C في النظام الدولي:",
+    "options": [
+      {
+        "id": "a",
+        "text": "فاراد (F)"
+      },
+      {
+        "id": "b",
+        "text": "هنري (H)"
+      },
+      {
+        "id": "c",
+        "text": "أوم (Ω)"
+      },
+      {
+        "id": "d",
+        "text": "فولت (V)"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "C = Q/V، وحدتها كولوم/فولت = فاراد."
+  },
+  {
+    "id": "phy_038",
+    "unitId": "phy_circuits",
+    "subjectId": "physics",
+    "type": "qcm",
+    "difficulty": 5,
+    "status": "published",
+    "source": "bac_hard",
+    "question": "وحدة ذاتية التحريض L:",
+    "options": [
+      {
+        "id": "a",
+        "text": "هنري (H)"
+      },
+      {
+        "id": "b",
+        "text": "فاراد (F)"
+      },
+      {
+        "id": "c",
+        "text": "أوم (Ω)"
+      },
+      {
+        "id": "d",
+        "text": "فولت (V)"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "L = Φ/i (تدفق مغناطيسي / شدة تيار)، وحدتها هنري."
+  },
+  {
+    "id": "phy_039",
+    "unitId": "phy_modern",
+    "subjectId": "physics",
+    "type": "qcm",
+    "difficulty": 5,
+    "status": "published",
+    "source": "bac_hard",
+    "question": "الظاهرة الكهروضوئية: انبعاث إلكترونات من معدن عندما:",
+    "options": [
+      {
+        "id": "a",
+        "text": "طاقة الفوتون الساقط ≥ طاقة تحرير الإلكترون"
+      },
+      {
+        "id": "b",
+        "text": "شدة الضوء عالية جدًا"
+      },
+      {
+        "id": "c",
+        "text": "الضوء أحمر"
+      },
+      {
+        "id": "d",
+        "text": "الضوء مستمر"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "شرط انبعاث الإلكترون: hν ≥ W (W = طاقة تحرير المعدن). إذا كانت طاقة الفوتون أقل، لا يحدث الانبعاث مهما كانت الشدة."
+  },
+  {
+    "id": "phy_040",
+    "unitId": "phy_modern",
+    "subjectId": "physics",
+    "type": "qcm",
+    "difficulty": 5,
+    "status": "published",
+    "source": "bac_hard",
+    "question": "طاقة الفوتون تُحسب بـ:",
+    "options": [
+      {
+        "id": "a",
+        "text": "E = hν"
+      },
+      {
+        "id": "b",
+        "text": "E = mc"
+      },
+      {
+        "id": "c",
+        "text": "E = h/ν"
+      },
+      {
+        "id": "d",
+        "text": "E = mgh"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "E = hν حيث h ثابت بلانك (6.63×10⁻³⁴ J·s)، ν التردد. ويمكن كتابتها E = hc/λ."
+  }
+]

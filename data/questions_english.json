@@ -1,0 +1,1202 @@
+[
+  {
+    "id": "en_001",
+    "unitId": "en_tenses",
+    "subjectId": "english",
+    "type": "qcm",
+    "difficulty": 5,
+    "status": "published",
+    "source": "bac_hard",
+    "question": "« I ___ here since 2019. »",
+    "options": [
+      {
+        "id": "a",
+        "text": "have lived"
+      },
+      {
+        "id": "b",
+        "text": "live"
+      },
+      {
+        "id": "c",
+        "text": "lived"
+      },
+      {
+        "id": "d",
+        "text": "am living"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "Present perfect with « since »."
+  },
+  {
+    "id": "en_002",
+    "unitId": "en_tenses",
+    "subjectId": "english",
+    "type": "qcm",
+    "difficulty": 5,
+    "status": "published",
+    "source": "bac_hard",
+    "question": "« When I arrived, he ___ TV. »",
+    "options": [
+      {
+        "id": "a",
+        "text": "was watching"
+      },
+      {
+        "id": "b",
+        "text": "watched"
+      },
+      {
+        "id": "c",
+        "text": "watches"
+      },
+      {
+        "id": "d",
+        "text": "has watched"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "Past continuous for action in progress in the past."
+  },
+  {
+    "id": "en_003",
+    "unitId": "en_tenses",
+    "subjectId": "english",
+    "type": "qcm",
+    "difficulty": 5,
+    "status": "published",
+    "source": "bac_hard",
+    "question": "« She ___ to Paris last year. »",
+    "options": [
+      {
+        "id": "a",
+        "text": "went"
+      },
+      {
+        "id": "b",
+        "text": "has gone"
+      },
+      {
+        "id": "c",
+        "text": "goes"
+      },
+      {
+        "id": "d",
+        "text": "was going"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "Simple past with « last year »."
+  },
+  {
+    "id": "en_004",
+    "unitId": "en_tenses",
+    "subjectId": "english",
+    "type": "qcm",
+    "difficulty": 5,
+    "status": "published",
+    "source": "bac_hard",
+    "question": "« By 2030, he ___ his studies. »",
+    "options": [
+      {
+        "id": "a",
+        "text": "will have finished"
+      },
+      {
+        "id": "b",
+        "text": "will finish"
+      },
+      {
+        "id": "c",
+        "text": "finished"
+      },
+      {
+        "id": "d",
+        "text": "has finished"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "Future perfect for completion by a time."
+  },
+  {
+    "id": "en_005",
+    "unitId": "en_tenses",
+    "subjectId": "english",
+    "type": "qcm",
+    "difficulty": 5,
+    "status": "published",
+    "source": "bac_hard",
+    "question": "« If I ___ rich, I would travel. »",
+    "options": [
+      {
+        "id": "a",
+        "text": "were"
+      },
+      {
+        "id": "b",
+        "text": "am"
+      },
+      {
+        "id": "c",
+        "text": "was"
+      },
+      {
+        "id": "d",
+        "text": "will be"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "Second conditional: If + past (were)."
+  },
+  {
+    "id": "en_006",
+    "unitId": "en_tenses",
+    "subjectId": "english",
+    "type": "qcm",
+    "difficulty": 5,
+    "status": "published",
+    "source": "bac_hard",
+    "question": "« If you heat water, it ___. »",
+    "options": [
+      {
+        "id": "a",
+        "text": "boils"
+      },
+      {
+        "id": "b",
+        "text": "will boil"
+      },
+      {
+        "id": "c",
+        "text": "boiled"
+      },
+      {
+        "id": "d",
+        "text": "would boil"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "Zero conditional (fact)."
+  },
+  {
+    "id": "en_007",
+    "unitId": "en_tenses",
+    "subjectId": "english",
+    "type": "qcm",
+    "difficulty": 5,
+    "status": "published",
+    "source": "bac_hard",
+    "question": "« I wish I ___ more time. »",
+    "options": [
+      {
+        "id": "a",
+        "text": "had"
+      },
+      {
+        "id": "b",
+        "text": "have"
+      },
+      {
+        "id": "c",
+        "text": "will have"
+      },
+      {
+        "id": "d",
+        "text": "would have"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "Wish + past simple (unreal present)."
+  },
+  {
+    "id": "en_008",
+    "unitId": "en_tenses",
+    "subjectId": "english",
+    "type": "qcm",
+    "difficulty": 5,
+    "status": "published",
+    "source": "bac_hard",
+    "question": "« The report ___ by the manager yesterday. »",
+    "options": [
+      {
+        "id": "a",
+        "text": "was written"
+      },
+      {
+        "id": "b",
+        "text": "wrote"
+      },
+      {
+        "id": "c",
+        "text": "is written"
+      },
+      {
+        "id": "d",
+        "text": "has written"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "Past passive: was + past participle."
+  },
+  {
+    "id": "en_009",
+    "unitId": "en_tenses",
+    "subjectId": "english",
+    "type": "qcm",
+    "difficulty": 5,
+    "status": "published",
+    "source": "bac_hard",
+    "question": "« It's the first time I ___ such a film. »",
+    "options": [
+      {
+        "id": "a",
+        "text": "have seen"
+      },
+      {
+        "id": "b",
+        "text": "saw"
+      },
+      {
+        "id": "c",
+        "text": "see"
+      },
+      {
+        "id": "d",
+        "text": "had seen"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "First time + present perfect."
+  },
+  {
+    "id": "en_010",
+    "unitId": "en_tenses",
+    "subjectId": "english",
+    "type": "qcm",
+    "difficulty": 5,
+    "status": "published",
+    "source": "bac_hard",
+    "question": "« He suggested ___ to the cinema. »",
+    "options": [
+      {
+        "id": "a",
+        "text": "going"
+      },
+      {
+        "id": "b",
+        "text": "to go"
+      },
+      {
+        "id": "c",
+        "text": "go"
+      },
+      {
+        "id": "d",
+        "text": "went"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "Suggest + gerund."
+  },
+  {
+    "id": "en_011",
+    "unitId": "en_tenses",
+    "subjectId": "english",
+    "type": "qcm",
+    "difficulty": 5,
+    "status": "published",
+    "source": "bac_hard",
+    "question": "« I'd rather ___ at home tonight. »",
+    "options": [
+      {
+        "id": "a",
+        "text": "stay"
+      },
+      {
+        "id": "b",
+        "text": "to stay"
+      },
+      {
+        "id": "c",
+        "text": "staying"
+      },
+      {
+        "id": "d",
+        "text": "stayed"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "Would rather + infinitive without to."
+  },
+  {
+    "id": "en_012",
+    "unitId": "en_tenses",
+    "subjectId": "english",
+    "type": "qcm",
+    "difficulty": 5,
+    "status": "published",
+    "source": "bac_hard",
+    "question": "« She asked me where I ___. »",
+    "options": [
+      {
+        "id": "a",
+        "text": "lived"
+      },
+      {
+        "id": "b",
+        "text": "live"
+      },
+      {
+        "id": "c",
+        "text": "do live"
+      },
+      {
+        "id": "d",
+        "text": "was living"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "Reported speech: backshift to past."
+  },
+  {
+    "id": "en_013",
+    "unitId": "en_vocab",
+    "subjectId": "english",
+    "type": "qcm",
+    "difficulty": 5,
+    "status": "published",
+    "source": "bac_hard",
+    "question": "Synonym of « crucial » :",
+    "options": [
+      {
+        "id": "a",
+        "text": "essential"
+      },
+      {
+        "id": "b",
+        "text": "optional"
+      },
+      {
+        "id": "c",
+        "text": "minor"
+      },
+      {
+        "id": "d",
+        "text": "rare"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "Crucial = essential, very important."
+  },
+  {
+    "id": "en_014",
+    "unitId": "en_vocab",
+    "subjectId": "english",
+    "type": "qcm",
+    "difficulty": 5,
+    "status": "published",
+    "source": "bac_hard",
+    "question": "Antonym of « generous » :",
+    "options": [
+      {
+        "id": "a",
+        "text": "selfish"
+      },
+      {
+        "id": "b",
+        "text": "kind"
+      },
+      {
+        "id": "c",
+        "text": "rich"
+      },
+      {
+        "id": "d",
+        "text": "polite"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "Generous (كريم) ↔ selfish (أناني)."
+  },
+  {
+    "id": "en_015",
+    "unitId": "en_vocab",
+    "subjectId": "english",
+    "type": "qcm",
+    "difficulty": 5,
+    "status": "published",
+    "source": "bac_hard",
+    "question": "« Look after » means :",
+    "options": [
+      {
+        "id": "a",
+        "text": "take care of"
+      },
+      {
+        "id": "b",
+        "text": "search for"
+      },
+      {
+        "id": "c",
+        "text": "give up"
+      },
+      {
+        "id": "d",
+        "text": "put on"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "Phrasal verb = take care of."
+  },
+  {
+    "id": "en_016",
+    "unitId": "en_vocab",
+    "subjectId": "english",
+    "type": "qcm",
+    "difficulty": 5,
+    "status": "published",
+    "source": "bac_hard",
+    "question": "« Give up » means :",
+    "options": [
+      {
+        "id": "a",
+        "text": "stop trying"
+      },
+      {
+        "id": "b",
+        "text": "increase"
+      },
+      {
+        "id": "c",
+        "text": "continue"
+      },
+      {
+        "id": "d",
+        "text": "start"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "= abdicate, surrender, stop."
+  },
+  {
+    "id": "en_017",
+    "unitId": "en_vocab",
+    "subjectId": "english",
+    "type": "qcm",
+    "difficulty": 5,
+    "status": "published",
+    "source": "bac_hard",
+    "question": "Which word is a noun?",
+    "options": [
+      {
+        "id": "a",
+        "text": "happiness"
+      },
+      {
+        "id": "b",
+        "text": "happy"
+      },
+      {
+        "id": "c",
+        "text": "happily"
+      },
+      {
+        "id": "d",
+        "text": "unhappy"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "Suffix -ness indicates noun."
+  },
+  {
+    "id": "en_018",
+    "unitId": "en_vocab",
+    "subjectId": "english",
+    "type": "qcm",
+    "difficulty": 5,
+    "status": "published",
+    "source": "bac_hard",
+    "question": "« Bring up » (children) means :",
+    "options": [
+      {
+        "id": "a",
+        "text": "raise"
+      },
+      {
+        "id": "b",
+        "text": "lower"
+      },
+      {
+        "id": "c",
+        "text": "forget"
+      },
+      {
+        "id": "d",
+        "text": "sell"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "= raise/educate children."
+  },
+  {
+    "id": "en_019",
+    "unitId": "en_vocab",
+    "subjectId": "english",
+    "type": "qcm",
+    "difficulty": 5,
+    "status": "published",
+    "source": "bac_hard",
+    "question": "« Make » or « Do » : ___ progress",
+    "options": [
+      {
+        "id": "a",
+        "text": "make"
+      },
+      {
+        "id": "b",
+        "text": "do"
+      },
+      {
+        "id": "c",
+        "text": "have"
+      },
+      {
+        "id": "d",
+        "text": "take"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "Collocations: make progress, do homework."
+  },
+  {
+    "id": "en_020",
+    "unitId": "en_vocab",
+    "subjectId": "english",
+    "type": "qcm",
+    "difficulty": 5,
+    "status": "published",
+    "source": "bac_hard",
+    "question": "Opposite of « increase » :",
+    "options": [
+      {
+        "id": "a",
+        "text": "decrease"
+      },
+      {
+        "id": "b",
+        "text": "raise"
+      },
+      {
+        "id": "c",
+        "text": "improve"
+      },
+      {
+        "id": "d",
+        "text": "expand"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "Increase ↔ decrease."
+  },
+  {
+    "id": "en_021",
+    "unitId": "en_reading",
+    "subjectId": "english",
+    "type": "qcm",
+    "difficulty": 5,
+    "status": "published",
+    "source": "bac_hard",
+    "question": "The « main idea » of a paragraph is :",
+    "options": [
+      {
+        "id": "a",
+        "text": "the central point of the text"
+      },
+      {
+        "id": "b",
+        "text": "a detail"
+      },
+      {
+        "id": "c",
+        "text": "an example"
+      },
+      {
+        "id": "d",
+        "text": "a quote"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "The main idea = central message."
+  },
+  {
+    "id": "en_022",
+    "unitId": "en_reading",
+    "subjectId": "english",
+    "type": "qcm",
+    "difficulty": 5,
+    "status": "published",
+    "source": "bac_hard",
+    "question": "« Skimming » a text means :",
+    "options": [
+      {
+        "id": "a",
+        "text": "reading quickly for general idea"
+      },
+      {
+        "id": "b",
+        "text": "reading word by word"
+      },
+      {
+        "id": "c",
+        "text": "translating"
+      },
+      {
+        "id": "d",
+        "text": "memorizing"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "Skimming = read for gist."
+  },
+  {
+    "id": "en_023",
+    "unitId": "en_reading",
+    "subjectId": "english",
+    "type": "qcm",
+    "difficulty": 5,
+    "status": "published",
+    "source": "bac_hard",
+    "question": "« Scanning » is looking for :",
+    "options": [
+      {
+        "id": "a",
+        "text": "specific information"
+      },
+      {
+        "id": "b",
+        "text": "general idea"
+      },
+      {
+        "id": "c",
+        "text": "the author's mood"
+      },
+      {
+        "id": "d",
+        "text": "the conclusion"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "Scanning = look for specific details."
+  },
+  {
+    "id": "en_024",
+    "unitId": "en_reading",
+    "subjectId": "english",
+    "type": "qcm",
+    "difficulty": 5,
+    "status": "published",
+    "source": "bac_hard",
+    "question": "A « topic sentence » is found :",
+    "options": [
+      {
+        "id": "a",
+        "text": "at the beginning of a paragraph"
+      },
+      {
+        "id": "b",
+        "text": "in the middle only"
+      },
+      {
+        "id": "c",
+        "text": "at the end only"
+      },
+      {
+        "id": "d",
+        "text": "never"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "Usually first sentence announces the topic."
+  },
+  {
+    "id": "en_025",
+    "unitId": "en_reading",
+    "subjectId": "english",
+    "type": "qcm",
+    "difficulty": 5,
+    "status": "published",
+    "source": "bac_hard",
+    "question": "« Infer » means :",
+    "options": [
+      {
+        "id": "a",
+        "text": "deduce from evidence"
+      },
+      {
+        "id": "b",
+        "text": "state clearly"
+      },
+      {
+        "id": "c",
+        "text": "copy"
+      },
+      {
+        "id": "d",
+        "text": "translate"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "Infer = deduce implicitly."
+  },
+  {
+    "id": "en_026",
+    "unitId": "en_reading",
+    "subjectId": "english",
+    "type": "qcm",
+    "difficulty": 5,
+    "status": "published",
+    "source": "bac_hard",
+    "question": "The « tone » of a text can be :",
+    "options": [
+      {
+        "id": "a",
+        "text": "formal, ironic, optimistic..."
+      },
+      {
+        "id": "b",
+        "text": "only serious"
+      },
+      {
+        "id": "c",
+        "text": "only funny"
+      },
+      {
+        "id": "d",
+        "text": "absent"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "Tone = author's attitude."
+  },
+  {
+    "id": "en_027",
+    "unitId": "en_reading",
+    "subjectId": "english",
+    "type": "qcm",
+    "difficulty": 5,
+    "status": "published",
+    "source": "bac_hard",
+    "question": "« However » indicates :",
+    "options": [
+      {
+        "id": "a",
+        "text": "contrast"
+      },
+      {
+        "id": "b",
+        "text": "addition"
+      },
+      {
+        "id": "c",
+        "text": "conclusion"
+      },
+      {
+        "id": "d",
+        "text": "reason"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "However = contrast."
+  },
+  {
+    "id": "en_028",
+    "unitId": "en_reading",
+    "subjectId": "english",
+    "type": "qcm",
+    "difficulty": 5,
+    "status": "published",
+    "source": "bac_hard",
+    "question": "« Therefore » indicates :",
+    "options": [
+      {
+        "id": "a",
+        "text": "consequence"
+      },
+      {
+        "id": "b",
+        "text": "contrast"
+      },
+      {
+        "id": "c",
+        "text": "addition"
+      },
+      {
+        "id": "d",
+        "text": "example"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "Therefore = consequence."
+  },
+  {
+    "id": "en_029",
+    "unitId": "en_civ",
+    "subjectId": "english",
+    "type": "qcm",
+    "difficulty": 5,
+    "status": "published",
+    "source": "bac_hard",
+    "question": "The capital of the United Kingdom is :",
+    "options": [
+      {
+        "id": "a",
+        "text": "London"
+      },
+      {
+        "id": "b",
+        "text": "Manchester"
+      },
+      {
+        "id": "c",
+        "text": "Edinburgh"
+      },
+      {
+        "id": "d",
+        "text": "Dublin"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "London = capital of UK."
+  },
+  {
+    "id": "en_030",
+    "unitId": "en_civ",
+    "subjectId": "english",
+    "type": "qcm",
+    "difficulty": 5,
+    "status": "published",
+    "source": "bac_hard",
+    "question": "The USA gained independence in :",
+    "options": [
+      {
+        "id": "a",
+        "text": "1776"
+      },
+      {
+        "id": "b",
+        "text": "1789"
+      },
+      {
+        "id": "c",
+        "text": "1815"
+      },
+      {
+        "id": "d",
+        "text": "1918"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "Declaration of Independence, 4 July 1776."
+  },
+  {
+    "id": "en_031",
+    "unitId": "en_civ",
+    "subjectId": "english",
+    "type": "qcm",
+    "difficulty": 5,
+    "status": "published",
+    "source": "bac_hard",
+    "question": "The symbol of the American Democratic Party is :",
+    "options": [
+      {
+        "id": "a",
+        "text": "the donkey"
+      },
+      {
+        "id": "b",
+        "text": "the elephant"
+      },
+      {
+        "id": "c",
+        "text": "the eagle"
+      },
+      {
+        "id": "d",
+        "text": "the lion"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "Donkey = Democrats; Elephant = Republicans."
+  },
+  {
+    "id": "en_032",
+    "unitId": "en_civ",
+    "subjectId": "english",
+    "type": "qcm",
+    "difficulty": 5,
+    "status": "published",
+    "source": "bac_hard",
+    "question": "The Statue of Liberty was a gift from :",
+    "options": [
+      {
+        "id": "a",
+        "text": "France"
+      },
+      {
+        "id": "b",
+        "text": "England"
+      },
+      {
+        "id": "c",
+        "text": "Spain"
+      },
+      {
+        "id": "d",
+        "text": "Italy"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "From France, 1886."
+  },
+  {
+    "id": "en_033",
+    "unitId": "en_civ",
+    "subjectId": "english",
+    "type": "qcm",
+    "difficulty": 5,
+    "status": "published",
+    "source": "bac_hard",
+    "question": "« Thanksgiving » in the USA is celebrated in :",
+    "options": [
+      {
+        "id": "a",
+        "text": "November"
+      },
+      {
+        "id": "b",
+        "text": "December"
+      },
+      {
+        "id": "c",
+        "text": "January"
+      },
+      {
+        "id": "d",
+        "text": "October"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "Fourth Thursday of November."
+  },
+  {
+    "id": "en_034",
+    "unitId": "en_civ",
+    "subjectId": "english",
+    "type": "qcm",
+    "difficulty": 5,
+    "status": "published",
+    "source": "bac_hard",
+    "question": "Shakespeare wrote :",
+    "options": [
+      {
+        "id": "a",
+        "text": "Hamlet"
+      },
+      {
+        "id": "b",
+        "text": "Oliver Twist"
+      },
+      {
+        "id": "c",
+        "text": "1984"
+      },
+      {
+        "id": "d",
+        "text": "Ulysses"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "Hamlet (1601)."
+  },
+  {
+    "id": "en_035",
+    "unitId": "en_civ",
+    "subjectId": "english",
+    "type": "qcm",
+    "difficulty": 5,
+    "status": "published",
+    "source": "bac_hard",
+    "question": "« Oliver Twist » is by :",
+    "options": [
+      {
+        "id": "a",
+        "text": "Charles Dickens"
+      },
+      {
+        "id": "b",
+        "text": "George Orwell"
+      },
+      {
+        "id": "c",
+        "text": "Mark Twain"
+      },
+      {
+        "id": "d",
+        "text": "Hemingway"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "Dickens, 1838."
+  },
+  {
+    "id": "en_036",
+    "unitId": "en_civ",
+    "subjectId": "english",
+    "type": "qcm",
+    "difficulty": 5,
+    "status": "published",
+    "source": "bac_hard",
+    "question": "« 1984 » (novel) is by :",
+    "options": [
+      {
+        "id": "a",
+        "text": "George Orwell"
+      },
+      {
+        "id": "b",
+        "text": "Aldous Huxley"
+      },
+      {
+        "id": "c",
+        "text": "Dickens"
+      },
+      {
+        "id": "d",
+        "text": "Hemingway"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "Orwell, 1949, dystopia."
+  },
+  {
+    "id": "en_037",
+    "unitId": "en_civ",
+    "subjectId": "english",
+    "type": "qcm",
+    "difficulty": 5,
+    "status": "published",
+    "source": "bac_hard",
+    "question": "The UK Parliament has :",
+    "options": [
+      {
+        "id": "a",
+        "text": "two houses: Commons and Lords"
+      },
+      {
+        "id": "b",
+        "text": "one house"
+      },
+      {
+        "id": "c",
+        "text": "three houses"
+      },
+      {
+        "id": "d",
+        "text": "no houses"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "House of Commons + House of Lords."
+  },
+  {
+    "id": "en_038",
+    "unitId": "en_civ",
+    "subjectId": "english",
+    "type": "qcm",
+    "difficulty": 5,
+    "status": "published",
+    "source": "bac_hard",
+    "question": "The national sport of England is often considered :",
+    "options": [
+      {
+        "id": "a",
+        "text": "football (cricket too)"
+      },
+      {
+        "id": "b",
+        "text": "basketball"
+      },
+      {
+        "id": "c",
+        "text": "hockey"
+      },
+      {
+        "id": "d",
+        "text": "tennis"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "Football (soccer) and cricket."
+  },
+  {
+    "id": "en_039",
+    "unitId": "en_civ",
+    "subjectId": "english",
+    "type": "qcm",
+    "difficulty": 5,
+    "status": "published",
+    "source": "bac_hard",
+    "question": "The Euro is the currency of :",
+    "options": [
+      {
+        "id": "a",
+        "text": "France but not the UK"
+      },
+      {
+        "id": "b",
+        "text": "the UK"
+      },
+      {
+        "id": "c",
+        "text": "both France and UK"
+      },
+      {
+        "id": "d",
+        "text": "the USA"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "UK kept the pound; France uses euro."
+  },
+  {
+    "id": "en_040",
+    "unitId": "en_civ",
+    "subjectId": "english",
+    "type": "qcm",
+    "difficulty": 5,
+    "status": "published",
+    "source": "bac_hard",
+    "question": "« Human Rights » declaration was adopted by the UN in :",
+    "options": [
+      {
+        "id": "a",
+        "text": "1948"
+      },
+      {
+        "id": "b",
+        "text": "1945"
+      },
+      {
+        "id": "c",
+        "text": "1950"
+      },
+      {
+        "id": "d",
+        "text": "1960"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "10 December 1948."
+  }
+]

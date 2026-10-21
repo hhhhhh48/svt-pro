@@ -1,0 +1,176 @@
+{% extends "base.html" %}
+{% block content %}
+<div class="max-w-2xl mx-auto p-4" dir="rtl">
+  <div id="quiz-container">
+    <div class="text-center py-8">
+      <h1 class="text-2xl font-bold mb-2">
+        {% if unit_id == 'all' %}تحدي شامل{% else %}اختبار الوحدة{% endif %}
+      </h1>
+      <p class="text-sm text-gray-500 mb-4">{{ subject_id }} · {{ unit_id }}</p>
+      <input id="user-name" type="text" placeholder="اسمك (اختياري)" class="border-2 rounded-lg px-3 py-2 mb-4 w-full max-w-xs mx-auto block text-center focus:outline-none focus:border-emerald-500" />
+      <button onclick="startQuiz()" class="bg-emerald-600 text-white px-8 py-3 rounded-xl font-bold hover:bg-emerald-700 shadow">ابدأ الكويز</button>
+    </div>
+  </div>
+</div>
+
+<script>
+const __params = new URLSearchParams(window.location.search);
+const __numQ = parseInt(__params.get('n')) || 10;
+const __initialSeconds = __numQ >= 30 ? 1800 : (__numQ >= 15 ? 1200 : 600);
+
+let questions = [];
+let answers = [];
+let currentIndex = 0;
+let startTime = null;
+let timerInterval = null;
+let remainingSeconds = __initialSeconds;
+
+document.addEventListener('DOMContentLoaded', function() {
+  const nameField = document.getElementById('user-name');
+  if (nameField) {
+    const saved = localStorage.getItem('quiz_user_name');
+    if (saved) nameField.value = saved;
+  }
+});
+
+function startQuiz() {
+  const nameField = document.getElementById('user-name');
+  if (nameField && nameField.value.trim()) {
+    localStorage.setItem('quiz_user_name', nameField.value.trim());
+  }
+  fetch('/api/quiz/start', {
+    method: 'POST',
+    headers: {'Content-Type': 'application/json'},
+    body: JSON.stringify({
+      subject_id: '{{ subject_id }}',
+      unit_id: '{{ unit_id }}',
+      num_questions: __numQ
+    })
+  })
+  .then(r => r.json())
+  .then(data => {
+    if (data.error) { alert(data.error); return; }
+    questions = data.questions;
+    answers = questions.map(q => ({question_id: q.id, given: null, given_bool: null, given_reason: null, time_spent: 0}));
+    currentIndex = 0;
+    startTime = Date.now();
+    startTimer(remainingSeconds);
+    renderQuestion();
+  })
+  .catch(e => alert('خطأ: ' + e));
+}
+
+function startTimer(seconds) {
+  remainingSeconds = seconds;
+  clearInterval(timerInterval);
+  timerInterval = setInterval(() => {
+    remainingSeconds--;
+    const el = document.getElementById('timer');
+    if (el) el.textContent = formatTime(remainingSeconds);
+    if (remainingSeconds <= 0) { clearInterval(timerInterval); submitQuiz(); }
+  }, 1000);
+}
+
+function formatTime(s) {
+  const m = Math.floor(s / 60);
+  const sec = s % 60;
+  return m + ':' + sec.toString().padStart(2,'0');
+}
+
+function renderQuestion() {
+  const q = questions[currentIndex];
+  const container = document.getElementById('quiz-container');
+  let optionsHtml = '';
+  q.options.forEach(function(o) {
+    optionsHtml += '<button class="option-btn w-full text-right border-2 border-gray-200 rounded-lg p-4 mb-3 hover:bg-emerald-50 transition" onclick="pickAnswer(\'' + o.id + '\', this)">' + o.text + '</button>';
+  });
+
+  container.innerHTML =
+    '<div class="flex justify-between items-center mb-4">' +
+      '<span class="text-sm text-gray-500 font-bold">' + (currentIndex+1) + ' / ' + questions.length + '</span>' +
+      '<span id="timer" class="text-lg font-bold text-emerald-600">' + formatTime(remainingSeconds) + '</span>' +
+    '</div>' +
+    '<h2 class="text-lg font-bold mb-4">' + q.question + '</h2>' +
+    optionsHtml +
+    '<button onclick="nextQuestion()" id="next-btn" class="bg-emerald-600 text-white px-6 py-3 rounded-lg w-full mt-4 disabled:opacity-40 disabled:cursor-not-allowed" disabled>' +
+      (currentIndex === questions.length - 1 ? 'إنهاء وعرض النتيجة' : 'التالي') +
+    '</button>';
+}
+
+function pickAnswer(optId, btn) {
+  answers[currentIndex].given = optId;
+  document.getElementById('next-btn').disabled = false;
+  document.querySelectorAll('.option-btn').forEach(function(b) {
+    b.classList.remove('bg-emerald-100', 'border-emerald-500');
+  });
+  btn.classList.add('bg-emerald-100', 'border-emerald-500');
+}
+
+function nextQuestion() {
+  if (currentIndex < questions.length - 1) {
+    currentIndex++;
+    renderQuestion();
+  } else {
+    clearInterval(timerInterval);
+    submitQuiz();
+  }
+}
+
+function submitQuiz() {
+  clearInterval(timerInterval);
+  const duration_sec = Math.round((Date.now() - startTime) / 1000);
+  const nameEl = document.getElementById('user-name');
+  const savedName = nameEl ? nameEl.value.trim() : '';
+  const container = document.getElementById('quiz-container');
+  container.innerHTML = '<p class="text-center py-12 text-gray-500">جاري التصحيح...</p>';
+  fetch('/api/quiz/submit', {
+    method: 'POST',
+    headers: {'Content-Type': 'application/json'},
+    body: JSON.stringify({
+      subject_id: '{{ subject_id }}',
+      unit_id: '{{ unit_id }}',
+      user_name: nameEl ? nameEl.value : '',
+      answers: answers,
+      duration_sec: duration_sec
+    })
+  })
+  .then(r => r.json())
+  .then(data => {
+    if (data.error) { alert(data.error); return; }
+    renderResult(data, savedName);
+  });
+}
+
+function renderResult(data, userName) {
+  const container = document.getElementById('quiz-container');
+  const pct = Math.round(100 * data.score / data.total);
+  const msg = pct >= 80 ? 'ممتاز! 🎉' : (pct >= 50 ? 'جيد 👍' : 'تحتاج مراجعة 📖');
+  let html =
+    '<div class="text-center py-6">' +
+      '<p class="text-sm text-gray-500 mb-2">' + msg + '</p>' +
+      '<h1 class="text-4xl font-bold mb-2">' + data.score + ' / ' + data.total + '</h1>' +
+      '<p class="text-2xl ' + (pct >= 50 ? 'text-emerald-600' : 'text-red-600') + ' font-bold">' + pct + '%</p>' +
+      '<div class="mt-4 flex flex-wrap gap-2 justify-center">' +
+        '<a href="/quiz/{{ subject_id }}" class="bg-blue-600 text-white px-5 py-2 rounded-lg">كويز آخر</a>' +
+        '<a href="/leaderboard" class="bg-amber-500 text-white px-5 py-2 rounded-lg">🏆 لوحة الصدارة</a>' +
+        (userName ? '<a href="/profile?name=' + encodeURIComponent(userName) + '" class="bg-purple-600 text-white px-5 py-2 rounded-lg">👤 ملفي</a>' : '') +
+      '</div>' +
+    '</div>' +
+    '<h2 class="text-xl font-bold mt-6 mb-3">التصحيح المفصل:</h2>';
+
+  data.details.forEach(function(d, i) {
+    html +=
+      '<div class="border-2 rounded-xl p-4 mb-3 ' + (d.correct ? 'border-emerald-200 bg-emerald-50' : 'border-red-200 bg-red-50') + '">' +
+        '<p class="font-bold mb-1">' + (d.correct ? '✅' : '❌') + ' السؤال ' + (i+1) + '</p>' +
+        '<p class="text-sm mb-2">' + d.question + '</p>' +
+        (d.correct ? '' : '<p class="text-sm text-red-700 mb-1">إجابتك: ' + d.given + '</p>') +
+        '<p class="text-sm text-emerald-700 font-bold mb-2">الإجابة الصحيحة: ' + d.correct_answer + '</p>' +
+        (d.explanation ? '<p class="text-sm text-gray-700 bg-white p-2 rounded border">💡 ' + d.explanation + '</p>' : '') +
+      '</div>';
+  });
+
+  container.innerHTML = html;
+  window.scrollTo(0, 0);
+}
+</script>
+{% endblock %}

@@ -1,0 +1,1202 @@
+[
+  {
+    "id": "sci_001",
+    "unitId": "sci_protein",
+    "subjectId": "science",
+    "type": "qcm",
+    "difficulty": 5,
+    "status": "published",
+    "source": "bac_hard",
+    "question": "أي مما يلي لا يشارك مباشرة في ترجمة المعلومة الوراثية؟",
+    "options": [
+      {
+        "id": "a",
+        "text": "الريبوزوم"
+      },
+      {
+        "id": "b",
+        "text": "ARNt"
+      },
+      {
+        "id": "c",
+        "text": "ARNm"
+      },
+      {
+        "id": "d",
+        "text": "ADN بوليميراز"
+      }
+    ],
+    "correctOptionId": "d",
+    "explanation": "ADN بوليميراز إنزيم يشارك في الاستنساخ (نسخ ADN إلى ARNm) وليس في الترجمة."
+  },
+  {
+    "id": "sci_002",
+    "unitId": "sci_protein",
+    "subjectId": "science",
+    "type": "qcm",
+    "difficulty": 5,
+    "status": "published",
+    "source": "bac_hard",
+    "question": "الكودون على ARNm هو:",
+    "options": [
+      {
+        "id": "a",
+        "text": "ثلاثي نيوكليوتيدي يشفر حمضًا أمينيًا"
+      },
+      {
+        "id": "b",
+        "text": "نيوكليوتيدة واحدة"
+      },
+      {
+        "id": "c",
+        "text": "جين كامل"
+      },
+      {
+        "id": "d",
+        "text": "بروتين صغير"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "الكودون هو ثلاثي نيوكليوتيدي يحدد حمضًا أمينيًا واحدًا. عدد الكودونات 64، منها 3 توقف."
+  },
+  {
+    "id": "sci_003",
+    "unitId": "sci_protein",
+    "subjectId": "science",
+    "type": "qcm",
+    "difficulty": 5,
+    "status": "published",
+    "source": "bac_hard",
+    "question": "أي مما يلي يحدث أثناء 'الإطالة' في الترجمة؟",
+    "options": [
+      {
+        "id": "a",
+        "text": "انفصال الريبوزوم"
+      },
+      {
+        "id": "b",
+        "text": "إضافة أحما�� أمينية متتالية حسب الكودونات"
+      },
+      {
+        "id": "c",
+        "text": "تكوين ARNm"
+      },
+      {
+        "id": "d",
+        "text": "تضاعف ADN"
+      }
+    ],
+    "correctOptionId": "b",
+    "explanation": "الإطالة هي المرحلة التي يُضاف فيها الحمض الأميني تلو الآخر استجابة للكودونات على ARNm."
+  },
+  {
+    "id": "sci_004",
+    "unitId": "sci_protein",
+    "subjectId": "science",
+    "type": "qcm",
+    "difficulty": 5,
+    "status": "published",
+    "source": "bac_hard",
+    "question": "مضاد الكودون (anticodon) يوجد على:",
+    "options": [
+      {
+        "id": "a",
+        "text": "ARNm"
+      },
+      {
+        "id": "b",
+        "text": "ARNt"
+      },
+      {
+        "id": "c",
+        "text": "ARNr"
+      },
+      {
+        "id": "d",
+        "text": "ADN"
+      }
+    ],
+    "correctOptionId": "b",
+    "explanation": "مضاد الكودون ثلاثي على ARNt يتكامل مع كودون ARNm، حاملًا الحمض الأميني المناسب."
+  },
+  {
+    "id": "sci_005",
+    "unitId": "sci_protein",
+    "subjectId": "science",
+    "type": "qcm",
+    "difficulty": 5,
+    "status": "published",
+    "source": "bac_hard",
+    "question": "أي مما يلي ليس من خصائص الشيفرة الوراثية؟",
+    "options": [
+      {
+        "id": "a",
+        "text": "متعددة (degenerate)"
+      },
+      {
+        "id": "b",
+        "text": "غير متداخلة"
+      },
+      {
+        "id": "c",
+        "text": "متلازمة (overlapping)"
+      },
+      {
+        "id": "d",
+        "text": "شاملة تقريبًا لكل الكائنات"
+      }
+    ],
+    "correctOptionId": "c",
+    "explanation": "الشيفرة الوراثية غير متداخلة: كل نيوكليوتيدة تنتمي لكودون واحد فقط."
+  },
+  {
+    "id": "sci_006",
+    "unitId": "sci_protein",
+    "subjectId": "science",
+    "type": "qcm",
+    "difficulty": 5,
+    "status": "published",
+    "source": "bac_hard",
+    "question": "تحدث الترجمة في الخلية حقيقية النواة في:",
+    "options": [
+      {
+        "id": "a",
+        "text": "النواة"
+      },
+      {
+        "id": "b",
+        "text": "الريبوزومات في السيتوبلازم أو على الشبكة الإندوبلازمية"
+      },
+      {
+        "id": "c",
+        "text": "الميتوكوندري فقط"
+      },
+      {
+        "id": "d",
+        "text": "الليسوسوم"
+      }
+    ],
+    "correctOptionId": "b",
+    "explanation": "الترجمة تتم على الريبوزومات الحرة أو المرتبطة بالشبكة الإندوبلازمية الخشنة."
+  },
+  {
+    "id": "sci_007",
+    "unitId": "sci_protein_fn",
+    "subjectId": "science",
+    "type": "qcm",
+    "difficulty": 5,
+    "status": "published",
+    "source": "bac_hard",
+    "question": "الرابطة التي تربط حمضين أمينيين هي:",
+    "options": [
+      {
+        "id": "a",
+        "text": "رابطة هيدروجينية"
+      },
+      {
+        "id": "b",
+        "text": "رابطة ببتيدية"
+      },
+      {
+        "id": "c",
+        "text": "رابطة أيونية"
+      },
+      {
+        "id": "d",
+        "text": "رابطة فوسفاتية"
+      }
+    ],
+    "correctOptionId": "b",
+    "explanation": "الرابطة الببتيدية تنشأ بين مجموعة كربوكسيل لحمض أميني ومجموعة أمين للحمض التالي."
+  },
+  {
+    "id": "sci_008",
+    "unitId": "sci_protein_fn",
+    "subjectId": "science",
+    "type": "qcm",
+    "difficulty": 5,
+    "status": "published",
+    "source": "bac_hard",
+    "question": "البنية الثالثية للبروتين تعني:",
+    "options": [
+      {
+        "id": "a",
+        "text": "تسلسل الأحماض الأمينية"
+      },
+      {
+        "id": "b",
+        "text": "التفاف السلسلة الببتيدية في فضاء ثلاثي الأبعاد"
+      },
+      {
+        "id": "c",
+        "text": "ارتباط عدة سلاسل ببتيدية"
+      },
+      {
+        "id": "d",
+        "text": "البنية اللولبية ألفا فقط"
+      }
+    ],
+    "correctOptionId": "b",
+    "explanation": "البنية الثالثية = الترتيب الفراغي الكامل لسلسلة ببتيدية واحدة، تحددها روابط ضعيفة (هيدروجينية، أيونية، كارهة للماء)."
+  },
+  {
+    "id": "sci_009",
+    "unitId": "sci_protein_fn",
+    "subjectId": "science",
+    "type": "qcm",
+    "difficulty": 5,
+    "status": "published",
+    "source": "bac_hard",
+    "question": "عند تسخين بروتين إلى 80°C، يحدث:",
+    "options": [
+      {
+        "id": "a",
+        "text": "تتفكك الروابط الببتيدية"
+      },
+      {
+        "id": "b",
+        "text": "فقدان البنية الفراغية والوظيفة (دنترة)"
+      },
+      {
+        "id": "c",
+        "text": "زيادة النشاط"
+      },
+      {
+        "id": "d",
+        "text": "لا شيء"
+      }
+    ],
+    "correctOptionId": "b",
+    "explanation": "الحرارة تكسر الروابط الضعيفة (هيدروجينية...) فيفقد البروتين بنيته الفراغية ووظيفته = دنترة. الروابط الببتيدية لا تتأثر."
+  },
+  {
+    "id": "sci_010",
+    "unitId": "sci_protein_fn",
+    "subjectId": "science",
+    "type": "qcm",
+    "difficulty": 5,
+    "status": "published",
+    "source": "bac_hard",
+    "question": "الهيموغلوبين بروتين له بنية:",
+    "options": [
+      {
+        "id": "a",
+        "text": "أولية فقط"
+      },
+      {
+        "id": "b",
+        "text": "ثانوية فقط"
+      },
+      {
+        "id": "c",
+        "text": "رابعية (4 سلاسل)"
+      },
+      {
+        "id": "d",
+        "text": "ثالثية فقط"
+      }
+    ],
+    "correctOptionId": "c",
+    "explanation": "الهيموغلوبين يتكون من 4 سلاسل ببتيدية (2 ألفا + 2 بيتا)، كل سلسلة تحمل مجموعة heme."
+  },
+  {
+    "id": "sci_011",
+    "unitId": "sci_protein_fn",
+    "subjectId": "science",
+    "type": "qcm",
+    "difficulty": 5,
+    "status": "published",
+    "source": "bac_hard",
+    "question": "العلاقة بين بنية البروتين ووظيفته تعني:",
+    "options": [
+      {
+        "id": "a",
+        "text": "لا علاقة بينهما"
+      },
+      {
+        "id": "b",
+        "text": "أي تغير في البنية قد يؤدي إلى فقدان الوظيفة"
+      },
+      {
+        "id": "c",
+        "text": "الوظيفة تحدد البنية دائمًا"
+      },
+      {
+        "id": "d",
+        "text": "البنية لا تتغير أبدًا"
+      }
+    ],
+    "correctOptionId": "b",
+    "explanation": "الوظيفة مرتبطة بالبنية الفراغية. تغير حمض أميني واحد (كما في الأنيميا المنجلية) قد يغير الوظيفة."
+  },
+  {
+    "id": "sci_012",
+    "unitId": "sci_enzyme",
+    "subjectId": "science",
+    "type": "qcm",
+    "difficulty": 5,
+    "status": "published",
+    "source": "bac_hard",
+    "question": "الإنزيم يزيد سرعة التفاعل بـ:",
+    "options": [
+      {
+        "id": "a",
+        "text": "رفع طاقة التنشيط"
+      },
+      {
+        "id": "b",
+        "text": "خفض طاقة التنشيط"
+      },
+      {
+        "id": "c",
+        "text": "إنتاج طاقة"
+      },
+      {
+        "id": "d",
+        "text": "تغيير المادة التفاعلية"
+      }
+    ],
+    "correctOptionId": "b",
+    "explanation": "الإنزيم يخفض طاقة التنشيط فيُسرّع التفاعل، دون أن يُستهلك ولا يغيّر توازن التفاعل."
+  },
+  {
+    "id": "sci_013",
+    "unitId": "sci_enzyme",
+    "subjectId": "science",
+    "type": "qcm",
+    "difficulty": 5,
+    "status": "published",
+    "source": "bac_hard",
+    "question": "الإنزيم يفقد نشاطه عند ارتفاع الحرارة فوق حد معين لأن:",
+    "options": [
+      {
+        "id": "a",
+        "text": "تتفكك الروابط الببتيدية"
+      },
+      {
+        "id": "b",
+        "text": "يتغير الموقع الفعال بسبب دنترة البنية الفراغية"
+      },
+      {
+        "id": "c",
+        "text": "يختفي الإنزيم"
+      },
+      {
+        "id": "d",
+        "text": "تزداد سرعة التفاعل"
+      }
+    ],
+    "correctOptionId": "b",
+    "explanation": "الحرارة العالية تدنتر الإنزيم (فقدان البنية الفراغية للموقع الفعال) فيتوقف عن العمل."
+  },
+  {
+    "id": "sci_014",
+    "unitId": "sci_enzyme",
+    "subjectId": "science",
+    "type": "qcm",
+    "difficulty": 5,
+    "status": "published",
+    "source": "bac_hard",
+    "question": "التثبيط التنافسي يحدث عندما:",
+    "options": [
+      {
+        "id": "a",
+        "text": "ترتبط مادة مشابهة للمادة التفاعلية بالموقع الفعال"
+      },
+      {
+        "id": "b",
+        "text": "يرتفع pH"
+      },
+      {
+        "id": "c",
+        "text": "تزداد كمية الإنزيم"
+      },
+      {
+        "id": "d",
+        "text": "تنخفض الحرارة"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "المثبط التنافسي يشبه المادة التفاعلية ويرتبط بالموقع الفعال، فتمنع المادة الحقيقية من الارتباط."
+  },
+  {
+    "id": "sci_015",
+    "unitId": "sci_enzyme",
+    "subjectId": "science",
+    "type": "qcm",
+    "difficulty": 5,
+    "status": "published",
+    "source": "bac_hard",
+    "question": "الببسين إنزيم يعمل في المعدة. pH الأمثل له:",
+    "options": [
+      {
+        "id": "a",
+        "text": "7"
+      },
+      {
+        "id": "b",
+        "text": "2 تقريبًا (وسط حمضي)"
+      },
+      {
+        "id": "c",
+        "text": "9"
+      },
+      {
+        "id": "d",
+        "text": "14"
+      }
+    ],
+    "correctOptionId": "b",
+    "explanation": "الببسين إنزيم هضمي يعمل في الوسط الحمضي للمعدة (pH ≈ 1.5–2)."
+  },
+  {
+    "id": "sci_016",
+    "unitId": "sci_enzyme",
+    "subjectId": "science",
+    "type": "qcm",
+    "difficulty": 5,
+    "status": "published",
+    "source": "bac_hard",
+    "question": "خصوصية الإنزيم تعني:",
+    "options": [
+      {
+        "id": "a",
+        "text": "يعمل على كل المواد التفاعلية"
+      },
+      {
+        "id": "b",
+        "text": "يعمل على مادة تفاعلية واحدة أو عائلة محددة"
+      },
+      {
+        "id": "c",
+        "text": "يعمل في كل الظروف"
+      },
+      {
+        "id": "d",
+        "text": "لا يحتاج موقعًا فعالًا"
+      }
+    ],
+    "correctOptionId": "b",
+    "explanation": "كل إنزيم متخصص بموقع فعال يتكامل بنيويًا مع مادة تفاعلية محددة (نموذج المفتاح-القفل)."
+  },
+  {
+    "id": "sci_017",
+    "unitId": "sci_immunity",
+    "subjectId": "science",
+    "type": "qcm",
+    "difficulty": 5,
+    "status": "published",
+    "source": "bac_hard",
+    "question": "المناعة الطبيعية تتميز بـ:",
+    "options": [
+      {
+        "id": "a",
+        "text": "خصوصية عالية وذاكرة"
+      },
+      {
+        "id": "b",
+        "text": "سرعة الاستجابة وعدم التخصص"
+      },
+      {
+        "id": "c",
+        "text": "تستغرق أسابيع"
+      },
+      {
+        "id": "d",
+        "text": "تعتمد على الأجسام المضادة فقط"
+      }
+    ],
+    "correctOptionId": "b",
+    "explanation": "المناعة الطبيعية (البلعميات، NK، المكمل، الالتهاب) سريعة وغير متخصصة، ولا تُنتج ذاكرة."
+  },
+  {
+    "id": "sci_018",
+    "unitId": "sci_immunity",
+    "subjectId": "science",
+    "type": "qcm",
+    "difficulty": 5,
+    "status": "published",
+    "source": "bac_hard",
+    "question": "البلعميات الكبيرة تنتج عن تمايز:",
+    "options": [
+      {
+        "id": "a",
+        "text": "اللمفاويات T"
+      },
+      {
+        "id": "b",
+        "text": "اللمفاويات B"
+      },
+      {
+        "id": "c",
+        "text": "المونوسيت"
+      },
+      {
+        "id": "d",
+        "text": "الخلايا القاعدية"
+      }
+    ],
+    "correctOptionId": "c",
+    "explanation": "المونوسيت في الدم تهاجر للأنسجة وتتمايز إلى بلعميات كبيرة (macrophages) تقوم بالبلعمة."
+  },
+  {
+    "id": "sci_019",
+    "unitId": "sci_immunity",
+    "subjectId": "science",
+    "type": "qcm",
+    "difficulty": 5,
+    "status": "published",
+    "source": "bac_hard",
+    "question": "LT8 (اللمفاويات التائية القاتلة) تتعرف على:",
+    "options": [
+      {
+        "id": "a",
+        "text": "مولد ضد حر"
+      },
+      {
+        "id": "b",
+        "text": "معقد MHC I + ببتيد على خلية مصابة"
+      },
+      {
+        "id": "c",
+        "text": "MHC II على البلاعم"
+      },
+      {
+        "id": "d",
+        "text": "الأجسام المضادة"
+      }
+    ],
+    "correctOptionId": "b",
+    "explanation": "LT8 تتعرف على معقد MHC I + ببتيد غريب على سطح الخلية المصابة وتقتلها."
+  },
+  {
+    "id": "sci_020",
+    "unitId": "sci_immunity",
+    "subjectId": "science",
+    "type": "qcm",
+    "difficulty": 5,
+    "status": "published",
+    "source": "bac_hard",
+    "question": "الأجسام المضادة تُفرز من:",
+    "options": [
+      {
+        "id": "a",
+        "text": "LT4"
+      },
+      {
+        "id": "b",
+        "text": "LT8"
+      },
+      {
+        "id": "c",
+        "text": "البلازموسيت (خلايا B المتمايزة)"
+      },
+      {
+        "id": "d",
+        "text": "البلعميات"
+      }
+    ],
+    "correctOptionId": "c",
+    "explanation": "LB المنشطة بواسطة LT4 تتمايز إلى بلازموسيت، وهي المصنع الحيوي للأجسام المضادة."
+  },
+  {
+    "id": "sci_021",
+    "unitId": "sci_immunity",
+    "subjectId": "science",
+    "type": "qcm",
+    "difficulty": 5,
+    "status": "published",
+    "source": "bac_hard",
+    "question": "MHC I يوجد على:",
+    "options": [
+      {
+        "id": "a",
+        "text": "الخلايا العارضة للمولد الضد فقط"
+      },
+      {
+        "id": "b",
+        "text": "معظم الخلايا المنواة في الجسم"
+      },
+      {
+        "id": "c",
+        "text": "الكريات الحمراء"
+      },
+      {
+        "id": "d",
+        "text": "البلازما فقط"
+      }
+    ],
+    "correctOptionId": "b",
+    "explanation": "MHC I موجود على كل الخلايا المنواة تقريبًا. MHC II على الخلايا العارضة (بلعميات، LB، خلايا شجيرية)."
+  },
+  {
+    "id": "sci_022",
+    "unitId": "sci_immunity",
+    "subjectId": "science",
+    "type": "qcm",
+    "difficulty": 5,
+    "status": "published",
+    "source": "bac_hard",
+    "question": "الإنترلوكين-2 (IL-2) يُفرز أساسًا من:",
+    "options": [
+      {
+        "id": "a",
+        "text": "LT4"
+      },
+      {
+        "id": "b",
+        "text": "LB"
+      },
+      {
+        "id": "c",
+        "text": "NK"
+      },
+      {
+        "id": "d",
+        "text": "البلعميات"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "LT4 المنشطة تفرز IL-2 الذي يحفز تكاثر وتمايز LT8 و LT4 نفسها."
+  },
+  {
+    "id": "sci_023",
+    "unitId": "sci_immunity",
+    "subjectId": "science",
+    "type": "qcm",
+    "difficulty": 5,
+    "status": "published",
+    "source": "bac_hard",
+    "question": "فيروس HIV يدمر أساسًا:",
+    "options": [
+      {
+        "id": "a",
+        "text": "LB"
+      },
+      {
+        "id": "b",
+        "text": "LT4"
+      },
+      {
+        "id": "c",
+        "text": "LT8"
+      },
+      {
+        "id": "d",
+        "text": "البلعميات"
+      }
+    ],
+    "correctOptionId": "b",
+    "explanation": "HIV يصيب LT4 (تحمل CD4)، فيدمرها تدريجيًا. فقدانها = فقدان التنسيق المناعي = SIDA."
+  },
+  {
+    "id": "sci_024",
+    "unitId": "sci_immunity",
+    "subjectId": "science",
+    "type": "qcm",
+    "difficulty": 5,
+    "status": "published",
+    "source": "bac_hard",
+    "question": "الذاكرة المناعية سببها:",
+    "options": [
+      {
+        "id": "a",
+        "text": "بقاء خلايا B و T ذاكرة بعد الشفاء"
+      },
+      {
+        "id": "b",
+        "text": "المناعة الطبيعية"
+      },
+      {
+        "id": "c",
+        "text": "الأجسام المضادة فقط"
+      },
+      {
+        "id": "d",
+        "text": "البلعميات"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "بعد الاستجابة الأولية تبقى خلايا B و T ذاكرة، تُنتج استجابة أسرع وأقوى عند التعرض الثاني."
+  },
+  {
+    "id": "sci_025",
+    "unitId": "sci_neuro",
+    "subjectId": "science",
+    "type": "qcm",
+    "difficulty": 5,
+    "status": "published",
+    "source": "bac_hard",
+    "question": "كمون الراحة (≈ −70 mV) سببه:",
+    "options": [
+      {
+        "id": "a",
+        "text": "[K+] مرتفع داخل و [Na+] مرتفع خارج + نفاذية عالية لـK+"
+      },
+      {
+        "id": "b",
+        "text": "[Na+] مرتفع داخل"
+      },
+      {
+        "id": "c",
+        "text": "غياب الأيونات"
+      },
+      {
+        "id": "d",
+        "text": "بروتينات فقط"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "داخل العصبون: K+ مرتفع وبروتينات سالبة. الخارج: Na+ مرتفع. النفاذية لـK+ أعلى، فيخرج K+ ويصبح الداخل سالبًا."
+  },
+  {
+    "id": "sci_026",
+    "unitId": "sci_neuro",
+    "subjectId": "science",
+    "type": "qcm",
+    "difficulty": 5,
+    "status": "published",
+    "source": "bac_hard",
+    "question": "مضخة Na+/K+ تنقل في كل دورة:",
+    "options": [
+      {
+        "id": "a",
+        "text": "3 Na+ للداخل / 2 K+ للخارج"
+      },
+      {
+        "id": "b",
+        "text": "3 Na+ للخارج / 2 K+ للداخل"
+      },
+      {
+        "id": "c",
+        "text": "2 Na+ للخارج / 3 K+ للداخل"
+      },
+      {
+        "id": "d",
+        "text": "1 Na+ / 1 K+"
+      }
+    ],
+    "correctOptionId": "b",
+    "explanation": "مضخة Na+/K+ ATPase تُخرج 3 Na+ وتُدخل 2 K+، باستهلاك ATP، حفاظًا على التدرج."
+  },
+  {
+    "id": "sci_027",
+    "unitId": "sci_neuro",
+    "subjectId": "science",
+    "type": "qcm",
+    "difficulty": 5,
+    "status": "published",
+    "source": "bac_hard",
+    "question": "إزالة الاستقطاب في كمون العمل سببها:",
+    "options": [
+      {
+        "id": "a",
+        "text": "فتح قنوات K+"
+      },
+      {
+        "id": "b",
+        "text": "فتح قنوات Na+ مُعَوية الجهد"
+      },
+      {
+        "id": "c",
+        "text": "خروج Cl−"
+      },
+      {
+        "id": "d",
+        "text": "غلق المضخة"
+      }
+    ],
+    "correctOptionId": "b",
+    "explanation": "فتح قنوات Na+ يسمح بدخول Na+ فيصبح الداخل موجبًا (إزالة استقطاب)، ثم يليها إعادة استقطاب بخروج K+."
+  },
+  {
+    "id": "sci_028",
+    "unitId": "sci_neuro",
+    "subjectId": "science",
+    "type": "qcm",
+    "difficulty": 5,
+    "status": "published",
+    "source": "bac_hard",
+    "question": "إذا كان المنبه تحت العتبة:",
+    "options": [
+      {
+        "id": "a",
+        "text": "ينشأ كمون عمل كامل"
+      },
+      {
+        "id": "b",
+        "text": "لا ينشأ كمون عمل"
+      },
+      {
+        "id": "c",
+        "text": "ينشأ كمون عمل صغير"
+      },
+      {
+        "id": "d",
+        "text": "يعتمد على العصبون"
+      }
+    ],
+    "correctOptionId": "b",
+    "explanation": "قانون 'الكل أو لا شيء': كمون العمل ينشأ فقط إذا بلغ المنبه العتبة. تحت العتبة = لا كمون عمل."
+  },
+  {
+    "id": "sci_029",
+    "unitId": "sci_neuro",
+    "subjectId": "science",
+    "type": "qcm",
+    "difficulty": 5,
+    "status": "published",
+    "source": "bac_hard",
+    "question": "المشبك العصبي:",
+    "options": [
+      {
+        "id": "a",
+        "text": "اتصال مباشر بين عصبونين"
+      },
+      {
+        "id": "b",
+        "text": "فراغ مشبكي مع نقل كيميائي بواسطة نواقل عصبية"
+      },
+      {
+        "id": "c",
+        "text": "محور عصبي"
+      },
+      {
+        "id": "d",
+        "text": "جسم خلوي"
+      }
+    ],
+    "correctOptionId": "b",
+    "explanation": "المشبك = منطقة التقاء عصبونين مع فراغ مشبكي، والنقل يتم كيميائيًا عبر نواقل عصبية (كالأسيتيل كولين)."
+  },
+  {
+    "id": "sci_030",
+    "unitId": "sci_neuro",
+    "subjectId": "science",
+    "type": "qcm",
+    "difficulty": 5,
+    "status": "published",
+    "source": "bac_hard",
+    "question": "الأسيتيل كولين هو:",
+    "options": [
+      {
+        "id": "a",
+        "text": "هرمون"
+      },
+      {
+        "id": "b",
+        "text": "ناقل عصبي"
+      },
+      {
+        "id": "c",
+        "text": "إنزيم"
+      },
+      {
+        "id": "d",
+        "text": "مستقبل"
+      }
+    ],
+    "correctOptionId": "b",
+    "explanation": "الأسيتيل كولين ناقل عصبي يُفرز في المشابك (العصبية-العضلية، والمشابك في الجهاز العصبي المركزي)."
+  },
+  {
+    "id": "sci_031",
+    "unitId": "sci_neuro",
+    "subjectId": "science",
+    "type": "qcm",
+    "difficulty": 5,
+    "status": "published",
+    "source": "bac_hard",
+    "question": "الألياف العصبية الميالينية تكون:",
+    "options": [
+      {
+        "id": "a",
+        "text": "أبطأ من غير الميالينية"
+      },
+      {
+        "id": "b",
+        "text": "أسرع (توصيل قافز)"
+      },
+      {
+        "id": "c",
+        "text": "بنفس السرعة"
+      },
+      {
+        "id": "d",
+        "text": "لا تنقل السيالة"
+      }
+    ],
+    "correctOptionId": "b",
+    "explanation": "الميالين عازل، وتوصيل السيالة يتم 'قفزًا' بين عُقد رانفييه = سرعة أكبر بكثير."
+  },
+  {
+    "id": "sci_032",
+    "unitId": "sci_hormone",
+    "subjectId": "science",
+    "type": "qcm",
+    "difficulty": 5,
+    "status": "published",
+    "source": "bac_hard",
+    "question": "الهرمونات تنقل رسالتها عبر:",
+    "options": [
+      {
+        "id": "a",
+        "text": "الأعصاب"
+      },
+      {
+        "id": "b",
+        "text": "الدم ومستقبلات نوعية على الخلايا الهدف"
+      },
+      {
+        "id": "c",
+        "text": "الهضم"
+      },
+      {
+        "id": "d",
+        "text": "التنفس"
+      }
+    ],
+    "correctOptionId": "b",
+    "explanation": "الهرمونات تُفرز في الدم وتؤثر فقط على الخلايا الهدف التي تحمل مستقبلات نوعية."
+  },
+  {
+    "id": "sci_033",
+    "unitId": "sci_hormone",
+    "subjectId": "science",
+    "type": "qcm",
+    "difficulty": 5,
+    "status": "published",
+    "source": "bac_hard",
+    "question": "الإنسولين يُفرز من:",
+    "options": [
+      {
+        "id": "a",
+        "text": "خلايا ألفا في جزر لانغرهانس"
+      },
+      {
+        "id": "b",
+        "text": "خلايا بيتا في جزر لانغرهانس"
+      },
+      {
+        "id": "c",
+        "text": "الغدة الدرقية"
+      },
+      {
+        "id": "d",
+        "text": "الكبد"
+      }
+    ],
+    "correctOptionId": "b",
+    "explanation": "خلايا β في جزر لانغرهانس (البنكرياس) تفرز الإنسولين، الذي يخفض سكر الدم."
+  },
+  {
+    "id": "sci_034",
+    "unitId": "sci_hormone",
+    "subjectId": "science",
+    "type": "qcm",
+    "difficulty": 5,
+    "status": "published",
+    "source": "bac_hard",
+    "question": "الجلوكاغون:",
+    "options": [
+      {
+        "id": "a",
+        "text": "يخفض سكر الدم"
+      },
+      {
+        "id": "b",
+        "text": "يرفع سكر الدم (يحلل الغليكوجين)"
+      },
+      {
+        "id": "c",
+        "text": "لا يؤثر على السكر"
+      },
+      {
+        "id": "d",
+        "text": "يفرز من بيتا"
+      }
+    ],
+    "correctOptionId": "b",
+    "explanation": "الجلوكاغون (من خلايا α) يحفز تحلل الغليكوجين في الكبد، فيرفع سكر الدم."
+  },
+  {
+    "id": "sci_035",
+    "unitId": "sci_hormone",
+    "subjectId": "science",
+    "type": "qcm",
+    "difficulty": 5,
+    "status": "published",
+    "source": "bac_hard",
+    "question": "التغذية الراجعة السلبية تعني:",
+    "options": [
+      {
+        "id": "a",
+        "text": "زيادة الإفراز مع زيادة الهرمون"
+      },
+      {
+        "id": "b",
+        "text": "تنظيم الإفراز بحيث تُثبَّت القيمة المدروسة"
+      },
+      {
+        "id": "c",
+        "text": "إيقاف دائم"
+      },
+      {
+        "id": "d",
+        "text": "تنظيم عشوائي"
+      }
+    ],
+    "correctOptionId": "b",
+    "explanation": "عندما يرتفع الهرمون، تُثبط الغدة التي تفرزه (مثال: الثيروكسين يثبط TSH)."
+  },
+  {
+    "id": "sci_036",
+    "unitId": "sci_hormone",
+    "subjectId": "science",
+    "type": "qcm",
+    "difficulty": 5,
+    "status": "published",
+    "source": "bac_hard",
+    "question": "الغدة تحت السريرية (الهيبوثالاموس) تتحكم في:",
+    "options": [
+      {
+        "id": "a",
+        "text": "الحركة الإرادية"
+      },
+      {
+        "id": "b",
+        "text": "الحرارة، الماء، الجوع، النوم"
+      },
+      {
+        "id": "c",
+        "text": "الذاكرة"
+      },
+      {
+        "id": "d",
+        "text": "الرؤية"
+      }
+    ],
+    "correctOptionId": "b",
+    "explanation": "تحت السريرية مركز التنسيق: تنظيم الحرارة، العطش، الجوع، النوم، وتتحكم في الغدة النخامية."
+  },
+  {
+    "id": "sci_037",
+    "unitId": "sci_coord",
+    "subjectId": "science",
+    "type": "qcm",
+    "difficulty": 5,
+    "status": "published",
+    "source": "bac_hard",
+    "question": "هرمون الثيروكسين يحتاج إلى عنصر:",
+    "options": [
+      {
+        "id": "a",
+        "text": "الحديد"
+      },
+      {
+        "id": "b",
+        "text": "اليود"
+      },
+      {
+        "id": "c",
+        "text": "الكالسيوم"
+      },
+      {
+        "id": "d",
+        "text": "الزنك"
+      }
+    ],
+    "correctOptionId": "b",
+    "explanation": "الثيروكسين (T3 و T4) يحتوي على اليود. نقص اليود = تضخم الغدة الدرقية (goitre)."
+  },
+  {
+    "id": "sci_038",
+    "unitId": "sci_coord",
+    "subjectId": "science",
+    "type": "qcm",
+    "difficulty": 5,
+    "status": "published",
+    "source": "bac_hard",
+    "question": "الأدرينالين في حالة الخطر:",
+    "options": [
+      {
+        "id": "a",
+        "text": "يبطئ القلب ويخفض السكر"
+      },
+      {
+        "id": "b",
+        "text": "يسرع القلب ويرفع السكر ويوسع القصبات"
+      },
+      {
+        "id": "c",
+        "text": "لا تأثير"
+      },
+      {
+        "id": "d",
+        "text": "يوقف التنفس"
+      }
+    ],
+    "correctOptionId": "b",
+    "explanation": "الأدرينالين هرمون 'الكرّ والفرّ': يسرع القلب، يرفع سكر الدم، يوسع القصبات، يزيد تدفق الدم للعضلات."
+  },
+  {
+    "id": "sci_039",
+    "unitId": "sci_coord",
+    "subjectId": "science",
+    "type": "qcm",
+    "difficulty": 5,
+    "status": "published",
+    "source": "bac_hard",
+    "question": "البنكرياس:",
+    "options": [
+      {
+        "id": "a",
+        "text": "له وظيفة هضمية فقط"
+      },
+      {
+        "id": "b",
+        "text": "له وظيفة هضمية وهرمونية"
+      },
+      {
+        "id": "c",
+        "text": "وظيفة عصبية فقط"
+      },
+      {
+        "id": "d",
+        "text": "لا وظيفة له"
+      }
+    ],
+    "correctOptionId": "b",
+    "explanation": "البنكرياس غدة مختلطة: جزء خارجي (إنزيمات هضمية) وجزء داخلي (إنسولين وجلوكاغون)."
+  },
+  {
+    "id": "sci_040",
+    "unitId": "sci_coord",
+    "subjectId": "science",
+    "type": "qcm",
+    "difficulty": 5,
+    "status": "published",
+    "source": "bac_hard",
+    "question": "التنسيق بين أجهزة الجسم يعتمد على:",
+    "options": [
+      {
+        "id": "a",
+        "text": "الجهاز العصبي فقط"
+      },
+      {
+        "id": "b",
+        "text": "الجهاز الهرموني فقط"
+      },
+      {
+        "id": "c",
+        "text": "العصبي والهرموني معًا"
+      },
+      {
+        "id": "d",
+        "text": "المناعة فقط"
+      }
+    ],
+    "correctOptionId": "c",
+    "explanation": "التنسيق العام يتم بتكامل الجهاز العصبي (سريع) والهرموني (بطيء دائم)، بمركزية تحت السريرية."
+  }
+]

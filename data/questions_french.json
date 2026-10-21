@@ -1,0 +1,1202 @@
+[
+  {
+    "id": "fr_001",
+    "unitId": "fr_gram",
+    "subjectId": "french",
+    "type": "qcm",
+    "difficulty": 5,
+    "status": "published",
+    "source": "bac_hard",
+    "question": "Choisissez la bonne forme : « Si j'avais su, je ___ venu. »",
+    "options": [
+      {
+        "id": "a",
+        "text": "serais"
+      },
+      {
+        "id": "b",
+        "text": "serai"
+      },
+      {
+        "id": "c",
+        "text": "étais"
+      },
+      {
+        "id": "d",
+        "text": "aurais été"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "Conditionnel passé dans la principale : serais venu."
+  },
+  {
+    "id": "fr_002",
+    "unitId": "fr_gram",
+    "subjectId": "french",
+    "type": "qcm",
+    "difficulty": 5,
+    "status": "published",
+    "source": "bac_hard",
+    "question": "« Il faut que tu ___ à l'heure. »",
+    "options": [
+      {
+        "id": "a",
+        "text": "viens"
+      },
+      {
+        "id": "b",
+        "text": "viennes"
+      },
+      {
+        "id": "c",
+        "text": "viendras"
+      },
+      {
+        "id": "d",
+        "text": "venais"
+      }
+    ],
+    "correctOptionId": "b",
+    "explanation": "Subjonctif après « il faut que » : viennes."
+  },
+  {
+    "id": "fr_003",
+    "unitId": "fr_gram",
+    "subjectId": "french",
+    "type": "qcm",
+    "difficulty": 5,
+    "status": "published",
+    "source": "bac_hard",
+    "question": "Passé composé de « je prends » :",
+    "options": [
+      {
+        "id": "a",
+        "text": "j'ai pris"
+      },
+      {
+        "id": "b",
+        "text": "je suis pris"
+      },
+      {
+        "id": "c",
+        "text": "j'ai prendu"
+      },
+      {
+        "id": "d",
+        "text": "j'ai prendé"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "Participe passé « pris », auxiliaire avoir."
+  },
+  {
+    "id": "fr_004",
+    "unitId": "fr_gram",
+    "subjectId": "french",
+    "type": "qcm",
+    "difficulty": 5,
+    "status": "published",
+    "source": "bac_hard",
+    "question": "« Les livres que j'___ lus sont intéressants. »",
+    "options": [
+      {
+        "id": "a",
+        "text": "ai"
+      },
+      {
+        "id": "b",
+        "text": "as"
+      },
+      {
+        "id": "c",
+        "text": "avais"
+      },
+      {
+        "id": "d",
+        "text": "aie"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "Accord avec « que » COD placé avant : j'ai lus → j'ai lus (les livres)."
+  },
+  {
+    "id": "fr_005",
+    "unitId": "fr_gram",
+    "subjectId": "french",
+    "type": "qcm",
+    "difficulty": 5,
+    "status": "published",
+    "source": "bac_hard",
+    "question": "« Elle s'est ___ les mains. »",
+    "options": [
+      {
+        "id": "a",
+        "text": "lavé"
+      },
+      {
+        "id": "b",
+        "text": "lavée"
+      },
+      {
+        "id": "c",
+        "text": "lavés"
+      },
+      {
+        "id": "d",
+        "text": "lavées"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "Verbe pronominal : « les mains » est COD après le verbe, pas d'accord."
+  },
+  {
+    "id": "fr_006",
+    "unitId": "fr_gram",
+    "subjectId": "french",
+    "type": "qcm",
+    "difficulty": 5,
+    "status": "published",
+    "source": "bac_hard",
+    "question": "« ___ que tu partes, préviens-moi. »",
+    "options": [
+      {
+        "id": "a",
+        "text": "Avant"
+      },
+      {
+        "id": "b",
+        "text": "Avec"
+      },
+      {
+        "id": "c",
+        "text": "Après"
+      },
+      {
+        "id": "d",
+        "text": "Pendant"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "Avant que + subjonctif (partes)."
+  },
+  {
+    "id": "fr_007",
+    "unitId": "fr_gram",
+    "subjectId": "french",
+    "type": "qcm",
+    "difficulty": 5,
+    "status": "published",
+    "source": "bac_hard",
+    "question": "Discours indirect : « Il a dit : Je viendrai demain. »",
+    "options": [
+      {
+        "id": "a",
+        "text": "Il a dit qu'il viendrait le lendemain."
+      },
+      {
+        "id": "b",
+        "text": "Il a dit qu'il viendra demain."
+      },
+      {
+        "id": "c",
+        "text": "Il a dit qu'il vient demain."
+      },
+      {
+        "id": "d",
+        "text": "Il a dit qu'il viendrait demain."
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "Concordance des temps + « le lendemain »."
+  },
+  {
+    "id": "fr_008",
+    "unitId": "fr_gram",
+    "subjectId": "french",
+    "type": "qcm",
+    "difficulty": 5,
+    "status": "published",
+    "source": "bac_hard",
+    "question": "« Quand il ___ , nous partirons. »",
+    "options": [
+      {
+        "id": "a",
+        "text": "arrivera"
+      },
+      {
+        "id": "b",
+        "text": "arrive"
+      },
+      {
+        "id": "c",
+        "text": "arriverait"
+      },
+      {
+        "id": "d",
+        "text": "est arrivé"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "Futur après « quand » dans une phrase au futur."
+  },
+  {
+    "id": "fr_009",
+    "unitId": "fr_gram",
+    "subjectId": "french",
+    "type": "qcm",
+    "difficulty": 5,
+    "status": "published",
+    "source": "bac_hard",
+    "question": "Voix passive de « Le maître corrige les copies. »",
+    "options": [
+      {
+        "id": "a",
+        "text": "Les copies sont corrigées par le maître."
+      },
+      {
+        "id": "b",
+        "text": "Les copies étaient corrigées."
+      },
+      {
+        "id": "c",
+        "text": "Le maître est corrigé."
+      },
+      {
+        "id": "d",
+        "text": "Les copies corrigent."
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "Être + participe passé + par + agent."
+  },
+  {
+    "id": "fr_010",
+    "unitId": "fr_gram",
+    "subjectId": "french",
+    "type": "qcm",
+    "difficulty": 5,
+    "status": "published",
+    "source": "bac_hard",
+    "question": "« Bien qu'il ___ fatigué, il continue. »",
+    "options": [
+      {
+        "id": "a",
+        "text": "soit"
+      },
+      {
+        "id": "b",
+        "text": "est"
+      },
+      {
+        "id": "c",
+        "text": "sera"
+      },
+      {
+        "id": "d",
+        "text": "était"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "Bien que + subjonctif : soit."
+  },
+  {
+    "id": "fr_011",
+    "unitId": "fr_gram",
+    "subjectId": "french",
+    "type": "qcm",
+    "difficulty": 5,
+    "status": "published",
+    "source": "bac_hard",
+    "question": "Choisissez : « ___ livre est-ce ? »",
+    "options": [
+      {
+        "id": "a",
+        "text": "Quel"
+      },
+      {
+        "id": "b",
+        "text": "Quels"
+      },
+      {
+        "id": "c",
+        "text": "Quelle"
+      },
+      {
+        "id": "d",
+        "text": "Quelles"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "Accord avec livre (masc. sing.)."
+  },
+  {
+    "id": "fr_012",
+    "unitId": "fr_gram",
+    "subjectId": "french",
+    "type": "qcm",
+    "difficulty": 5,
+    "status": "published",
+    "source": "bac_hard",
+    "question": "« Je ___ souviens très bien. »",
+    "options": [
+      {
+        "id": "a",
+        "text": "me"
+      },
+      {
+        "id": "b",
+        "text": "te"
+      },
+      {
+        "id": "c",
+        "text": "se"
+      },
+      {
+        "id": "d",
+        "text": "m'"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "Verbe pronominal : se souvenir → je me souviens."
+  },
+  {
+    "id": "fr_013",
+    "unitId": "fr_gram",
+    "subjectId": "french",
+    "type": "qcm",
+    "difficulty": 5,
+    "status": "published",
+    "source": "bac_hard",
+    "question": "Participe présent de « finir » :",
+    "options": [
+      {
+        "id": "a",
+        "text": "finissant"
+      },
+      {
+        "id": "b",
+        "text": "fini"
+      },
+      {
+        "id": "c",
+        "text": "finir"
+      },
+      {
+        "id": "d",
+        "text": "finirai"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "Forme : -issant pour les verbes en -ir (2e groupe)."
+  },
+  {
+    "id": "fr_014",
+    "unitId": "fr_gram",
+    "subjectId": "french",
+    "type": "qcm",
+    "difficulty": 5,
+    "status": "published",
+    "source": "bac_hard",
+    "question": "« C'est l'homme ___ je t'ai parlé. »",
+    "options": [
+      {
+        "id": "a",
+        "text": "dont"
+      },
+      {
+        "id": "b",
+        "text": "que"
+      },
+      {
+        "id": "c",
+        "text": "qui"
+      },
+      {
+        "id": "d",
+        "text": "où"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "« Parler de » → dont."
+  },
+  {
+    "id": "fr_015",
+    "unitId": "fr_gram",
+    "subjectId": "french",
+    "type": "qcm",
+    "difficulty": 5,
+    "status": "published",
+    "source": "bac_hard",
+    "question": "« Il est plus grand ___ moi. »",
+    "options": [
+      {
+        "id": "a",
+        "text": "que"
+      },
+      {
+        "id": "b",
+        "text": "de"
+      },
+      {
+        "id": "c",
+        "text": "comme"
+      },
+      {
+        "id": "d",
+        "text": "à"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "Comparatif de supériorité : plus... que."
+  },
+  {
+    "id": "fr_016",
+    "unitId": "fr_conj",
+    "subjectId": "french",
+    "type": "qcm",
+    "difficulty": 5,
+    "status": "published",
+    "source": "bac_hard",
+    "question": "Passé simple de « il finit » :",
+    "options": [
+      {
+        "id": "a",
+        "text": "il finit"
+      },
+      {
+        "id": "b",
+        "text": "il finissait"
+      },
+      {
+        "id": "c",
+        "text": "il finira"
+      },
+      {
+        "id": "d",
+        "text": "il finît"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "Passé simple 3e pers. sing. : finit (attention homographe du présent)."
+  },
+  {
+    "id": "fr_017",
+    "unitId": "fr_conj",
+    "subjectId": "french",
+    "type": "qcm",
+    "difficulty": 5,
+    "status": "published",
+    "source": "bac_hard",
+    "question": "Imparfait de « nous faisons » :",
+    "options": [
+      {
+        "id": "a",
+        "text": "nous faisions"
+      },
+      {
+        "id": "b",
+        "text": "nous faisons"
+      },
+      {
+        "id": "c",
+        "text": "nous ferons"
+      },
+      {
+        "id": "d",
+        "text": "nous fîmes"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "Imparfait : fais- + ions = faisions."
+  },
+  {
+    "id": "fr_018",
+    "unitId": "fr_conj",
+    "subjectId": "french",
+    "type": "qcm",
+    "difficulty": 5,
+    "status": "published",
+    "source": "bac_hard",
+    "question": "Futur simple de « je vais » :",
+    "options": [
+      {
+        "id": "a",
+        "text": "j'irai"
+      },
+      {
+        "id": "b",
+        "text": "je irai"
+      },
+      {
+        "id": "c",
+        "text": "je vais aller"
+      },
+      {
+        "id": "d",
+        "text": "j'aille"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "Futur irrégulier : aller → j'irai."
+  },
+  {
+    "id": "fr_019",
+    "unitId": "fr_conj",
+    "subjectId": "french",
+    "type": "qcm",
+    "difficulty": 5,
+    "status": "published",
+    "source": "bac_hard",
+    "question": "Conditionnel présent de « il peut » :",
+    "options": [
+      {
+        "id": "a",
+        "text": "il pourrait"
+      },
+      {
+        "id": "b",
+        "text": "il peut"
+      },
+      {
+        "id": "c",
+        "text": "il pourra"
+      },
+      {
+        "id": "d",
+        "text": "il pût"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "Radical du futur + imparfait : pourr- + ait."
+  },
+  {
+    "id": "fr_020",
+    "unitId": "fr_conj",
+    "subjectId": "french",
+    "type": "qcm",
+    "difficulty": 5,
+    "status": "published",
+    "source": "bac_hard",
+    "question": "Subjonctif présent de « que tu aies » (avoir) :",
+    "options": [
+      {
+        "id": "a",
+        "text": "aie"
+      },
+      {
+        "id": "b",
+        "text": "aies"
+      },
+      {
+        "id": "c",
+        "text": "ait"
+      },
+      {
+        "id": "d",
+        "text": "ayons"
+      }
+    ],
+    "correctOptionId": "b",
+    "explanation": "Que tu aies (avec -s)."
+  },
+  {
+    "id": "fr_021",
+    "unitId": "fr_conj",
+    "subjectId": "french",
+    "type": "qcm",
+    "difficulty": 5,
+    "status": "published",
+    "source": "bac_hard",
+    "question": "Plus-que-parfait de « je mange » :",
+    "options": [
+      {
+        "id": "a",
+        "text": "j'avais mangé"
+      },
+      {
+        "id": "b",
+        "text": "j'ai mangé"
+      },
+      {
+        "id": "c",
+        "text": "je mangeais"
+      },
+      {
+        "id": "d",
+        "text": "j'aurais mangé"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "Auxiliaire à l'imparfait + participe passé."
+  },
+  {
+    "id": "fr_022",
+    "unitId": "fr_conj",
+    "subjectId": "french",
+    "type": "qcm",
+    "difficulty": 5,
+    "status": "published",
+    "source": "bac_hard",
+    "question": "Impératif de « tu t'assois » :",
+    "options": [
+      {
+        "id": "a",
+        "text": "assois-toi"
+      },
+      {
+        "id": "b",
+        "text": "tu t'assois"
+      },
+      {
+        "id": "c",
+        "text": "assieds"
+      },
+      {
+        "id": "d",
+        "text": "t'assois"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "Impératif affirmatif, pronom après."
+  },
+  {
+    "id": "fr_023",
+    "unitId": "fr_conj",
+    "subjectId": "french",
+    "type": "qcm",
+    "difficulty": 5,
+    "status": "published",
+    "source": "bac_hard",
+    "question": "Participe passé de « naître » :",
+    "options": [
+      {
+        "id": "a",
+        "text": "né"
+      },
+      {
+        "id": "b",
+        "text": "naîtu"
+      },
+      {
+        "id": "c",
+        "text": "naîné"
+      },
+      {
+        "id": "d",
+        "text": "naît"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "Participe passé : né."
+  },
+  {
+    "id": "fr_024",
+    "unitId": "fr_texte",
+    "subjectId": "french",
+    "type": "qcm",
+    "difficulty": 5,
+    "status": "published",
+    "source": "bac_hard",
+    "question": "Un texte qui raconte une histoire est :",
+    "options": [
+      {
+        "id": "a",
+        "text": "narratif"
+      },
+      {
+        "id": "b",
+        "text": "argumentatif"
+      },
+      {
+        "id": "c",
+        "text": "descriptif"
+      },
+      {
+        "id": "d",
+        "text": "informatif"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "Texte narratif : raconte des événements."
+  },
+  {
+    "id": "fr_025",
+    "unitId": "fr_texte",
+    "subjectId": "french",
+    "type": "qcm",
+    "difficulty": 5,
+    "status": "published",
+    "source": "bac_hard",
+    "question": "Un texte qui défend une opinion est :",
+    "options": [
+      {
+        "id": "a",
+        "text": "argumentatif"
+      },
+      {
+        "id": "b",
+        "text": "narratif"
+      },
+      {
+        "id": "c",
+        "text": "descriptif"
+      },
+      {
+        "id": "d",
+        "text": "explicatif"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "Texte argumentatif : thèse, arguments, exemples."
+  },
+  {
+    "id": "fr_026",
+    "unitId": "fr_texte",
+    "subjectId": "french",
+    "type": "qcm",
+    "difficulty": 5,
+    "status": "published",
+    "source": "bac_hard",
+    "question": "Le discours direct se reconnaît par :",
+    "options": [
+      {
+        "id": "a",
+        "text": "guillemets et verbes introducteurs"
+      },
+      {
+        "id": "b",
+        "text": "discours indirect"
+      },
+      {
+        "id": "c",
+        "text": "subordination"
+      },
+      {
+        "id": "d",
+        "text": "passé simple"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "« Il dit : “...” » — guillemets + ponctuation."
+  },
+  {
+    "id": "fr_027",
+    "unitId": "fr_texte",
+    "subjectId": "french",
+    "type": "qcm",
+    "difficulty": 5,
+    "status": "published",
+    "source": "bac_hard",
+    "question": "La focalisation interne signifie que :",
+    "options": [
+      {
+        "id": "a",
+        "text": "le narrateur sait tout"
+      },
+      {
+        "id": "b",
+        "text": "le narrateur en sait moins que le personnage"
+      },
+      {
+        "id": "c",
+        "text": "le narrateur sait ce que pense un personnage"
+      },
+      {
+        "id": "d",
+        "text": "le narrateur est omniscient"
+      }
+    ],
+    "correctOptionId": "c",
+    "explanation": "Focalisation interne : récit à travers un personnage."
+  },
+  {
+    "id": "fr_028",
+    "unitId": "fr_texte",
+    "subjectId": "french",
+    "type": "qcm",
+    "difficulty": 5,
+    "status": "published",
+    "source": "bac_hard",
+    "question": "Un champ lexical est :",
+    "options": [
+      {
+        "id": "a",
+        "text": "un ensemble de mots liés à un même thème"
+      },
+      {
+        "id": "b",
+        "text": "une figure de style"
+      },
+      {
+        "id": "c",
+        "text": "une rime"
+      },
+      {
+        "id": "d",
+        "text": "un temps verbal"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "Mots se rapportant à un même domaine."
+  },
+  {
+    "id": "fr_029",
+    "unitId": "fr_texte",
+    "subjectId": "french",
+    "type": "qcm",
+    "difficulty": 5,
+    "status": "published",
+    "source": "bac_hard",
+    "question": "« La lune souriait » est une :",
+    "options": [
+      {
+        "id": "a",
+        "text": "personnification"
+      },
+      {
+        "id": "b",
+        "text": "comparaison"
+      },
+      {
+        "id": "c",
+        "text": "métaphore"
+      },
+      {
+        "id": "d",
+        "text": "hyperbole"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "Attribuer des traits humains à une chose."
+  },
+  {
+    "id": "fr_030",
+    "unitId": "fr_texte",
+    "subjectId": "french",
+    "type": "qcm",
+    "difficulty": 5,
+    "status": "published",
+    "source": "bac_hard",
+    "question": "« Il court comme le vent » est une :",
+    "options": [
+      {
+        "id": "a",
+        "text": "comparaison"
+      },
+      {
+        "id": "b",
+        "text": "métaphore"
+      },
+      {
+        "id": "c",
+        "text": "hyperbole"
+      },
+      {
+        "id": "d",
+        "text": "métonymie"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "Comparaison avec « comme »."
+  },
+  {
+    "id": "fr_031",
+    "unitId": "fr_texte",
+    "subjectId": "french",
+    "type": "qcm",
+    "difficulty": 5,
+    "status": "published",
+    "source": "bac_hard",
+    "question": "« Je meurs de faim » est une :",
+    "options": [
+      {
+        "id": "a",
+        "text": "hyperbole"
+      },
+      {
+        "id": "b",
+        "text": "comparaison"
+      },
+      {
+        "id": "c",
+        "text": "métaphore"
+      },
+      {
+        "id": "d",
+        "text": "litote"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "Exagération (hyperbole)."
+  },
+  {
+    "id": "fr_032",
+    "unitId": "fr_litt",
+    "subjectId": "french",
+    "type": "qcm",
+    "difficulty": 5,
+    "status": "published",
+    "source": "bac_hard",
+    "question": "L'auteur des « Misérables » :",
+    "options": [
+      {
+        "id": "a",
+        "text": "Victor Hugo"
+      },
+      {
+        "id": "b",
+        "text": "Émile Zola"
+      },
+      {
+        "id": "c",
+        "text": "Balzac"
+      },
+      {
+        "id": "d",
+        "text": "Flaubert"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "Victor Hugo, 1862."
+  },
+  {
+    "id": "fr_033",
+    "unitId": "fr_litt",
+    "subjectId": "french",
+    "type": "qcm",
+    "difficulty": 5,
+    "status": "published",
+    "source": "bac_hard",
+    "question": "Le mouvement littéraire de Victor Hugo :",
+    "options": [
+      {
+        "id": "a",
+        "text": "Romantisme"
+      },
+      {
+        "id": "b",
+        "text": "Réalisme"
+      },
+      {
+        "id": "c",
+        "text": "Naturalisme"
+      },
+      {
+        "id": "d",
+        "text": "Surréalisme"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "Hugo, chef de file du Romantisme."
+  },
+  {
+    "id": "fr_034",
+    "unitId": "fr_litt",
+    "subjectId": "french",
+    "type": "qcm",
+    "difficulty": 5,
+    "status": "published",
+    "source": "bac_hard",
+    "question": "Zola est le chef de file du :",
+    "options": [
+      {
+        "id": "a",
+        "text": "Naturalisme"
+      },
+      {
+        "id": "b",
+        "text": "Romantisme"
+      },
+      {
+        "id": "c",
+        "text": "Surréalisme"
+      },
+      {
+        "id": "d",
+        "text": "Classicisme"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "Naturalisme (Le Roman expérimental)."
+  },
+  {
+    "id": "fr_035",
+    "unitId": "fr_litt",
+    "subjectId": "french",
+    "type": "qcm",
+    "difficulty": 5,
+    "status": "published",
+    "source": "bac_hard",
+    "question": "« L'Étranger » est de :",
+    "options": [
+      {
+        "id": "a",
+        "text": "Albert Camus"
+      },
+      {
+        "id": "b",
+        "text": "Sartre"
+      },
+      {
+        "id": "c",
+        "text": "Gide"
+      },
+      {
+        "id": "d",
+        "text": "Proust"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "Camus, 1942."
+  },
+  {
+    "id": "fr_036",
+    "unitId": "fr_litt",
+    "subjectId": "french",
+    "type": "qcm",
+    "difficulty": 5,
+    "status": "published",
+    "source": "bac_hard",
+    "question": "« Les Fleurs du mal » :",
+    "options": [
+      {
+        "id": "a",
+        "text": "Baudelaire"
+      },
+      {
+        "id": "b",
+        "text": "Verlaine"
+      },
+      {
+        "id": "c",
+        "text": "Rimbaud"
+      },
+      {
+        "id": "d",
+        "text": "Mallarmé"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "Baudelaire, 1857."
+  },
+  {
+    "id": "fr_037",
+    "unitId": "fr_litt",
+    "subjectId": "french",
+    "type": "qcm",
+    "difficulty": 5,
+    "status": "published",
+    "source": "bac_hard",
+    "question": "Le surréalisme a pour chef de file :",
+    "options": [
+      {
+        "id": "a",
+        "text": "André Breton"
+      },
+      {
+        "id": "b",
+        "text": "Hugo"
+      },
+      {
+        "id": "c",
+        "text": "Zola"
+      },
+      {
+        "id": "d",
+        "text": "Camus"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "Manifeste du surréalisme, 1924."
+  },
+  {
+    "id": "fr_038",
+    "unitId": "fr_litt",
+    "subjectId": "french",
+    "type": "qcm",
+    "difficulty": 5,
+    "status": "published",
+    "source": "bac_hard",
+    "question": "« Candide » est de :",
+    "options": [
+      {
+        "id": "a",
+        "text": "Voltaire"
+      },
+      {
+        "id": "b",
+        "text": "Rousseau"
+      },
+      {
+        "id": "c",
+        "text": "Diderot"
+      },
+      {
+        "id": "d",
+        "text": "Montesquieu"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "Voltaire, 1759, conte philosophique."
+  },
+  {
+    "id": "fr_039",
+    "unitId": "fr_litt",
+    "subjectId": "french",
+    "type": "qcm",
+    "difficulty": 5,
+    "status": "published",
+    "source": "bac_hard",
+    "question": "Les « Fables » sont de :",
+    "options": [
+      {
+        "id": "a",
+        "text": "La Fontaine"
+      },
+      {
+        "id": "b",
+        "text": "Molière"
+      },
+      {
+        "id": "c",
+        "text": "Racine"
+      },
+      {
+        "id": "d",
+        "text": "Corneille"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "Jean de La Fontaine, XVIIe siècle."
+  },
+  {
+    "id": "fr_040",
+    "unitId": "fr_litt",
+    "subjectId": "french",
+    "type": "qcm",
+    "difficulty": 5,
+    "status": "published",
+    "source": "bac_hard",
+    "question": "Le classicisme atteint son apogée au :",
+    "options": [
+      {
+        "id": "a",
+        "text": "XVIIe siècle"
+      },
+      {
+        "id": "b",
+        "text": "XVIe siècle"
+      },
+      {
+        "id": "c",
+        "text": "XIXe siècle"
+      },
+      {
+        "id": "d",
+        "text": "XXe siècle"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "XVIIe, sous Louis XIV."
+  }
+]

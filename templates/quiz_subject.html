@@ -1,0 +1,48 @@
+{% extends "base.html" %}
+{% block content %}
+<div class="max-w-3xl mx-auto p-4" dir="rtl">
+  <a href="/quiz" class="text-sm text-gray-500 hover:underline">← كل المواد</a>
+
+  <div class="bg-gradient-to-br {{ gradient }} text-white rounded-xl p-5 mt-3 mb-6 shadow-sm">
+    <div class="flex items-center justify-between">
+      <span class="text-5xl">{{ subject_icon }}</span>
+      <span class="text-xs bg-white/20 px-2 py-1 rounded-full">{{ total }} سؤال متاح</span>
+    </div>
+    <h1 class="text-2xl font-bold mt-3">{{ subject_name }}</h1>
+  </div>
+
+  <h2 class="text-xl font-bold mb-3">🔥 تحديات شاملة</h2>
+  <a href="/quiz/{{ subject_id }}/all?n=40" class="block bg-gradient-to-br from-red-500 to-rose-600 text-white rounded-xl p-5 mb-3 hover:opacity-90 transition shadow">
+    <div class="flex items-center justify-between">
+      <span class="text-3xl">🏆</span>
+      <span class="text-xs bg-white/20 px-2 py-1 rounded-full">40 سؤال · 30 دقيقة</span>
+    </div>
+    <p class="font-bold mt-2 text-lg">Marathon — تحدي البكالوريا</p>
+    <p class="text-xs opacity-90 mt-1">أسئلة عشوائية من كل الوحدات، مثل امتحان حقيقي</p>
+  </a>
+
+  <a href="/quiz/{{ subject_id }}/all?n=10" class="block bg-gradient-to-br from-blue-500 to-cyan-600 text-white rounded-xl p-4 mb-6 hover:opacity-90 transition shadow">
+    <div class="flex items-center justify-between">
+      <span class="text-2xl">⚡</span>
+      <span class="text-xs bg-white/20 px-2 py-1 rounded-full">10 أسئلة · 10 دقائق</span>
+    </div>
+    <p class="font-bold mt-1">تحدي سريع</p>
+  </a>
+
+  <h2 class="text-xl font-bold mb-3">📚 حسب الوحدة</h2>
+  {% if units %}
+    <div class="space-y-2">
+      {% for u in units %}
+        <a href="/quiz/{{ subject_id }}/{{ u.id }}?n={{ u.count }}" class="block bg-white border-2 border-gray-200 rounded-xl p-4 hover:border-emerald-500 transition">
+          <div class="flex items-center justify-between">
+            <span class="font-bold text-gray-800">{{ u.name }}</span>
+            <span class="text-xs text-gray-500 bg-gray-100 px-2 py-1 rounded-full">{{ u.count }} سؤال</span>
+          </div>
+        </a>
+      {% endfor %}
+    </div>
+  {% else %}
+    <p class="text-center text-gray-500 py-8">لا توجد وحدات بعد.</p>
+  {% endif %}
+</div>
+{% endblock %}

@@ -1,0 +1,16 @@
+[
+  {
+    "id": "dcc31183",
+    "ip": "127.0.0.1",
+    "ua": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Mobile Safari/537.36",
+    "path": "/quiz/science/science_protein",
+    "time": "2026-10-21 17:37:08"
+  },
+  {
+    "id": "8b6c193f",
+    "ip": "127.0.0.1",
+    "ua": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Mobile Safari/537.36",
+    "path": "/api/quiz/status",
+    "time": "2026-10-21 18:23:36"
+  }
+]

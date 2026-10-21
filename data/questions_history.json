@@ -1,0 +1,1202 @@
+[
+  {
+    "id": "hist_001",
+    "unitId": "hist_rev",
+    "subjectId": "history",
+    "type": "qcm",
+    "difficulty": 5,
+    "status": "published",
+    "source": "bac_hard",
+    "question": "بيان أول نوفمبر 1954 أعلن عن:",
+    "options": [
+      {
+        "id": "a",
+        "text": "تأسيس جبهة التحرير وجيش التحرير"
+      },
+      {
+        "id": "b",
+        "text": "هدنة مع فرنسا"
+      },
+      {
+        "id": "c",
+        "text": "تأسيس الحزب الشيوعي"
+      },
+      {
+        "id": "d",
+        "text": "الاستقلال"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "أعلن انطلاق الثورة وتأسيس FLN و ALN."
+  },
+  {
+    "id": "hist_002",
+    "unitId": "hist_rev",
+    "subjectId": "history",
+    "type": "qcm",
+    "difficulty": 5,
+    "status": "published",
+    "source": "bac_hard",
+    "question": "هجومات الشمال القسنطيني كانت سنة:",
+    "options": [
+      {
+        "id": "a",
+        "text": "1954"
+      },
+      {
+        "id": "b",
+        "text": "1955"
+      },
+      {
+        "id": "c",
+        "text": "1956"
+      },
+      {
+        "id": "d",
+        "text": "1957"
+      }
+    ],
+    "correctOptionId": "b",
+    "explanation": "20 أوت 1955، بقيادة زيغود يوسف."
+  },
+  {
+    "id": "hist_003",
+    "unitId": "hist_rev",
+    "subjectId": "history",
+    "type": "qcm",
+    "difficulty": 5,
+    "status": "published",
+    "source": "bac_hard",
+    "question": "مؤتمر الصومام انعقد سنة:",
+    "options": [
+      {
+        "id": "a",
+        "text": "1954"
+      },
+      {
+        "id": "b",
+        "text": "1955"
+      },
+      {
+        "id": "c",
+        "text": "1956"
+      },
+      {
+        "id": "d",
+        "text": "1957"
+      }
+    ],
+    "correctOptionId": "c",
+    "explanation": "20 أوت 1956، تنظيمه للثورة."
+  },
+  {
+    "id": "hist_004",
+    "unitId": "hist_rev",
+    "subjectId": "history",
+    "type": "qcm",
+    "difficulty": 5,
+    "status": "published",
+    "source": "bac_hard",
+    "question": "مؤتمر الصومام نظّم الثورة بـ:",
+    "options": [
+      {
+        "id": "a",
+        "text": "ولايات ومجالس شعبية"
+      },
+      {
+        "id": "b",
+        "text": "أحزاب سياسية"
+      },
+      {
+        "id": "c",
+        "text": "نقابات"
+      },
+      {
+        "id": "d",
+        "text": "جمعيات"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "6 ولايات تاريخية + مؤسسات."
+  },
+  {
+    "id": "hist_005",
+    "unitId": "hist_rev",
+    "subjectId": "history",
+    "type": "qcm",
+    "difficulty": 5,
+    "status": "published",
+    "source": "bac_hard",
+    "question": "معركة الجزائر كانت سنة:",
+    "options": [
+      {
+        "id": "a",
+        "text": "1956"
+      },
+      {
+        "id": "b",
+        "text": "1957"
+      },
+      {
+        "id": "c",
+        "text": "1958"
+      },
+      {
+        "id": "d",
+        "text": "1959"
+      }
+    ],
+    "correctOptionId": "b",
+    "explanation": "1957، معركة القصبة ضد المظلات."
+  },
+  {
+    "id": "hist_006",
+    "unitId": "hist_rev",
+    "subjectId": "history",
+    "type": "qcm",
+    "difficulty": 5,
+    "status": "published",
+    "source": "bac_hard",
+    "question": "مظاهرات 17 أكتوبر 1961 كانت في:",
+    "options": [
+      {
+        "id": "a",
+        "text": "الجزائر"
+      },
+      {
+        "id": "b",
+        "text": "باريس"
+      },
+      {
+        "id": "c",
+        "text": "وهران"
+      },
+      {
+        "id": "d",
+        "text": "قسنطينة"
+      }
+    ],
+    "correctOptionId": "b",
+    "explanation": "مظاهرات الجزائريين في باريس، قمع وحشي."
+  },
+  {
+    "id": "hist_007",
+    "unitId": "hist_rev",
+    "subjectId": "history",
+    "type": "qcm",
+    "difficulty": 5,
+    "status": "published",
+    "source": "bac_hard",
+    "question": "اتفاقيات إيفيان وقّعت سنة:",
+    "options": [
+      {
+        "id": "a",
+        "text": "1958"
+      },
+      {
+        "id": "b",
+        "text": "1960"
+      },
+      {
+        "id": "c",
+        "text": "1962"
+      },
+      {
+        "id": "d",
+        "text": "1963"
+      }
+    ],
+    "correctOptionId": "c",
+    "explanation": "18 مارس 1962، وقف إطلاق النار."
+  },
+  {
+    "id": "hist_008",
+    "unitId": "hist_rev",
+    "subjectId": "history",
+    "type": "qcm",
+    "difficulty": 5,
+    "status": "published",
+    "source": "bac_hard",
+    "question": "عيد الاستقلال الجزائري:",
+    "options": [
+      {
+        "id": "a",
+        "text": "1 نوفمبر 1954"
+      },
+      {
+        "id": "b",
+        "text": "5 جويلية 1962"
+      },
+      {
+        "id": "c",
+        "text": "18 مارس 1962"
+      },
+      {
+        "id": "d",
+        "text": "19 مارس 1962"
+      }
+    ],
+    "correctOptionId": "b",
+    "explanation": "5 جويلية 1962."
+  },
+  {
+    "id": "hist_009",
+    "unitId": "hist_rev",
+    "subjectId": "history",
+    "type": "qcm",
+    "difficulty": 5,
+    "status": "published",
+    "source": "bac_hard",
+    "question": "الجبهة الثانية (جيش التحرير بالداخل والخارج) أسسها:",
+    "options": [
+      {
+        "id": "a",
+        "text": "عبان رمضان"
+      },
+      {
+        "id": "b",
+        "text": "كريم بلقاسم"
+      },
+      {
+        "id": "c",
+        "text": "هواري بومدين"
+      },
+      {
+        "id": "d",
+        "text": "عبد الحفيظ بوالصوف"
+      }
+    ],
+    "correctOptionId": "b",
+    "explanation": "كريم بلقاسم في 1956."
+  },
+  {
+    "id": "hist_010",
+    "unitId": "hist_rev",
+    "subjectId": "history",
+    "type": "qcm",
+    "difficulty": 5,
+    "status": "published",
+    "source": "bac_hard",
+    "question": "دوغول عاد لحكم فرنسا سنة:",
+    "options": [
+      {
+        "id": "a",
+        "text": "1954"
+      },
+      {
+        "id": "b",
+        "text": "1958"
+      },
+      {
+        "id": "c",
+        "text": "1962"
+      },
+      {
+        "id": "d",
+        "text": "1965"
+      }
+    ],
+    "correctOptionId": "b",
+    "explanation": "1958، أعلن الجمهورية الخامسة."
+  },
+  {
+    "id": "hist_011",
+    "unitId": "hist_rev",
+    "subjectId": "history",
+    "type": "qcm",
+    "difficulty": 5,
+    "status": "published",
+    "source": "bac_hard",
+    "question": "عملية «إعصار» الشهيرة ضد الثورة:",
+    "options": [
+      {
+        "id": "a",
+        "text": "1958"
+      },
+      {
+        "id": "b",
+        "text": "1959"
+      },
+      {
+        "id": "c",
+        "text": "1960"
+      },
+      {
+        "id": "d",
+        "text": "1961"
+      }
+    ],
+    "correctOptionId": "b",
+    "explanation": "شال وموريس شال ضد الثورة."
+  },
+  {
+    "id": "hist_012",
+    "unitId": "hist_rev",
+    "subjectId": "history",
+    "type": "qcm",
+    "difficulty": 5,
+    "status": "published",
+    "source": "bac_hard",
+    "question": "مظاهرات 11 ديسمبر 1960 كانت تطالب بـ:",
+    "options": [
+      {
+        "id": "a",
+        "text": "الإصلاحات"
+      },
+      {
+        "id": "b",
+        "text": "استقلال الجزائر"
+      },
+      {
+        "id": "c",
+        "text": "الجمهورية الفرنسية"
+      },
+      {
+        "id": "d",
+        "text": "الحكم الذاتي فقط"
+      }
+    ],
+    "correctOptionId": "b",
+    "explanation": "أكدت مبدأ الاستقلال."
+  },
+  {
+    "id": "hist_013",
+    "unitId": "hist_rev",
+    "subjectId": "history",
+    "type": "qcm",
+    "difficulty": 5,
+    "status": "published",
+    "source": "bac_hard",
+    "question": "ثورة التحرير الجزائرية استمرت:",
+    "options": [
+      {
+        "id": "a",
+        "text": "5 سنوات"
+      },
+      {
+        "id": "b",
+        "text": "7 سنوات ونصف"
+      },
+      {
+        "id": "c",
+        "text": "10 سنوات"
+      },
+      {
+        "id": "d",
+        "text": "15 سنة"
+      }
+    ],
+    "correctOptionId": "b",
+    "explanation": "1954-1962، ≈7 سنوات و5 أشهر."
+  },
+  {
+    "id": "hist_014",
+    "unitId": "hist_rev",
+    "subjectId": "history",
+    "type": "qcm",
+    "difficulty": 5,
+    "status": "published",
+    "source": "bac_hard",
+    "question": "عدد الشهداء التقديري في الثورة:",
+    "options": [
+      {
+        "id": "a",
+        "text": "100 ألف"
+      },
+      {
+        "id": "b",
+        "text": "مليون ونصف مليون شهيد"
+      },
+      {
+        "id": "c",
+        "text": "10 آلاف"
+      },
+      {
+        "id": "d",
+        "text": "200 ألف"
+      }
+    ],
+    "correctOptionId": "b",
+    "explanation": "وفق التقديرات الرسمية."
+  },
+  {
+    "id": "hist_015",
+    "unitId": "hist_rev",
+    "subjectId": "history",
+    "type": "qcm",
+    "difficulty": 5,
+    "status": "published",
+    "source": "bac_hard",
+    "question": "منظمة «اليد الحمراء» كانت:",
+    "options": [
+      {
+        "id": "a",
+        "text": "منظمة جزائرية"
+      },
+      {
+        "id": "b",
+        "text": "منظمة فرنسية إرهابية ضد الجزائريين"
+      },
+      {
+        "id": "c",
+        "text": "منظمة دولية"
+      },
+      {
+        "id": "d",
+        "text": "جمعية خيرية"
+      }
+    ],
+    "correctOptionId": "b",
+    "explanation": "منظمة سرية فرنسية."
+  },
+  {
+    "id": "hist_016",
+    "unitId": "hist_indus",
+    "subjectId": "history",
+    "type": "qcm",
+    "difficulty": 5,
+    "status": "published",
+    "source": "bac_hard",
+    "question": "الثورة الصناعية بدأت في:",
+    "options": [
+      {
+        "id": "a",
+        "text": "فرنسا"
+      },
+      {
+        "id": "b",
+        "text": "إنجلترا"
+      },
+      {
+        "id": "c",
+        "text": "ألمانيا"
+      },
+      {
+        "id": "d",
+        "text": "الولايات المتحدة"
+      }
+    ],
+    "correctOptionId": "b",
+    "explanation": "منتصف القرن 18 في إنجلترا."
+  },
+  {
+    "id": "hist_017",
+    "unitId": "hist_indus",
+    "subjectId": "history",
+    "type": "qcm",
+    "difficulty": 5,
+    "status": "published",
+    "source": "bac_hard",
+    "question": "المحرك البخاري طوّره:",
+    "options": [
+      {
+        "id": "a",
+        "text": "جيمس وات"
+      },
+      {
+        "id": "b",
+        "text": "نيوتن"
+      },
+      {
+        "id": "c",
+        "text": "إديسون"
+      },
+      {
+        "id": "d",
+        "text": "فولتا"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "جيمس وات (1769)، تحسين لمحرك نيوكومن."
+  },
+  {
+    "id": "hist_018",
+    "unitId": "hist_indus",
+    "subjectId": "history",
+    "type": "qcm",
+    "difficulty": 5,
+    "status": "published",
+    "source": "bac_hard",
+    "question": "من نتائج الثورة الصناعية:",
+    "options": [
+      {
+        "id": "a",
+        "text": "تراجع المدن"
+      },
+      {
+        "id": "b",
+        "text": "الهجرة من الريف إلى المدن ونمو البروليتاريا"
+      },
+      {
+        "id": "c",
+        "text": "عودة الزراعة"
+      },
+      {
+        "id": "d",
+        "text": "تراجع التجارة"
+      }
+    ],
+    "correctOptionId": "b",
+    "explanation": "التحول إلى مجتمع صناعي حضري."
+  },
+  {
+    "id": "hist_019",
+    "unitId": "hist_indus",
+    "subjectId": "history",
+    "type": "qcm",
+    "difficulty": 5,
+    "status": "published",
+    "source": "bac_hard",
+    "question": "المذهب الاقتصادي المصاحب للثورة الصناعية:",
+    "options": [
+      {
+        "id": "a",
+        "text": "الاشتراكية"
+      },
+      {
+        "id": "b",
+        "text": "الرأسمالية الحرة (آدم سميث)"
+      },
+      {
+        "id": "c",
+        "text": "الشيوعية"
+      },
+      {
+        "id": "d",
+        "text": "الإقطاعية"
+      }
+    ],
+    "correctOptionId": "b",
+    "explanation": "آدم سميث، «دولة عدم التدخل»."
+  },
+  {
+    "id": "hist_020",
+    "unitId": "hist_indus",
+    "subjectId": "history",
+    "type": "qcm",
+    "difficulty": 5,
+    "status": "published",
+    "source": "bac_hard",
+    "question": "من أبرز نتائج الثورة الصناعية على الجزائر:",
+    "options": [
+      {
+        "id": "a",
+        "text": "الاستعمار الفرنسي 1830 بسبب التنافس الصناعي"
+      },
+      {
+        "id": "b",
+        "text": "لا علاقة لها"
+      },
+      {
+        "id": "c",
+        "text": "استقلال الجزائر"
+      },
+      {
+        "id": "d",
+        "text": "ازدهار الجزائر"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "فرنسا احتلت الجزائر لأسباب اقتصادية/سياسية."
+  },
+  {
+    "id": "hist_021",
+    "unitId": "hist_ww",
+    "subjectId": "history",
+    "type": "qcm",
+    "difficulty": 5,
+    "status": "published",
+    "source": "bac_hard",
+    "question": "الحرب العالمية الأولى:",
+    "options": [
+      {
+        "id": "a",
+        "text": "1914-1918"
+      },
+      {
+        "id": "b",
+        "text": "1918-1939"
+      },
+      {
+        "id": "c",
+        "text": "1939-1945"
+      },
+      {
+        "id": "d",
+        "text": "1912-1918"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "بدأت باغتيال ولي عهد النمسا."
+  },
+  {
+    "id": "hist_022",
+    "unitId": "hist_ww",
+    "subjectId": "history",
+    "type": "qcm",
+    "difficulty": 5,
+    "status": "published",
+    "source": "bac_hard",
+    "question": "الحرب العالمية الثانية:",
+    "options": [
+      {
+        "id": "a",
+        "text": "1914-1918"
+      },
+      {
+        "id": "b",
+        "text": "1939-1945"
+      },
+      {
+        "id": "c",
+        "text": "1935-1945"
+      },
+      {
+        "id": "d",
+        "text": "1940-1950"
+      }
+    ],
+    "correctOptionId": "b",
+    "explanation": "بدأت بغزو ألمانيا لبولندا."
+  },
+  {
+    "id": "hist_023",
+    "unitId": "hist_ww",
+    "subjectId": "history",
+    "type": "qcm",
+    "difficulty": 5,
+    "status": "published",
+    "source": "bac_hard",
+    "question": "فرنسا خلال WWII:",
+    "options": [
+      {
+        "id": "a",
+        "text": "هزمت 1940 واحتُلت"
+      },
+      {
+        "id": "b",
+        "text": "بقيت مستقلة"
+      },
+      {
+        "id": "c",
+        "text": "لم تشارك"
+      },
+      {
+        "id": "d",
+        "text": "حليفة لألمانيا"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "هزيمة 1940، نظام فيشي، ثم تحرير 1944."
+  },
+  {
+    "id": "hist_024",
+    "unitId": "hist_ww",
+    "subjectId": "history",
+    "type": "qcm",
+    "difficulty": 5,
+    "status": "published",
+    "source": "bac_hard",
+    "question": "مجازر 8 ماي 1945 في الجزائر:",
+    "options": [
+      {
+        "id": "a",
+        "text": "مظاهرات سلمية قُمعت بوحشية (45 ألف شهيد)"
+      },
+      {
+        "id": "b",
+        "text": "انقلاب عسكري"
+      },
+      {
+        "id": "c",
+        "text": "حادث عرضي"
+      },
+      {
+        "id": "d",
+        "text": "معركة حربية"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "مظاهرات احتفال بالنصر + مطالب استقلال، قُمعت."
+  },
+  {
+    "id": "hist_025",
+    "unitId": "hist_ww",
+    "subjectId": "history",
+    "type": "qcm",
+    "difficulty": 5,
+    "status": "published",
+    "source": "bac_hard",
+    "question": "الأمم المتحدة تأسست سنة:",
+    "options": [
+      {
+        "id": "a",
+        "text": "1919"
+      },
+      {
+        "id": "b",
+        "text": "1939"
+      },
+      {
+        "id": "c",
+        "text": "1945"
+      },
+      {
+        "id": "d",
+        "text": "1950"
+      }
+    ],
+    "correctOptionId": "c",
+    "explanation": "24 أكتوبر 1945."
+  },
+  {
+    "id": "hist_026",
+    "unitId": "hist_algeria",
+    "subjectId": "history",
+    "type": "qcm",
+    "difficulty": 5,
+    "status": "published",
+    "source": "bac_hard",
+    "question": "تأميم المزارع (الاستعمارية) كان سنة:",
+    "options": [
+      {
+        "id": "a",
+        "text": "1962"
+      },
+      {
+        "id": "b",
+        "text": "1963"
+      },
+      {
+        "id": "c",
+        "text": "1966"
+      },
+      {
+        "id": "d",
+        "text": "1971"
+      }
+    ],
+    "correctOptionId": "b",
+    "explanation": "أكتوبر 1963، تأميم الأراضي المستعمرة."
+  },
+  {
+    "id": "hist_027",
+    "unitId": "hist_algeria",
+    "subjectId": "history",
+    "type": "qcm",
+    "difficulty": 5,
+    "status": "published",
+    "source": "bac_hard",
+    "question": "تأميم المناجم كان سنة:",
+    "options": [
+      {
+        "id": "a",
+        "text": "1963"
+      },
+      {
+        "id": "b",
+        "text": "1966"
+      },
+      {
+        "id": "c",
+        "text": "1971"
+      },
+      {
+        "id": "d",
+        "text": "1974"
+      }
+    ],
+    "correctOptionId": "b",
+    "explanation": "5 ماي 1966."
+  },
+  {
+    "id": "hist_028",
+    "unitId": "hist_algeria",
+    "subjectId": "history",
+    "type": "qcm",
+    "difficulty": 5,
+    "status": "published",
+    "source": "bac_hard",
+    "question": "تأميم المحروقات والبنوك:",
+    "options": [
+      {
+        "id": "a",
+        "text": "1966"
+      },
+      {
+        "id": "b",
+        "text": "1971"
+      },
+      {
+        "id": "c",
+        "text": "1973"
+      },
+      {
+        "id": "d",
+        "text": "1980"
+      }
+    ],
+    "correctOptionId": "b",
+    "explanation": "24 فيفري 1971 (بومدين)."
+  },
+  {
+    "id": "hist_029",
+    "unitId": "hist_algeria",
+    "subjectId": "history",
+    "type": "qcm",
+    "difficulty": 5,
+    "status": "published",
+    "source": "bac_hard",
+    "question": "الثورة الزراعية في الجزائر أُطلقت:",
+    "options": [
+      {
+        "id": "a",
+        "text": "1963"
+      },
+      {
+        "id": "b",
+        "text": "1971"
+      },
+      {
+        "id": "c",
+        "text": "1980"
+      },
+      {
+        "id": "d",
+        "text": "1985"
+      }
+    ],
+    "correctOptionId": "b",
+    "explanation": "1971، لتحسين الإنتاج الفلاحي."
+  },
+  {
+    "id": "hist_030",
+    "unitId": "hist_algeria",
+    "subjectId": "history",
+    "type": "qcm",
+    "difficulty": 5,
+    "status": "published",
+    "source": "bac_hard",
+    "question": "أول دستور للجزائر المستقلة:",
+    "options": [
+      {
+        "id": "a",
+        "text": "1962"
+      },
+      {
+        "id": "b",
+        "text": "1963"
+      },
+      {
+        "id": "c",
+        "text": "1965"
+      },
+      {
+        "id": "d",
+        "text": "1976"
+      }
+    ],
+    "correctOptionId": "b",
+    "explanation": "1963، انتخاب بن بلة رئيسًا."
+  },
+  {
+    "id": "hist_031",
+    "unitId": "hist_geo_dz",
+    "subjectId": "history",
+    "type": "qcm",
+    "difficulty": 5,
+    "status": "published",
+    "source": "bac_hard",
+    "question": "مساحة الجزائر:",
+    "options": [
+      {
+        "id": "a",
+        "text": "1,500,000 كم²"
+      },
+      {
+        "id": "b",
+        "text": "2,381,741 كم²"
+      },
+      {
+        "id": "c",
+        "text": "3,000,000 كم²"
+      },
+      {
+        "id": "d",
+        "text": "1,000,000 كم²"
+      }
+    ],
+    "correctOptionId": "b",
+    "explanation": "أكبر دولة إفريقية وعربية بمساحة 2,381,741 كم²."
+  },
+  {
+    "id": "hist_032",
+    "unitId": "hist_geo_dz",
+    "subjectId": "history",
+    "type": "qcm",
+    "difficulty": 5,
+    "status": "published",
+    "source": "bac_hard",
+    "question": "الموقع الفلكي للجزائر:",
+    "options": [
+      {
+        "id": "a",
+        "text": "بين 19° و37° شمالًا، و12° شرقًا إلى 12° غربًا"
+      },
+      {
+        "id": "b",
+        "text": "خط الاستواء"
+      },
+      {
+        "id": "c",
+        "text": "خط 30° فقط"
+      },
+      {
+        "id": "d",
+        "text": "فوق الدائرة القطبية"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "يحدد المناخ المتوسطي والصحراوي."
+  },
+  {
+    "id": "hist_033",
+    "unitId": "hist_geo_dz",
+    "subjectId": "history",
+    "type": "qcm",
+    "difficulty": 5,
+    "status": "published",
+    "source": "bac_hard",
+    "question": "الصحراء الجزائرية تمثل نسبة:",
+    "options": [
+      {
+        "id": "a",
+        "text": "30%"
+      },
+      {
+        "id": "b",
+        "text": "50%"
+      },
+      {
+        "id": "c",
+        "text": "84% من المساحة"
+      },
+      {
+        "id": "d",
+        "text": "10%"
+      }
+    ],
+    "correctOptionId": "c",
+    "explanation": "الصحراء تغطي 84% من المساحة."
+  },
+  {
+    "id": "hist_034",
+    "unitId": "hist_geo_dz",
+    "subjectId": "history",
+    "type": "qcm",
+    "difficulty": 5,
+    "status": "published",
+    "source": "bac_hard",
+    "question": "أعلى قمة في الجزائر:",
+    "options": [
+      {
+        "id": "a",
+        "text": "جبل الشيخ"
+      },
+      {
+        "id": "b",
+        "text": "جبل تاهات (2918م)"
+      },
+      {
+        "id": "c",
+        "text": "جبل أوارس"
+      },
+      {
+        "id": "d",
+        "text": "جبل بابور"
+      }
+    ],
+    "correctOptionId": "b",
+    "explanation": "تاهات في الهقار، أعلى قمة."
+  },
+  {
+    "id": "hist_035",
+    "unitId": "hist_geo_dz",
+    "subjectId": "history",
+    "type": "qcm",
+    "difficulty": 5,
+    "status": "published",
+    "source": "bac_hard",
+    "question": "أطول نهر في الجزائر:",
+    "options": [
+      {
+        "id": "a",
+        "text": "الشلف (700 كم)"
+      },
+      {
+        "id": "b",
+        "text": "الصومام"
+      },
+      {
+        "id": "c",
+        "text": "الأبيض"
+      },
+      {
+        "id": "d",
+        "text": "قسنطينة"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "نهر الشلف، 700 كم، رغم أنه موسمي."
+  },
+  {
+    "id": "hist_036",
+    "unitId": "hist_geo_dz",
+    "subjectId": "history",
+    "type": "qcm",
+    "difficulty": 5,
+    "status": "published",
+    "source": "bac_hard",
+    "question": "المناخ السائد في الشمال الجزائري:",
+    "options": [
+      {
+        "id": "a",
+        "text": "صحراوي"
+      },
+      {
+        "id": "b",
+        "text": "متوسطي"
+      },
+      {
+        "id": "c",
+        "text": "استوائي"
+      },
+      {
+        "id": "d",
+        "text": "قطبي"
+      }
+    ],
+    "correctOptionId": "b",
+    "explanation": "متوسطي: شتاء ممطر معتدل، صيف جاف حار."
+  },
+  {
+    "id": "hist_037",
+    "unitId": "hist_geo_dz",
+    "subjectId": "history",
+    "type": "qcm",
+    "difficulty": 5,
+    "status": "published",
+    "source": "bac_hard",
+    "question": "السد الأخضر أُطلق سنة:",
+    "options": [
+      {
+        "id": "a",
+        "text": "1962"
+      },
+      {
+        "id": "b",
+        "text": "1974"
+      },
+      {
+        "id": "c",
+        "text": "1980"
+      },
+      {
+        "id": "d",
+        "text": "1990"
+      }
+    ],
+    "correctOptionId": "b",
+    "explanation": "1974، لمقاومة زحف الرمال."
+  },
+  {
+    "id": "hist_038",
+    "unitId": "hist_geo_dz",
+    "subjectId": "history",
+    "type": "qcm",
+    "difficulty": 5,
+    "status": "published",
+    "source": "bac_hard",
+    "question": "مشروع «السد الأخضر» يهدف إلى:",
+    "options": [
+      {
+        "id": "a",
+        "text": "إنتاج الطاقة"
+      },
+      {
+        "id": "b",
+        "text": "صد زحف الصحراء"
+      },
+      {
+        "id": "c",
+        "text": "السياحة"
+      },
+      {
+        "id": "d",
+        "text": "التجارة"
+      }
+    ],
+    "correctOptionId": "b",
+    "explanation": "حزام أخضر بطول 1500 كم."
+  },
+  {
+    "id": "hist_039",
+    "unitId": "hist_geo_dz",
+    "subjectId": "history",
+    "type": "qcm",
+    "difficulty": 5,
+    "status": "published",
+    "source": "bac_hard",
+    "question": "أهم مورد طبيعي في الجزائر:",
+    "options": [
+      {
+        "id": "a",
+        "text": "الحديد"
+      },
+      {
+        "id": "b",
+        "text": "البترول والغاز الطبيعي"
+      },
+      {
+        "id": "c",
+        "text": "الفحم"
+      },
+      {
+        "id": "d",
+        "text": "اليورانيوم"
+      }
+    ],
+    "correctOptionId": "b",
+    "explanation": "المحروقات، أكبر مصدر للعملة الصعبة."
+  },
+  {
+    "id": "hist_040",
+    "unitId": "hist_geo_dz",
+    "subjectId": "history",
+    "type": "qcm",
+    "difficulty": 5,
+    "status": "published",
+    "source": "bac_hard",
+    "question": "أكبر سد مائي في الجزائر:",
+    "options": [
+      {
+        "id": "a",
+        "text": "سد بني هارون (ولاية ميلة)"
+      },
+      {
+        "id": "b",
+        "text": "سد قرقار"
+      },
+      {
+        "id": "c",
+        "text": "سد جرف التربة"
+      },
+      {
+        "id": "d",
+        "text": "سد إيليزي"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "بني هارون، طاقة تخزين ≈ 1 مليار م³."
+  }
+]

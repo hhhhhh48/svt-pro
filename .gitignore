@@ -1,2 +1,19 @@
+# Environment
+.env
+.env.*
+!.env.example
+
+# Python
 __pycache__/
 *.pyc
+*.pyo
+venv/
+.venv/
+
+# Data (بيانات محلية، لا تُرفع)
+data/attempts.json
+data/chat_messages.json
+
+# System
+.DS_Store
+*.log

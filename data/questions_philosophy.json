@@ -1,0 +1,1202 @@
+[
+  {
+    "id": "phil_001",
+    "unitId": "phil_problem",
+    "subjectId": "philosophy",
+    "type": "qcm",
+    "difficulty": 5,
+    "status": "published",
+    "source": "bac_hard",
+    "question": "الإشكالية تختلف عن المشكلة بأنها:",
+    "options": [
+      {
+        "id": "a",
+        "text": "لها حل واحد"
+      },
+      {
+        "id": "b",
+        "text": "طرح عقلي مركب يتضمن المشكلة وأبعادها"
+      },
+      {
+        "id": "c",
+        "text": "خاصة بالعلم"
+      },
+      {
+        "id": "d",
+        "text": "لا حل لها"
+      }
+    ],
+    "correctOptionId": "b",
+    "explanation": "الإشكالية = مشكلة + أبعاد متشعبة تفتح التفكير النقدي."
+  },
+  {
+    "id": "phil_002",
+    "unitId": "phil_problem",
+    "subjectId": "philosophy",
+    "type": "qcm",
+    "difficulty": 5,
+    "status": "published",
+    "source": "bac_hard",
+    "question": "الشك المنهجي أداة استخدمها:",
+    "options": [
+      {
+        "id": "a",
+        "text": "أفلاطون"
+      },
+      {
+        "id": "b",
+        "text": "ديكارت"
+      },
+      {
+        "id": "c",
+        "text": "أرسطو"
+      },
+      {
+        "id": "d",
+        "text": "نيتشه"
+      }
+    ],
+    "correctOptionId": "b",
+    "explanation": "ديكارت استخدم الشك للوصول إلى حقيقة يقينية."
+  },
+  {
+    "id": "phil_003",
+    "unitId": "phil_problem",
+    "subjectId": "philosophy",
+    "type": "qcm",
+    "difficulty": 5,
+    "status": "published",
+    "source": "bac_hard",
+    "question": "الكوجيطو الديكارتي هو:",
+    "options": [
+      {
+        "id": "a",
+        "text": "أنا أشك إذن أنا موجود"
+      },
+      {
+        "id": "b",
+        "text": "أنا أفكر إذن أنا موجود"
+      },
+      {
+        "id": "c",
+        "text": "أنا أعيش إذن أنا موجود"
+      },
+      {
+        "id": "d",
+        "text": "أنا أفهم إذن أنا موجود"
+      }
+    ],
+    "correctOptionId": "b",
+    "explanation": "'أنا أفكر إذن أنا موجود' = الحقيقة الأولى عند ديكارت."
+  },
+  {
+    "id": "phil_004",
+    "unitId": "phil_problem",
+    "subjectId": "philosophy",
+    "type": "qcm",
+    "difficulty": 5,
+    "status": "published",
+    "source": "bac_hard",
+    "question": "موقف ديكارت من الحواس:",
+    "options": [
+      {
+        "id": "a",
+        "text": "مصدر كل معرفة"
+      },
+      {
+        "id": "b",
+        "text": "قد تخدع، فلا يُبنى عليها اليقين"
+      },
+      {
+        "id": "c",
+        "text": "مصدر اليقين"
+      },
+      {
+        "id": "d",
+        "text": "لها دور أساسي"
+      }
+    ],
+    "correctOptionId": "b",
+    "explanation": "ديكارت: الحواس قد تخدع، فالحقيقة تُبنى بالعقل."
+  },
+  {
+    "id": "phil_005",
+    "unitId": "phil_problem",
+    "subjectId": "philosophy",
+    "type": "qcm",
+    "difficulty": 5,
+    "status": "published",
+    "source": "bac_hard",
+    "question": "الفلسفة تختلف عن العلم التجريبي بـ:",
+    "options": [
+      {
+        "id": "a",
+        "text": "التجريب"
+      },
+      {
+        "id": "b",
+        "text": "الطرح العقلي والتأمل"
+      },
+      {
+        "id": "c",
+        "text": "قياس الأرقام"
+      },
+      {
+        "id": "d",
+        "text": "استخدام المختبر"
+      }
+    ],
+    "correctOptionId": "b",
+    "explanation": "الفلسفة تعتمد العقل والتأمل، لا التجربة المخبرية."
+  },
+  {
+    "id": "phil_006",
+    "unitId": "phil_consciousness",
+    "subjectId": "philosophy",
+    "type": "qcm",
+    "difficulty": 5,
+    "status": "published",
+    "source": "bac_hard",
+    "question": "اللاوعي عند فرويد:",
+    "options": [
+      {
+        "id": "a",
+        "text": "غياب الوعي"
+      },
+      {
+        "id": "b",
+        "text": "مستودع الرغبات المكبوتة المؤثرة في السلوك"
+      },
+      {
+        "id": "c",
+        "text": "الغريزة"
+      },
+      {
+        "id": "d",
+        "text": "الذاكرة القصيرة"
+      }
+    ],
+    "correctOptionId": "b",
+    "explanation": "اللاوعي يظهر في الأحلام والزلات والأعراض."
+  },
+  {
+    "id": "phil_007",
+    "unitId": "phil_consciousness",
+    "subjectId": "philosophy",
+    "type": "qcm",
+    "difficulty": 5,
+    "status": "published",
+    "source": "bac_hard",
+    "question": "أحلام الإنسان عند فرويد:",
+    "options": [
+      {
+        "id": "a",
+        "text": "بلا معنى"
+      },
+      {
+        "id": "b",
+        "text": "تعبير عن رغبات مكبوتة"
+      },
+      {
+        "id": "c",
+        "text": "تقليد للواقع"
+      },
+      {
+        "id": "d",
+        "text": "أوهام"
+      }
+    ],
+    "correctOptionId": "b",
+    "explanation": "الحلم = تحقيق مقنع لرغبة مكبوتة."
+  },
+  {
+    "id": "phil_008",
+    "unitId": "phil_consciousness",
+    "subjectId": "philosophy",
+    "type": "qcm",
+    "difficulty": 5,
+    "status": "published",
+    "source": "bac_hard",
+    "question": "الوعي عند ديكارت يتمركز في:",
+    "options": [
+      {
+        "id": "a",
+        "text": "الجسد"
+      },
+      {
+        "id": "b",
+        "text": "العقل (الكوجيطو)"
+      },
+      {
+        "id": "c",
+        "text": "المجتمع"
+      },
+      {
+        "id": "d",
+        "text": "اللغة"
+      }
+    ],
+    "correctOptionId": "b",
+    "explanation": "ديكارت: الوعي جوهره الفكر."
+  },
+  {
+    "id": "phil_009",
+    "unitId": "phil_consciousness",
+    "subjectId": "philosophy",
+    "type": "qcm",
+    "difficulty": 5,
+    "status": "published",
+    "source": "bac_hard",
+    "question": "الغريزة عند برغسون:",
+    "options": [
+      {
+        "id": "a",
+        "text": "معرفة محدودة غائية"
+      },
+      {
+        "id": "b",
+        "text": "معرفة شعورية حرة"
+      },
+      {
+        "id": "c",
+        "text": "أداة عقلية"
+      },
+      {
+        "id": "d",
+        "text": "خاصة بالإنسان"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "برغسون: الغريزة معرفة غائية محدودة، تختلف عن الذكاء."
+  },
+  {
+    "id": "phil_010",
+    "unitId": "phil_consciousness",
+    "subjectId": "philosophy",
+    "type": "qcm",
+    "difficulty": 5,
+    "status": "published",
+    "source": "bac_hard",
+    "question": "ما يميز الإنسان عن الحيوان في الوعي:",
+    "options": [
+      {
+        "id": "a",
+        "text": "الغرائز"
+      },
+      {
+        "id": "b",
+        "text": "التأمل والتفكير المجرد"
+      },
+      {
+        "id": "c",
+        "text": "الحواس"
+      },
+      {
+        "id": "d",
+        "text": "الحركة"
+      }
+    ],
+    "correctOptionId": "b",
+    "explanation": "الإنسان يمتلك وعيًا تأمليًا مجردًا."
+  },
+  {
+    "id": "phil_011",
+    "unitId": "phil_reason",
+    "subjectId": "philosophy",
+    "type": "qcm",
+    "difficulty": 5,
+    "status": "published",
+    "source": "bac_hard",
+    "question": "العقلانية مذهب يرى أن:",
+    "options": [
+      {
+        "id": "a",
+        "text": "التجربة أساس المعرفة"
+      },
+      {
+        "id": "b",
+        "text": "العقل أساس المعرفة"
+      },
+      {
+        "id": "c",
+        "text": "الحدس أساس المعرفة"
+      },
+      {
+        "id": "d",
+        "text": "الوحي أساس المعرفة"
+      }
+    ],
+    "correctOptionId": "b",
+    "explanation": "العقلانية (ديكارت، سبينوزا): العقل مصدر اليقين."
+  },
+  {
+    "id": "phil_012",
+    "unitId": "phil_reason",
+    "subjectId": "philosophy",
+    "type": "qcm",
+    "difficulty": 5,
+    "status": "published",
+    "source": "bac_hard",
+    "question": "التجريبية مذهب يرى أن المعرفة من:",
+    "options": [
+      {
+        "id": "a",
+        "text": "العقل فقط"
+      },
+      {
+        "id": "b",
+        "text": "التجربة الحسية"
+      },
+      {
+        "id": "c",
+        "text": "الحدس"
+      },
+      {
+        "id": "d",
+        "text": "الوحي"
+      }
+    ],
+    "correctOptionId": "b",
+    "explanation": "التجريبية (لوك، هيوم): كل المعرفة أصلها التجربة."
+  },
+  {
+    "id": "phil_013",
+    "unitId": "phil_reason",
+    "subjectId": "philosophy",
+    "type": "qcm",
+    "difficulty": 5,
+    "status": "published",
+    "source": "bac_hard",
+    "question": "الحدس عند برغسون أداة:",
+    "options": [
+      {
+        "id": "a",
+        "text": "التجربة العلمية"
+      },
+      {
+        "id": "b",
+        "text": "فهم الحياة والزمان النوعي"
+      },
+      {
+        "id": "c",
+        "text": "التحليل الرياضي"
+      },
+      {
+        "id": "d",
+        "text": "المنطق الصوري"
+      }
+    ],
+    "correctOptionId": "b",
+    "explanation": "الحدس يدرك الحياة والزمان النوعي."
+  },
+  {
+    "id": "phil_014",
+    "unitId": "phil_reason",
+    "subjectId": "philosophy",
+    "type": "qcm",
+    "difficulty": 5,
+    "status": "published",
+    "source": "bac_hard",
+    "question": "كانط وفلسفته النقدية:",
+    "options": [
+      {
+        "id": "a",
+        "text": "يرفض العقل والتجربة"
+      },
+      {
+        "id": "b",
+        "text": "يوفّق بين العقلانية والتجريبية"
+      },
+      {
+        "id": "c",
+        "text": "يعتمد على الوحي"
+      },
+      {
+        "id": "d",
+        "text": "يرفض الفلسفة"
+      }
+    ],
+    "correctOptionId": "b",
+    "explanation": "'نقد العقل الخالص': العقل يعالج معطيات حسية."
+  },
+  {
+    "id": "phil_015",
+    "unitId": "phil_truth",
+    "subjectId": "philosophy",
+    "type": "qcm",
+    "difficulty": 5,
+    "status": "published",
+    "source": "bac_hard",
+    "question": "الحقيقة عند أفلاطون في:",
+    "options": [
+      {
+        "id": "a",
+        "text": "المحسوسات"
+      },
+      {
+        "id": "b",
+        "text": "عالم المثل"
+      },
+      {
+        "id": "c",
+        "text": "اللغة"
+      },
+      {
+        "id": "d",
+        "text": "التجربة"
+      }
+    ],
+    "correctOptionId": "b",
+    "explanation": "الحقيقة في عالم المثل، والمحسوس ظل."
+  },
+  {
+    "id": "phil_016",
+    "unitId": "phil_truth",
+    "subjectId": "philosophy",
+    "type": "qcm",
+    "difficulty": 5,
+    "status": "published",
+    "source": "bac_hard",
+    "question": "الحقيقة كتطابق الفكر مع الواقع عند:",
+    "options": [
+      {
+        "id": "a",
+        "text": "أفلاطون"
+      },
+      {
+        "id": "b",
+        "text": "أرسطو"
+      },
+      {
+        "id": "c",
+        "text": "سارتر"
+      },
+      {
+        "id": "d",
+        "text": "نيتشه"
+      }
+    ],
+    "correctOptionId": "b",
+    "explanation": "أرسطو: الصدق مطابقة الفكر للواقع."
+  },
+  {
+    "id": "phil_017",
+    "unitId": "phil_truth",
+    "subjectId": "philosophy",
+    "type": "qcm",
+    "difficulty": 5,
+    "status": "published",
+    "source": "bac_hard",
+    "question": "نسبية الحقيقة تعني:",
+    "options": [
+      {
+        "id": "a",
+        "text": "الحقيقة مطلقة"
+      },
+      {
+        "id": "b",
+        "text": "الحقيقة تتغير حسب الشخص والزمان"
+      },
+      {
+        "id": "c",
+        "text": "الحقيقة وهم"
+      },
+      {
+        "id": "d",
+        "text": "الحقيقة واحدة"
+      }
+    ],
+    "correctOptionId": "b",
+    "explanation": "النسبية: لا حقيقة مطلقة، بل نسبية لكل عصر أو فرد."
+  },
+  {
+    "id": "phil_018",
+    "unitId": "phil_truth",
+    "subjectId": "philosophy",
+    "type": "qcm",
+    "difficulty": 5,
+    "status": "published",
+    "source": "bac_hard",
+    "question": "اليقين في المعرفة:",
+    "options": [
+      {
+        "id": "a",
+        "text": "شعور بغياب الشك"
+      },
+      {
+        "id": "b",
+        "text": "شك دائم"
+      },
+      {
+        "id": "c",
+        "text": "جهل"
+      },
+      {
+        "id": "d",
+        "text": "رأي شخصي"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "اليقين = اطمئنان العقل وغياب الشك."
+  },
+  {
+    "id": "phil_019",
+    "unitId": "phil_freedom",
+    "subjectId": "philosophy",
+    "type": "qcm",
+    "difficulty": 5,
+    "status": "published",
+    "source": "bac_hard",
+    "question": "الحرية عند سارتر:",
+    "options": [
+      {
+        "id": "a",
+        "text": "وهم"
+      },
+      {
+        "id": "b",
+        "text": "إرغام خارجي"
+      },
+      {
+        "id": "c",
+        "text": "جوهر الوجود الإنساني، والمسؤولية رفيقتها"
+      },
+      {
+        "id": "d",
+        "text": "شيء يُوهب"
+      }
+    ],
+    "correctOptionId": "c",
+    "explanation": "الإنسان محكوم بالحرية وبها يتحمل المسؤولية."
+  },
+  {
+    "id": "phil_020",
+    "unitId": "phil_freedom",
+    "subjectId": "philosophy",
+    "type": "qcm",
+    "difficulty": 5,
+    "status": "published",
+    "source": "bac_hard",
+    "question": "الجبرية تعني:",
+    "options": [
+      {
+        "id": "a",
+        "text": "الإنسان حر تمامًا"
+      },
+      {
+        "id": "b",
+        "text": "أفعال الإنسان محددة بأسباب لا يفكّ منها"
+      },
+      {
+        "id": "c",
+        "text": "الحرية مشروطة"
+      },
+      {
+        "id": "d",
+        "text": "لا حرية ولا جبر"
+      }
+    ],
+    "correctOptionId": "b",
+    "explanation": "كل فعل له سبب حتمي، فلا حرية حقيقية."
+  },
+  {
+    "id": "phil_021",
+    "unitId": "phil_freedom",
+    "subjectId": "philosophy",
+    "type": "qcm",
+    "difficulty": 5,
+    "status": "published",
+    "source": "bac_hard",
+    "question": "المسؤولية ترتبط بالحرية:",
+    "options": [
+      {
+        "id": "a",
+        "text": "لا علاقة"
+      },
+      {
+        "id": "b",
+        "text": "بعلاقة تلازمية: لا مسؤولية بلا حرية"
+      },
+      {
+        "id": "c",
+        "text": "المسؤولية مستقلة"
+      },
+      {
+        "id": "d",
+        "text": "الحرية تُلغي المسؤولية"
+      }
+    ],
+    "correctOptionId": "b",
+    "explanation": "تلازم: من لا حرية له لا مسؤولية."
+  },
+  {
+    "id": "phil_022",
+    "unitId": "phil_freedom",
+    "subjectId": "philosophy",
+    "type": "qcm",
+    "difficulty": 5,
+    "status": "published",
+    "source": "bac_hard",
+    "question": "الحرية السلبية تعني:",
+    "options": [
+      {
+        "id": "a",
+        "text": "غياب الإكراه الخارجي"
+      },
+      {
+        "id": "b",
+        "text": "القدرة على الفعل"
+      },
+      {
+        "id": "c",
+        "text": "الاختيار الداخلي"
+      },
+      {
+        "id": "d",
+        "text": "الالتزام الأخلاقي"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "غياب العوائق الخارجية (إيزاياه برلين)."
+  },
+  {
+    "id": "phil_023",
+    "unitId": "phil_values",
+    "subjectId": "philosophy",
+    "type": "qcm",
+    "difficulty": 5,
+    "status": "published",
+    "source": "bac_hard",
+    "question": "القيمة الأخلاقية عند كانط تُقاس بـ:",
+    "options": [
+      {
+        "id": "a",
+        "text": "النتائج"
+      },
+      {
+        "id": "b",
+        "text": "النية والواجب"
+      },
+      {
+        "id": "c",
+        "text": "المنفعة"
+      },
+      {
+        "id": "d",
+        "text": "المصلحة الشخصية"
+      }
+    ],
+    "correctOptionId": "b",
+    "explanation": "القيمة في النية الخالصة والواجب لا في النتائج."
+  },
+  {
+    "id": "phil_024",
+    "unitId": "phil_values",
+    "subjectId": "philosophy",
+    "type": "qcm",
+    "difficulty": 5,
+    "status": "published",
+    "source": "bac_hard",
+    "question": "نيتشه ينتقد الأخلاق لأنه يرى:",
+    "options": [
+      {
+        "id": "a",
+        "text": "القيم ثابتة"
+      },
+      {
+        "id": "b",
+        "text": "الأخلاق السائدة تكبت إرادة القوة"
+      },
+      {
+        "id": "c",
+        "text": "الأخلاق ضرورية"
+      },
+      {
+        "id": "d",
+        "text": "الواجب مطلق"
+      }
+    ],
+    "correctOptionId": "b",
+    "explanation": "أخلاق العبيد تكبت إرادة القوة."
+  },
+  {
+    "id": "phil_025",
+    "unitId": "phil_values",
+    "subjectId": "philosophy",
+    "type": "qcm",
+    "difficulty": 5,
+    "status": "published",
+    "source": "bac_hard",
+    "question": "الفن عند أفلاطون:",
+    "options": [
+      {
+        "id": "a",
+        "text": "أعلى الحقيقة"
+      },
+      {
+        "id": "b",
+        "text": "محاكاة للمحاكاة"
+      },
+      {
+        "id": "c",
+        "text": "أداة تعليم"
+      },
+      {
+        "id": "d",
+        "text": "لا قيمة له"
+      }
+    ],
+    "correctOptionId": "b",
+    "explanation": "الفن محاكاة للمحسوس، والمحسوس محاكاة للمثل."
+  },
+  {
+    "id": "phil_026",
+    "unitId": "phil_values",
+    "subjectId": "philosophy",
+    "type": "qcm",
+    "difficulty": 5,
+    "status": "published",
+    "source": "bac_hard",
+    "question": "الجمال عند كانط:",
+    "options": [
+      {
+        "id": "a",
+        "text": "موضوعي في الأشياء"
+      },
+      {
+        "id": "b",
+        "text": "ذاتي لكنه يطمح للكونية"
+      },
+      {
+        "id": "c",
+        "text": "لا وجود له"
+      },
+      {
+        "id": "d",
+        "text": "مرتبط بالمنفعة"
+      }
+    ],
+    "correctOptionId": "b",
+    "explanation": "حكم الذوق ذاتي يطمح للكونية، ولذة بلا غاية."
+  },
+  {
+    "id": "phil_027",
+    "unitId": "phil_values",
+    "subjectId": "philosophy",
+    "type": "qcm",
+    "difficulty": 5,
+    "status": "published",
+    "source": "bac_hard",
+    "question": "القيم الجمالية تختلف عن الأخلاقية بـ:",
+    "options": [
+      {
+        "id": "a",
+        "text": "لا فرق"
+      },
+      {
+        "id": "b",
+        "text": "الأولى وجدانية والثانية إلزامية"
+      },
+      {
+        "id": "c",
+        "text": "الأخلاق أهم"
+      },
+      {
+        "id": "d",
+        "text": "الجمال موضوعي"
+      }
+    ],
+    "correctOptionId": "b",
+    "explanation": "الجمالية وجدانية حرة، والأخلاقية إلزامية."
+  },
+  {
+    "id": "phil_028",
+    "unitId": "phil_science",
+    "subjectId": "philosophy",
+    "type": "qcm",
+    "difficulty": 5,
+    "status": "published",
+    "source": "bac_hard",
+    "question": "المنهج التجريبي عند بيكون:",
+    "options": [
+      {
+        "id": "a",
+        "text": "الاستنباط العقلي"
+      },
+      {
+        "id": "b",
+        "text": "الملاحظة والتجربة والاستقراء"
+      },
+      {
+        "id": "c",
+        "text": "الحدس"
+      },
+      {
+        "id": "d",
+        "text": "الوحي"
+      }
+    ],
+    "correctOptionId": "b",
+    "explanation": "الملاحظة ← الفرضية ← التجربة ← القانون."
+  },
+  {
+    "id": "phil_029",
+    "unitId": "phil_science",
+    "subjectId": "philosophy",
+    "type": "qcm",
+    "difficulty": 5,
+    "status": "published",
+    "source": "bac_hard",
+    "question": "الأصنام الأربعة عند بيكون:",
+    "options": [
+      {
+        "id": "a",
+        "text": "أخطاء المنهج"
+      },
+      {
+        "id": "b",
+        "text": "عوائق المعرفة: القبيلة، الكهف، السوق، المسرح"
+      },
+      {
+        "id": "c",
+        "text": "أدوات العلم"
+      },
+      {
+        "id": "d",
+        "text": "مراتب الحقيقة"
+      }
+    ],
+    "correctOptionId": "b",
+    "explanation": "أوهام تعوق المعرفة."
+  },
+  {
+    "id": "phil_030",
+    "unitId": "phil_science",
+    "subjectId": "philosophy",
+    "type": "qcm",
+    "difficulty": 5,
+    "status": "published",
+    "source": "bac_hard",
+    "question": "نقد هيوم للسببية:",
+    "options": [
+      {
+        "id": "a",
+        "text": "مبدأ عقلي ضروري"
+      },
+      {
+        "id": "b",
+        "text": "عادة نفسية لا ضرورة فيها"
+      },
+      {
+        "id": "c",
+        "text": "وحي"
+      },
+      {
+        "id": "d",
+        "text": "تجربة"
+      }
+    ],
+    "correctOptionId": "b",
+    "explanation": "السببية تعوّد ذهني، لا ضرورة منطقية."
+  },
+  {
+    "id": "phil_031",
+    "unitId": "phil_science",
+    "subjectId": "philosophy",
+    "type": "qcm",
+    "difficulty": 5,
+    "status": "published",
+    "source": "bac_hard",
+    "question": "النموذج العلمي (Paradigm) عند كوهن:",
+    "options": [
+      {
+        "id": "a",
+        "text": "نظرية واحدة"
+      },
+      {
+        "id": "b",
+        "text": "إطار عام يوجه البحث في عصر"
+      },
+      {
+        "id": "c",
+        "text": "فرضية"
+      },
+      {
+        "id": "d",
+        "text": "قانون"
+      }
+    ],
+    "correctOptionId": "b",
+    "explanation": "إطار يحدد المشاكل والحلول، ويتغير بثورة علمية."
+  },
+  {
+    "id": "phil_032",
+    "unitId": "phil_science",
+    "subjectId": "philosophy",
+    "type": "qcm",
+    "difficulty": 5,
+    "status": "published",
+    "source": "bac_hard",
+    "question": "العلم والتقنية عند ماركوز:",
+    "options": [
+      {
+        "id": "a",
+        "text": "تحرير كامل"
+      },
+      {
+        "id": "b",
+        "text": "قد تصبح أدوات سيطرة"
+      },
+      {
+        "id": "c",
+        "text": "محايدة"
+      },
+      {
+        "id": "d",
+        "text": "لا علاقة"
+      }
+    ],
+    "correctOptionId": "b",
+    "explanation": "مدرسة فرانكفورت: التقنية قد تصبح أداة هيمنة."
+  },
+  {
+    "id": "phil_033",
+    "unitId": "phil_humanities",
+    "subjectId": "philosophy",
+    "type": "qcm",
+    "difficulty": 5,
+    "status": "published",
+    "source": "bac_hard",
+    "question": "العلوم الإنسانية تختلف عن الطبيعية بـ:",
+    "options": [
+      {
+        "id": "a",
+        "text": "موضوعها الظواهر الطبيعية"
+      },
+      {
+        "id": "b",
+        "text": "موضوعها الإنسان والمجتمع، وتتطلب الفهم"
+      },
+      {
+        "id": "c",
+        "text": "لا تجريب"
+      },
+      {
+        "id": "d",
+        "text": "لا منهج"
+      }
+    ],
+    "correctOptionId": "b",
+    "explanation": "تدرس الإنسان، وتحتاج الفهم لا التفسير فقط."
+  },
+  {
+    "id": "phil_034",
+    "unitId": "phil_humanities",
+    "subjectId": "philosophy",
+    "type": "qcm",
+    "difficulty": 5,
+    "status": "published",
+    "source": "bac_hard",
+    "question": "البنيوية في اللغة عند سوسير:",
+    "options": [
+      {
+        "id": "a",
+        "text": "اللغة كلام فردي"
+      },
+      {
+        "id": "b",
+        "text": "نظام من العلامات (دال ومدلول)"
+      },
+      {
+        "id": "c",
+        "text": "وحي"
+      },
+      {
+        "id": "d",
+        "text": "انعكاس"
+      }
+    ],
+    "correctOptionId": "b",
+    "explanation": "العلامة = دال + مدلول."
+  },
+  {
+    "id": "phil_035",
+    "unitId": "phil_humanities",
+    "subjectId": "philosophy",
+    "type": "qcm",
+    "difficulty": 5,
+    "status": "published",
+    "source": "bac_hard",
+    "question": "علم العمران عند ابن خلدون:",
+    "options": [
+      {
+        "id": "a",
+        "text": "علم الفلك"
+      },
+      {
+        "id": "b",
+        "text": "علم يدرس الاجتماع البشري والعصبية"
+      },
+      {
+        "id": "c",
+        "text": "الطب"
+      },
+      {
+        "id": "d",
+        "text": "اللغة"
+      }
+    ],
+    "correctOptionId": "b",
+    "explanation": "'المقدمة': سوسيولوجيا قبل التسمية."
+  },
+  {
+    "id": "phil_036",
+    "unitId": "phil_humanities",
+    "subjectId": "philosophy",
+    "type": "qcm",
+    "difficulty": 5,
+    "status": "published",
+    "source": "bac_hard",
+    "question": "التأويلية (الهرمينوطيقا):",
+    "options": [
+      {
+        "id": "a",
+        "text": "علم النحو"
+      },
+      {
+        "id": "b",
+        "text": "فن فهم النصوص وتأويلها"
+      },
+      {
+        "id": "c",
+        "text": "الرياضيات"
+      },
+      {
+        "id": "d",
+        "text": "الفلك"
+      }
+    ],
+    "correctOptionId": "b",
+    "explanation": "فهم النصوص في سياقها (غادامير، ريكور)."
+  },
+  {
+    "id": "phil_037",
+    "unitId": "phil_logic",
+    "subjectId": "philosophy",
+    "type": "qcm",
+    "difficulty": 5,
+    "status": "published",
+    "source": "bac_hard",
+    "question": "مبدأ عدم التناقض:",
+    "options": [
+      {
+        "id": "a",
+        "text": "الشيء هو نفسه"
+      },
+      {
+        "id": "b",
+        "text": "لا يمكن أن يكون الشيء ونقيضه معًا"
+      },
+      {
+        "id": "c",
+        "text": "الشيء يتغير"
+      },
+      {
+        "id": "d",
+        "text": "الشيء متعدد"
+      }
+    ],
+    "correctOptionId": "b",
+    "explanation": "أرسطو: لا يمكن للشيء أن يكون ونقيضه معًا."
+  },
+  {
+    "id": "phil_038",
+    "unitId": "phil_logic",
+    "subjectId": "philosophy",
+    "type": "qcm",
+    "difficulty": 5,
+    "status": "published",
+    "source": "bac_hard",
+    "question": "القياس الأرسطي:",
+    "options": [
+      {
+        "id": "a",
+        "text": "مقدمتان + نتيجة"
+      },
+      {
+        "id": "b",
+        "text": "مقدمة + نتيجة"
+      },
+      {
+        "id": "c",
+        "text": "فرضية + تجربة"
+      },
+      {
+        "id": "d",
+        "text": "استقراء"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "إذا صحّت المقدمتان صحّت النتيجة."
+  },
+  {
+    "id": "phil_039",
+    "unitId": "phil_logic",
+    "subjectId": "philosophy",
+    "type": "qcm",
+    "difficulty": 5,
+    "status": "published",
+    "source": "bac_hard",
+    "question": "الاستقراء هو:",
+    "options": [
+      {
+        "id": "a",
+        "text": "من العام إلى الخاص"
+      },
+      {
+        "id": "b",
+        "text": "من الخاص إلى العام"
+      },
+      {
+        "id": "c",
+        "text": "من الكل إلى الجزء"
+      },
+      {
+        "id": "d",
+        "text": "من المبدأ إلى النتيجة"
+      }
+    ],
+    "correctOptionId": "b",
+    "explanation": "من الجزئيات إلى قانون عام."
+  },
+  {
+    "id": "phil_040",
+    "unitId": "phil_logic",
+    "subjectId": "philosophy",
+    "type": "qcm",
+    "difficulty": 5,
+    "status": "published",
+    "source": "bac_hard",
+    "question": "المنطق الرمزي الحديث أسّسه:",
+    "options": [
+      {
+        "id": "a",
+        "text": "أرسطو"
+      },
+      {
+        "id": "b",
+        "text": "فريجه وراسل"
+      },
+      {
+        "id": "c",
+        "text": "كانط"
+      },
+      {
+        "id": "d",
+        "text": "هيغل"
+      }
+    ],
+    "correctOptionId": "b",
+    "explanation": "أساس الرياضيات والبرمجة."
+  }
+]

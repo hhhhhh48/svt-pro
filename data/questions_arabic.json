@@ -1,0 +1,1202 @@
+[
+  {
+    "id": "ar_001",
+    "unitId": "ar_balagha",
+    "subjectId": "arabic",
+    "type": "qcm",
+    "difficulty": 5,
+    "status": "published",
+    "source": "bac_hard",
+    "question": "«العلم نور» نوع الصورة البيانية:",
+    "options": [
+      {
+        "id": "a",
+        "text": "تشبيه مرسل"
+      },
+      {
+        "id": "b",
+        "text": "استعارة تصريحية"
+      },
+      {
+        "id": "c",
+        "text": "كناية"
+      },
+      {
+        "id": "d",
+        "text": "مجاز مرسل"
+      }
+    ],
+    "correctOptionId": "b",
+    "explanation": "حُذف المشبه (العلم) وبقي المشبه به (النور) = استعارة تصريحية."
+  },
+  {
+    "id": "ar_002",
+    "unitId": "ar_balagha",
+    "subjectId": "arabic",
+    "type": "qcm",
+    "difficulty": 5,
+    "status": "published",
+    "source": "bac_hard",
+    "question": "«رأيت أسدًا يخطب» الصورة البيانية:",
+    "options": [
+      {
+        "id": "a",
+        "text": "تشبيه بليغ"
+      },
+      {
+        "id": "b",
+        "text": "استعارة تصريحية"
+      },
+      {
+        "id": "c",
+        "text": "استعارة مكنية"
+      },
+      {
+        "id": "d",
+        "text": "كناية عن صفة"
+      }
+    ],
+    "correctOptionId": "b",
+    "explanation": "شُبّه الرجل بالأسد وحُذف المشبه = استعارة تصريحية."
+  },
+  {
+    "id": "ar_003",
+    "unitId": "ar_balagha",
+    "subjectId": "arabic",
+    "type": "qcm",
+    "difficulty": 5,
+    "status": "published",
+    "source": "bac_hard",
+    "question": "«ابتسم الصباح» الصورة البيانية:",
+    "options": [
+      {
+        "id": "a",
+        "text": "تشبيه"
+      },
+      {
+        "id": "b",
+        "text": "استعارة مكنية"
+      },
+      {
+        "id": "c",
+        "text": "كناية"
+      },
+      {
+        "id": "d",
+        "text": "مجاز مرسل"
+      }
+    ],
+    "correctOptionId": "b",
+    "explanation": "شُبّه الصباح بالإنسان وحُذف المشبه به وأُبقي إحدى صفاته (الابتسام) = استعارة مكنية."
+  },
+  {
+    "id": "ar_004",
+    "unitId": "ar_balagha",
+    "subjectId": "arabic",
+    "type": "qcm",
+    "difficulty": 5,
+    "status": "published",
+    "source": "bac_hard",
+    "question": "«فلان طويل اليد» كناية عن:",
+    "options": [
+      {
+        "id": "a",
+        "text": "الطول الحقيقي"
+      },
+      {
+        "id": "b",
+        "text": "السخاء أو السرقة حسب السياق"
+      },
+      {
+        "id": "c",
+        "text": "القوة"
+      },
+      {
+        "id": "d",
+        "text": "المرض"
+      }
+    ],
+    "correctOptionId": "b",
+    "explanation": "كناية عن صفة (السخاء أو السرقة)، المذكور لازم المعنى."
+  },
+  {
+    "id": "ar_005",
+    "unitId": "ar_balagha",
+    "subjectId": "arabic",
+    "type": "qcm",
+    "difficulty": 5,
+    "status": "published",
+    "source": "bac_hard",
+    "question": "«شربت ماء النيل» مجاز مرسل علاقته:",
+    "options": [
+      {
+        "id": "a",
+        "text": "الكلية"
+      },
+      {
+        "id": "b",
+        "text": "الجزئية"
+      },
+      {
+        "id": "c",
+        "text": "السببية"
+      },
+      {
+        "id": "d",
+        "text": "المحلية"
+      }
+    ],
+    "correctOptionId": "b",
+    "explanation": "ذكر الكل (النيل) وأراد الجزء (ماءه) = علاقة كلية."
+  },
+  {
+    "id": "ar_006",
+    "unitId": "ar_balagha",
+    "subjectId": "arabic",
+    "type": "qcm",
+    "difficulty": 5,
+    "status": "published",
+    "source": "bac_hard",
+    "question": "«أنبت الربيع البقل» مجاز علاقته:",
+    "options": [
+      {
+        "id": "a",
+        "text": "السببية"
+      },
+      {
+        "id": "b",
+        "text": "المحلية"
+      },
+      {
+        "id": "c",
+        "text": "الزمانية"
+      },
+      {
+        "id": "d",
+        "text": "الجزئية"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "الربيع سبب في النبات، أُسند الفعل للسبب."
+  },
+  {
+    "id": "ar_007",
+    "unitId": "ar_balagha",
+    "subjectId": "arabic",
+    "type": "qcm",
+    "difficulty": 5,
+    "status": "published",
+    "source": "bac_hard",
+    "question": "«زيد كالأسد» نوع التشبيه:",
+    "options": [
+      {
+        "id": "a",
+        "text": "مرسل مفصل"
+      },
+      {
+        "id": "b",
+        "text": "مرسل مجمل"
+      },
+      {
+        "id": "c",
+        "text": "مؤكد"
+      },
+      {
+        "id": "d",
+        "text": "بليغ"
+      }
+    ],
+    "correctOptionId": "b",
+    "explanation": "حُذفت أداة التشبيه ووجه الشبه = تشبيه مجمل."
+  },
+  {
+    "id": "ar_008",
+    "unitId": "ar_balagha",
+    "subjectId": "arabic",
+    "type": "qcm",
+    "difficulty": 5,
+    "status": "published",
+    "source": "bac_hard",
+    "question": "«العلم كالنور في الهداية» تشبيه:",
+    "options": [
+      {
+        "id": "a",
+        "text": "بليغ"
+      },
+      {
+        "id": "b",
+        "text": "مرسل مفصل"
+      },
+      {
+        "id": "c",
+        "text": "مؤكد"
+      },
+      {
+        "id": "d",
+        "text": "مجمل"
+      }
+    ],
+    "correctOptionId": "b",
+    "explanation": "ذُكرت الأداة (الكاف) ووجه الشبه (الهداية) = مرسل مفصل."
+  },
+  {
+    "id": "ar_009",
+    "unitId": "ar_balagha",
+    "subjectId": "arabic",
+    "type": "qcm",
+    "difficulty": 5,
+    "status": "published",
+    "source": "bac_hard",
+    "question": "«محمد محمد» في قوة البلاغة:",
+    "options": [
+      {
+        "id": "a",
+        "text": "تشبيه بليغ"
+      },
+      {
+        "id": "b",
+        "text": "استعارة"
+      },
+      {
+        "id": "c",
+        "text": "كناية"
+      },
+      {
+        "id": "d",
+        "text": "مجاز"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "حذف الأداة ووجه الشبه = تشبيه بليغ."
+  },
+  {
+    "id": "ar_010",
+    "unitId": "ar_balagha",
+    "subjectId": "arabic",
+    "type": "qcm",
+    "difficulty": 5,
+    "status": "published",
+    "source": "bac_hard",
+    "question": "«الحيوان يحسّ» كناية عن:",
+    "options": [
+      {
+        "id": "a",
+        "text": "صفة في الحيوان"
+      },
+      {
+        "id": "b",
+        "text": "الإنسان (الكناية عن الموصوف)"
+      },
+      {
+        "id": "c",
+        "text": "الحس"
+      },
+      {
+        "id": "d",
+        "text": "الحركة"
+      }
+    ],
+    "correctOptionId": "b",
+    "explanation": "ذكر صفة الإنسان (الإحساس) وأراد الإنسان = كناية عن موصوف."
+  },
+  {
+    "id": "ar_011",
+    "unitId": "ar_arud",
+    "subjectId": "arabic",
+    "type": "qcm",
+    "difficulty": 5,
+    "status": "published",
+    "source": "bac_hard",
+    "question": "تفعيلات بحر الطويل:",
+    "options": [
+      {
+        "id": "a",
+        "text": "فعولن مفاعيلن فعولن مفاعيلن"
+      },
+      {
+        "id": "b",
+        "text": "مستفعلن مستفعلن مستفعلن مستفعلن"
+      },
+      {
+        "id": "c",
+        "text": "مفاعلتن مفاعلتن فعولن"
+      },
+      {
+        "id": "d",
+        "text": "فاعلاتن فاعلاتن فاعلاتن"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "الطويل: فعولن مفاعيلن (مرتين)."
+  },
+  {
+    "id": "ar_012",
+    "unitId": "ar_arud",
+    "subjectId": "arabic",
+    "type": "qcm",
+    "difficulty": 5,
+    "status": "published",
+    "source": "bac_hard",
+    "question": "البحر الذي تفعيلته «مستفعلن» مكررة ست مرات:",
+    "options": [
+      {
+        "id": "a",
+        "text": "الطويل"
+      },
+      {
+        "id": "b",
+        "text": "الرجز"
+      },
+      {
+        "id": "c",
+        "text": "الكامل"
+      },
+      {
+        "id": "d",
+        "text": "البسيط"
+      }
+    ],
+    "correctOptionId": "b",
+    "explanation": "الرجز: مستفعلن × 6."
+  },
+  {
+    "id": "ar_013",
+    "unitId": "ar_arud",
+    "subjectId": "arabic",
+    "type": "qcm",
+    "difficulty": 5,
+    "status": "published",
+    "source": "bac_hard",
+    "question": "البحر الذي تُكرَّر فيه «متفاعلن» ثلاث مرات:",
+    "options": [
+      {
+        "id": "a",
+        "text": "الكامل"
+      },
+      {
+        "id": "b",
+        "text": "الوافر"
+      },
+      {
+        "id": "c",
+        "text": "الرمل"
+      },
+      {
+        "id": "d",
+        "text": "الخفيف"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "الكامل: متفاعلن متفاعلن متفاعلن."
+  },
+  {
+    "id": "ar_014",
+    "unitId": "ar_arud",
+    "subjectId": "arabic",
+    "type": "qcm",
+    "difficulty": 5,
+    "status": "published",
+    "source": "bac_hard",
+    "question": "«مفاعلتن» تفعيلة بحر:",
+    "options": [
+      {
+        "id": "a",
+        "text": "الطويل"
+      },
+      {
+        "id": "b",
+        "text": "الكامل"
+      },
+      {
+        "id": "c",
+        "text": "الوافر"
+      },
+      {
+        "id": "d",
+        "text": "البسيط"
+      }
+    ],
+    "correctOptionId": "c",
+    "explanation": "الوافر: مفاعلتن مفاعلتن فعولن."
+  },
+  {
+    "id": "ar_015",
+    "unitId": "ar_arud",
+    "subjectId": "arabic",
+    "type": "qcm",
+    "difficulty": 5,
+    "status": "published",
+    "source": "bac_hard",
+    "question": "«فاعلاتن» تفعيلة بحر:",
+    "options": [
+      {
+        "id": "a",
+        "text": "الرمل"
+      },
+      {
+        "id": "b",
+        "text": "الرجز"
+      },
+      {
+        "id": "c",
+        "text": "الكامل"
+      },
+      {
+        "id": "d",
+        "text": "الطويل"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "الرمل: فاعلاتن × 3."
+  },
+  {
+    "id": "ar_016",
+    "unitId": "ar_arud",
+    "subjectId": "arabic",
+    "type": "qcm",
+    "difficulty": 5,
+    "status": "published",
+    "source": "bac_hard",
+    "question": "«مستفعلن فاعلن مستفعلن فاعلن» بحر:",
+    "options": [
+      {
+        "id": "a",
+        "text": "البسيط"
+      },
+      {
+        "id": "b",
+        "text": "الطويل"
+      },
+      {
+        "id": "c",
+        "text": "المنسرح"
+      },
+      {
+        "id": "d",
+        "text": "الرجز"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "البسيط: مستفعلن فاعلن × 2."
+  },
+  {
+    "id": "ar_017",
+    "unitId": "ar_adab",
+    "subjectId": "arabic",
+    "type": "qcm",
+    "difficulty": 5,
+    "status": "published",
+    "source": "bac_hard",
+    "question": "مدرسة الإحياء في الشعر العربي الحديث رائدها:",
+    "options": [
+      {
+        "id": "a",
+        "text": "أحمد شوقي"
+      },
+      {
+        "id": "b",
+        "text": "محمود سامي البارودي"
+      },
+      {
+        "id": "c",
+        "text": "إيليا أبو ماضي"
+      },
+      {
+        "id": "d",
+        "text": "بدر شاكر السياب"
+      }
+    ],
+    "correctOptionId": "b",
+    "explanation": "البارودي رائد الإحياء (بعث الشعر العربي القديم)."
+  },
+  {
+    "id": "ar_018",
+    "unitId": "ar_adab",
+    "subjectId": "arabic",
+    "type": "qcm",
+    "difficulty": 5,
+    "status": "published",
+    "source": "bac_hard",
+    "question": "أحمد شوقي يُلقّب بـ:",
+    "options": [
+      {
+        "id": "a",
+        "text": "شاعر النيل"
+      },
+      {
+        "id": "b",
+        "text": "أمير الشعراء"
+      },
+      {
+        "id": "c",
+        "text": "شاعر الحرية"
+      },
+      {
+        "id": "d",
+        "text": "شاعر المهجر"
+      }
+    ],
+    "correctOptionId": "b",
+    "explanation": "أمير الشعراء."
+  },
+  {
+    "id": "ar_019",
+    "unitId": "ar_adab",
+    "subjectId": "arabic",
+    "type": "qcm",
+    "difficulty": 5,
+    "status": "published",
+    "source": "bac_hard",
+    "question": "حافظ إبراهيم يُلقّب بـ:",
+    "options": [
+      {
+        "id": "a",
+        "text": "شاعر النيل"
+      },
+      {
+        "id": "b",
+        "text": "أمير الشعراء"
+      },
+      {
+        "id": "c",
+        "text": "شاعر الشباب"
+      },
+      {
+        "id": "d",
+        "text": "شاعر الحكمة"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "شاعر النيل والشعب."
+  },
+  {
+    "id": "ar_020",
+    "unitId": "ar_adab",
+    "subjectId": "arabic",
+    "type": "qcm",
+    "difficulty": 5,
+    "status": "published",
+    "source": "bac_hard",
+    "question": "مدرسة المهجر (الرابطة القلمية) أسّسها:",
+    "options": [
+      {
+        "id": "a",
+        "text": "أحمد شوقي"
+      },
+      {
+        "id": "b",
+        "text": "جبران خليل جبران وميخائيل نعيمة"
+      },
+      {
+        "id": "c",
+        "text": "بدر شاكر السياب"
+      },
+      {
+        "id": "d",
+        "text": "نازك الملائكة"
+      }
+    ],
+    "correctOptionId": "b",
+    "explanation": "أسسها جبران مع نعيمة وإيليا أبو ماضي في المهجر."
+  },
+  {
+    "id": "ar_021",
+    "unitId": "ar_adab",
+    "subjectId": "arabic",
+    "type": "qcm",
+    "difficulty": 5,
+    "status": "published",
+    "source": "bac_hard",
+    "question": "بدر شاكر السياب ونازك الملائكة يمثلان:",
+    "options": [
+      {
+        "id": "a",
+        "text": "مدرسة الإحياء"
+      },
+      {
+        "id": "b",
+        "text": "الشعر الحر (الحديث)"
+      },
+      {
+        "id": "c",
+        "text": "المدرسة الكلاسيكية"
+      },
+      {
+        "id": "d",
+        "text": "الشعر التعليمي"
+      }
+    ],
+    "correctOptionId": "b",
+    "explanation": "رائدا الشعر الحر (التفعيلة)."
+  },
+  {
+    "id": "ar_022",
+    "unitId": "ar_adab",
+    "subjectId": "arabic",
+    "type": "qcm",
+    "difficulty": 5,
+    "status": "published",
+    "source": "bac_hard",
+    "question": "قصيدة «أنشودة المطر» لـ:",
+    "options": [
+      {
+        "id": "a",
+        "text": "نازك الملائكة"
+      },
+      {
+        "id": "b",
+        "text": "بدر شاكر السياب"
+      },
+      {
+        "id": "c",
+        "text": "محمود درويش"
+      },
+      {
+        "id": "d",
+        "text": "أدونيس"
+      }
+    ],
+    "correctOptionId": "b",
+    "explanation": "من أشهر قصائد الشعر الحر، رمزية التفعيلة."
+  },
+  {
+    "id": "ar_023",
+    "unitId": "ar_adab",
+    "subjectId": "arabic",
+    "type": "qcm",
+    "difficulty": 5,
+    "status": "published",
+    "source": "bac_hard",
+    "question": "القصة القصيرة تختلف عن الرواية بـ:",
+    "options": [
+      {
+        "id": "a",
+        "text": "الطول والتعقيد"
+      },
+      {
+        "id": "b",
+        "text": "التكثيف ووحدة الحدث"
+      },
+      {
+        "id": "c",
+        "text": "الخيال فقط"
+      },
+      {
+        "id": "d",
+        "text": "الشعرية"
+      }
+    ],
+    "correctOptionId": "b",
+    "explanation": "القصة القصيرة مكثفة، وحدة الانطباع، شخصيات قليلة."
+  },
+  {
+    "id": "ar_024",
+    "unitId": "ar_adab",
+    "subjectId": "arabic",
+    "type": "qcm",
+    "difficulty": 5,
+    "status": "published",
+    "source": "bac_hard",
+    "question": "المقال الأدبي:",
+    "options": [
+      {
+        "id": "a",
+        "text": "سرد خيالي طويل"
+      },
+      {
+        "id": "b",
+        "text": "نثر قصير يعبّر عن رأي بأسلوب أدبي"
+      },
+      {
+        "id": "c",
+        "text": "شعر حر"
+      },
+      {
+        "id": "d",
+        "text": "حكاية شعبية"
+      }
+    ],
+    "correctOptionId": "b",
+    "explanation": "يطرح فكرة بأسلوب أدبي جذاب."
+  },
+  {
+    "id": "ar_025",
+    "unitId": "ar_adab",
+    "subjectId": "arabic",
+    "type": "qcm",
+    "difficulty": 5,
+    "status": "published",
+    "source": "bac_hard",
+    "question": "المقال العلمي المتأدب:",
+    "options": [
+      {
+        "id": "a",
+        "text": "علمي جاف"
+      },
+      {
+        "id": "b",
+        "text": "يعرض موضوعًا علميًا بأسلوب أدبي"
+      },
+      {
+        "id": "c",
+        "text": "شعر تعليمي"
+      },
+      {
+        "id": "d",
+        "text": "قصة خيالية"
+      }
+    ],
+    "correctOptionId": "b",
+    "explanation": "مزج بين العلم والأدب (مثل مقالات أحمد أمين)."
+  },
+  {
+    "id": "ar_026",
+    "unitId": "ar_adab",
+    "subjectId": "arabic",
+    "type": "qcm",
+    "difficulty": 5,
+    "status": "published",
+    "source": "bac_hard",
+    "question": "أدب المقاومة في فلسطين من أبرز أعلامه:",
+    "options": [
+      {
+        "id": "a",
+        "text": "جبران"
+      },
+      {
+        "id": "b",
+        "text": "محمود درويش وسميح القاسم"
+      },
+      {
+        "id": "c",
+        "text": "أحمد شوقي"
+      },
+      {
+        "id": "d",
+        "text": "نزار قباني"
+      }
+    ],
+    "correctOptionId": "b",
+    "explanation": "شعراء المقاومة الفلسطينية."
+  },
+  {
+    "id": "ar_027",
+    "unitId": "ar_adab",
+    "subjectId": "arabic",
+    "type": "qcm",
+    "difficulty": 5,
+    "status": "published",
+    "source": "bac_hard",
+    "question": "اتجاه «الحداثة» في الشعر العربي:",
+    "options": [
+      {
+        "id": "a",
+        "text": "إحياء القديم"
+      },
+      {
+        "id": "b",
+        "text": "كسر عمود الشعر، وتوظيف الرمز والأسطورة"
+      },
+      {
+        "id": "c",
+        "text": "تقليد المتنبي"
+      },
+      {
+        "id": "d",
+        "text": "عودة للعمود"
+      }
+    ],
+    "correctOptionId": "b",
+    "explanation": "السياب، أدونيس، الماغوط."
+  },
+  {
+    "id": "ar_028",
+    "unitId": "ar_adab",
+    "subjectId": "arabic",
+    "type": "qcm",
+    "difficulty": 5,
+    "status": "published",
+    "source": "bac_hard",
+    "question": "ميخائيل نعيمة من رواد:",
+    "options": [
+      {
+        "id": "a",
+        "text": "الإحياء"
+      },
+      {
+        "id": "b",
+        "text": "المهجر (الرابطة القلمية)"
+      },
+      {
+        "id": "c",
+        "text": "الشعر الحر"
+      },
+      {
+        "id": "d",
+        "text": "الحداثة"
+      }
+    ],
+    "correctOptionId": "b",
+    "explanation": "من مؤسسي الرابطة القلمية."
+  },
+  {
+    "id": "ar_029",
+    "unitId": "ar_nass",
+    "subjectId": "arabic",
+    "type": "qcm",
+    "difficulty": 5,
+    "status": "published",
+    "source": "bac_hard",
+    "question": "«يا أيها الناس إنا خلقناكم من ذكر وأنثى» أسلوب:",
+    "options": [
+      {
+        "id": "a",
+        "text": "نداء"
+      },
+      {
+        "id": "b",
+        "text": "استفهام"
+      },
+      {
+        "id": "c",
+        "text": "تعجب"
+      },
+      {
+        "id": "d",
+        "text": "قسم"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "أداة النداء «يا»."
+  },
+  {
+    "id": "ar_030",
+    "unitId": "ar_nass",
+    "subjectId": "arabic",
+    "type": "qcm",
+    "difficulty": 5,
+    "status": "published",
+    "source": "bac_hard",
+    "question": "الأسلوب الإنشائي:",
+    "options": [
+      {
+        "id": "a",
+        "text": "يحتمل الصدق والكذب"
+      },
+      {
+        "id": "b",
+        "text": "لا يحتمل الصدق والكذب (طلب، نهي، تعجب...)"
+      },
+      {
+        "id": "c",
+        "text": "خبري فقط"
+      },
+      {
+        "id": "d",
+        "text": "خاص بالشعر"
+      }
+    ],
+    "correctOptionId": "b",
+    "explanation": "الإنشاء طلبي أو غير طلبي، لا يوصف بصدق أو كذب."
+  },
+  {
+    "id": "ar_031",
+    "unitId": "ar_nass",
+    "subjectId": "arabic",
+    "type": "qcm",
+    "difficulty": 5,
+    "status": "published",
+    "source": "bac_hard",
+    "question": "«ما أجمل السماء!» أسلوب:",
+    "options": [
+      {
+        "id": "a",
+        "text": "خبري"
+      },
+      {
+        "id": "b",
+        "text": "إنشائي تعجبي"
+      },
+      {
+        "id": "c",
+        "text": "استفهام"
+      },
+      {
+        "id": "d",
+        "text": "نداء"
+      }
+    ],
+    "correctOptionId": "b",
+    "explanation": "صيغة تعجب قياسية (ما أفعل)."
+  },
+  {
+    "id": "ar_032",
+    "unitId": "ar_nass",
+    "subjectId": "arabic",
+    "type": "qcm",
+    "difficulty": 5,
+    "status": "published",
+    "source": "bac_hard",
+    "question": "«العلمُ نافعٌ» أسلوب:",
+    "options": [
+      {
+        "id": "a",
+        "text": "إنشائي طلبي"
+      },
+      {
+        "id": "b",
+        "text": "خبري"
+      },
+      {
+        "id": "c",
+        "text": "استفهام"
+      },
+      {
+        "id": "d",
+        "text": "نداء"
+      }
+    ],
+    "correctOptionId": "b",
+    "explanation": "خبر يحتمل الصدق والكذب."
+  },
+  {
+    "id": "ar_033",
+    "unitId": "ar_nass",
+    "subjectId": "arabic",
+    "type": "qcm",
+    "difficulty": 5,
+    "status": "published",
+    "source": "bac_hard",
+    "question": "في جملة «جاء الطالبُ المجتهدُ»، «المجتهد» نعت:",
+    "options": [
+      {
+        "id": "a",
+        "text": "مرفوع"
+      },
+      {
+        "id": "b",
+        "text": "منصوب"
+      },
+      {
+        "id": "c",
+        "text": "مجرور"
+      },
+      {
+        "id": "d",
+        "text": "مجزوم"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "نعت تابع للمنعوت (الطالب) مرفوع."
+  },
+  {
+    "id": "ar_034",
+    "unitId": "ar_nass",
+    "subjectId": "arabic",
+    "type": "qcm",
+    "difficulty": 5,
+    "status": "published",
+    "source": "bac_hard",
+    "question": "«لن ينجح المهمل» «لن» حرف:",
+    "options": [
+      {
+        "id": "a",
+        "text": "جزم"
+      },
+      {
+        "id": "b",
+        "text": "نصب"
+      },
+      {
+        "id": "c",
+        "text": "جر"
+      },
+      {
+        "id": "d",
+        "text": "رفع"
+      }
+    ],
+    "correctOptionId": "b",
+    "explanation": "لن تنصب الفعل المضارع (ينجح منصوب)."
+  },
+  {
+    "id": "ar_035",
+    "unitId": "ar_nass",
+    "subjectId": "arabic",
+    "type": "qcm",
+    "difficulty": 5,
+    "status": "published",
+    "source": "bac_hard",
+    "question": "«لم يكتب» «لم» حرف:",
+    "options": [
+      {
+        "id": "a",
+        "text": "نصب"
+      },
+      {
+        "id": "b",
+        "text": "جزم"
+      },
+      {
+        "id": "c",
+        "text": "جر"
+      },
+      {
+        "id": "d",
+        "text": "استفهام"
+      }
+    ],
+    "correctOptionId": "b",
+    "explanation": "لم تجزم الفعل المضارع."
+  },
+  {
+    "id": "ar_036",
+    "unitId": "ar_adab",
+    "subjectId": "arabic",
+    "type": "qcm",
+    "difficulty": 5,
+    "status": "published",
+    "source": "bac_hard",
+    "question": "قصيدة «سجل أنا عربي» لـ:",
+    "options": [
+      {
+        "id": "a",
+        "text": "محمود درويش"
+      },
+      {
+        "id": "b",
+        "text": "سميح القاسم"
+      },
+      {
+        "id": "c",
+        "text": "توفيق زياد"
+      },
+      {
+        "id": "d",
+        "text": "نزار قباني"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "من أشهر قصائد درويش."
+  },
+  {
+    "id": "ar_037",
+    "unitId": "ar_adab",
+    "subjectId": "arabic",
+    "type": "qcm",
+    "difficulty": 5,
+    "status": "published",
+    "source": "bac_hard",
+    "question": "«بطاقة هوية» قصيدة لـ:",
+    "options": [
+      {
+        "id": "a",
+        "text": "محمود درويش"
+      },
+      {
+        "id": "b",
+        "text": "سميح القاسم"
+      },
+      {
+        "id": "c",
+        "text": "أدونيس"
+      },
+      {
+        "id": "d",
+        "text": "نازك الملائكة"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "من أشهر قصائده المقاومة."
+  },
+  {
+    "id": "ar_038",
+    "unitId": "ar_adab",
+    "subjectId": "arabic",
+    "type": "qcm",
+    "difficulty": 5,
+    "status": "published",
+    "source": "bac_hard",
+    "question": "سميح القاسم شاعر فلسطيني اشتهر بـ:",
+    "options": [
+      {
+        "id": "a",
+        "text": "شعر المقاومة"
+      },
+      {
+        "id": "b",
+        "text": "الغزل"
+      },
+      {
+        "id": "c",
+        "text": "الوصف"
+      },
+      {
+        "id": "d",
+        "text": "الشعر التعليمي"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "من كبار شعراء المقاومة."
+  },
+  {
+    "id": "ar_039",
+    "unitId": "ar_adab",
+    "subjectId": "arabic",
+    "type": "qcm",
+    "difficulty": 5,
+    "status": "published",
+    "source": "bac_hard",
+    "question": "أدب المقاومة يستخدم عادة:",
+    "options": [
+      {
+        "id": "a",
+        "text": "الرمز والأسطورة"
+      },
+      {
+        "id": "b",
+        "text": "الصور البلاغية التقليدية فقط"
+      },
+      {
+        "id": "c",
+        "text": "اللغة العامية فقط"
+      },
+      {
+        "id": "d",
+        "text": "السجع"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "الرمز للتعبير في ظروف القمع."
+  },
+  {
+    "id": "ar_040",
+    "unitId": "ar_adab",
+    "subjectId": "arabic",
+    "type": "qcm",
+    "difficulty": 5,
+    "status": "published",
+    "source": "bac_hard",
+    "question": "«الأدب المقاوم» يعني:",
+    "options": [
+      {
+        "id": "a",
+        "text": "أدب ضد الفقر"
+      },
+      {
+        "id": "b",
+        "text": "أدب يعبر عن مقاومة الاستعمار والظلم"
+      },
+      {
+        "id": "c",
+        "text": "أدب المستشفيات"
+      },
+      {
+        "id": "d",
+        "text": "أدب الرثاء"
+      }
+    ],
+    "correctOptionId": "b",
+    "explanation": "أدب يعبّر عن مقاومة الظلم والاحتلال."
+  }
+]

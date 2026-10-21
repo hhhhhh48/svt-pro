@@ -1,0 +1,118 @@
+{
+  "science": {
+    "name": "علوم الطبيعة والحياة",
+    "icon": "🧬",
+    "gradient": "from-emerald-400 to-teal-500",
+    "units": {
+      "sci_protein": "تركيب البروتين",
+      "sci_protein_fn": "بنية ووظيفة البروتين",
+      "sci_enzyme": "النشاط الأنزيمي",
+      "sci_immunity": "المناعة",
+      "sci_neuro": "الاتصال العصبي",
+      "sci_hormone": "الاتصال الهرموني",
+      "sci_coord": "التنسيق بين الأجهزة"
+    }
+  },
+  "physics": {
+    "name": "الفيزياء",
+    "icon": "⚛️",
+    "gradient": "from-blue-400 to-indigo-500",
+    "units": {
+      "phy_kinetics": "المتابعة الزمنية",
+      "phy_nuclear": "التحولات النووية",
+      "phy_equilibrium": "التوازن والحمض-القاعدة",
+      "phy_mechanics": "الميكانيك",
+      "phy_circuits": "الدارات الكهربائية",
+      "phy_modern": "الفيزياء الحديثة"
+    }
+  },
+  "math": {
+    "name": "الرياضيات",
+    "icon": "📐",
+    "gradient": "from-purple-400 to-pink-500",
+    "units": {
+      "math_sequences": "المتتاليات",
+      "math_limits": "النهايات والاستمرارية",
+      "math_deriv": "الاشتقاق والدوال",
+      "math_exp_log": "الأسية واللوغاريتمية",
+      "math_complex": "الأعداد المركبة",
+      "math_integral": "التكامل",
+      "math_prob": "الاحتمالات"
+    }
+  },
+  "philosophy": {
+    "name": "الفلسفة",
+    "icon": "🤔",
+    "gradient": "from-indigo-400 to-purple-500",
+    "units": {
+      "phil_problem": "المشكلة والإشكالية",
+      "phil_consciousness": "الوعي واللاوعي",
+      "phil_reason": "العقل والواقع",
+      "phil_truth": "الحقيقة",
+      "phil_freedom": "الحرية والمسؤولية",
+      "phil_values": "القيم الأخلاقية والجمالية",
+      "phil_science": "العلم والتقنية",
+      "phil_humanities": "العلوم الإنسانية",
+      "phil_logic": "المنطق والاستدلال"
+    }
+  },
+  "islamic": {
+    "name": "العلوم الإسلامية",
+    "icon": "🕌",
+    "gradient": "from-emerald-500 to-green-600",
+    "units": {
+      "isl_quran": "القرآن والوحي",
+      "isl_hadith": "الحديث والسنة",
+      "isl_aqida": "العقيدة",
+      "isl_fiqh": "الفقه والعبادات",
+      "isl_sira": "السيرة النبوية",
+      "isl_akhlaq": "الأخلاق",
+      "isl_maqasid": "مقاصد الشريعة"
+    }
+  },
+  "arabic": {
+    "name": "اللغة العربية",
+    "icon": "📖",
+    "gradient": "from-rose-400 to-red-500",
+    "units": {
+      "ar_balagha": "البلاغة (تشبيه، استعارة، كناية، مجاز)",
+      "ar_arud": "العروض (البحور والتفعيلات)",
+      "ar_adab": "مدارس الأدب الحديث",
+      "ar_nass": "تحليل النصوص والأساليب"
+    }
+  },
+  "history": {
+    "name": "التاريخ والجغرافيا",
+    "icon": "🌍",
+    "gradient": "from-amber-400 to-orange-500",
+    "units": {
+      "hist_rev": "الثورة التحريرية (1954-1962)",
+      "hist_indus": "الثورة الصناعية",
+      "hist_ww": "الحربان العالميتان",
+      "hist_algeria": "الجزائر بعد الاستقلال",
+      "hist_geo_dz": "جغرافيا الجزائر"
+    }
+  },
+  "french": {
+    "name": "الفرنسية",
+    "icon": "🇫🇷",
+    "gradient": "from-blue-500 to-cyan-600",
+    "units": {
+      "fr_gram": "القواعد (Grammaire)",
+      "fr_conj": "التصريف (Conjugaison)",
+      "fr_texte": "تحليل النصوص (Types de textes)",
+      "fr_litt": "الأدب والمؤلفون (Littérature)"
+    }
+  },
+  "english": {
+    "name": "الإنجليزية",
+    "icon": "🇬🇧",
+    "gradient": "from-red-500 to-rose-600",
+    "units": {
+      "en_tenses": "الأزمنة (Tenses)",
+      "en_vocab": "المفردات (Vocabulary)",
+      "en_reading": "القراءة (Reading skills)",
+      "en_civ": "الحضارة (Civilization)"
+    }
+  }
+}

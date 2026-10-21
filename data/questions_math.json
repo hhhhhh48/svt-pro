@@ -1,0 +1,1202 @@
+[
+  {
+    "id": "math_001",
+    "unitId": "math_sequences",
+    "subjectId": "math",
+    "type": "qcm",
+    "difficulty": 5,
+    "status": "published",
+    "source": "bac_hard",
+    "question": "المتتالية (uₙ) معرفة بـ uₙ₊₁ = 3uₙ + 2 و u₀ = 1. ما هي u₂؟",
+    "options": [
+      {
+        "id": "a",
+        "text": "17"
+      },
+      {
+        "id": "b",
+        "text": "11"
+      },
+      {
+        "id": "c",
+        "text": "14"
+      },
+      {
+        "id": "d",
+        "text": "23"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "u₁ = 3·1 + 2 = 5 ، u₂ = 3·5 + 2 = 17."
+  },
+  {
+    "id": "math_002",
+    "unitId": "math_sequences",
+    "subjectId": "math",
+    "type": "qcm",
+    "difficulty": 5,
+    "status": "published",
+    "source": "bac_hard",
+    "question": "المتتالية uₙ = (2n+1)/(n+3). نهايتها عند +∞:",
+    "options": [
+      {
+        "id": "a",
+        "text": "2"
+      },
+      {
+        "id": "b",
+        "text": "1"
+      },
+      {
+        "id": "c",
+        "text": "0"
+      },
+      {
+        "id": "d",
+        "text": "+∞"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "نقسم على n: (2 + 1/n)/(1 + 3/n) → 2/1 = 2."
+  },
+  {
+    "id": "math_003",
+    "unitId": "math_sequences",
+    "subjectId": "math",
+    "type": "qcm",
+    "difficulty": 5,
+    "status": "published",
+    "source": "bac_hard",
+    "question": "متتالية حسابية u₁ = 4 و r = −2. ما هو u₁₀؟",
+    "options": [
+      {
+        "id": "a",
+        "text": "−14"
+      },
+      {
+        "id": "b",
+        "text": "−12"
+      },
+      {
+        "id": "c",
+        "text": "−16"
+      },
+      {
+        "id": "d",
+        "text": "−10"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "uₙ = u₁ + (n−1)r ⟹ u₁₀ = 4 + 9·(−2) = 4 − 18 = −14."
+  },
+  {
+    "id": "math_004",
+    "unitId": "math_sequences",
+    "subjectId": "math",
+    "type": "qcm",
+    "difficulty": 5,
+    "status": "published",
+    "source": "bac_hard",
+    "question": "متتالية هندسية u₀ = 2 و q = 3. مجموع أول 4 حدود S₃ = u₀+u₁+u₂+u₃:",
+    "options": [
+      {
+        "id": "a",
+        "text": "80"
+      },
+      {
+        "id": "b",
+        "text": "54"
+      },
+      {
+        "id": "c",
+        "text": "60"
+      },
+      {
+        "id": "d",
+        "text": "78"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "S₃ = u₀(1−q⁴)/(1−q) = 2·(1−81)/(1−3) = 2·(−80)/(−2) = 80."
+  },
+  {
+    "id": "math_005",
+    "unitId": "math_sequences",
+    "subjectId": "math",
+    "type": "qcm",
+    "difficulty": 5,
+    "status": "published",
+    "source": "bac_hard",
+    "question": "إذا كانت (uₙ) متزايدة ومحدودة من الأعلى، فإنها:",
+    "options": [
+      {
+        "id": "a",
+        "text": "متقاربة"
+      },
+      {
+        "id": "b",
+        "text": "متباعدة"
+      },
+      {
+        "id": "c",
+        "text": "دورية"
+      },
+      {
+        "id": "d",
+        "text": "متناوبة"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "نظرية التقارب المونوتوني: كل متتالية متزايدة ومحدودة من الأعلى متقاربة."
+  },
+  {
+    "id": "math_006",
+    "unitId": "math_sequences",
+    "subjectId": "math",
+    "type": "qcm",
+    "difficulty": 5,
+    "status": "published",
+    "source": "bac_hard",
+    "question": "uₙ₊₁ = f(uₙ) مع f متزايدة و u₀ < u₁. حينئذ (uₙ):",
+    "options": [
+      {
+        "id": "a",
+        "text": "متزايدة"
+      },
+      {
+        "id": "b",
+        "text": "متناقصة"
+      },
+      {
+        "id": "c",
+        "text": "ثابتة"
+      },
+      {
+        "id": "d",
+        "text": "لا يمكن الحكم"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "إذا كانت f متزايدة و u₀ ≤ u₁، فبالتراجع uₙ ≤ uₙ₊₁ لكل n، أي (uₙ) متزايدة."
+  },
+  {
+    "id": "math_007",
+    "unitId": "math_limits",
+    "subjectId": "math",
+    "type": "qcm",
+    "difficulty": 5,
+    "status": "published",
+    "source": "bac_hard",
+    "question": "lim(x→0) sin(x)/x =",
+    "options": [
+      {
+        "id": "a",
+        "text": "1"
+      },
+      {
+        "id": "b",
+        "text": "0"
+      },
+      {
+        "id": "c",
+        "text": "+∞"
+      },
+      {
+        "id": "d",
+        "text": "غير موجودة"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "نهاية شهيرة: lim(x→0) sin(x)/x = 1. تُستخدم كثيرًا في حساب المشتقات."
+  },
+  {
+    "id": "math_008",
+    "unitId": "math_limits",
+    "subjectId": "math",
+    "type": "qcm",
+    "difficulty": 5,
+    "status": "published",
+    "source": "bac_hard",
+    "question": "lim(x→+∞) (3x²+2x−1)/(x²+5) =",
+    "options": [
+      {
+        "id": "a",
+        "text": "3"
+      },
+      {
+        "id": "b",
+        "text": "0"
+      },
+      {
+        "id": "c",
+        "text": "+∞"
+      },
+      {
+        "id": "d",
+        "text": "1"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "نقسم على x²: (3 + 2/x − 1/x²)/(1 + 5/x²) → 3/1 = 3."
+  },
+  {
+    "id": "math_009",
+    "unitId": "math_limits",
+    "subjectId": "math",
+    "type": "qcm",
+    "difficulty": 5,
+    "status": "published",
+    "source": "bac_hard",
+    "question": "lim(x→0⁺) ln(x) =",
+    "options": [
+      {
+        "id": "a",
+        "text": "−∞"
+      },
+      {
+        "id": "b",
+        "text": "+∞"
+      },
+      {
+        "id": "c",
+        "text": "0"
+      },
+      {
+        "id": "d",
+        "text": "1"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "عندما يقترب x من 0 من اليمين، ln(x) → −∞."
+  },
+  {
+    "id": "math_010",
+    "unitId": "math_limits",
+    "subjectId": "math",
+    "type": "qcm",
+    "difficulty": 5,
+    "status": "published",
+    "source": "bac_hard",
+    "question": "lim(x→+∞) e^x / x =",
+    "options": [
+      {
+        "id": "a",
+        "text": "+∞"
+      },
+      {
+        "id": "b",
+        "text": "0"
+      },
+      {
+        "id": "c",
+        "text": "1"
+      },
+      {
+        "id": "d",
+        "text": "e"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "الأسية تنمو أسرع من أي كثير حدود: lim e^x/x = +∞."
+  },
+  {
+    "id": "math_011",
+    "unitId": "math_limits",
+    "subjectId": "math",
+    "type": "qcm",
+    "difficulty": 5,
+    "status": "published",
+    "source": "bac_hard",
+    "question": "الدالة f(x) = (x²−1)/(x−1) عند x=1:",
+    "options": [
+      {
+        "id": "a",
+        "text": "قابلة للتمديد بمتصل (النهاية = 2)"
+      },
+      {
+        "id": "b",
+        "text": "غير معرفة ولا تقبل تمديدًا"
+      },
+      {
+        "id": "c",
+        "text": "لها نهاية = 1"
+      },
+      {
+        "id": "d",
+        "text": "لها نهاية = 0"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "f(x) = (x−1)(x+1)/(x−1) = x+1 لـ x≠1. إذن lim(x→1) f(x) = 2. يمكن تمديدها بـ f(1)=2."
+  },
+  {
+    "id": "math_012",
+    "unitId": "math_limits",
+    "subjectId": "math",
+    "type": "qcm",
+    "difficulty": 5,
+    "status": "published",
+    "source": "bac_hard",
+    "question": "نظرية القيم المتوسطة (TVI): إذا كانت f مستمرة على [a,b] و f(a)·f(b) < 0، فإن:",
+    "options": [
+      {
+        "id": "a",
+        "text": "توجد على الأقل قيمة c في ]a,b[ حيث f(c) = 0"
+      },
+      {
+        "id": "b",
+        "text": "f لا تنعدم أبدًا"
+      },
+      {
+        "id": "c",
+        "text": "f متزايدة"
+      },
+      {
+        "id": "d",
+        "text": "f(a) = f(b)"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "TVI: إذا كانت f مستمرة على [a,b] و f(a) و f(b) لهما إشارتان مختلفتان، فالمعادلة f(x)=0 تقبل حلًا واحدًا على الأقل في ]a,b[."
+  },
+  {
+    "id": "math_013",
+    "unitId": "math_deriv",
+    "subjectId": "math",
+    "type": "qcm",
+    "difficulty": 5,
+    "status": "published",
+    "source": "bac_hard",
+    "question": "مشتقة f(x) = x³ − 3x هي:",
+    "options": [
+      {
+        "id": "a",
+        "text": "3x² − 3"
+      },
+      {
+        "id": "b",
+        "text": "3x² − 3x"
+      },
+      {
+        "id": "c",
+        "text": "x² − 3"
+      },
+      {
+        "id": "d",
+        "text": "3x − 3"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "f'(x) = 3x² − 3. (مشتقة x³ = 3x²، ومشتقة −3x = −3)."
+  },
+  {
+    "id": "math_014",
+    "unitId": "math_deriv",
+    "subjectId": "math",
+    "type": "qcm",
+    "difficulty": 5,
+    "status": "published",
+    "source": "bac_hard",
+    "question": "مشتقة f(x) = ln(x²+1):",
+    "options": [
+      {
+        "id": "a",
+        "text": "2x/(x²+1)"
+      },
+      {
+        "id": "b",
+        "text": "1/(x²+1)"
+      },
+      {
+        "id": "c",
+        "text": "2x·ln(x²+1)"
+      },
+      {
+        "id": "d",
+        "text": "2/(x²+1)"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "(ln u)' = u'/u = 2x/(x²+1)."
+  },
+  {
+    "id": "math_015",
+    "unitId": "math_deriv",
+    "subjectId": "math",
+    "type": "qcm",
+    "difficulty": 5,
+    "status": "published",
+    "source": "bac_hard",
+    "question": "مشتقة f(x) = e^(2x):",
+    "options": [
+      {
+        "id": "a",
+        "text": "2e^(2x)"
+      },
+      {
+        "id": "b",
+        "text": "e^(2x)"
+      },
+      {
+        "id": "c",
+        "text": "e^(2x)/2"
+      },
+      {
+        "id": "d",
+        "text": "2x·e^(2x−1)"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "(e^u)' = u'·e^u = 2·e^(2x)."
+  },
+  {
+    "id": "math_016",
+    "unitId": "math_deriv",
+    "subjectId": "math",
+    "type": "qcm",
+    "difficulty": 5,
+    "status": "published",
+    "source": "bac_hard",
+    "question": "إذا كانت f'(x) > 0 على ]a,b[، فإن f:",
+    "options": [
+      {
+        "id": "a",
+        "text": "متزايدة تمامًا على ]a,b["
+      },
+      {
+        "id": "b",
+        "text": "متناقصة"
+      },
+      {
+        "id": "c",
+        "text": "ثابتة"
+      },
+      {
+        "id": "d",
+        "text": "دورية"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "إشارة المشتقة: f' > 0 ⟹ f متزايدة، f' < 0 ⟹ متناقصة، f' = 0 ⟹ ثابتة."
+  },
+  {
+    "id": "math_017",
+    "unitId": "math_deriv",
+    "subjectId": "math",
+    "type": "qcm",
+    "difficulty": 5,
+    "status": "published",
+    "source": "bac_hard",
+    "question": "إذا كانت f'(x₀) = 0 و f''(x₀) > 0، فإن f عند x₀:",
+    "options": [
+      {
+        "id": "a",
+        "text": "تقبل قيمة حدية صغرى"
+      },
+      {
+        "id": "b",
+        "text": "تقبل قيمة حدية عظمى"
+      },
+      {
+        "id": "c",
+        "text": "نقطة انعطاف"
+      },
+      {
+        "id": "d",
+        "text": "لا شيء"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "الشرط الكافي: f'(x₀)=0 و f''(x₀)>0 ⟹ قيمة حدية صغرى محلية. f''<0 ⟹ عظمى محلية."
+  },
+  {
+    "id": "math_018",
+    "unitId": "math_deriv",
+    "subjectId": "math",
+    "type": "qcm",
+    "difficulty": 5,
+    "status": "published",
+    "source": "bac_hard",
+    "question": "مشتقة f(x) = x·ln(x) لـ x>0:",
+    "options": [
+      {
+        "id": "a",
+        "text": "ln(x) + 1"
+      },
+      {
+        "id": "b",
+        "text": "1/x"
+      },
+      {
+        "id": "c",
+        "text": "ln(x)"
+      },
+      {
+        "id": "d",
+        "text": "x/ln(x)"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "قاعدة الجداء: (u·v)' = u'v + uv' = 1·ln(x) + x·(1/x) = ln(x) + 1."
+  },
+  {
+    "id": "math_019",
+    "unitId": "math_deriv",
+    "subjectId": "math",
+    "type": "qcm",
+    "difficulty": 5,
+    "status": "published",
+    "source": "bac_hard",
+    "question": "المستقيم y = 2x+1 مماس لمنحنى f عند x=1، ما هو f'(1)؟",
+    "options": [
+      {
+        "id": "a",
+        "text": "2"
+      },
+      {
+        "id": "b",
+        "text": "1"
+      },
+      {
+        "id": "c",
+        "text": "3"
+      },
+      {
+        "id": "d",
+        "text": "0"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "ميل المماس عند نقطة = f'(x₀). ميل المستقيم = 2، إذن f'(1) = 2."
+  },
+  {
+    "id": "math_020",
+    "unitId": "math_exp_log",
+    "subjectId": "math",
+    "type": "qcm",
+    "difficulty": 5,
+    "status": "published",
+    "source": "bac_hard",
+    "question": "ln(e³) =",
+    "options": [
+      {
+        "id": "a",
+        "text": "3"
+      },
+      {
+        "id": "b",
+        "text": "e³"
+      },
+      {
+        "id": "c",
+        "text": "1/3"
+      },
+      {
+        "id": "d",
+        "text": "e"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "ln(eˣ) = x ⟹ ln(e³) = 3."
+  },
+  {
+    "id": "math_021",
+    "unitId": "math_exp_log",
+    "subjectId": "math",
+    "type": "qcm",
+    "difficulty": 5,
+    "status": "published",
+    "source": "bac_hard",
+    "question": "حل المعادلة e^(2x) = 5:",
+    "options": [
+      {
+        "id": "a",
+        "text": "x = (ln 5)/2"
+      },
+      {
+        "id": "b",
+        "text": "x = ln(5/2)"
+      },
+      {
+        "id": "c",
+        "text": "x = 2 ln 5"
+      },
+      {
+        "id": "d",
+        "text": "x = ln 10"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "نأخذ ln للطرفين: 2x = ln(5) ⟹ x = ln(5)/2."
+  },
+  {
+    "id": "math_022",
+    "unitId": "math_exp_log",
+    "subjectId": "math",
+    "type": "qcm",
+    "difficulty": 5,
+    "status": "published",
+    "source": "bac_hard",
+    "question": "حل ln(x) + ln(x−1) = 0 مع x > 1:",
+    "options": [
+      {
+        "id": "a",
+        "text": "x = (1+√5)/2"
+      },
+      {
+        "id": "b",
+        "text": "x = 1"
+      },
+      {
+        "id": "c",
+        "text": "x = 2"
+      },
+      {
+        "id": "d",
+        "text": "لا حل"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "ln(x(x−1)) = 0 ⟹ x(x−1) = 1 ⟹ x²−x−1 = 0 ⟹ x = (1+√5)/2 (نأخذ الحل الموجب)."
+  },
+  {
+    "id": "math_023",
+    "unitId": "math_exp_log",
+    "subjectId": "math",
+    "type": "qcm",
+    "difficulty": 5,
+    "status": "published",
+    "source": "bac_hard",
+    "question": "lim(x→+∞) (ln x)/x =",
+    "options": [
+      {
+        "id": "a",
+        "text": "0"
+      },
+      {
+        "id": "b",
+        "text": "+∞"
+      },
+      {
+        "id": "c",
+        "text": "1"
+      },
+      {
+        "id": "d",
+        "text": "e"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "اللوغاريتم ينمو أبطأ من أي قوة لـ x: lim(ln x)/x = 0."
+  },
+  {
+    "id": "math_024",
+    "unitId": "math_exp_log",
+    "subjectId": "math",
+    "type": "qcm",
+    "difficulty": 5,
+    "status": "published",
+    "source": "bac_hard",
+    "question": "مجموعة تعريف f(x) = ln(x−2) هي:",
+    "options": [
+      {
+        "id": "a",
+        "text": "]2, +∞["
+      },
+      {
+        "id": "b",
+        "text": "[2, +∞["
+      },
+      {
+        "id": "c",
+        "text": "ℝ"
+      },
+      {
+        "id": "d",
+        "text": "ℝ\\{2}"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "ln معرّف فقط على الأعداد الموجبة تمامًا. شرط: x − 2 > 0 ⟹ x > 2."
+  },
+  {
+    "id": "math_025",
+    "unitId": "math_exp_log",
+    "subjectId": "math",
+    "type": "qcm",
+    "difficulty": 5,
+    "status": "published",
+    "source": "bac_hard",
+    "question": "مشتقة f(x) = (ln x)²:",
+    "options": [
+      {
+        "id": "a",
+        "text": "2 ln(x)/x"
+      },
+      {
+        "id": "b",
+        "text": "2/x"
+      },
+      {
+        "id": "c",
+        "text": "(ln x)/x"
+      },
+      {
+        "id": "d",
+        "text": "2x·ln(x)"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "(u²)' = 2u·u' = 2 ln(x) · (1/x) = 2 ln(x)/x."
+  },
+  {
+    "id": "math_026",
+    "unitId": "math_complex",
+    "subjectId": "math",
+    "type": "qcm",
+    "difficulty": 5,
+    "status": "published",
+    "source": "bac_hard",
+    "question": "z = 1 + i√3. ما هي |z|؟",
+    "options": [
+      {
+        "id": "a",
+        "text": "2"
+      },
+      {
+        "id": "b",
+        "text": "√3"
+      },
+      {
+        "id": "c",
+        "text": "1+√3"
+      },
+      {
+        "id": "d",
+        "text": "4"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "|z| = √(1² + (√3)²) = √(1+3) = √4 = 2."
+  },
+  {
+    "id": "math_027",
+    "unitId": "math_complex",
+    "subjectId": "math",
+    "type": "qcm",
+    "difficulty": 5,
+    "status": "published",
+    "source": "bac_hard",
+    "question": "العدد z = 1 + i√3 له الشكل الأسي:",
+    "options": [
+      {
+        "id": "a",
+        "text": "2e^(iπ/3)"
+      },
+      {
+        "id": "b",
+        "text": "2e^(iπ/6)"
+      },
+      {
+        "id": "c",
+        "text": "√3 e^(iπ/3)"
+      },
+      {
+        "id": "d",
+        "text": "e^(iπ/3)"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "|z| = 2. arg(z): cos θ = 1/2، sin θ = √3/2 ⟹ θ = π/3. إذن z = 2e^(iπ/3)."
+  },
+  {
+    "id": "math_028",
+    "unitId": "math_complex",
+    "subjectId": "math",
+    "type": "qcm",
+    "difficulty": 5,
+    "status": "published",
+    "source": "bac_hard",
+    "question": "مرافق z = 3 − 2i:",
+    "options": [
+      {
+        "id": "a",
+        "text": "3 + 2i"
+      },
+      {
+        "id": "b",
+        "text": "−3 + 2i"
+      },
+      {
+        "id": "c",
+        "text": "−3 − 2i"
+      },
+      {
+        "id": "d",
+        "text": "2 − 3i"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "مرافق a+bi هو a−bi. إذن مرافق 3−2i = 3+2i."
+  },
+  {
+    "id": "math_029",
+    "unitId": "math_complex",
+    "subjectId": "math",
+    "type": "qcm",
+    "difficulty": 5,
+    "status": "published",
+    "source": "bac_hard",
+    "question": "z·z̄ =",
+    "options": [
+      {
+        "id": "a",
+        "text": "|z|²"
+      },
+      {
+        "id": "b",
+        "text": "z²"
+      },
+      {
+        "id": "c",
+        "text": "2z"
+      },
+      {
+        "id": "d",
+        "text": "0"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "z·z̄ = (a+bi)(a−bi) = a² + b² = |z|² (عدد حقيقي موجب)."
+  },
+  {
+    "id": "math_030",
+    "unitId": "math_complex",
+    "subjectId": "math",
+    "type": "qcm",
+    "difficulty": 5,
+    "status": "published",
+    "source": "bac_hard",
+    "question": "حل المعادلة z² = −4 في ℂ:",
+    "options": [
+      {
+        "id": "a",
+        "text": "z = ±2i"
+      },
+      {
+        "id": "b",
+        "text": "z = ±2"
+      },
+      {
+        "id": "c",
+        "text": "z = 2 seulement"
+      },
+      {
+        "id": "d",
+        "text": "لا حل"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "z² + 4 = 0 ⟹ z² = −4 ⟹ z = ±2i (لأن i² = −1)."
+  },
+  {
+    "id": "math_031",
+    "unitId": "math_complex",
+    "subjectId": "math",
+    "type": "qcm",
+    "difficulty": 5,
+    "status": "published",
+    "source": "bac_hard",
+    "question": "إذا كانت z₁ = 2e^(iπ/2) و z₂ = 3e^(iπ/3)، فإن z₁·z₂ =",
+    "options": [
+      {
+        "id": "a",
+        "text": "6e^(i5π/6)"
+      },
+      {
+        "id": "b",
+        "text": "6e^(iπ/6)"
+      },
+      {
+        "id": "c",
+        "text": "5e^(iπ/6)"
+      },
+      {
+        "id": "d",
+        "text": "e^(i5π/6)"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "عند الجداء: نضرب الوحدات ونجمع الأطوار. |z₁z₂| = 2·3 = 6، arg = π/2 + π/3 = 5π/6."
+  },
+  {
+    "id": "math_032",
+    "unitId": "math_integral",
+    "subjectId": "math",
+    "type": "qcm",
+    "difficulty": 5,
+    "status": "published",
+    "source": "bac_hard",
+    "question": "∫₀¹ x² dx =",
+    "options": [
+      {
+        "id": "a",
+        "text": "1/3"
+      },
+      {
+        "id": "b",
+        "text": "1/2"
+      },
+      {
+        "id": "c",
+        "text": "1"
+      },
+      {
+        "id": "d",
+        "text": "2/3"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "∫x² dx = x³/3. من 0 إلى 1: 1/3 − 0 = 1/3."
+  },
+  {
+    "id": "math_033",
+    "unitId": "math_integral",
+    "subjectId": "math",
+    "type": "qcm",
+    "difficulty": 5,
+    "status": "published",
+    "source": "bac_hard",
+    "question": "∫₁^e (1/x) dx =",
+    "options": [
+      {
+        "id": "a",
+        "text": "1"
+      },
+      {
+        "id": "b",
+        "text": "e"
+      },
+      {
+        "id": "c",
+        "text": "0"
+      },
+      {
+        "id": "d",
+        "text": "e−1"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "∫(1/x)dx = ln(x). من 1 إلى e: ln(e) − ln(1) = 1 − 0 = 1."
+  },
+  {
+    "id": "math_034",
+    "unitId": "math_integral",
+    "subjectId": "math",
+    "type": "qcm",
+    "difficulty": 5,
+    "status": "published",
+    "source": "bac_hard",
+    "question": "المساحة تحت منحنى f(x)=x على [0,2]:",
+    "options": [
+      {
+        "id": "a",
+        "text": "2"
+      },
+      {
+        "id": "b",
+        "text": "1"
+      },
+      {
+        "id": "c",
+        "text": "4"
+      },
+      {
+        "id": "d",
+        "text": "0.5"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "∫₀² x dx = [x²/2]₀² = 4/2 = 2."
+  },
+  {
+    "id": "math_035",
+    "unitId": "math_integral",
+    "subjectId": "math",
+    "type": "qcm",
+    "difficulty": 5,
+    "status": "published",
+    "source": "bac_hard",
+    "question": "إذا كانت f ≥ 0 على [a,b]، فإن ∫ₐᵇ f(x)dx يمثل:",
+    "options": [
+      {
+        "id": "a",
+        "text": "مساحة الحيز تحت المنحنى وفوق محور الفواصل"
+      },
+      {
+        "id": "b",
+        "text": "الميل"
+      },
+      {
+        "id": "c",
+        "text": "المشتقة"
+      },
+      {
+        "id": "d",
+        "text": "النهاية"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "التكامل لدالة موجبة على مجال يعطي المساحة الهندسية بين المنحنى ومحور الفواصل."
+  },
+  {
+    "id": "math_036",
+    "unitId": "math_integral",
+    "subjectId": "math",
+    "type": "qcm",
+    "difficulty": 5,
+    "status": "published",
+    "source": "bac_hard",
+    "question": "∫ e^x dx =",
+    "options": [
+      {
+        "id": "a",
+        "text": "e^x + C"
+      },
+      {
+        "id": "b",
+        "text": "xe^x + C"
+      },
+      {
+        "id": "c",
+        "text": "e^x/x + C"
+      },
+      {
+        "id": "d",
+        "text": "x·e^x + C"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "مشتقة e^x هي e^x، إذن الدالة الأصلية لـ e^x هي e^x + C (C ثابت التكامل)."
+  },
+  {
+    "id": "math_037",
+    "unitId": "math_prob",
+    "subjectId": "math",
+    "type": "qcm",
+    "difficulty": 5,
+    "status": "published",
+    "source": "bac_hard",
+    "question": "نرمي حجر نرد مرة. احتمال الحصول على عدد زوجي:",
+    "options": [
+      {
+        "id": "a",
+        "text": "1/2"
+      },
+      {
+        "id": "b",
+        "text": "1/3"
+      },
+      {
+        "id": "c",
+        "text": "1/6"
+      },
+      {
+        "id": "d",
+        "text": "2/3"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "الأعداد الزوجية: 2, 4, 6 (3 حالات). الاحتمال = 3/6 = 1/2."
+  },
+  {
+    "id": "math_038",
+    "unitId": "math_prob",
+    "subjectId": "math",
+    "type": "qcm",
+    "difficulty": 5,
+    "status": "published",
+    "source": "bac_hard",
+    "question": "نرمي حجر نرد مرتين. احتمال الحصول على 6 مرتين:",
+    "options": [
+      {
+        "id": "a",
+        "text": "1/36"
+      },
+      {
+        "id": "b",
+        "text": "1/12"
+      },
+      {
+        "id": "c",
+        "text": "1/6"
+      },
+      {
+        "id": "d",
+        "text": "2/36"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "الحوادث مستقلة: P(A∩B) = P(A)·P(B) = (1/6)·(1/6) = 1/36."
+  },
+  {
+    "id": "math_039",
+    "unitId": "math_prob",
+    "subjectId": "math",
+    "type": "qcm",
+    "difficulty": 5,
+    "status": "published",
+    "source": "bac_hard",
+    "question": "P(A∪B) = P(A) + P(B) − P(A∩B). إذا P(A)=0.5، P(B)=0.4، P(A∩B)=0.2، فإن P(A∪B) =",
+    "options": [
+      {
+        "id": "a",
+        "text": "0.7"
+      },
+      {
+        "id": "b",
+        "text": "0.9"
+      },
+      {
+        "id": "c",
+        "text": "0.6"
+      },
+      {
+        "id": "d",
+        "text": "0.3"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "P(A∪B) = 0.5 + 0.4 − 0.2 = 0.7."
+  },
+  {
+    "id": "math_040",
+    "unitId": "math_prob",
+    "subjectId": "math",
+    "type": "qcm",
+    "difficulty": 5,
+    "status": "published",
+    "source": "bac_hard",
+    "question": "إذا كانت X متغيرة عشوائية تأخذ القيم 1, 2, 3 باحتمالات 1/4, 1/2, 1/4، فإن E(X) =",
+    "options": [
+      {
+        "id": "a",
+        "text": "2"
+      },
+      {
+        "id": "b",
+        "text": "1.5"
+      },
+      {
+        "id": "c",
+        "text": "2.5"
+      },
+      {
+        "id": "d",
+        "text": "3"
+      }
+    ],
+    "correctOptionId": "a",
+    "explanation": "E(X) = 1·(1/4) + 2·(1/2) + 3·(1/4) = 0.25 + 1 + 0.75 = 2."
+  }
+]
