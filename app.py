@@ -1,11 +1,13 @@
 import os
-from dotenv import load_dotenv
-from supabase import create_client, Client
+try:
+    from dotenv import load_dotenv
+    
+except ImportError:
+    pass
 
 load_dotenv()
 url = os.environ.get("SUPABASE_URL")
 key = os.environ.get("SUPABASE_KEY")
-supabase = create_client(url, key) if url and key else None
 
 import datetime
 from werkzeug.security import generate_password_hash, check_password_hash
@@ -73,7 +75,36 @@ app.jinja_env.filters['youtube_id'] = get_youtube_id
 
 
 # ==================== المسارات الرئيسية ====================
-@app.route('/')
+
+import requests
+
+def save_to_supabase(name, exam_id, score, total):
+    url = os.environ.get('SUPABASE_URL')
+    key = os.environ.get('SUPABASE_KEY')
+    if not url or not key:
+        print('Supabase credentials missing')
+        return False
+    
+    headers = {
+        'apikey': key,
+        'Authorization': f'Bearer {key}',
+        'Content-Type': 'application/json',
+        'Prefer': 'return=minimal'
+    }
+    payload = {
+        'student_name': name,
+        'exam_id': exam_id,
+        'score': score,
+        'total_questions': total
+    }
+    try:
+        res = requests.post(f'{url}/rest/v1/exam_results', json=payload, headers=headers, timeout=10)
+        return res.status_code in [200, 201]
+    except Exception as e:
+        print('Supabase request error:', e)
+        return False
+
+('/')
 def index():
     data = load_data()
     return render_template('index.html', streams=data['streams'], tips=data['tips'])
@@ -564,25 +595,16 @@ def exam_take(exam_id):
 
 @app.route('/api/save-result', methods=['POST'])
 def save_result():
-    try:
-        from supabase import create_client
-        url = os.environ.get("SUPABASE_URL")
-        key = os.environ.get("SUPABASE_KEY")
-        if not url or not key:
-            return {"status": "error", "msg": "No DB"}, 500
-        supabase = create_client(url, key)
-        
-        data = request.json
-        supabase.table('exam_results').insert({
-            "student_name": data.get('name', 'مجهول'),
-            "exam_id": data.get('exam_id'),
-            "score": data.get('score'),
-            "total_questions": data.get('total')
-        }).execute()
-        return {"status": "success"}, 200
-    except Exception as e:
-        print("Supabase Error:", e)
-        return {"status": "error", "msg": str(e)}, 500
+    data = request.json
+    success = save_to_supabase(
+        name=data.get('name', 'مجهول'),
+        exam_id=data.get('exam_id'),
+        score=data.get('score'),
+        total=data.get('total')
+    )
+    if success:
+        return {'status': 'success'}, 200
+    return {'status': 'error', 'msg': 'Failed to save'}, 500
 
 if __name__ == '__main__':
     app.run(host='0.0.0.0', port=3000, debug=True)
