@@ -1,0 +1,30 @@
+{% extends "base.html" %}
+{% block title %}مركز الاختبارات | BAC 2026{% endblock %}
+{% block content %}
+<div class="pt-32 pb-20 px-6 max-w-6xl mx-auto">
+    <div class="text-center mb-16">
+        <h1 class="text-5xl md:text-7xl font-black mb-4 text-white">مركز <span class="text-glow">الاختبارات</span></h1>
+        <p class="text-xl text-gray-400">امتحانات تجريبية شاملة بنمط البكالوريا الرسمية. اختبر مستواك الآن.</p>
+    </div>
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+        {% for exam in exams %}
+        <div class="glass rounded-3xl p-8 relative overflow-hidden group flex flex-col hover:border-brand-green/50 transition-all duration-300 shadow-[0_0_20px_rgba(0,255,136,0.05)] hover:shadow-[0_0_40px_rgba(0,255,136,0.15)]">
+            <div class="absolute top-0 right-0 w-32 h-32 bg-gradient-to-br {{ exam.color }} opacity-10 rounded-bl-full group-hover:scale-150 transition-transform"></div>
+            <div class="w-20 h-20 rounded-2xl bg-gradient-to-br {{ exam.color }} flex items-center justify-center text-4xl mb-6 shadow-lg">{{ exam.icon }}</div>
+            <h3 class="text-3xl font-bold text-white mb-2">{{ exam.subject }}</h3>
+            <p class="text-sm text-brand-green font-bold mb-4">{{ exam.stream }}</p>
+            <p class="text-gray-400 mb-8 flex-1">{{ exam.description }}</p>
+            
+            <div class="flex items-center justify-between text-sm text-gray-400 mb-6 bg-black/40 p-4 rounded-xl border border-white/5">
+                <span class="flex items-center gap-2"><i class="fa-regular fa-clock text-brand-blue"></i> {{ exam.duration_mins }} دقيقة</span>
+                <span class="flex items-center gap-2"><i class="fa-solid fa-file-lines text-purple-400"></i> {{ exam.sections|length }} أجزاء</span>
+            </div>
+            
+            <a href="/exams/{{ exam.id }}" class="w-full btn-neon py-4 rounded-xl text-lg flex items-center justify-center gap-2">
+                <i class="fa-solid fa-play"></i> بدء الامتحان الآن
+            </a>
+        </div>
+        {% endfor %}
+    </div>
+</div>
+{% endblock %}

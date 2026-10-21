@@ -106,27 +106,6 @@ def unit_page(stream_slug, subject_slug, unit_slug):
     return render_template('unit.html', stream=stream, subject=subject, unit=unit)
 
 # ==================== الأرشيف ====================
-@app.route('/exams')
-def exams_main():
-    exams_data = load_exams()
-    return render_template('exams.html', streams=exams_data['streams'])
-
-@app.route('/exams/<stream_slug>')
-def exams_stream(stream_slug):
-    exams_data = load_exams()
-    stream = next((s for s in exams_data['streams'] if s['slug'] == stream_slug), None)
-    if not stream: abort(404)
-    return render_template('exams_stream.html', stream=stream)
-
-@app.route('/exams/<stream_slug>/<subject_slug>')
-def exams_subject(stream_slug, subject_slug):
-    exams_data = load_exams()
-    stream = next((s for s in exams_data['streams'] if s['slug'] == stream_slug), None)
-    if not stream: abort(404)
-    subject = next((sub for sub in stream['subjects'] if sub['slug'] == subject_slug), None)
-    if not subject: abort(404)
-    return render_template('exams_subject.html', stream=stream, subject=subject)
-
 # ==================== لوحة التحكم ====================
 @app.route('/admin/login', methods=['GET', 'POST'])
 def login():
@@ -552,11 +531,47 @@ def exam_view(exam_slug):
         return f"خطأ: {str(e)}", 500
 
 
+
+@app.route('/news')
+def news_page():
+    try:
+        with open('news_data.json', 'r', encoding='utf-8') as f:
+            data = json.load(f)
+        return render_template('news.html', news=data['news'])
+    except Exception as e:
+        return f"خطأ في تحميل الأخبار: {str(e)}", 500
+
+
+@app.route('/exams')
+def exams_hub():
+    try:
+        with open('exams_data.json', 'r', encoding='utf-8') as f:
+            data = json.load(f)
+        return render_template('exams_hub.html', exams=data['exams'])
+    except Exception as e:
+        return f"Error loading exams: {e}", 500
+
+@app.route('/exams/<exam_id>')
+def exam_take(exam_id):
+    try:
+        with open('exams_data.json', 'r', encoding='utf-8') as f:
+            data = json.load(f)
+        exam = next((e for e in data['exams'] if e['id'] == exam_id), None)
+        if not exam: abort(404)
+        return render_template('exam_take.html', exam=exam)
+    except Exception as e:
+        return f"Error: {e}", 500
+
 @app.route('/api/save-result', methods=['POST'])
 def save_result():
-    if not supabase:
-        return {"status": "error", "message": "DB not configured"}, 500
     try:
+        from supabase import create_client
+        url = os.environ.get("SUPABASE_URL")
+        key = os.environ.get("SUPABASE_KEY")
+        if not url or not key:
+            return {"status": "error", "msg": "No DB"}, 500
+        supabase = create_client(url, key)
+        
         data = request.json
         supabase.table('exam_results').insert({
             "student_name": data.get('name', 'مجهول'),
@@ -567,17 +582,7 @@ def save_result():
         return {"status": "success"}, 200
     except Exception as e:
         print("Supabase Error:", e)
-        return {"status": "error", "message": str(e)}, 500
-
-
-@app.route('/news')
-def news_page():
-    try:
-        with open('news_data.json', 'r', encoding='utf-8') as f:
-            data = json.load(f)
-        return render_template('news.html', news=data['news'])
-    except Exception as e:
-        return f"خطأ في تحميل الأخبار: {str(e)}", 500
+        return {"status": "error", "msg": str(e)}, 500
 
 if __name__ == '__main__':
     app.run(host='0.0.0.0', port=3000, debug=True)
