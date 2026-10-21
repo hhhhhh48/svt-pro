@@ -569,6 +569,16 @@ def save_result():
         print("Supabase Error:", e)
         return {"status": "error", "message": str(e)}, 500
 
+
+@app.route('/news')
+def news_page():
+    try:
+        with open('news_data.json', 'r', encoding='utf-8') as f:
+            data = json.load(f)
+        return render_template('news.html', news=data['news'])
+    except Exception as e:
+        return f"خطأ في تحميل الأخبار: {str(e)}", 500
+
 if __name__ == '__main__':
     app.run(host='0.0.0.0', port=3000, debug=True)
 
