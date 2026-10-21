@@ -1,8 +1,6 @@
+import urllib.request
 import os
-try:
     
-except ImportError:
-    pass
 
 url = os.environ.get("SUPABASE_URL")
 key = os.environ.get("SUPABASE_KEY")
@@ -74,7 +72,6 @@ app.jinja_env.filters['youtube_id'] = get_youtube_id
 
 # ==================== المسارات الرئيسية ====================
 
-import requests
 
 def save_to_supabase(name, exam_id, score, total):
     url = os.environ.get('SUPABASE_URL')
@@ -102,7 +99,7 @@ def save_to_supabase(name, exam_id, score, total):
         print('Supabase request error:', e)
         return False
 
-('/')
+('/')
 def index():
     data = load_data()
     return render_template('index.html', streams=data['streams'], tips=data['tips'])
@@ -168,9 +165,9 @@ def add_video():
                         "source": "YouTube", "duration": request.form.get('duration', 'متاح')
                     })
                     save_data(data)
-                    flash('✅ تمت إضافة الفيديو!', 'success')
+                    flash(' تمت إضافة الفيديو!', 'success')
                     return redirect(url_for('admin_dashboard'))
-    flash('❌ خطأ.', 'error')
+    flash(' خطأ.', 'error')
     return redirect(url_for('admin_dashboard'))
 
 @app.route('/admin/add_unit', methods=['POST'])
@@ -188,9 +185,9 @@ def add_unit():
                     "videos": [], "pdfs": [], "exams": [], "quiz": []
                 })
                 save_data(data)
-                flash('✅ تمت إضافة الوحدة!', 'success')
+                flash(' تمت إضافة الوحدة!', 'success')
                 return redirect(url_for('admin_dashboard'))
-    flash('❌ خطأ.', 'error')
+    flash(' خطأ.', 'error')
     return redirect(url_for('admin_dashboard'))
 
 
@@ -281,9 +278,9 @@ def contact():
         if new_msg['name'] and new_msg['message']:
             messages.append(new_msg)
             save_messages(messages)
-            flash('✅ تم إرسال رسالتك بنجاح! سيتم الرد عليك قريباً.', 'success')
+            flash(' تم إرسال رسالتك بنجاح! سيتم الرد عليك قريباً.', 'success')
             return redirect(url_for('contact'))
-        flash('❌ يرجى ملء الاسم والرسالة على الأقل.', 'error')
+        flash(' يرجى ملء الاسم والرسالة على الأقل.', 'error')
     return render_template('contact.html')
 
 @app.route('/admin/messages')
@@ -307,7 +304,7 @@ def delete_msg(msg_id):
     if not session.get('admin'): return redirect(url_for('login'))
     messages = [m for m in load_messages() if m['id'] != msg_id]
     save_messages(messages)
-    flash('✅ تم حذف الرسالة', 'success')
+    flash(' تم حذف الرسالة', 'success')
     return redirect(url_for('admin_messages'))
 
 
@@ -321,19 +318,19 @@ def register():
         password = request.form.get('password', '')
         name = request.form.get('name', '').strip()
         if not username or not password or not name:
-            flash('❌ يرجى ملء جميع الحقول', 'error'); return redirect(url_for('register'))
+            flash(' يرجى ملء جميع الحقول', 'error'); return redirect(url_for('register'))
         if len(password) < 6:
-            flash('❌ كلمة المرور يجب أن تكون 6 أحرف على الأقل', 'error'); return redirect(url_for('register'))
+            flash(' كلمة المرور يجب أن تكون 6 أحرف على الأقل', 'error'); return redirect(url_for('register'))
         users = load_users()
         if any(u['username'] == username for u in users):
-            flash('❌ اسم المستخدم محجوز', 'error'); return redirect(url_for('register'))
+            flash(' اسم المستخدم محجوز', 'error'); return redirect(url_for('register'))
         new_id = (max([u['id'] for u in users]) + 1) if users else 1
         users.append({'id': new_id, 'username': username, 'name': name,
             'password_hash': generate_password_hash(password),
             'created_at': datetime.datetime.now().strftime('%Y-%m-%d %H:%M')})
         save_users(users)
         session['user_id'] = new_id
-        flash('✅ تم إنشاء حسابك!', 'success')
+        flash(' تم إنشاء حسابك!', 'success')
         return redirect(url_for('user_chat'))
     return render_template('register.html')
 
@@ -347,8 +344,8 @@ def user_login():
         user = next((u for u in users if u['username'] == username), None)
         if user and check_password_hash(user['password_hash'], password):
             session['user_id'] = user['id']
-            flash('✅ مرحباً!', 'success'); return redirect(url_for('user_chat'))
-        flash('❌ بيانات خاطئة', 'error')
+            flash(' مرحباً!', 'success'); return redirect(url_for('user_chat'))
+        flash(' بيانات خاطئة', 'error')
     return render_template('user_login.html')
 
 @app.route('/logout')
@@ -494,20 +491,20 @@ def track_visitors_advanced():
     try:
         ua = request.headers.get('User-Agent', '').lower()
 
-        # 🚫 الفلتر 1: حظر البوتات المعروفة
+        #  الفلتر 1: حظر البوتات المعروفة
         bot_keywords = ['bot', 'crawl', 'spider', 'slurp', 'baidu', 'yandex', 'bing', 'googlebot', 'ahrefs', 'semrush', 'python-requests', 'curl', 'wget', 'scrapy', 'httpclient', 'java', 'headlesschrome', 'phantomjs', 'selenium', 'puppeteer', 'googleother', 'adsbot', 'mediapartners', 'lighthouse', 'pingdom', 'uptimerobot']
         if any(keyword in ua for keyword in bot_keywords):
             return
 
-        # 🚫 الفلتر 2: التحقق من وجود User-Agent حقيقي
+        #  الفلتر 2: التحقق من وجود User-Agent حقيقي
         if not ua or len(ua) < 20:
             return
 
-        # 🚫 الفلتر 3: منع التكرار في نفس الجلسة (Session)
+        #  الفلتر 3: منع التكرار في نفس الجلسة (Session)
         if 'visitor_logged' in session:
             return
 
-        # ✅ إذا اجتاز الفلاتر، نعتبره زائراً بشرياً
+        #  إذا اجتاز الفلاتر، نعتبره زائراً بشرياً
         visits = load_visits()
         visits.append({
             "id": str(uuid.uuid4())[:8],
@@ -593,16 +590,34 @@ def exam_take(exam_id):
 
 @app.route('/api/save-result', methods=['POST'])
 def save_result():
-    data = request.json
-    success = save_to_supabase(
-        name=data.get('name', 'مجهول'),
-        exam_id=data.get('exam_id'),
-        score=data.get('score'),
-        total=data.get('total')
-    )
-    if success:
-        return {'status': 'success'}, 200
-    return {'status': 'error', 'msg': 'Failed to save'}, 500
+    data = request.json or {}
+    url = os.environ.get('SUPABASE_URL', '')
+    key = os.environ.get('SUPABASE_KEY', '')
+    if not url or not key:
+        return {'status': 'error', 'msg': 'Not configured'}, 500
+    try:
+        payload = json.dumps({
+            'student_name': data.get('name', 'مجهول'),
+            'exam_id': data.get('exam_id', ''),
+            'score': int(data.get('score', 0)),
+            'total_questions': int(data.get('total', 20))
+        }).encode('utf-8')
+        req = urllib.request.Request(
+            url + '/rest/v1/exam_results',
+            data=payload,
+            headers={
+                'apikey': key,
+                'Authorization': 'Bearer ' + key,
+                'Content-Type': 'application/json',
+                'Prefer': 'return=minimal'
+            },
+            method='POST'
+        )
+        with urllib.request.urlopen(req, timeout=10) as resp:
+            return {'status': 'success' if resp.status in (200, 201) else 'error'}, 200
+    except Exception as e:
+        print('Save error:', e)
+        return {'status': 'error', 'msg': str(e)}, 500
 
 if __name__ == '__main__':
     app.run(host='0.0.0.0', port=3000, debug=True)
