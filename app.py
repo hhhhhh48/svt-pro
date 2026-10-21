@@ -1,11 +1,9 @@
 import os
 try:
-    from dotenv import load_dotenv
     
 except ImportError:
     pass
 
-load_dotenv()
 url = os.environ.get("SUPABASE_URL")
 key = os.environ.get("SUPABASE_KEY")
 
