@@ -619,6 +619,15 @@ def save_result():
         print('Save error:', e)
         return {'status': 'error', 'msg': str(e)}, 500
 
+
+@app.route('/')
+def index():
+    try:
+        data = load_data()
+        return render_template('index.html', streams=data['streams'], tips=data.get('tips', []))
+    except Exception as e:
+        return f"Error loading home: {e}", 500
+
 if __name__ == '__main__':
     app.run(host='0.0.0.0', port=3000, debug=True)
 
