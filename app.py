@@ -1,3 +1,12 @@
+import os
+from dotenv import load_dotenv
+from supabase import create_client, Client
+
+load_dotenv()
+url = os.environ.get("SUPABASE_URL")
+key = os.environ.get("SUPABASE_KEY")
+supabase = create_client(url, key) if url and key else None
+
 import datetime
 from werkzeug.security import generate_password_hash, check_password_hash
 from werkzeug.middleware.proxy_fix import ProxyFix
@@ -541,6 +550,24 @@ def exam_view(exam_slug):
         return render_template('exam_view.html', exam=exam)
     except Exception as e:
         return f"خطأ: {str(e)}", 500
+
+
+@app.route('/api/save-result', methods=['POST'])
+def save_result():
+    if not supabase:
+        return {"status": "error", "message": "DB not configured"}, 500
+    try:
+        data = request.json
+        supabase.table('exam_results').insert({
+            "student_name": data.get('name', 'مجهول'),
+            "exam_id": data.get('exam_id'),
+            "score": data.get('score'),
+            "total_questions": data.get('total')
+        }).execute()
+        return {"status": "success"}, 200
+    except Exception as e:
+        print("Supabase Error:", e)
+        return {"status": "error", "message": str(e)}, 500
 
 if __name__ == '__main__':
     app.run(host='0.0.0.0', port=3000, debug=True)
